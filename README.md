@@ -401,6 +401,7 @@
 * [Fabric8](https://fabric8.io/) - Open source microservices platform based on Docker, Kubernetes and Jenkins -- `Java`
 * [Flannel](https://github.com/coreos/flannel) - Network fabric for containers via etcd, designed for Kubernetes -- `Golang`
 * [Flynn](https://flynn.io/) - PaaS built on top of Docker, can run stateful services -- `Golang`
+* [Gitkube](https://gitkube.sh/) - Build and deploy docker images to Kubernetes using git push -- `various lang`
 * [Heapster](https://github.com/kubernetes/heapster) - Container cluster monitoring and performance analysis for Kubernetes and CoreOS -- `Golang`
 * [Helm](https://github.com/kubernetes/helm) - tool for managing Kubernetes charts (packages of pre-configured Kubernetes resources) -- `Golang`
 * [helm-value-store](https://github.com/skuid/helm-value-store) - Manage working with multiple values.yaml files for nearly identitcal deployments -- `Golang`
@@ -430,6 +431,7 @@
 * [Registrator](https://github.com/gliderlabs/registrator) - Service registry bridge for Docker, supports Consul, etcd -- `Golang`
 * [rkt (Rocket)](https://github.com/coreos/rocket) - New container system by the CoreOS guys -- `Golang`
 * [Rocker](https://github.com/grammarly/rocker) - Adds new instructions to the Dockerfile instruction set for smaller images and faster builds -- `Golang`
+* [skaffold](https://github.com/GoogleCloudPlatform/skaffold) - Easy and repeatable Kubernetes development, test locally then push to a cluster, by Google -- `Golang`
 * [Tectonic Installer](https://github.com/coreos/tectonic-installer) - Install an opinionated Kubernetes cluster the "Tectonic Way", a sane predefined deployment and workflow -- `various lang`
 * [Telepresense](https://www.telepresence.io/) - Local development against a remote Kubernetes or OpenShift cluster -- `Python`
 * [Tsuru](https://github.com/tsuru/tsuru) - Docker-based PaaS -- `Golang`
@@ -530,6 +532,7 @@
 * [SkyDNS](https://github.com/skynetservices/skydns) - Service discovery via DNS for etcd -- `Golang`
 * [Spark](https://spark.apache.org) - Near real-time analytics processing platform, succeeded by Flink (real streaming vs Spark's microbatches) -- `various lang`
 * [Spring Cloud Config](https://cloud.spring.io/spring-cloud-config/) - Allows Java Spring to read config info from service discovery or similar source -- `Java`
+* [Squash](https://github.com/solo-io/squash) - Debugger for microservices -- `Golang`
 * [Synapse](https://github.com/airbnb/synapse) - Service discovery framework by Airbnb -- `Ruby`
 * [uReplicator](https://github.com/uber/ureplicator) - Improved Kafka MirrorMaker by Uber -- `Java`
 * [vulcand](https://vulcand.github.io/) - Programmatically extendable proxy for microservices and API management -- `Golang`
@@ -715,6 +718,7 @@
 * [IRCcat](https://github.com/RJ/irccat) - Send log messages and alerts to an IRC channel, can also use IRC to send commands -- `Java`
 * [lnav](http://lnav.org/) - Advanced log file viewer for the small-scale, terminal/ncurses based -- `C++`
 * [Log Courier](https://github.com/driskell/log-courier) - Enhanced fork of Logstash Forwarder -- `Ruby`
+* [Logagent](https://github.com/sematext/logagent-js) - Lightweight log shipper, like Filebeat and Logstash in one without the JVM footprint -- `JavaScript`
 * [Logplex](https://github.com/heroku/logplex) - Distributed syslog log router, uses Redis, by Heroku -- `Erlang`
 * [logstash](https://www.elastic.co/products/logstash) - Collect, parse, and store logs.  A component of the popular ELK stack -- `Ruby`
 * [Logster](https://github.com/etsy/logster) - Utility for reading log files and generating metrics to configurable outputs by Etsy -- `Python`
@@ -905,6 +909,7 @@
 * [netperf](https://github.com/HewlettPackard/netperf) - Network load generator, by HP -- `C`
 * [Outages.org Mailing List](https://puck.nether.net/mailman/listinfo/outages) - Report and discuss major outages, network status updates, etc -- `mailing list`
 * [Paris Traceroute](http://www.paris-traceroute.net/) - Shows proper network topology when load balancers and load-balanced routers are used -- `C`
+* [Ruru](https://github.com/REANNZ/ruru) - Real-time TCP latency monitoring, utilises Intel DPDK for high speed packet processing with a Node.JS frontend for visualizing the data -- `various lang`
 * [SmokePing](https://oss.oetiker.ch/smokeping/) - Network latency visualizer, written by the MRTG and RRDtool guy -- `perl`
 * [ss](https://linux.die.net/man/8/ss) - Socket statistics, a modern netstat -- `built-in`
 * [Stanford Linear Accelerator Center - Network Monitoring Tools](https://www.slac.stanford.edu/xorg/nmtf/nmtf-tools.html) - MASSIVE list of network monitoring tools -- `collection`
@@ -922,7 +927,7 @@
 ---
 ## Orchestration
 
-> OS and VM level orchestration as well as parallel SSH tools - see also [Terminal Tools and SSH Clients](#terminal-tools-and-ssh-clients) for SSH clients and [SSH Tools](#ssh-tools) for misc SSH tools and [Provisioning Tools](#provisioning-tools)
+> OS and VM level orchestration as well as parallel SSH tools - see also [Containers](#containers) and [Distributed Systems Tools](#distributed-systems-tools) for container orchestration and [Terminal Tools and SSH Clients](#terminal-tools-and-ssh-clients) for SSH clients and [SSH Tools](#ssh-tools) for misc SSH tools and [Provisioning Tools](#provisioning-tools)
 
 * [Ansible](https://www.ansible.com) - CM and orchestration, also can do provisioning -- `Python`
 * [Archipel](http://archipelproject.org/) - Use XMPP push notifications to manage, supervise, and orchestrate VMs -- `Objective-J`
@@ -1036,6 +1041,7 @@
 
 > OS provisioning, image creation, installation, bootstrapping, and lifecycle management - see also [Package Patch and Repository Tools](#package=patch-and-repository-tools) and [Containers](#containers) and [Distributed Systems Tools](#distributed-systems-tools) and [Live CD Tools](#live-cd-tools)
 
+* [Atlantis](https://github.com/runatlantis/atlantis) - A unified workflow for collaborating on Terraform through GitHub and GitLab, by Hootsuite -- `Golang`
 * [Bento](https://github.com/chef/bento#current-baseboxes) - Baseboxes provided by Chef, for Packer + Vagrant -- `various lang`
 * [bootrino](https://www.bootrino.com/) - Provision run-in-RAM / diskless OSes (Linux, etc) in various clouds -- `various lang`
 * [Box-Cutter](https://github.com/boxcutter) - Hashicorp's community repo for Packer & Vagrant templates -- `Ruby`
@@ -1054,6 +1060,7 @@
 * [Packer](https://www.packer.io/) - Automates VM creation for multiple platforms (VMware, AWS, etc) -- `Golang`
 * [Terraform](https://www.terraform.io/) - Infrastructure provisioning using existing tools, supports many providers (AWS, Azure, DO, OpenStack, etc) -- `Golang` `Hashicorp`
 * [Terragrunt](https://github.com/gruntwork-io/terragrunt) - Tools for keeping your Terraform configurations DRY, working with multiple Terraform modules, and managing remote state -- `Golang`
+* [tflint](https://github.com/wata727/tflint) - Terraform linter for detecting errors that can not be detected by terraform plan -- `Golang`
 * [Vagrant](https://www.vagrantup.com/) - Quickly spin up environments for local testing and development -- `Ruby`
 * [Vagrant Plugins](https://github.com/mitchellh/vagrant/wiki/Available-Vagrant-Plugins) - A list of Vagrant plugins on the official Hashicorp wiki -- `collection`
 * [Vagrant Manager](http://vagrantmanager.com/) - GUI to manage Vagrant boxes -- `Windows` `OS X`
@@ -1340,6 +1347,7 @@
 * [GRR Rapid Response](https://github.com/google/grr) - Live forensics for incident response via a Python agent, dump memory, isolate host, snoop syscalls etc -- `Python`
 * [hashcat](https://hashcat.net/hashcat/) - World's fastest CPU password cracker / password recovery -- `C`
 * [Hybrid Analysis](https://www.hybrid-analysis.com/) - Dree malware analysis service that detects and analyzes unknown threats using a unique *Hybrid Analysis* -- `in-browser`
+* [icebreaker](https://github.com/DanMcInerney/icebreaker) - Automates internal network attacks against Active Directory to deliver you plaintext credentials -- `various lang`
 * [Information Security Cheat Sheets and Checklists](https://zeltser.com/cheat-sheets/) - An assortment of IS checklists and cheat sheets -- `collection`
 * [geoiplookup](https://linux.die.net/man/1/geoiplookup) - Uses the GeoIP DB and library to determine which physical country an IP or host originates in, includes PAM library -- `built-in`
 * [Hindsight](https://github.com/obsidianforensics/hindsight) - Internet history forensics for Google Chrome/Chromium  -- `Python`
@@ -1394,6 +1402,7 @@
 * [VeraCrypt](https://veracrypt.codeplex.com/) - OSS successor to and fork of TrueCrypt, supports Linux, Windows, and Mac -- `C` `C++`
 * [VirusTotal](https://www.virustotal.com/) - Allows you to upload a file and have it scanned by tons of virus scanners -- `in-browser`
 * [Tomb](https://github.com/dyne/tomb) - zsh wrapper script for cryptsetup + gpg + LUKS volumes -- `shell`
+* [URL Canary](https://urlcanary.com/) - Create canary URLs so you know if someone is inspecting the source code of your applications -- `in browser`
 * [VulnHub](https://www.vulnhub.com/) - ISOs and more for hands-on security practice -- `collection`
 * [w3af](https://github.com/andresriancho/w3af) - Web application attack and audit framework, OSS vun scanner -- `Python`
 * [Yaptest](https://github.com/pentestmonkey/yaptest) - Glue together and automate pentesting using IFTTT type workflows -- `various lang`
@@ -1647,6 +1656,7 @@
 * [pam-u2f](https://developers.yubico.com/pam-u2f/) - PAM module for auth via U2F compatible devices, by YubiKey -- `C`
 * [yubico-pam](https://developers.yubico.com/yubico-pam/) - PAM module for use with YubiKey devices -- `C`
 * [yubikey-full-disk-encryption](https://github.com/agherzan/yubikey-full-disk-encryption) - Encrypt storage on a LUKS partition using a Yubikey -- `Shell`
+* [YubiKey GPG & SSH Guide](https://github.com/drduh/YubiKey-Guide) - Guide to using YubiKey as a SmartCard for GPG and SSH -- `tutorial`
 
 
 ---
@@ -1724,6 +1734,7 @@
 
 * [Algo VPN](https://github.com/trailofbits/algo) - IKEv2 Ubuntu-based strongSwan VPN server deployed to any cloud via Ansible -- `Python`
 * [AutoVPN](https://github.com/ttlequals0/autovpn) - Spin up and autoconfigure OpenVPN instances in AWS -- `Python`
+* [BrowserLeaks](https://browserleaks.com/) - See if info is leaking from your browser (your real IP when you're behind a VPN, etc) -- `in-browser`
 * [CentOS 7 2FA VPN](https://github.com/rharmonson/richtech/wiki/CentOS-7-Minimal-&-Two-factor-Authentication-using-FreeRADIUS-3,-SSSD-1.12,-&-Google-Authenticator) - VPN with CentOS 7 + FreeRADIUS + SSSD + Google Authenticator -- `stepbystep`
 * [Corkscrew](https://github.com/bryanpkc/corkscrew) - Tunnel SSH through HTTP proxies -- `C`
 * [DNS Leak Test](https://www.dnsleaktest.com/) - See if DNS queries are leaking outside of your VPN / secured network -- `in-browser`
@@ -1731,6 +1742,7 @@
 * [dnscrypt-wrapper](https://github.com/Cofyc/dnscrypt-wrapper) - Add dnscrypt support to any resolver, server-side dnscrypt proxy -- `C`
 * [fwknop (FireWall KNock OPerator)](http://www.cipherdyne.org/fwknop/) - Single Packet Authorization (SPA), authoriation packet from you opens firewall rules so only you can get in -- `various lang`
 * [Go HTTP Tunnel](https://github.com/mmatczuk/go-http-tunnel) - Fast and secure reverse tunnels over HTTP/2 and TLS, share localhost without having a public IP -- `Golang`
+* [IP Leak](https://ipleak.net/) - Test to see if your browser is leaking information -- `in-browser`
 * [kcptun](https://github.com/xtaci/kcptun) - Secure and fast tunnel based on KCP, can increase throughput -- `Golang`
 * [localtunnel](https://localtunnel.me/) - Share a HTTP/web service on your local development machine without messing with DNS and firewall settings -- `JavaScript` `Windows` `OS X`
 * [MACsec aka 802.1AE](https://en.wikipedia.org/wiki/IEEE_802.1AE) - Use me for confidentiality and integrity at layer 2, useful for WAN links -- `standard`
