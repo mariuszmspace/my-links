@@ -196,10 +196,12 @@
 * [jungle](https://github.com/achiku/jungle) - awscli wrapper to make commands simpler and more UNIX-like -- `Python pip`
 * [kappa](https://github.com/garnaat/kappa) - CLI tool that makes it easier to deploy, update, and test Lambda functions -- `Python`
 * [localstack](https://github.com/localstack/localstack) - A fully functional local AWS cloud stack for offline dev and test -- `Python`
+* [Open Guides: AWS](https://github.com/open-guides/og-aws) - Yowza -- `collection`
 * [s3cmd](http://s3tools.org/s3cmd) - Backup to AWS via the command line -- `Python`
 * [Serverless (formerly JAWS)](https://github.com/jaws-stack/JAWS) - Javascript + AWS stack, the entire backend is Lambda functions, server-free -- `JavaScript`
 * [Sneaker](https://github.com/codahale/sneaker) - Store secrets on S3 using Amazon KMS -- `Golang`
 * [ssh2ec2](https://pypi.python.org/pypi/ssh2ec2) - SSH into EC2 instances by tag name and/or other metadata filters -- `Python pip`
+* [StackMaster](https://github.com/envato/stack_master) - Provides a ton of info pre-CloudFormation run so that you know exactly what will change -- `Ruby gem`
 * [StarCluster](http://star.mit.edu/cluster/) - Toolkit for using AWS for high performance computing (HPC), by MIT -- `Python`
 * [Stout](http://stout.is) - Easy way to reliably upload a static website to S3, capable of configuring CloudFront and Route 53 -- `Golang`
 * [Terraforming](http://terraforming.dtan4.net/) - Export all AWS resources into Terraform -- `Ruby gem`
@@ -382,8 +384,10 @@
 * [Awesome Docker](https://github.com/veggiemonk/awesome-docker) - Massive Docker collection -- `collection`
 * [Awesome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes) - Collection -- `collection`
 * [cadvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers -- `Golang`
+* [Cilium](https://github.com/cilium/cilium) - Transparently secure layer 7 services, communicate based on identity groups, load balancing, BPF-level for performance and instrumentation & more -- `Golang`
 * [Clear Linux](https://clearlinux.org/) - New name for Clear Containers, attempts combine the security advantages of VMs with the deployment advantages of containers -- `various lang`
 * [Cloud Foundry](https://www.cloudfoundry.org/) - Open source PaaS by VMware and Pivotal -- `Golang` `Ruby`
+* [Conduit](https:/ tform based on Docker, Kubernetes and Jenkins -- `Java`
 * [crane](https://github.com/michaelsauter/crane) - Docker orchestration, similar to Docker Compose -- `Golang`
 * [ctop](https://ctop.sh/) - ncurses top-like UI for containers -- `Golang`
 * [docker-gc](https://github.com/spotify/docker-gc) - Docker garbage collection of containers and images  -- `shell`
@@ -407,10 +411,13 @@
 * [helm-value-store](https://github.com/skuid/helm-value-store) - Manage working with multiple values.yaml files for nearly identitcal deployments -- `Golang`
 * [Heptio Ark](https://github.com/heptio/ark) - Manage disaster recovery for your Kubernetes persistent volumes and cluster resources -- `Golang`
 * [Heptio Sonobuoy](https://github.com/heptio/sonobuoy) - Kubernetes end to end conformance testing and debugging tool -- `Golang`
+* [Jenkins X](http://jenkins-x.io/) - Another Kubernetes deployer -- `various lang`
 * [Kata Containers](https://katacontainers.io/) - A mix of Clear Containers / Clear Linux and Hyper's runV -- `frankencontainers` `various lang`
+* [Keel](https://keel.sh) - Stateless, automated Kubernetes deployment updates -- `Golang`
 * [Kismatic](https://github.com/apprenda/kismatic) - Set of production-ready defaults and best practice tools for creating enterprise-tuned Kubernetes clusters, supports bare metal. -- `Golang`
 * [Kitematic](https://kitematic.com/) - GUI Docker management on Mac & Windows (laptops), official -- `JavaScript` `Windows` `OS X`
 * [kops](https://github.com/kubernetes/kops) - CLI for managing, upgrading, maintaining, creating, etc Kubernetes clusters -- `Golang`
+* [ksonnet](https://ksonnet.io/) - CLI-supported framework for extensible Kubernetes configurations, built on Jsonnet -- `Golang`
 * [kubeadm-dind-cluster](https://github.com/mirantis/kubeadm-dind-cluster) - kubeadm and DIND (Docker in Docker) create a multi-node Kubernetes cluster on your laptop for dev -- `Shell`
 * [kube-applier](https://github.com/box/kube-applier) - service that enables continuous deployment of Kubernetes objects by applying declarative configuration files from a Git repository to a Kubernetes cluster -- `Golang`
 * [kube-bench](https://github.com/aquasecurity/kube-bench) - Compliance checker for Kubernetes CIS benchmarks -- `Golang`
@@ -692,6 +699,7 @@
 * [Security Onion](https://securityonion.net/) - Linux distro for IDS, NSM, and log management -- `various lang`
 * [Stresslinux](https://www.stresslinux.org/sl/) - Hardware burn-in and stress testing -- `various lang`
 * [System Rescue CD](https://www.sysresccd.org/) - System recovery CD that focuses on Linux system recovery -- `various lang`
+* [Tails](https://tails.boum.org/) - Aims at preserving your privacy and anonymity via Tor -- `various lang`
 * [Ultimate Boot CD (UBCD)](http://www.ultimatebootcd.com) - Tons of x86 diagnostic and stress test tools on a single CD -- `closed source` `Windows`
 * [UNetbootin](https://unetbootin.sourceforge.net/) - Create custom, bootable USB Linux CDs -- `Windows` `OS X`
 * [YUMI](https://www.pendrivelinux.com/yumi-multiboot-usb-creator/) - Multiboot USB creator, Linux and -- `Windows`
@@ -755,6 +763,7 @@
 * [InfluxDB](https://www.influxdata.com/) - Distributed time series database with no external dependencies -- `Golang`
 * [jmxtrans](https://github.com/jmxtrans/jmxtrans) - Connector between speaking to a JVM via JMX and whatever stats / TSDB you use -- `Java`
 * [KairosDB](https://github.com/kairosdb/kairosdb) - Time series DB written on top of Cassandra -- `Java`
+* [Metricbeat](https://github.com/elastic/beats/tree/master/metricbeat) - fetches a set of metrics on a predefined interval from OS & services and ships them to Elasticsearch or Logstash -- `Golang`
 * [Metrics](https://github.com/dropwizard/metrics) - Metrics and instrumentation at both the JVM and application level -- `Java`
 * [Micrometer](http://micrometer.io/) - Provides a simple facade (fake interface) over the instrumentation clients for the most popular monitoring systems, allowing you to instrument your JVM-based application code without vendor lock-in -- `Java`
 * [OpenTSDB](http://opentsdb.net/) - Store and serve massive amounts of time series data without losing granularity -- `Java`
@@ -829,6 +838,7 @@
 * [ExaBGP](https://github.com/Exa-Networks/exabgp) - The BGP swiss army knife of networking -- `Python pip`
 * [Fast Data Transfer (FDT)](http://monalisa.cern.ch/FDT/) - For writing at disk speed over WANs -- `Java`
 * [FBOSS (FaceBook Open Switching System)](https://github.com/facebook/fboss) - FB's software stack for managing and controlling their internal switches -- `various lang`
+* [FreeZTP (Zero Touch Provisioning)](https://github.com/PackeTsar/freeztp) - A Zero-Touch Provisioning system built for Cisco IOS -- `Python`
 * [FRRouting](https://frrouting.org/) - Replacement for / fork of Quagga with more features -- `C`
 * [ftptop](https://linux.die.net/man/1/ftptop) - Monitor FTP connections in real time -- `built-in`
 * [Gas Mask](https://github.com/2ndalpha/gasmask) - Simple hosts file manager for Mac OS X, switch between host files easily -- `Objective C`
@@ -1328,6 +1338,7 @@
 * [Armitage](http://www.fastandeasyhacking.com/) - GUI for Metasploit -- `Java`
 * [ATA Secure Erase](https://ata.wiki.kernel.org/index.php/ATA_Secure_Erase) - Send a signal to an ATA drive to perform a hardware-based erase, the ONLY way to wipe a SSD properly -- `article`
 * [Awesome Honeypots](https://github.com/paralax/awesome-honeypots) - Curated collection of honepots and honeypot resources -- `collection`
+* [Brida](https://github.com/federicodotta/Brida) - Bridge between Burp Suite & Frida, lets you use and manipulate applications own methods while tampering the traffic exchanged between the applications and their back-end services/servers -- `various lang`
 * [bro](https://github.com/bro/bro) - Framework for network analysis and security monitoring -- `C++`
 * [CALDERA](https://github.com/mitre/caldera) - Automated adversary emulation system that performs post-compromise adversarial behavior within Windows Enterprise networks -- `Python`
 * [chkrootkit](http://www.chkrootkit.org/) - Rootkit checker, best used from a live CD -- `C`
@@ -1488,7 +1499,7 @@
 * [Proxygen](https://github.com/facebook/proxygen) - Modern C++ HTTP library, by Facebook -- `C++`
 * [REST-assured](https://github.com/jayway/rest-assured) - Java DSL for testing of REST services -- `Java`
 * [RocksDB](http://rocksdb.org/) - Library that provides an embeddable, persistent key-value store for fast storage - by Facebook -- `C++`
-* [scrypt](https://en.wikipedia.org/wiki/Scrypt) - More secure against hardware brute-force attacks than alternatives such as PBKDF2 or bcrypt -- `C`
+* [scrypt](https://en.wikipedia.org/wiki/Scrypt) - More secure against hardware brute-force attacks than alternatives such as PBKDF2 or bcrypt, key stretching -- `C`
 * [Serverless by Design](https://github.com/danilop/ServerlessByDesign) - In-browser or self-hosted GUI for making flow charts for serverless apps -- `various lang`
 * [SonarQube](https://www.sonarqube.org/) - Platform and dashboard for managing code quality -- `Ruby` `Java`
 * [Sonatype Nexus](http://www.sonatype.org/nexus/) - Software / binary artifact storage -- `Java`
@@ -1649,11 +1660,13 @@
 > [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor) is the successor to two-factor authentication / TFA / 2FA and multi-factor authentication / MFA.  Avoid using SMS if possible - see also [VPNs and Tunnels](#vpns-and-tunnels) and [Secrets Management](#secrets-management)
 
 * [Two Factor Auth (2FA)](https://twofactorauth.org/) - Web sites that do and don't support 2FA, organized by category -- `checkit` `collection`
-* [CentOS 7 2FA VPN](https://github.com/rharmonson/richtech/wiki/CentOS-7-Minimal-&-Two-factor-Authentication-using-FreeRADIUS-3,-SSSD-1.12,-&-Google-Authenticator) - VPN with CentOS 7 + FreeRADIUS + SSSD + Google Authenticator -- `tutorial`
+* [CentOS 7 2FA VPN](https://github.com/rharmonson/richtech/wiki/CentOS-7-Minimal-&-Two-factor-Authentication-using-FreeRADIUS-3,-SSSD-1.12,-&-Google-Authenticator) - VPN with CentOS 7 + FreeRADIUS + FreeIPA + Google Authenticator -- `tutorial`
 * [FreeOTP](https://freeotp.github.io/) - Open source fork of Google Authenticator, by Red Hat -- `C` `mobile`
 * [Google Authenticator](https://github.com/google/google-authenticator) - Official project, supports Android, iOS, and has a PAM module for SSH 2FA -- `C`
 * [Nitrokey](https://www.nitrokey.com/) - Open source thumb drive for authentication -- `various lang`
 * [pam-u2f](https://developers.yubico.com/pam-u2f/) - PAM module for auth via U2F compatible devices, by YubiKey -- `C`
+* [privacyIDEA](https://www.privacyidea.org/) - All in one solution for two-factor authentication across all your organization's devices such as OTP tokens, SMS, VPNs, SSH keys, Windows, keyfob, etc -- `various lang`
+* [W3C's Web Authentication](https://www.w3.org/TR/2018/CR-webauthn-20180320/) - Standards driven, supports various tokens and OTP generators -- `specification`
 * [yubico-pam](https://developers.yubico.com/yubico-pam/) - PAM module for use with YubiKey devices -- `C`
 * [yubikey-full-disk-encryption](https://github.com/agherzan/yubikey-full-disk-encryption) - Encrypt storage on a LUKS partition using a Yubikey -- `Shell`
 * [YubiKey GPG & SSH Guide](https://github.com/drduh/YubiKey-Guide) - Guide to using YubiKey as a SmartCard for GPG and SSH -- `tutorial`
