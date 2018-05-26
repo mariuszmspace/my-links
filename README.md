@@ -183,6 +183,7 @@
 * [aws-shell (formerly Supercharged AWS CLI (SAWS))](https://github.com/awslabs/aws-shell) - The best CLI for interacting with AWS -- `Python pip`
 * [aws-vault](https://github.com/99designs/aws-vault) - A vault for securely storing and accessing AWS credentials in development environments  -- `Golang`
 * [AWS SAM Local](https://github.com/awslabs/aws-sam-local) - CLI tool for local development and testing of Lambda applications -- `Golang`
+* [azcopy](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy) - Official CLI for copying data to/from Microsoft Azure Blob, File, and Table storage -- `closed source`
 * [Chrome AWS SAML Token Expiry Reminder (CASTER)](https://chrome.google.com/webstore/detail/chrome-aws-saml-token-exp/mbfkedefmlagincpblmgeeeehhamgpbn?hl=en-US) - Automatically re-logs into AWS via ADFS before credentials expire -- `Chrome`
 * [CloudBerry Explorer](https://www.cloudberrylab.com/explorer/amazon-s3.aspx) - Windows client for accessing AWS S3 buckets -- `closed source` `Windows`
 * [CloudCraft](https://cloudcraft.co/) - Create professional AWS architecture diagrams -- `in-browser`
@@ -190,6 +191,8 @@
 * [credstash](https://github.com/fugue/credstash) - Secrets management using AWS KMS -- `Python pip`
 * [eb_deploy](https://github.com/ThoughtWorksStudios/eb_deployer) - Elastic Beanstalk blue-green deployment automation -- `Ruby gem`
 * [ec2instances.info](https://www.ec2instances.info/) - Open source and up to date instance price comparison tool -- `Python`
+* [Empire](https://github.com/remind101/empire) - PaaS built on top of Amazon EC2 Container Service (ECS) -- `Golang`
+* [Force MFA](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_users-self-manage-mfa-and-creds.html) - Allows users to manage their own passwords and MFA devices but nothing else unless they authenticate with MFA, also makes API calls require MFA -- `policy`
 * [haproxy-autoscale](https://github.com/markcaudill/haproxy-autoscale) - Wrapper for haproxy that handles auto-scaling EC2 instances -- `Python`
 * [Ice](https://github.com/Netflix/ice) - AWS usage tool, by Netflix -- `Grails`
 * [ION Roller](https://github.com/gilt/ionroller) - Immutable deployment framework for web services -- `Scala`
@@ -381,13 +384,14 @@
 
 * [Alpine Linux](https://alpinelinux.org/) - Super minimal BusyBox based Linux distro, perfect for hosting containers -- `various lang`
 * [appscale](https://github.com/AppScale/appscale) - Open source implementation of Google App Engine -- `Python`
+* [Argo](https://github.com/argoproj/argo) - Container-native workflow engine  implemented as a Kubernetes CRD (Custom Resource Definition) -- `Golang`
 * [Awesome Docker](https://github.com/veggiemonk/awesome-docker) - Massive Docker collection -- `collection`
 * [Awesome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes) - Collection -- `collection`
 * [cadvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers -- `Golang`
 * [Cilium](https://github.com/cilium/cilium) - Transparently secure layer 7 services, communicate based on identity groups, load balancing, BPF-level for performance and instrumentation & more -- `Golang`
 * [Clear Linux](https://clearlinux.org/) - New name for Clear Containers, attempts combine the security advantages of VMs with the deployment advantages of containers -- `various lang`
 * [Cloud Foundry](https://www.cloudfoundry.org/) - Open source PaaS by VMware and Pivotal -- `Golang` `Ruby`
-* [Conduit](https:/ tform based on Docker, Kubernetes and Jenkins -- `Java`
+* [Conduit](https://conduit.io/) - Ultra light service plane for Kubernetes -- `Golang`
 * [crane](https://github.com/michaelsauter/crane) - Docker orchestration, similar to Docker Compose -- `Golang`
 * [ctop](https://ctop.sh/) - ncurses top-like UI for containers -- `Golang`
 * [docker-gc](https://github.com/spotify/docker-gc) - Docker garbage collection of containers and images  -- `shell`
@@ -402,6 +406,7 @@
 * [draft](https://github.com/Azure/draft) - Streamlined Kubernetes development with sandbox testing & deployment in seconds -- `Golang`
 * [drone](https://github.com/drone/drone) - CI platform built on Docker / containers, can also deploy to Kubernetes -- `Golang`
 * [dumb-init](https://github.com/Yelp/dumb-init) - Minimal init system for containers, by Yelp -- `C`
+* [Escalator](https://github.com/atlassian/escalator) - Batch or job optimized horizontal autoscaler for Kubernetes -- `Golang`
 * [Fabric8](https://fabric8.io/) - Open source microservices platform based on Docker, Kubernetes and Jenkins -- `Java`
 * [Flannel](https://github.com/coreos/flannel) - Network fabric for containers via etcd, designed for Kubernetes -- `Golang`
 * [Flynn](https://flynn.io/) - PaaS built on top of Docker, can run stateful services -- `Golang`
@@ -426,6 +431,7 @@
 * [kubernetes](https://kubernetes.io/) - Open source orchestration system for Docker containers, by Google -- `Golang`
 * [kubicorn](https://github.com/kris-nova/kubicorn) - Multi-provider deployment abstraction layer / library for Kubernetes -- `Golang`
 * [Logspout](https://github.com/gliderlabs/logspout) - Log router for Docker containers -- `Golang`
+* [memcached-operator](https://github.com/ianlewis/memcached-operator) - A Kubernetes operator for memcached, good to use as an Operator example too -- `Golang`
 * [minikube](https://kubernetes.io/docs/getting-started-guides/minikube/) - Kubernetes environments on your laptop -- `Golang`
 * [Minishift](https://www.openshift.org/minishift/) - OpenShift in a VM for testing / learning -- `Golang`
 * [OpenShift Origin](https://www.openshift.org/) - Docker + Kubernetes, the upstream for Red Hat's OpenShift 3.x -- `Golang`
@@ -753,6 +759,7 @@
 * [collectd](https://collectd.org/) - Collects system performance statistics -- `C`
 * [collectd Related Sites](https://collectd.org/related.shtml) - Great tools that integrate with collectd -- `collection`
 * [collectl](http://collectl.sourceforge.net/) - sar on steroids -- `C`
+* [Cortex](https://github.com/weaveworks/cortex) - Multitenant, horizontally scalable Prometheus as a Service -- `Golang`
 * [Diamond](https://github.com/python-diamond/Diamond) - Python daemon that collects system metrics and publishes them to Graphite (or similar), has an API -- `Python`
 * [dim_STAT](http://dimitrik.free.fr/) - Collects almost everything and stores it in a MySQL database, produces reports too -- `C`
 * [FastForward](https://github.com/spotify/ffwd) - Flexible system event and metric forwarding agent by Spotify -- `Ruby gem`
@@ -774,6 +781,7 @@
 * [SNMP MIB Archive](https://github.com/hs-cx/snmp_mib_archive) - Massive archive of SMMP MIBs, please fork and contribute -- `collection`
 * [StatsD](https://github.com/etsy/statsd/) - Network daemon that listens for stats/counters/metrics and sends them to backend services (TSDB, Graphite, etc), by Etsy -- `JavaScript`
 * [Telegraf](https://github.com/influxdata/telegraf) - Agent for collecting, processing, aggregating, and writing metrics -- `Golang`
+* [Thanos](https://github.com/improbable-eng/thanos) - Highly available Prometheus setup with long term storage capabilities -- `Golang`
 * [TimescaleDB](https://github.com/timescale/timescaledb) - PostgreSQL extension for time series ingestion and queries via SQL -- `C`
 * [Whisper](https://github.com/graphite-project/whisper) - Store time series info in regular file system files, a modern RRD -- `Python`
 
@@ -866,6 +874,7 @@
 * [nping](https://nmap.org/nping/) - Create custom network packets -- `C`
 * [OpenBGPD](http://www.openbgpd.org/) - Free implementation of BGP v4 -- `C`
 * [OpenBMP](http://openbmp.org) - BGP Monitoring Protocol collector with real-time monitoring, looking glass, analytics, etc -- `various lang`
+* [OpenOnload](http://openonload.org/) - User-land network stack that requires no modifications to applications to use by intercepting calls -- `C`
 * [OpenWRT](https://openwrt.org/) - Full Linux distro for consumer-grade routers, allows for tons of non-vendor customization -- `various lang`
 * [PFQ](http://pfq.github.io/PFQ/) - Framework that allows efficient packets capture/transmission, in-kernel functional processing, and packets steering across sockets/end-points -- `C`
 * [PowerAdmin](http://www.poweradmin.org/) - Simple Web UI for PowerDNS -- `PHP`
@@ -1070,6 +1079,7 @@
 * [Packer](https://www.packer.io/) - Automates VM creation for multiple platforms (VMware, AWS, etc) -- `Golang`
 * [Terraform](https://www.terraform.io/) - Infrastructure provisioning using existing tools, supports many providers (AWS, Azure, DO, OpenStack, etc) -- `Golang` `Hashicorp`
 * [Terragrunt](https://github.com/gruntwork-io/terragrunt) - Tools for keeping your Terraform configurations DRY, working with multiple Terraform modules, and managing remote state -- `Golang`
+* [Terratest](https://github.com/gruntwork-io/terratest) - Makes it easier to write automated tests for your infrastructure code, provides a variety of helper functions and patterns for common infrastructure testing tasks -- `Golang`
 * [tflint](https://github.com/wata727/tflint) - Terraform linter for detecting errors that can not be detected by terraform plan -- `Golang`
 * [Vagrant](https://www.vagrantup.com/) - Quickly spin up environments for local testing and development -- `Ruby`
 * [Vagrant Plugins](https://github.com/mitchellh/vagrant/wiki/Available-Vagrant-Plugins) - A list of Vagrant plugins on the official Hashicorp wiki -- `collection`
@@ -1099,6 +1109,7 @@
 * [IPython](https://ipython.org/) - Interactive Python shell and the kernel for Jupyter -- `Python`
 * [Jinja2](http://jinja.pocoo.org/docs/dev/) - Templating language for Python -- `Python pip`
 * [Jupyter](https://jupyter.org/) - The language-agnostic parts of IPython -- `Python`
+* [PyEnv](https://github.com/pyenv/pyenv) - Simple Python version management that keeps everything within your home directory -- `shell`
 * [PyPI (Python Package Index)](https://pypi.python.org/pypi) - Software repo for Python packages, like Ruby gems or a RPM repo -- `collection`
 * [Python Reference](https://github.com/rasbt/python_reference) - A collection of useful scripts, tutorials, and other Python-related things -- `collection`
 * [PyPy](http://pypy.org/) - Python alternative with advance features (JIT compiles, sandboxing, etc) -- `Python`
@@ -1454,7 +1465,8 @@
 * [notify](https://mashlol.github.io/notify/) - Send a notification from your Linux system to an Android app on your phone, good for long running shell commands  -- `JavaScript` `Android`
 * [pigz](http://zlib.net/pigz/) - Parallel gzip for multi-processor/core systems -- `C`
 * [pv](https://linux.die.net/man/1/pv) - Shows the progress of data as it flows through a pipe -- `built-in`
-* [ShellCheck](http://www.shellcheck.net/) - Checks shell scripts for common mistakes, essentially a linter -- `in-browser`
+* [ShellCheck](https://www.shellcheck.net/) - Checks shell scripts for common mistakes, essentially a linter / static analysis -- `in-browser`
+* [Shell Style Guide](https://google.github.io/styleguide/shell.xml) - By Google -- `collection`
 * [sysadmin-util](https://github.com/skx/sysadmin-util) - A collection of small but useful utilities -- `perl`
 * [tldr](https://github.com/tldr-pages/tldr) - Simplified and community-driven man pages, cuts out a lot of cruft -- `collection`
 * [Unix Toolbox](http://cb.vu/unixtoolbox.xhtml) - A collection of Unix/Linux/BSD commands and tasks for advanced users -- `collection`
@@ -1881,16 +1893,19 @@
 
 * [Archive.org aka The Internet Archive aka The Wayback Machine](https://archive.org/) - Yo donate, this is beyond important -- `the biggest collection`
 * [Awesome](https://github.com/sindresorhus/awesome) - Top level list of awesome lists -- `collection`
+* [Awesome SRE](https://github.com/dastergon/awesome-sre) - Too lazy to think of a description -- `collection`
 * [AutoHotKey](https://autohotkey.com/) - Automate input (desktop and web forms, data entry, keybinds, etc) -- `C++` `Windows`
 * [Awesome AutoHotKey](https://github.com/ahkscript/awesome-AutoHotkey) - A collection of AutoHotKey scripts and libraries -- `various lang`
 * [BlueStacks](https://www.bluestacks.com/) - Android emulator that you can run on Windows, run apps from the Play store, etc -- `various lang`
 * [Caffeine](http://lightheadsw.com/caffeine/) - Simple menu bar app to stop your Mac from sleeping -- `closed source` `OS X`
+* [Chaos Engineering](https://www.oreilly.com/webops-perf/free/chaos-engineering.csp) - Building confidence in system behavior through experiments, free book by Netflix -- `book`
 * [Cloud Design Patterns](https://docs.microsoft.com/en-us/azure/architecture/patterns/) - Useful for building reliable, scalable, secure applications in the cloud -- `collection`
 * [Command Line Text Processing](https://github.com/learnbyexample/Command-line-text-processing) - awk grep sed etc - interactive tutorial for newbies -- `shell`
 * [conserver](http://www.conserver.com/) - Virtual console server with many features (multi-user, console log history, etc) -- `C`
 * [CRIU (Checkpoint Restore in Userspace)](https://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later -- `insane`
 * [Design Patterns for Humans](https://github.com/kamranahmedse/design-patterns-for-humans) - An ultra-simplified explanation of repeatable software design patterns -- `article`
 * [Design Patterns](https://sourcemaking.com/design_patterns) - Wonderful collection of software development design patterns with examples, includes anti-patterns and refactoring guidelines -- `collection`
+* [Designing Data Intensive Applications](https://dataintensive.net/) - The big ideas behind reliable, scalable, and maintable systems - highly recommened -- `book`
 * [DevOps Conferences](http://www.gotodevops.org/) - Add and remove via PR, please contribute -- `collection`
 * [f.lux](https://justgetflux.com/) - Changes your screen from blue light to yellow light when the sun sets to tell your brain it's night time -- `closed source` `OS X` `Windows`
 * [Fossor](https://github.com/linkedin/fossor) - Automate on-call investigation steps, by LinkedIn -- `Python pip`
@@ -1907,7 +1922,6 @@
 * [Memory Management Reference](http://www.memorymanagement.org/index.html) - All in one reference for memory management and garbage collection -- `collection`
 * [MIT OpenCourseWare](https://ocw.mit.edu/about/) - MIT's real course materials from 2400+ courses -- `collection`
 * [Mjolnir](https://github.com/sdegutis/mjolnir) - Automation for OS X, think AutoHotKey for Mac -- `C` `OS X`
-* [Multibinder](https://github.com/github/multibinder) - Simple Ruby daemon that makes true zero downtime reloads simple, by Github -- `Ruby`
 * [MultiRBL](http://multirbl.valli.org/) - SMTP blackhole lookup tools -- `in-browser`
 * [MX Toolbox](https://mxtoolbox.com/) - SMTP blacklist lookup, header analysis, and more -- `in-browser`
 * [Network UPS Tools (NUT)](http://www.networkupstools.org/) - Manage power devices from over 100 manufacturers using a single web interface -- `C` `Windows`
