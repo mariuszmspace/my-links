@@ -182,6 +182,7 @@
 * [Awesome AWS](https://github.com/donnemartin/awesome-aws) - Curated list of AWS resources -- `collection`
 * [aws-shell (formerly Supercharged AWS CLI (SAWS))](https://github.com/awslabs/aws-shell) - The best CLI for interacting with AWS -- `Python pip`
 * [aws-vault](https://github.com/99designs/aws-vault) - A vault for securely storing and accessing AWS credentials in development environments  -- `Golang`
+* [AWS Extend Switch Roles](https://github.com/tilfin/aws-extend-switch-roles) - Extend your AWS IAM switching roles by Chrome extension or Firefox add-on -- `JavaScript`
 * [AWS SAM Local](https://github.com/awslabs/aws-sam-local) - CLI tool for local development and testing of Lambda applications -- `Golang`
 * [azcopy](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy) - Official CLI for copying data to/from Microsoft Azure Blob, File, and Table storage -- `closed source`
 * [Chrome AWS SAML Token Expiry Reminder (CASTER)](https://chrome.google.com/webstore/detail/chrome-aws-saml-token-exp/mbfkedefmlagincpblmgeeeehhamgpbn?hl=en-US) - Automatically re-logs into AWS via ADFS before credentials expire -- `Chrome`
@@ -199,6 +200,7 @@
 * [jungle](https://github.com/achiku/jungle) - awscli wrapper to make commands simpler and more UNIX-like -- `Python pip`
 * [kappa](https://github.com/garnaat/kappa) - CLI tool that makes it easier to deploy, update, and test Lambda functions -- `Python`
 * [localstack](https://github.com/localstack/localstack) - A fully functional local AWS cloud stack for offline dev and test -- `Python`
+* [Moto](https://github.com/spulec/moto) - Library that allows your Python tests to easily mock out the boto library -- `Python pip`
 * [Open Guides: AWS](https://github.com/open-guides/og-aws) - Yowza -- `collection`
 * [s3cmd](http://s3tools.org/s3cmd) - Backup to AWS via the command line -- `Python`
 * [Serverless (formerly JAWS)](https://github.com/jaws-stack/JAWS) - Javascript + AWS stack, the entire backend is Lambda functions, server-free -- `JavaScript`
@@ -385,6 +387,7 @@
 * [Alpine Linux](https://alpinelinux.org/) - Super minimal BusyBox based Linux distro, perfect for hosting containers -- `various lang`
 * [appscale](https://github.com/AppScale/appscale) - Open source implementation of Google App Engine -- `Python`
 * [Argo](https://github.com/argoproj/argo) - Container-native workflow engine  implemented as a Kubernetes CRD (Custom Resource Definition) -- `Golang`
+* [Authenticator](https://github.com/heptio/authenticator) - A tool for using AWS IAM credentials to authenticate to a Kubernetes cluster -- `Golang`
 * [Awesome Docker](https://github.com/veggiemonk/awesome-docker) - Massive Docker collection -- `collection`
 * [Awesome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes) - Collection -- `collection`
 * [cadvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers -- `Golang`
@@ -432,6 +435,7 @@
 * [kubicorn](https://github.com/kris-nova/kubicorn) - Multi-provider deployment abstraction layer / library for Kubernetes -- `Golang`
 * [Logspout](https://github.com/gliderlabs/logspout) - Log router for Docker containers -- `Golang`
 * [memcached-operator](https://github.com/ianlewis/memcached-operator) - A Kubernetes operator for memcached, good to use as an Operator example too -- `Golang`
+* [MetalLB](https://github.com/google/metallb) - Load balancer for bare metal Kubernetes clusters, by Google -- `Golang`
 * [minikube](https://kubernetes.io/docs/getting-started-guides/minikube/) - Kubernetes environments on your laptop -- `Golang`
 * [Minishift](https://www.openshift.org/minishift/) - OpenShift in a VM for testing / learning -- `Golang`
 * [OpenShift Origin](https://www.openshift.org/) - Docker + Kubernetes, the upstream for Red Hat's OpenShift 3.x -- `Golang`
@@ -632,6 +636,7 @@
 * [OpenShot](https://openshot.org/) - Video editing software, 2.0 will support other additional platforms -- `Python` `Windows` `OS X`
 * [Origami](https://origami.design/) - Interactive UI design prototyping without programming, by Facebook -- `various lang`
 * [Pencil](http://pencil.evolus.vn/) - Open source GUI prototyping and mockup tool, supports all platforms -- `Windows` `OS X`
+* [ScreenToGif](http://www.screentogif.com/) - Record a selected area of your screen, edit and save it as a GIF or video -- `C++`
 * [ShareX](https://getsharex.com/) - One of the best screenshot/screencast capture and sharing tools for -- `Windows` `OS X`
 * [Skitch](https://evernote.com/skitch/) - Feature-rich screenshot editing, sharing, and annotation tool Mac/OS X -- `closed source`
 * [VLC Media Player](https://www.videolan.org/vlc/) - Media (music, video, etc) player and streaming server -- `C` `Windows` `OS X`
@@ -697,6 +702,7 @@
 * [DBAN (Darik's Boot and Nuke)](https://www.dban.org/) - Spinning disk wiper -- `various lang`
 * [Easy2Boot](http://www.easy2boot.com/) - Create multiple bootable Linux ISOs on the same USB drive -- `Windows`
 * [GParted Live](https://gparted.org/livecd.php) - Small, bootable ISO that contains gparted - great for resizing a non-LVM root file system -- `C`
+* [Hiren's Boot CD](https://www.hirensbootcd.org/download/) - Re-adding, updated after 6 long years -- `closed source`
 * [Kali Linux](https://www.kali.org/) - Penetration testing Linux distro -- `various lang`
 * [Network Security Toolkit (NST)](http://networksecuritytoolkit.org/nst/index.html) - Live CD that includes most tools in insecure.org's top 125 tools list -- `various lang`
 * [NirLauncher](https://launcher.nirsoft.net/) - USB live distro that contains [all of the NirSoft utilities](https://launcher.nirsoft.net/utilities_list.html) and more, essential for Windows -- `closed source` `Windows`
@@ -1105,6 +1111,7 @@
 * [Common Python Mistakes](https://news.ycombinator.com/item?id=7715349) - Link and discussion on HN -- `article`
 * [Easy-Python](https://easy-python.readthedocs.org) - Collection of Python resources that "you didn't know you would need" -- `collection`
 * [Faker](http://www.joke2k.net/faker/) - Generate fake data easily -- `Python pip`
+* [Fire](https://pypi.org/project/fire/) - Turn any Python module, class, object, function, etc into a CLI -- `Python`
 * [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html) - Google's Python style guide -- `article`
 * [IPython](https://ipython.org/) - Interactive Python shell and the kernel for Jupyter -- `Python`
 * [Jinja2](http://jinja.pocoo.org/docs/dev/) - Templating language for Python -- `Python pip`
@@ -1349,6 +1356,7 @@
 * [Armitage](http://www.fastandeasyhacking.com/) - GUI for Metasploit -- `Java`
 * [ATA Secure Erase](https://ata.wiki.kernel.org/index.php/ATA_Secure_Erase) - Send a signal to an ATA drive to perform a hardware-based erase, the ONLY way to wipe a SSD properly -- `article`
 * [Awesome Honeypots](https://github.com/paralax/awesome-honeypots) - Curated collection of honepots and honeypot resources -- `collection`
+* [bettercap](https://www.bettercap.org/) -  Swiss Army knife for 802.11, BlueTooth, and Ethernet networks reconnaissance and attacks -- `Golang`
 * [Brida](https://github.com/federicodotta/Brida) - Bridge between Burp Suite & Frida, lets you use and manipulate applications own methods while tampering the traffic exchanged between the applications and their back-end services/servers -- `various lang`
 * [bro](https://github.com/bro/bro) - Framework for network analysis and security monitoring -- `C++`
 * [CALDERA](https://github.com/mitre/caldera) - Automated adversary emulation system that performs post-compromise adversarial behavior within Windows Enterprise networks -- `Python`
@@ -1696,6 +1704,7 @@
 * [GNS3](https://www.gns3.com/) - Cisco and other network simulator that runs in VirtualBox or Qemu/KVM -- `Python`
 * [HAproxy](https://www.haproxy.org/) - Open source software load balancer -- `C`
 * [haproxyctl](https://github.com/flores/haproxyctl) - Wrapper to talk to the HAProxy socket, as well as regular init (start stop restart) shit -- `Ruby gem`
+* [Katran](https://github.com/facebookincubator/katran) - A high performance layer 4 load balancer, by Facebook -- `C++`
 * [KVM (Kernel Virtual Machine)](http://www.linux-kvm.org/page/Main_Page) - The one, the only -- `C`
 * [kvm-tools](http://www.linux-kvm.org/page/Kvmtools) - CLI tools for managing qemu-kvm domains -- `C`
 * [KVM Management Tools](http://www.linux-kvm.org/page/Management_Tools) - Great list of KVM management tools on the KVM wiki, updated frequently -- `collection`
@@ -1903,6 +1912,7 @@
 * [Command Line Text Processing](https://github.com/learnbyexample/Command-line-text-processing) - awk grep sed etc - interactive tutorial for newbies -- `shell`
 * [conserver](http://www.conserver.com/) - Virtual console server with many features (multi-user, console log history, etc) -- `C`
 * [CRIU (Checkpoint Restore in Userspace)](https://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later -- `insane`
+* [Dark Mode by Bernard](https://addons.mozilla.org/en-US/firefox/addon/dark-mode-webextension/) - Simple dark mode / night mode for Firefox -- `JavaScript`
 * [Design Patterns for Humans](https://github.com/kamranahmedse/design-patterns-for-humans) - An ultra-simplified explanation of repeatable software design patterns -- `article`
 * [Design Patterns](https://sourcemaking.com/design_patterns) - Wonderful collection of software development design patterns with examples, includes anti-patterns and refactoring guidelines -- `collection`
 * [Designing Data Intensive Applications](https://dataintensive.net/) - The big ideas behind reliable, scalable, and maintable systems - highly recommened -- `book`
@@ -1916,6 +1926,8 @@
 * [Hoopla](https://www.hoopladigital.com/) - Digital movies, music and ebooks for USA public library members -- `explore yours today`
 * [Huginn](https://github.com/cantino/huginn) - Build agents that perform automated tasks/workflows for you online or locally, like IFTTT -- `Ruby`
 * [inxi](https://github.com/smxi/inxi) - "a full featured system information script" (hardware info, etc) -- `shell`
+* [JVM Anatomy Park](https://shipilev.net/jvm-anatomy-park/) - Anatomy of the JVM -- `collection`
+* [JVM Internals](http://blog.jamesdbloom.com/JVMInternals.html) - A superb explanation of how the Java JVM works in easy to understand terms -- `collection`
 * [Kanopy](https://www.kanopystreaming.com/) - Streaming movies for USA public library members -- `explore yours today`
 * [Libby](https://meet.libbyapp.com/) - App for ebooks and audio books for USA public library members, from OverDrive -- `explore yours today` `Android` `iOS` `Windows 10`
 * [maybe](https://github.com/p-e-w/maybe) - Allows a dry run of almost any Linux binary, see the files it will modify, calls made, etc -- `Python pip`
