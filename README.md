@@ -3,8 +3,9 @@
 * 1% free-as-in-beer closed source software
 * 1% in-browser tools
 * Please don't submit to Reddit, HN, or post this on Twitter.  Share, but share with close friends!
-* Josh on [LinkedIn](https://www.linkedin.com/in/jturgasen)
-* Josh's [Technical Blog](https://jturgasen.github.io)
+* [My LinkedIn](https://www.linkedin.com/in/jturgasen)
+* [My Technical Blog](https://jturgasen.github.io)
+* [My Streaming Radio Playlist on YouTube](https://www.youtube.com/watch?v=KvRVky0r7YM&list=PL0uoJwfTsSqrG_3hyYU9KVWweBvpcSJ5U)
 
 ---
 # Table of Contents
@@ -1412,6 +1413,7 @@
 * [Rootkit Hunter](http://rkhunter.sourceforge.net/) - Compares hashes of important files with known good hashes that are stored in online databases -- `perl` `shell`
 * [Samhain](https://www.la-samhna.de/samhain/) - HIDS, file integrity checker, rootkit detection, log file monitoring, and more -- `C`
 * [scrub](https://linux.die.net/man/1/scrub) - Supports many disk-wiping standards including military / government grade wipes -- `built-in`
+* [Security 101 for SaaS Startups](https://github.com/forter/security-101-for-saas-startups) - Excellent checklist and guide in easy to understand terms for non-infrastructure people -- `collection`
 * [Security Onion](https://securityonion.net/) - Linux distro for IDS, NSM, and log management -- `various lang`
 * [Security Technical Implementation Guide (STIG)](https://iase.disa.mil/stigs/Pages/a-z.aspx) - Guides to securing almost every application, by the US military -- `collection`
 * [SELKS](https://www.stamus-networks.com/open-source/) - Debian based based IDS/IPS with ELK stack, installable or live CD -- `various lang`
@@ -1434,6 +1436,7 @@
 * [Tomb](https://github.com/dyne/tomb) - zsh wrapper script for cryptsetup + gpg + LUKS volumes -- `shell`
 * [URL Canary](https://urlcanary.com/) - Create canary URLs so you know if someone is inspecting the source code of your applications -- `in browser`
 * [VulnHub](https://www.vulnhub.com/) - ISOs and more for hands-on security practice -- `collection`
+* [Web Application Penetration Testing Cheat Sheet](https://jdow.io/blog/2018/03/18/web-application-penetration-testing-methodology/) - Very concise -- `collection`
 * [w3af](https://github.com/andresriancho/w3af) - Web application attack and audit framework, OSS vun scanner -- `Python`
 * [Yaptest](https://github.com/pentestmonkey/yaptest) - Glue together and automate pentesting using IFTTT type workflows -- `various lang`
 * [Zed Attack Proxy (ZAP)](https://www.owasp.org/index.php/ZAP) - Pen testing too that focues on web applications -- `Java`
@@ -1900,23 +1903,27 @@
 
 > Everything else - see also everything else
 
+* [Anti-Ablock Killer](https://reek.github.io/anti-adblock-killer/) - Keep your ad-blocker active when pages take anti-blocking measures, requires Greasemonkey or similar -- `JavaScript`
 * [Archive.org aka The Internet Archive aka The Wayback Machine](https://archive.org/) - Yo donate, this is beyond important -- `the biggest collection`
 * [Awesome](https://github.com/sindresorhus/awesome) - Top level list of awesome lists -- `collection`
 * [Awesome SRE](https://github.com/dastergon/awesome-sre) - Too lazy to think of a description -- `collection`
 * [AutoHotKey](https://autohotkey.com/) - Automate input (desktop and web forms, data entry, keybinds, etc) -- `C++` `Windows`
 * [Awesome AutoHotKey](https://github.com/ahkscript/awesome-AutoHotkey) - A collection of AutoHotKey scripts and libraries -- `various lang`
+* [BBR NKOTB](https://blog.apnic.net/2017/05/09/bbr-new-kid-tcp-block/) - Excellent article that explains BBR and compares it to traditional TCP congestion and loss algorithms -- `article`
 * [BlueStacks](https://www.bluestacks.com/) - Android emulator that you can run on Windows, run apps from the Play store, etc -- `various lang`
 * [Caffeine](http://lightheadsw.com/caffeine/) - Simple menu bar app to stop your Mac from sleeping -- `closed source` `OS X`
 * [Chaos Engineering](https://www.oreilly.com/webops-perf/free/chaos-engineering.csp) - Building confidence in system behavior through experiments, free book by Netflix -- `book`
 * [Cloud Design Patterns](https://docs.microsoft.com/en-us/azure/architecture/patterns/) - Useful for building reliable, scalable, secure applications in the cloud -- `collection`
 * [Command Line Text Processing](https://github.com/learnbyexample/Command-line-text-processing) - awk grep sed etc - interactive tutorial for newbies -- `shell`
 * [conserver](http://www.conserver.com/) - Virtual console server with many features (multi-user, console log history, etc) -- `C`
+* [Convergent Encryption](https://en.wikipedia.org/wiki/Convergent_encryption) - Produces identical ciphertext from identical plaintext files, used for dedupe / space savings in the cloud -- `article`
 * [CRIU (Checkpoint Restore in Userspace)](https://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later -- `insane`
 * [Dark Mode by Bernard](https://addons.mozilla.org/en-US/firefox/addon/dark-mode-webextension/) - Simple dark mode / night mode for Firefox -- `JavaScript`
 * [Design Patterns for Humans](https://github.com/kamranahmedse/design-patterns-for-humans) - An ultra-simplified explanation of repeatable software design patterns -- `article`
 * [Design Patterns](https://sourcemaking.com/design_patterns) - Wonderful collection of software development design patterns with examples, includes anti-patterns and refactoring guidelines -- `collection`
 * [Designing Data Intensive Applications](https://dataintensive.net/) - The big ideas behind reliable, scalable, and maintable systems - highly recommened -- `book`
 * [DevOps Conferences](http://www.gotodevops.org/) - Add and remove via PR, please contribute -- `collection`
+* [Every Programmer Should Know...](https://github.com/mtdvio/every-programmer-should-know) - A collection of (mostly) technical things every software developer should know -- `collection`
 * [f.lux](https://justgetflux.com/) - Changes your screen from blue light to yellow light when the sun sets to tell your brain it's night time -- `closed source` `OS X` `Windows`
 * [Fossor](https://github.com/linkedin/fossor) - Automate on-call investigation steps, by LinkedIn -- `Python pip`
 * [Geocities-izer](http://www.wonder-tonic.com/geocitiesizer/) - Make any HTML web page look like a Geocities page -- `sweeeeeeet`
@@ -1924,6 +1931,8 @@
 * [Google's Technical Development Guide](https://techdevguide.withgoogle.com/) - Hands on, free, self-paced courses to help you develop your programming skills -- `collection`
 * [googler](https://github.com/jarun/googler) - Google search, news, and site search from the terminal, slick -- `Python`
 * [Hoopla](https://www.hoopladigital.com/) - Digital movies, music and ebooks for USA public library members -- `explore yours today`
+* [How Complex Systems Fail](http://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf) - Paper by MIT that's operations focused -- `article`
+* [HTTPS Everywhere](https://www.eff.org/https-everywhere) - Uses client-side tricks to force misconfigured sites to use HTTPS all the time, by the EFF (donate) -- `Firefox` `Chrome`
 * [Huginn](https://github.com/cantino/huginn) - Build agents that perform automated tasks/workflows for you online or locally, like IFTTT -- `Ruby`
 * [inxi](https://github.com/smxi/inxi) - "a full featured system information script" (hardware info, etc) -- `shell`
 * [JVM Anatomy Park](https://shipilev.net/jvm-anatomy-park/) - Anatomy of the JVM -- `collection`
@@ -1938,6 +1947,7 @@
 * [MX Toolbox](https://mxtoolbox.com/) - SMTP blacklist lookup, header analysis, and more -- `in-browser`
 * [Network UPS Tools (NUT)](http://www.networkupstools.org/) - Manage power devices from over 100 manufacturers using a single web interface -- `C` `Windows`
 * [Networking Cheat Sheets by PacketLife](http://packetlife.net/library/cheat-sheets/) - Protocols, devices, ports, physical connectors, and more -- `collection`
+* [NoScript](https://noscript.net/) - JavaScript, XSS, tracker, and Flash blocker - your condom for the Internet -- `Firefox`
 * [Open Source Society University (OSSU)](https://github.com/ossu/computer-science) - A complete education in computer science using free online materials -- `collection`
 * [Open19](https://www.open19.org/) - Open data center hardware for standard size racks -- `neat`
 * [OpenBMC](https://github.com/facebook/openbmc) - Framework to build a complete Linux image for a Board Management Controller (BMC), by Facebook -- `C`
@@ -1945,6 +1955,7 @@
 * [OverDrive](https://www.overdrive.com/) - Ebooks and audio books for USA public library members -- `explore yours today`
 * [OWASP Secure Coding Practices - Quick Reference Guide](https://www.owasp.org/index.php/OWASP_Secure_Coding_Practices_-_Quick_Reference_Guide) -- Great cheat sheet, language-agnostic -- `collection`
 * [PrivacyTools.io](https://www.privacytools.io/) - All in one collection, web site source is on GitHub -- `collection`
+* [Privacy Badger](https://www.eff.org/privacybadger) - The best in-browser privacy and anti-tracking tool, by the EFF (donate) -- `Chrome` `Firefox`
 * [runwhen](http://code.dogmap.org/runwhen/) - Utilities for running commands at particular times, cron on steroids -- `C`
 * [Secure Messaging Apps](https://www.securemessagingapps.com/) - True comparison of the technical features and merits of various apps, which are TRULY secure? -- `collection`
 * [Site Reliability Engineering (SRE) by Google](https://landing.google.com/sre/book.html) - Full, free, online version of the O'Reilly book -- `the best`
@@ -1953,5 +1964,6 @@
 * [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line) - The BEST interactive Linux tutorial, newbie focused -- `learn it`
 * [Twelve-Factor App](https://12factor.net/) - Language-independent rules for codebase, dependencies, build/release/run, dev and prod, logs, etc for a cloud/web-centric app -- `collection`
 * [Twilight](https://play.google.com/store/apps/details?id=com.urbandroid.lux&hl=en) - F.lux for Android -- `closed source`
+* [uBlock Origin](https://github.com/gorhill/uBlock) - Ad blocker, only use Origin, do not use another uBlock -- `Firefox` `Chrome`
 * [Unix Rosetta Stone](http://bhami.com/rosetta.html) - The one and only resource for a mixed Linux/Unix environment -- `translator`
 * [Vim Adventures](https://vim-adventures.com/) - A game to learn  vi / vim using your browser -- `in-browser`
