@@ -3,8 +3,9 @@
 * 1% free-as-in-beer closed source software
 * 1% in-browser tools
 * Please don't submit to Reddit, HN, or post this on Twitter.  Share, but share with close friends!
-* [My LinkedIn](https://www.linkedin.com/in/jturgasen)
-* [My Technical Blog](https://jturgasen.github.io)
+
+
+* [Josh Turgasen on LinkedIn](https://www.linkedin.com/in/jturgasen)
 * [My Streaming Radio Playlist on YouTube](https://www.youtube.com/watch?v=KvRVky0r7YM&list=PL0uoJwfTsSqrG_3hyYU9KVWweBvpcSJ5U)
 
 ---
