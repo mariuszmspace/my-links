@@ -1573,6 +1573,7 @@
 * [jenkins-job-dsl (Jenkins Job DSL Plugin)](https://github.com/jenkinsci/job-dsl-plugin) - Groovy-based DSL for writing Jenkins jobs -- `Groovy`
 * [Jenkins job-config-history Plugin](https://wiki.jenkins-ci.org/display/JENKINS/JobConfigHistory+Plugin) - Tracks changes to system and job configurations -- `Java`
 * [Jenkins Job Builder](https://docs.openstack.org/infra/jenkins-job-builder/) - Takes simple descriptions of Jenkins jobs in YAML or JSON format and uses them to configure Jenkins -- `Python pip`
+* [Jenkins Log Recorder](https://wiki.jenkins.io/display/JENKINS/Logging) - Helps you group relevant logs together while filtering out the noise -- `Java`
 * [Jenkins ThinBackup](https://wiki.jenkins-ci.org/display/JENKINS/thinBackup) - Jenkins plugin that backups configurations (not workspaces or archives) -- `Java`
 * [JSON Server](https://github.com/typicode/json-server) - Full fake REST API for quickly prototyping and mocking in 30 seconds -- `JavaScript`
 * [LearnXinYMinutes](https://learnxinyminutes.com/) - Super fast tutorials for almost every programming language -- `collection`
