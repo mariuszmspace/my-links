@@ -198,6 +198,7 @@
 * [ec2-price-check](https://github.com/Bjorn248/ec2-price-check) - Gives a quick price check for an instance type -- `shell`
 * [ec2instances.info](https://www.ec2instances.info/) - Open source and up to date instance price comparison tool -- `Python`
 * [Empire](https://github.com/remind101/empire) - PaaS built on top of Amazon EC2 Container Service (ECS) -- `Golang`
+* [Fargate](https://github.com/jpignata/fargate) - CLI for AWS Fargate, unofficial -- `Golang`
 * [Force MFA](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_users-self-manage-mfa-and-creds.html) - Allows users to manage their own passwords and MFA devices but nothing else unless they authenticate with MFA, also makes API calls require MFA -- `policy`
 * [haproxy-autoscale](https://github.com/markcaudill/haproxy-autoscale) - Wrapper for haproxy that handles auto-scaling EC2 instances -- `Python`
 * [Ice](https://github.com/Netflix/ice) - AWS usage tool, by Netflix -- `Grails`
@@ -408,8 +409,10 @@
 * [crane](https://github.com/michaelsauter/crane) - Docker orchestration, similar to Docker Compose -- `Golang`
 * [ctop](https://ctop.sh/) - ncurses top-like UI for containers -- `Golang`
 * [DevSpace](https://github.com/covexo/devspace) - Build, test and run code directly inside any Kubernetes cluster, no more waiting for rebuild + redeploy, run code instantly -- `Golang`
+* [distroless](https://github.com/GoogleContainerTools/distroless) - "Distroless" images contain only your application and its runtime dependencies and nothing else, by Google -- `various lang`
 * [docker-gc](https://github.com/spotify/docker-gc) - Docker garbage collection of containers and images  -- `shell`
 * [DockerSlim](http://dockersl.im/) - Uses static and dynamic analysis to create skinny image variants of your fat images -- `Golang`
+* [Docker Bench](https://github.com/docker/docker-bench-security) - Checks for dozens of common best-practices around deploying Docker containers in production -- `shell`
 * [Docker Compose](https://github.com/docker/compose) - Define and run multi-container apps with Docker, previously known as fig, official -- `Python`
 * [Docker Distribution](https://github.com/docker/distribution) - AKA Docker Registry 2.0 - pack, ship, store, and deliver containers -- `Golang`
 * [Docker Hub](https://registry.hub.docker.com/) - Official Docker images for many projects -- `various lang`
@@ -455,6 +458,7 @@
 * [kubediscovery](https://github.com/cloud-ark/kubediscovery) - Tool that helps you find dynamic composition tree of Kubernetes objects -- `Golang`
 * [Kubernetes](https://kubernetes.io/) - Open source orchestration system for Docker containers, by Google -- `Golang`
 * [kubernetes-deploy](https://github.com/Shopify/kubernetes-deploy) - tool that helps you ship changes to a Kubernetes namespace and understand the result, by Shopify -- `Ruby`
+* [kubewatch](https://github.com/bitnami-labs/kubewatch) - Kubernetes event watcher and handler (currently only publishes to Slack channels, integrations wanted!) -- `Golang`
 * [kubicorn](https://github.com/kris-nova/kubicorn) - Multi-provider deployment abstraction layer / library for Kubernetes -- `Golang`
 * [kustomize](https://github.com/kubernetes-sigs/kustomize) - Customize raw, template-free YAML files for multiple purposes, leaving the original YAML untouched and usable as is -- `Golang`
 * [Logspout](https://github.com/gliderlabs/logspout) - Log router for Docker containers -- `Golang`
@@ -758,6 +762,7 @@
 
 * [Adiscon LogAnalyzer](http://loganalyzer.adiscon.com/) - Slick web interface for syslog messages -- `PHP`
 * [Countly](https://count.ly/) - Mobile and web analytics and marketing platform -- `JavaScript`
+* [Elastalert](https://github.com/Yelp/elastalert) - Send alerts based on ElasticSearch logs (http 500 increase/spike, any custom string, etc) -- `Python`
 * [ElasticDump](https://github.com/taskrabbit/elasticsearch-dump) - Import / export tools for Elasticsearch -- `JavaScript`
 * [ElasticHQ](https://github.com/royrusso/elasticsearch-HQ) - Does not yet support ES 5.x -- `JavaScript`
 * [Elasticsearch](https://www.elastic.co/) - Component of the ELK stack, used for super fast searches -- `Java`
@@ -1555,9 +1560,12 @@
 * [ack2](https://beyondgrep.com/) - grep-like tool designed to search source code -- `perl`
 * [afl-unicorn](https://github.com/njv299/afl-unicorn) - Fuzz any piece of binary that can be emulated by Unicorn Engine -- `C`
 * [ag (aka The Silver Searcher)](https://github.com/ggreer/the_silver_searcher) - Source code searching tool, a better grep -- `C`
+* [Algorithms and Data Structures Part 1](https://www.coursera.org/learn/algorithms-part1) - By Princeton University -- `course`
+* [Algorithms and Data Structures Part 2](https://www.coursera.org/learn/algorithms-part2) - By Princeton University -- `course`
 * [Barkeep](http://getbarkeep.org/) - Code review tool, kinda sorta like GitHub -- `Ruby`
 * [Bazel](https://bazel.build/) - Google's build system -- `Java`
 * [Bento](https://www.bento.io/grid) - Links to tutorials based on subject (programming, sysadmin, protocols, standards, etc) -- `collection`
+* [brom](https://www.brom.horse/) - Record HTTP transactions to improve security, designed for use in local environments and CI tools -- `JavaScript`
 * [Buildbot](https://buildbot.net/) - CI framework -- `Python`
 * [cwrap](https://cwrap.org/) - Wrappers for creating test scenarios and faking behavior/ stubbing, mostly network focused, by the Samba guys -- `C`
 * [deployinator](https://github.com/etsy/deployinator) - Etsy's deployment framework -- `Ruby gem`
@@ -2063,7 +2071,9 @@
 * [System Architecture](https://github.com/orrsella/soft-eng-interview-prep/blob/master/topics/system-architecture.md) - Great refresher, not so great for first time learners -- `collection`
 * [System Design Primer](https://github.com/donnemartin/system-design-primer) - Learn how to design large-scale systems -- `article`
 * [SymbolHound](http://symbolhound.com) - Search engine that doesn't ignore special characters, great for programming questions -- `try it`
+* [Teach Yourself Computer Science](https://teachyourselfcs.com/) - 9 subjects, they choose the best free source to learn each subject and explain why that source is the best - they did the research for you -- `collection`
 * [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line) - The BEST interactive Linux tutorial, newbie focused -- `learn it`
+* [The Illustrated TLS Connection](https://tls.ulfheim.net/) - Every byte of a TLS connection explained and reproduced -- `article`
 * [Twelve-Factor App](https://12factor.net/) - Language-independent rules for codebase, dependencies, build/release/run, dev and prod, logs, etc for a cloud/web-centric app -- `collection`
 * [Twilight](https://play.google.com/store/apps/details?id=com.urbandroid.lux&hl=en) - F.lux for Android -- `closed source`
 * [uBlock Origin](https://github.com/gorhill/uBlock) - Ad blocker, only use Origin, do not use another uBlock -- `Firefox` `Chrome`
