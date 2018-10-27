@@ -401,6 +401,7 @@
 * [Authenticator](https://github.com/heptio/authenticator) - A tool for using AWS IAM credentials to authenticate to a Kubernetes cluster -- `Golang`
 * [Awesome Docker](https://github.com/veggiemonk/awesome-docker) - Massive Docker collection -- `collection`
 * [Awesome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes) - Collection -- `collection`
+* [Buildah](https://github.com/containers/buildah) - A low-level interface to core-utils, build container images with the scripting language of your choice without using Dockerfiles, compare to Podman -- `Golang`
 * [cadvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers -- `Golang`
 * [cert-manager](https://github.com/jetstack/cert-manager) - Automate the management and issuance of TLS certificates from various issuing sources -- `Golang`
 * [Cilium](https://github.com/cilium/cilium) - Transparently secure layer 7 services, communicate based on identity groups, load balancing, BPF-level for performance and instrumentation & more -- `Golang`
@@ -424,6 +425,7 @@
 * [draino](https://github.com/negz/draino) - Automatically drains Kubernetes nodes based on labels and node conditions, can be used for auto-remediation -- `Golang`
 * [drone](https://github.com/drone/drone) - CI platform built on Docker / containers, can also deploy to Kubernetes -- `Golang`
 * [dumb-init](https://github.com/Yelp/dumb-init) - Minimal init system for containers, by Yelp -- `C`
+* [Eirini](https://github.com/cloudfoundry-incubator/eirini) - Kubernetes backend for Cloud Foundry -- `Golang`
 * [Escalator](https://github.com/atlassian/escalator) - Batch or job optimized horizontal autoscaler for Kubernetes -- `Golang`
 * [Fabric8](https://fabric8.io/) - Open source microservices platform based on Docker, Kubernetes and Jenkins -- `Java`
 * [Flannel](https://github.com/coreos/flannel) - Network fabric for containers via etcd, designed for Kubernetes -- `Golang`
@@ -457,6 +459,7 @@
 * [kubed](https://github.com/appscode/kubed) - Perform periodic cluster snapshots, provide temp storage for deleted objects, automatic event forwarding, deliver notifications via various channels for Kubernetes -- `Golang`
 * [kubediscovery](https://github.com/cloud-ark/kubediscovery) - Tool that helps you find dynamic composition tree of Kubernetes objects -- `Golang`
 * [Kubernetes](https://kubernetes.io/) - Open source orchestration system for Docker containers, by Google -- `Golang`
+* [kubernetes-cloudflare-sync](https://github.com/calebdoxsey/kubernetes-cloudflare-sync) - Run in your Kubernetes Cluster on GKE and sync DNS records on Cloudflare with your nodes IPs to avoid GCP LB fees -- `Golang`
 * [kubernetes-deploy](https://github.com/Shopify/kubernetes-deploy) - tool that helps you ship changes to a Kubernetes namespace and understand the result, by Shopify -- `Ruby`
 * [kubewatch](https://github.com/bitnami-labs/kubewatch) - Kubernetes event watcher and handler (currently only publishes to Slack channels, integrations wanted!) -- `Golang`
 * [kubicorn](https://github.com/kris-nova/kubicorn) - Multi-provider deployment abstraction layer / library for Kubernetes -- `Golang`
@@ -474,6 +477,7 @@
 * [Portainer](https://github.com/portainer/portainer) - Web interface for Docker aka us-for-docker -- `JavaScript`
 * [Project Atomic](https://www.projectatomic.io/) - Super stripped down Linux OS designed to only run containers and nothing more, aka RHEL Atomic -- `various lang`
 * [Prometheus Operator](https://github.com/coreos/prometheus-operator) - Creates/configures/manages Prometheus clusters atop Kubernetes -- `Golang`
+* [pulumi](https://pulumi.io/) - HOT create and deploy cloud programs that use containers, serverless functions, hosted services, and infrastructure, on any cloud, supports most languages -- `various lang`
 * [Rancher](http://rancher.com/) - Provides a complete platform for operating Docker in production -- `various lang`
 * [Registrator](https://github.com/gliderlabs/registrator) - Service registry bridge for Docker, supports Consul, etcd -- `Golang`
 * [rkt (Rocket)](https://github.com/coreos/rocket) - New container system by the CoreOS guys -- `Golang`
@@ -540,6 +544,7 @@
 
 > DCOSes, microservices, service discovery, schedulers, Mesos, and related tools for dynamic, warehouse-scale computing - see also [Containers](#containers) and [HPC Tools](#hpc-tools)
 
+* [Akkio](https://code.fb.com/core-data/akkio/) - Data placement service that determines how and when to move information in order to optimize retrieval speed for people across the globe, using the minimum required number of copies -- `various lang`
 * [Ambassador](https://www.getambassador.io/) - Kubernetes-native API gateway built on Envoy proxy includes gRPC, auth, TLS, and more -- `Python`
 * [Aurora](https://aurora.incubator.apache.org/) - Mesos scheduler for long running services and cron jobs, similar to Marathon -- `Java`
 * [Avro](https://avro.apache.org/) - Data serialization system with backwards compatible schemas -- `Java`
@@ -557,6 +562,7 @@
 * [fabio](https://github.com/eBay/fabio) - Zero-conf load balancing HTTP(S) router for deploying microservices managed by Consul, by eBay -- `Golang`
 * [Flink](https://flink.apache.org) - Next-generation true stream processing platform for real-time analytics -- `Java`
 * [Gloo](https://github.com/solo-io/gloo) - Gateway / abstraction layer between upstream services, based off of Envoy -- `Golang`
+* [GraphQL](https://en.wikipedia.org/wiki/GraphQL) - Alternative to REST, allows clients to define the structure of the data, subscribing to data flows, and more -- `various lang`
 * [Hystrix](https://github.com/Netflix/Hystrix) - Library to stop cascading failures -- `Java`
 * [Ignite](https://ignite.apache.org/) - General-purpose in-memory platform for in-memory computing use cases -- `Java`
 * [Istio](https://istio.io) - Envoy + auth, policy enforcement, telemetry, traffic flow management etc control plane that runs on top of Mesos and Kubernetes, service mesh control plane -- `various lang`
@@ -818,6 +824,7 @@
 * [Metricbeat](https://github.com/elastic/beats/tree/master/metricbeat) - fetches a set of metrics on a predefined interval from OS & services and ships them to Elasticsearch or Logstash -- `Golang`
 * [Metrics](https://github.com/dropwizard/metrics) - Metrics and instrumentation at both the JVM and application level -- `Java`
 * [Micrometer](http://micrometer.io/) - Provides a simple facade (fake interface) over the instrumentation clients for the most popular monitoring systems, allowing you to instrument your JVM-based application code without vendor lock-in -- `Java`
+* [mtail](https://github.com/google/mtail) - Extract monitoring data from application logs for collection into a timeseries database, by Google -- `Golang`
 * [OpenTSDB](http://opentsdb.net/) - Store and serve massive amounts of time series data without losing granularity -- `Java`
 * [Prometheus](https://prometheus.io/) - Metrics collection and storage, can trigger alerts when thresholds are breached, based on Borgmon -- `Golang`
 * [Sensu](https://sensuapp.org/) - Open source monitoring framework, cloud-focused, dynamic, scalable - also does metrics collection -- `Ruby`
@@ -901,6 +908,7 @@
 * [GridFTP](http://toolkit.globus.org/toolkit/docs/latest-stable/gridftp/) - Supports parallel streams, optimized for WANs, part of the Globus Toolkit -- `C`
 * [hosts](https://github.com/StevenBlack/hosts) - Consolidates several reputable hosts files and merges them into a unified hosts file with duplicates removed (ads, malware, gambling, porn, etc) -- `collection`
 * [hping3](https://linux.die.net/man/8/hping3) - Create custom TCP/IP packets, very flexible -- `built-in`
+* [joincap](https://github.com/assafmo/joincap) - Alternative to mergecap -- `Golang`
 * [lftp](http://lftp.yar.ru/) - Supports many protocols (FTPS, HTTPS, SFTP), scheduling, bandwidth throttling, scripting, and more - feature-rich -- `C` `C++`
 * [lldpd](https://github.com/vincentbernat/lldpd) - Daemon that can talk LLDP aka the open version of Cisco Discovery Protocol (CDP), handy for network + host mapping -- `C`
 * [Manito Networks Flow Analyzer](https://gitlab.com/thart/flowanalyzer) - ELK stack netflow analyzer -- `Python`
@@ -1188,6 +1196,7 @@
 * [sys](https://docs.python.org/2/library/sys.html) - System-specific parameters and functions -- `Python`
 * [TCPWatch](https://pypi.python.org/pypi/tcpwatch) - TCP monitoring and logging tool -- `Python pip`
 * [tempfile](https://docs.python.org/3/library/tempfile.html) - Generate temporary files and directories -- `Python`
+* [TextFSM](https://github.com/google/textfsm) - Create a pool of templates to parse text, then use TextFSM to parse useful information from a variety of sources -- `Python`
 * [urllib](https://docs.python.org/3/library/urllib.html) - Open, read, parse URLs and robots.txt -- `Python`
 * [virtualenv](https://virtualenv.pypa.io/en/latest/) - Tool to create isolated Python environments -- `Python pip`
 * [virtualenvwrapper](https://pypi.python.org/pypi/virtualenvwrapper) - Extensions to virtualenv -- `Python pip`
@@ -1448,6 +1457,7 @@
 * [Hybrid Analysis](https://www.hybrid-analysis.com/) - Dree malware analysis service that detects and analyzes unknown threats using a unique *Hybrid Analysis* -- `in-browser`
 * [icebreaker](https://github.com/DanMcInerney/icebreaker) - Automates internal network attacks against Active Directory to deliver you plaintext credentials -- `various lang`
 * [Information Security Cheat Sheets and Checklists](https://zeltser.com/cheat-sheets/) - An assortment of IS checklists and cheat sheets -- `collection`
+* [Just the Basics (JTB) Investigator](https://github.com/Th3J0kr/jtb_investigator) - Simple menu & CLI to automate repetitive everyday tasks -- `Python`
 * [geoiplookup](https://linux.die.net/man/1/geoiplookup) - Uses the GeoIP DB and library to determine which physical country an IP or host originates in, includes PAM library -- `built-in`
 * [Hindsight](https://github.com/obsidianforensics/hindsight) - Internet history forensics for Google Chrome/Chromium  -- `Python`
 * [Jailkit](https://olivier.sessink.nl/jailkit/) - chroot toolkit -- `C`
@@ -1502,6 +1512,7 @@
 * [usbkill](https://github.com/hephaest0s/usbkill) - Kill switch that takes action when a USB device is connected -- `Python`
 * [VeraCrypt](https://veracrypt.codeplex.com/) - OSS successor to and fork of TrueCrypt, supports Linux, Windows, and Mac -- `C` `C++`
 * [VirusTotal](https://www.virustotal.com/) - Allows you to upload a file and have it scanned by tons of virus scanners -- `in-browser`
+* [tcpbin](https://github.com/ecx86/tcpbin) - A simple TCP dumping server/host for pentesting -- `Python`
 * [Tomb](https://github.com/dyne/tomb) - zsh wrapper script for cryptsetup + gpg + LUKS volumes -- `shell`
 * [URL Canary](https://urlcanary.com/) - Create canary URLs so you know if someone is inspecting the source code of your applications -- `in browser`
 * [VulnHub](https://www.vulnhub.com/) - ISOs and more for hands-on security practice -- `collection`
@@ -1984,6 +1995,7 @@
 * [Amazon EKS Workshop](https://eksworkshop.com/) - Designed to educate engineers that might not be familiar with Amazon EKS, Kubernetes, and possibly even Docker container workflow -- `tutorial`
 * [Ansible Interactive Tutorial](https://github.com/turkenh/ansible-interactive-tutorial) - Interactive tutorials for Ansible via Docker, super simple -- `tutorial`
 * [Anti-Ablock Killer](https://reek.github.io/anti-adblock-killer/) - Keep your ad-blocker active when pages take anti-blocking measures, requires Greasemonkey or similar -- `JavaScript`
+* [Application Layer Transport Security](https://cloud.google.com/security/encryption-in-transit/application-layer-transport-security/) - Use mutual TLS to secure RPC calls between entities, designed with containers and microservices in mind -- `article`
 * [Architecture of Open Source Applications](http://www.aosabook.org/en/) - The authors of four dozen open source applications explain how their software is structured, and why -- `collection`
 * [Archive.org aka The Internet Archive aka The Wayback Machine](https://archive.org/) - Yo donate, this is beyond important -- `the biggest collection`
 * [Awesome](https://github.com/sindresorhus/awesome) - Top level list of awesome lists -- `collection`
