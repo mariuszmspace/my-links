@@ -181,6 +181,7 @@
 * [Aminator](https://github.com/Netflix/aminator) - Create application-specific custom AMIs, by Netflix -- `Python`
 * [assume-role](https://github.com/coinbase/assume-role) - CLI tool making it easy to assume IAM roles through an AWS Bastion account -- `shell`
 * [Awesome AWS](https://github.com/donnemartin/awesome-aws) - Curated list of AWS resources -- `collection`
+* [awless](https://github.com/wallix/awless) - Another AWS CLI, give it a try -- `Golang`
 * [aws-shell (formerly Supercharged AWS CLI (SAWS))](https://github.com/awslabs/aws-shell) - The best CLI for interacting with AWS -- `Python pip`
 * [aws-vault](https://github.com/99designs/aws-vault) - A vault for securely storing and accessing AWS credentials in development environments  -- `Golang`
 * [AWS Extend Switch Roles](https://github.com/tilfin/aws-extend-switch-roles) - Extend your AWS IAM switching roles by Chrome extension or Firefox add-on -- `JavaScript`
@@ -401,6 +402,7 @@
 * [Authenticator](https://github.com/heptio/authenticator) - A tool for using AWS IAM credentials to authenticate to a Kubernetes cluster -- `Golang`
 * [Awesome Docker](https://github.com/veggiemonk/awesome-docker) - Massive Docker collection -- `collection`
 * [Awesome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes) - Collection -- `collection`
+* [Banzai Cloud](https://github.com/banzaicloud) - Kubernetes based, open source, multi-cloud with all the good stuff baked in (Prometheus, CICD pipelines, and more) CHECK THIS -- `various lang`
 * [Buildah](https://github.com/containers/buildah) - A low-level interface to core-utils, build container images with the scripting language of your choice without using Dockerfiles, compare to Podman -- `Golang`
 * [cadvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers -- `Golang`
 * [cert-manager](https://github.com/jetstack/cert-manager) - Automate the management and issuance of TLS certificates from various issuing sources -- `Golang`
@@ -432,6 +434,7 @@
 * [Flux](https://github.com/weaveworks/flux) - Tool that automatically ensures that the state of a Kubernetes cluster matches the config in git via Kubernetes operators -- `Golang`
 * [Flynn](https://flynn.io/) - PaaS built on top of Docker, can run stateful services -- `Golang`
 * [Gitkube](https://gitkube.sh/) - Build and deploy docker images to Kubernetes using git push -- `various lang`
+* [gravity](https://github.com/gravitational/gravity) - Creates snapshots of a Kubernetes cluster that can be restored elsewhere (on-prem, DR situation, etc) -- `Golang`
 * [Heapster](https://github.com/kubernetes/heapster) - Container cluster monitoring and performance analysis for Kubernetes and CoreOS -- `Golang`
 * [Helm](https://github.com/kubernetes/helm) - tool for managing Kubernetes charts (packages of pre-configured Kubernetes resources) -- `Golang`
 * [helm-value-store](https://github.com/skuid/helm-value-store) - Manage working with multiple values.yaml files for nearly identitcal deployments -- `Golang`
@@ -461,6 +464,7 @@
 * [Kubernetes](https://kubernetes.io/) - Open source orchestration system for Docker containers, by Google -- `Golang`
 * [kubernetes-cloudflare-sync](https://github.com/calebdoxsey/kubernetes-cloudflare-sync) - Run in your Kubernetes Cluster on GKE and sync DNS records on Cloudflare with your nodes IPs to avoid GCP LB fees -- `Golang`
 * [kubernetes-deploy](https://github.com/Shopify/kubernetes-deploy) - tool that helps you ship changes to a Kubernetes namespace and understand the result, by Shopify -- `Ruby`
+* [kubespray](https://github.com/kubernetes-incubator/kubespray) - Deploy a production ready Kubernetes cluster, a Kubernetes Incubator project -- `Golang`
 * [kubewatch](https://github.com/bitnami-labs/kubewatch) - Kubernetes event watcher and handler (currently only publishes to Slack channels, integrations wanted!) -- `Golang`
 * [kubicorn](https://github.com/kris-nova/kubicorn) - Multi-provider deployment abstraction layer / library for Kubernetes -- `Golang`
 * [kustomize](https://github.com/kubernetes-sigs/kustomize) - Customize raw, template-free YAML files for multiple purposes, leaving the original YAML untouched and usable as is -- `Golang`
@@ -1923,6 +1927,7 @@
 * [Newman](https://github.com/postmanlabs/newman) - CLI companion for Postman -- `JavaScript`
 * [ng-admin](https://github.com/marmelab/ng-admin) - Add an AngularJS admin GUI to any RESTful API -- `JavaScript`
 * [nghttp](https://nghttp2.org/documentation/nghttp.1.html) - CLI HTTP/2 client, similar to curl/wget and more -- `C`
+* [nginxconfig](https://nginxconfig.io/) - Web-based nginx config generator -- `in-browser`
 * [ngrok](https://ngrok.com) - Reverse proxy that creates a secure tunnel from a public endpoint to a locally running web service and captures & analyzes all traffic over the tunnel for later inspection and replay -- `rocks` `Golang`
 * [OpenResty](https://openresty.org/) - Turn nginx into a non-blocking API server -- `C`
 * [PageKite](https://pagekite.net/) - Makes HTTP servers or SSH publicly available on any server -- `Python`
@@ -1992,6 +1997,7 @@
 
 > Everything else - see also everything else
 
+* [Amazon ECS Workshop](https://ecsworkshop.com/) - Configure GitHub, CodePipeline, CodeBuild, VPC, ALB, ECS, Autoscaling, and log aggregation using a framework called Mu to launch microservices on AWS Elastic Container Service -- `tutorial`
 * [Amazon EKS Workshop](https://eksworkshop.com/) - Designed to educate engineers that might not be familiar with Amazon EKS, Kubernetes, and possibly even Docker container workflow -- `tutorial`
 * [Ansible Interactive Tutorial](https://github.com/turkenh/ansible-interactive-tutorial) - Interactive tutorials for Ansible via Docker, super simple -- `tutorial`
 * [Anti-Ablock Killer](https://reek.github.io/anti-adblock-killer/) - Keep your ad-blocker active when pages take anti-blocking measures, requires Greasemonkey or similar -- `JavaScript`
@@ -2074,6 +2080,7 @@
 * [Play with Kubernetes](https://labs.play-with-k8s.com/) - A simple, interactive and fun playground to learn Kubernetes in your browser, by Docker -- `in-browser`
 * [PrivacyTools.io](https://www.privacytools.io/) - All in one collection, web site source is on GitHub -- `collection`
 * [Privacy Badger](https://www.eff.org/privacybadger) - The best in-browser privacy and anti-tracking tool, by the EFF (donate) -- `Chrome` `Firefox`
+* [QUIC (Quick UDP Internet Connections)](https://arstechnica.com/gadgets/2018/11/the-next-version-of-http-wont-be-using-tcp/) - The foundation for HTTP/3 -- `article`
 * [runwhen](http://code.dogmap.org/runwhen/) - Utilities for running commands at particular times, cron on steroids -- `C`
 * [Secure Messaging Apps](https://www.securemessagingapps.com/) - True comparison of the technical features and merits of various apps, which are TRULY secure? -- `collection`
 * [Security 101 for SaaS Startups](https://github.com/forter/security-101-for-saas-startups) - Excellent checklist and guide in easy to understand terms for non-infrastructure people -- `collection`
