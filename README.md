@@ -308,6 +308,7 @@
 * [Mackup](https://github.com/lra/mackup) - Sync your Mac application settings to various cloud services or git -- `Python` `OS X`
 * [Nextcloud](https://nextcloud.com/) - Fork of and replacement for OwnCloud, a self-hosted Dropbox -- `various lang` `Windows` `OS X`
 * [Pydio](https://pyd.io/) - Formerly AjaXplorer, AGPL license -- `PHP`
+* [rclone](https://rclone.org/) - Probably the best cloner, supports almost any source and dest -- `Golang`
 * [Seafile](https://seafile.com/en/home/) - Also offers a paid professional edition with more features, supports most platforms -- `C`
 * [SparkleShare](http://sparkleshare.org/) - Uses git under the hood, neat -- `Windows` `OS X`
 * [Syncany](https://www.syncany.org/) - Supports tons of different protocols for the transfer (SCP, FTP, Samba, S3, etc) -- `Gradle`
@@ -492,6 +493,7 @@
 * [Telepresense](https://www.telepresence.io/) - Local development against a remote Kubernetes or OpenShift cluster -- `Python`
 * [Teleport](https://gravitational.com/teleport/) - Auditing bastion host & middleman, now supports the Kubernetes apifserver protocol -- `Golang`
 * [Tsuru](https://github.com/tsuru/tsuru) - Docker-based PaaS -- `Golang`
+* [Typhoon](https://typhoon.psdn.io/) - Minimal and free Kubernetes distro, great for testing and learning on small systems -- `various lang`
 * [Watchtower](https://github.com/v2tec/watchtower) - Monitors your running Docker containers and restart them when a new image is available -- `Golang`
 * [Weave](https://github.com/zettio/weave/) - Virtual network that connects Docker containers deployed across multiple hosts -- `Golang`
 * [virtlet](https://github.com/Mirantis/virtlet) - Kubernetes CRI implementation for running VM workloads (QCOW2 images) -- `Golang`
@@ -519,6 +521,7 @@
 * [Kibana](https://www.elastic.co/products/kibana) - Visualization component of the ELK stack -- `JavaScript`
 * [ksar](https://sourceforge.net/projects/ksar/) - Creates pretty graphs from sar output -- `Java`
 * [logstalgia](http://logstalgia.io/) - Web site access log visualization tool, aka Apache Pong -- `C++`
+* [lsofgraph](https://github.com/zevv/lsofgraph) - lsof output into to Graphviz -- `Lua`
 * [Grafana](https://grafana.org/) - Modern dashboard for Graphite -- `JavaScript`
 * [grafana-statusmap](https://github.com/flant/grafana-statusmap) - Grafana status panel -- `JavaScript`
 * [Mozaik](https://github.com/plouc/mozaik) - Create beautiful dashboards using Node/React/D3 -- `JavaScript`
@@ -1432,6 +1435,7 @@
 
 * [afl-fuzz (American Fuzzy Lop)](http://lcamtuf.coredump.cx/afl/) - One of the best fuzzers -- `C`
 * [AIDE (Advanced Intrusion Detection Environment)](http://aide.sourceforge.net/) - File integrity checker, alternative to Tripwire -- `various lang`
+* [Amass](https://github.com/OWASP/Amass) - Automatically obtains subdomain names in a variety of ways and uses that info to build maps of the target network, by OWASP -- `Golang`
 * [Angry IP Scanner](http://angryip.org/) - GUI network scanner, supports plugins, -- `Java` `Windows` `OS X`
 * [Armitage](http://www.fastandeasyhacking.com/) - GUI for Metasploit -- `Java`
 * [ATA Secure Erase](https://ata.wiki.kernel.org/index.php/ATA_Secure_Erase) - Send a signal to an ATA drive to perform a hardware-based erase, the ONLY way to wipe a SSD properly -- `article`
@@ -1444,6 +1448,7 @@
 * [chkrootkit](http://www.chkrootkit.org/) - Rootkit checker, best used from a live CD -- `C`
 * [CIS Linux Benchmarks](https://learn.cisecurity.org/benchmarks?category=benchmarks.os.linux) - Linux OS hardening guides, superb! -- `collection`
 * [ConfigServer Security and Firewall (CSF)](https://configserver.com/cp/csf.html) - Stateful Packet Inspection (SPI) firewall, Login/Intrusion Detection and Security application for Linux servers -- `various lang`
+* [CSP Evaluator](https://csp-evaluator.withgoogle.com/) - Check if a Content Security Policy (CSP) serves as a strong mitigation against cross-site scripting attacks, by Google -- `in-browser`
 * [cuckoo](http://cuckoo.cert.ee/) - Feed in malware URL, it fires up VM, and provides a report about the actions the malware took -- `in-browser`
 * [CyberChef](https://github.com/gchq/CyberChef) - A web app for encryption, encoding, compression and data analysis -- `in-browser` `JavaScript`
 * [dcfldd](http://dcfldd.sourceforge.net/) - Enhanced dd with security and forensics features -- `C`
@@ -1468,6 +1473,7 @@
 * [Joe's Sandbox (Cloud Basic)](https://www.joesandbox.com/) - Deep automated malware analysis -- `in-browser`
 * [Kali NetHunter Linux Root Toolkit (LRT)](https://github.com/offensive-security/nethunter-LRT) - Collection of bash scripts that setup and install Kali Linux NetHunter from a Linux/OSX environment onto a NetHunter supported device -- `shell`
 * [Lynis](https://cisofy.com/lynis/) - Auditing and hardening tool, supports most Unix-like operating systems -- `shell`
+* [Massscan](https://github.com/robertdavidgraham/masscan) - Scans in parallel and async for the fastest scans around -- `C`
 * [Metasploit](https://www.metasploit.com/) - Classic exploit framework -- `various lang`
 * [National Checklist Program](https://nvd.nist.gov/ncp/repository) - U.S. government repository of publicly available security checklists (or benchmarks) that provide detailed low level guidance on setting the security configuration of operating systems and applications -- `collection`
 * [National Software Reference Library (NSRL)](https://www.nist.gov/software-quality-group/national-software-reference-library-nsrl) - Large collection of diskprints from various software and malware -- `collection`
@@ -1539,6 +1545,7 @@
 * [autojump](https://github.com/joelthelion/autojump) - Small database of directories that you visited in the past, used to quickly navigate complex directory structures -- `Python`
 * [Awesome Shell](https://github.com/alebcay/awesome-shell) - Massive collection of shell tools -- `collection`
 * [Babun](https://babun.github.io/) - Pre-configured Cygwin with many more features and a better design -- `various lang`
+* [Bash-it](https://github.com/Bash-it/bash-it) - bash version of the oh-my-zsh shell environment -- `various lang`
 * [BashGuide](http://mywiki.wooledge.org/BashGuide) - Targeted at beginners -- `wiki`
 * [Bash Hackers Wiki](http://wiki.bash-hackers.org/start) - Human-readable bash documentation so you don't have to dig through the man page -- `wiki`
 * [Bash Pitfalls](http://mywiki.wooledge.org/BashPitfalls) - Common errors that bash programmers make -- `wiki`
@@ -1796,6 +1803,7 @@
 * [BusyBox](https://busybox.net/) - Bootable Linux with tiny versions of many common UNIX utilities in a single small executable -- `C`
 * [Calico](http://www.projectcalico.org/) - L3 fabric that runs a vRouter on each node, supports containers -- `Python`
 * [DOSbox](https://www.dosbox.com/) - Open source DOS emulator, great for running old games or utilities -- `C` `C++`
+* [Firecracker](https://firecracker-microvm.github.io/) - Micro-VM for serverless computing, by Amazon -- `Rust`
 * [FreeNAS](http://www.freenas.org/) - BSD-based NAS, supports ZFS -- `C`
 * [GitHub Load Balancer Director](https://github.com/github/glb-director) - Layer 4 load balancer -- `C`
 * [GNS3](https://www.gns3.com/) - Cisco and other network simulator that runs in VirtualBox or Qemu/KVM -- `Python`
@@ -1879,6 +1887,7 @@
 * [MACsec aka 802.1AE](https://en.wikipedia.org/wiki/IEEE_802.1AE) - Use me for confidentiality and integrity at layer 2, useful for WAN links -- `standard`
 * [Magic Wormhole](https://github.com/warner/magic-wormhole) - Safely and simply send arbitrary-sized files and directories (or short pieces of text) from one computer to another -- `Python`
 * [n2n](https://github.com/ntop/n2n) - L2 over L3 VPN that uses a peer-to-peer architecture -- `C`
+* [nipe](https://github.com/GouveaHeitor/nipe) - A script to make Tor Network your default gateway -- `perl BOOYA`
 * [OpenConnect](http://www.infradead.org/openconnect/) - Supports Cisco's AnyConnect SSL VPN -- `C`
 * [OpenVPN](https://openvpn.net/) - The one and only -- `C`
 * [Pritunl](http://pritunl.com/) - Distributed enterprise VPN server built using the OpenVPN protocol, supports Google sign-in -- `Python`
@@ -1947,6 +1956,7 @@
 * [Varnish](https://www.varnish-cache.org/) - Caching HTTP accelerator -- `C`
 * [vcr](https://github.com/vcr/vcr) - Record and play back HTTP sessions -- `Ruby gem`
 * [webhook](https://github.com/adnanh/webhook/) - Super simple webhook server -- `Golang`
+* [wuzz](https://github.com/asciimoo/wuzz) - Interactive cli tool for HTTP inspection (menu-based) -- `Golang`
 
 
 ---
@@ -2027,6 +2037,7 @@
 * [DevDocs](https://devdocs.io/) - Documentation browser for almost every API -- `collection`
 * [DevOps Conferences](http://www.gotodevops.org/) - Add and remove via PR, please contribute -- `collection`
 * [Every Programmer Should Know...](https://github.com/mtdvio/every-programmer-should-know) - A collection of (mostly) technical things every software developer should know -- `collection`
+* [Everything You Should Know About Certificates and PKI](https://smallstep.com/blog/everything-pki.html) - Easy to understand tutorial -- `tutorial`
 * [f.lux](https://justgetflux.com/) - Changes your screen from blue light to yellow light when the sun sets to tell your brain it's night time -- `closed source` `OS X` `Windows`
 * [Fossor](https://github.com/linkedin/fossor) - Automate on-call investigation steps, by LinkedIn -- `Python pip`
 * [Geocities-izer](http://www.wonder-tonic.com/geocitiesizer/) - Make any HTML web page look like a Geocities page -- `sweeeeeeet`
@@ -2047,6 +2058,7 @@
 * [JVM Internals](http://blog.jamesdbloom.com/JVMInternals.html) - A superb explanation of how the Java JVM works in easy to understand terms -- `collection`
 * [Kanopy](https://www.kanopystreaming.com/) - Streaming movies for USA public library members -- `explore yours today`
 * [Katacoda](https://www.katacoda.com/learn) - In-browser labs and exercises with modern DevOps tools -- `way cool`
+* [Kubernetes by Example](http://kubernetesbyexample.com/) - By the RedHat OpenShift team -- `tutorial`
 * [Kubernetes Clusters for the Hobbyiest](https://github.com/hobby-kube/guide) - How to securely run Kubernetes on providers that don't have ELBs, private networking, or persistent storage (Hetzner Cloud, DigitalOcean or Scaleway) -- `guide`
 * [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) - Build Kubernetes from the ground up as a learning exercise -- `tutorial`
 * [Libby](https://meet.libbyapp.com/) - App for ebooks and audio books for USA public library members, from OverDrive -- `explore yours today` `Android` `iOS` `Windows 10`
@@ -2080,6 +2092,7 @@
 * [Play with Kubernetes](https://labs.play-with-k8s.com/) - A simple, interactive and fun playground to learn Kubernetes in your browser, by Docker -- `in-browser`
 * [PrivacyTools.io](https://www.privacytools.io/) - All in one collection, web site source is on GitHub -- `collection`
 * [Privacy Badger](https://www.eff.org/privacybadger) - The best in-browser privacy and anti-tracking tool, by the EFF (donate) -- `Chrome` `Firefox`
+* [Production Readiness Checklist](https://www.gruntwork.io/devops-checklist/) - Excellent checklist for pre-go-live, AWS-centric but great general advice -- `collection`
 * [QUIC (Quick UDP Internet Connections)](https://arstechnica.com/gadgets/2018/11/the-next-version-of-http-wont-be-using-tcp/) - The foundation for HTTP/3 -- `article`
 * [runwhen](http://code.dogmap.org/runwhen/) - Utilities for running commands at particular times, cron on steroids -- `C`
 * [Secure Messaging Apps](https://www.securemessagingapps.com/) - True comparison of the technical features and merits of various apps, which are TRULY secure? -- `collection`
