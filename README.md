@@ -565,6 +565,7 @@
 * [consul Tools](https://www.consul.io/downloads_tools.html) - Official, includes consul-template and others -- `various lang`
 * [Curator](https://curator.apache.org/) - ZooKeeper client wrapper and rich ZooKeeper framework, by Netflix -- `Java`
 * [DC/OS](https://dcos.io/) - Pre-configured data center OS distribution that includes Mesos, Marathon, AdminRouter, and more -- `Python`
+* [DoctorKafka](https://github.com/pinterest/doctorkafka) - Kafka cluster auto healing and workload auto-balancing -- `Java`
 * [Envoy Proxy](https://lyft.github.io/envoy/) - Sidecar container for distributed applications or microservices, data plane service mesh / edge proxy -- `C++`
 * [etcd](https://github.com/coreos/etcd) - Distributed, consistent key-value store for shared configuration and service discovery -- `Golang`
 * [eureka](https://github.com/Netflix/eureka) - AWS Service registry for resilient mid-tier load balancing and failover, by Netflix -- `Java`
@@ -1926,6 +1927,7 @@
 * [http-traceroute](https://digi.ninja/projects/http_traceroute.php) - Shows the entire route including cookies, redirects, and response codes -- `Ruby`
 * [httpdiff](https://github.com/jgrahamc/httpdiff) - Perform the same reuqest against two HTTP servers and diff the results -- `Golang`
 * [httpie](https://github.com/jakubroztocil/httpie) - curl replacement with many new features -- `Python`
+* [httptoolkit](https://github.com/httptoolkit/httptoolkit-server) - Open-source HTTP(S) debugging proxy, analyzer & client -- `Typescript`
 * [htty](https://htty.github.io/htty/) - A console application for interacting with web servers -- `Ruby gem`
 * [Huginn](https://github.com/cantino/huginn) - Build agents that perform automated tasks/workflows for you online or locally, like IFTTT -- `Ruby`
 * [Insomnia REST Client](https://insomnia.rest/) - An alternative to POSTman, additional features -- `Electron` `Windows` `OS X` `Linux`
@@ -2033,6 +2035,7 @@
 * [conserver](http://www.conserver.com/) - Virtual console server with many features (multi-user, console log history, etc) -- `C`
 * [Convergent Encryption](https://en.wikipedia.org/wiki/Convergent_encryption) - Produces identical ciphertext from identical plaintext files, used for dedupe / space savings in the cloud -- `article`
 * [CRIU (Checkpoint Restore in Userspace)](https://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later -- `insane`
+* [Cybersecurity Canon](https://cybercanon.paloaltonetworks.com/) - A Rock & Roll Hall of Fame for cybersecurity books, by Palo Alto -- `collection`
 * [Dark Mode by Bernard](https://addons.mozilla.org/en-US/firefox/addon/dark-mode-webextension/) - Simple dark mode / night mode for Firefox -- `JavaScript`
 * [Design Patterns for Humans](https://github.com/kamranahmedse/design-patterns-for-humans) - An ultra-simplified explanation of repeatable software design patterns -- `article`
 * [Design Patterns](https://sourcemaking.com/design_patterns) - Wonderful collection of software development design patterns with examples, includes anti-patterns and refactoring guidelines -- `collection`
@@ -2064,6 +2067,8 @@
 * [Kubernetes by Example](http://kubernetesbyexample.com/) - By the RedHat OpenShift team -- `tutorial`
 * [Kubernetes Clusters for the Hobbyiest](https://github.com/hobby-kube/guide) - How to securely run Kubernetes on providers that don't have ELBs, private networking, or persistent storage (Hetzner Cloud, DigitalOcean or Scaleway) -- `guide`
 * [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) - Build Kubernetes from the ground up as a learning exercise -- `tutorial`
+* [Kubernetes the Hard Way Vagrant](https://github.com/kinvolk/kubernetes-the-hard-way-vagrant) - A port of Kelsey Hightower's "Kubernetes the Hard Way" tutorial to Vagrant -- `tutorial`
+* [Kubernetes Up and Running](https://github.com/iMarcoGovea/books/blob/master/dev-ops/kubernetes/kubernetes-up-running.pdf) - Full book -- `tutorial`
 * [Libby](https://meet.libbyapp.com/) - App for ebooks and audio books for USA public library members, from OverDrive -- `explore yours today` `Android` `iOS` `Windows 10`
 * [Linux Performance](http://www.brendangregg.com/linuxperf.html) - Centralized page for all of Brendan Gregg's Linux performance material (slides videos pages etc) -- `the man`
 * [Linux Tracing Workshop](https://github.com/goldshtn/linux-tracing-workshop) - Hands on exercises with perf, bcc, and similar tools -- `various lang`
