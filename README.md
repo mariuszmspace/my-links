@@ -837,6 +837,7 @@
 * [mtail](https://github.com/google/mtail) - Extract monitoring data from application logs for collection into a timeseries database, by Google -- `Golang`
 * [OpenTSDB](http://opentsdb.net/) - Store and serve massive amounts of time series data without losing granularity -- `Java`
 * [Prometheus](https://prometheus.io/) - Metrics collection and storage, can trigger alerts when thresholds are breached, based on Borgmon -- `Golang`
+* [prometheus-am-executor](https://github.com/imgix/prometheus-am-executor) - HTTP server that receives alerts from the Prometheus Alertmanager and executes a given command with alert details set as environment variables -- `Golang`
 * [Sensu](https://sensuapp.org/) - Open source monitoring framework, cloud-focused, dynamic, scalable - also does metrics collection -- `Ruby`
 * [Skyline](https://github.com/etsy/skyline) - Real-time anomaly detection system to enable passive monitoring of metrics without the need to configure thresholds -- `Python`
 * [SNMPcollector](https://github.com/toni-moreno/snmpcollector) - SNMP collector that saves into InfluxDB for easy visualization -- `Golang` `JavaScript`
@@ -915,6 +916,7 @@
 * [kcptun](https://github.com/xtaci/kcptun) - Secure and fast tunnel based on KCP -- `Golang`
 * [ipcalc](https://linux.die.net/man/1/ipcalc) - CLI tool to calculate subnets, netmasks, IP ranges, broadcast addresses, and more -- `built-in`
 * [iptstate](https://linux.die.net/man/8/iptstate) - A top-like display of IP Tables state table entries -- `built-in`
+* [grepcidr](http://www.pc-tools.net/unix/grepcidr/) - Filter a list of IP addresses against one or more Classless Inter-Domain Routing (CIDR) specifications -- `C`
 * [GridFTP](http://toolkit.globus.org/toolkit/docs/latest-stable/gridftp/) - Supports parallel streams, optimized for WANs, part of the Globus Toolkit -- `C`
 * [hosts](https://github.com/StevenBlack/hosts) - Consolidates several reputable hosts files and merges them into a unified hosts file with duplicates removed (ads, malware, gambling, porn, etc) -- `collection`
 * [hping3](https://linux.die.net/man/8/hping3) - Create custom TCP/IP packets, very flexible -- `built-in`
@@ -943,6 +945,7 @@
 * [PowerAdmin](http://www.poweradmin.org/) - Simple Web UI for PowerDNS -- `PHP`
 * [Quagga](http://www.nongnu.org/quagga/) - Routing software suite, supports most routing protocols -- `C`
 * [SiLK (System for Internet-Level Knowledge)](https://tools.netsa.cert.org/silk/) - Tool suite supports the efficient collection, storage, and analysis of network flow data, enabling network security analysts to rapidly query large historical traffic data sets -- `C`
+* [sipcalc](https://github.com/sii/sipcalc) - Advanced CLI IP calculator that supports both v4 and v6 -- `C`
 * [snabb](https://github.com/snabbco/snabb) - Worth seeing -- `various lang`
 * [socat](http://www.dest-unreach.org/socat/) - netcat on steroids, supports serial devices -- `C`
 * [sslh](http://www.rutschle.net/tech/sslh.shtml) - Protocol multiplexer, let multiple daemons listen on a single port -- `C`
@@ -952,6 +955,7 @@
 * [Trigger](https://github.com/trigger/trigger) - Network automation toolkit written in Python, created by AOL -- `Python`
 * [UDR](https://github.com/LabAdvComp/UDR) - UDT wrapper for rsync that improves throughput of large data transfers over long distances -- `C++`
 * [vFlow](https://github.com/VerizonDigital/vflow) - High-performance, scalable and reliable enterprise netflow collector with Kafka integration, by Verizon -- `Golang`
+* [webterm appliance](https://docs.gns3.com/appliances/webterm.html) - Debian-based networking toolbox, runs in a Docker container + Firefox, by the GNS3 team -- `neat`
 * [WireShark](https://www.wireshark.org/) - The classic network analyzer -- `C`
 * [WireShark Tools](https://wiki.wireshark.org/Tools) - Superb list of network tools from the WireShark wiki -- `collection`
 * [Zenmap](https://nmap.org/zenmap/) - Official GUI for Nmap -- `C` `Windows` `OS X`
@@ -1258,6 +1262,7 @@
 
 * [Adminer](https://www.adminer.org/) - GUI for database management in a single PHP, formerally phpMyAdmin -- `PHP`
 * [CockroachDB](https://www.cockroachlabs.com/) - Open source version of Google's Spanner storage system -- `thefuture` `Golang`
+* [DBeaver](https://dbeaver.io/) - OSS multi-platform GUI that supports almost every DB, built from Eclipse -- `Eclipse`
 * [DB Browser for SQLite](http://sqlitebrowser.org/) - GUI database browser for SQLite instances -- `C++`
 * [Flyway](https://flywaydb.org/) - Version control for DB schemas, supports most DBs -- `Java`
 * [gh-ost](https://github.com/github/gh-ost) - Online schema migrations for MySQL, by GitHub -- `Golang`
