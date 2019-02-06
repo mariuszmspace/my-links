@@ -456,7 +456,6 @@
 * [Kitematic](https://kitematic.com/) - GUI Docker management on Mac & Windows (laptops), official -- `JavaScript` `Windows` `OS X`
 * [Kong](https://getkong.org/) - Microservice abstraction layer (aka API Gateway or Service Mesh), great for creating API endpoints -- `Lua`
 * [kops](https://github.com/kubernetes/kops) - CLI for managing, upgrading, maintaining, creating, etc Kubernetes clusters -- `Golang`
-* [ksonnet](https://ksonnet.io/) - CLI-supported framework for extensible Kubernetes configurations, built on Jsonnet -- `Golang`
 * [kubeadm-dind-cluster](https://github.com/mirantis/kubeadm-dind-cluster) - kubeadm and DIND (Docker in Docker) create a multi-node Kubernetes cluster on your laptop for dev -- `Shell`
 * [kube-applier](https://github.com/box/kube-applier) - service that enables continuous deployment of Kubernetes objects by applying declarative configuration files from a Git repository to a Kubernetes cluster -- `Golang`
 * [kube-bench](https://github.com/aquasecurity/kube-bench) - Compliance checker for Kubernetes CIS benchmarks -- `Golang`
@@ -467,6 +466,7 @@
 * [Kubernetes](https://kubernetes.io/) - Open source orchestration system for Docker containers, by Google -- `Golang`
 * [kubernetes-cloudflare-sync](https://github.com/calebdoxsey/kubernetes-cloudflare-sync) - Run in your Kubernetes Cluster on GKE and sync DNS records on Cloudflare with your nodes IPs to avoid GCP LB fees -- `Golang`
 * [kubernetes-deploy](https://github.com/Shopify/kubernetes-deploy) - tool that helps you ship changes to a Kubernetes namespace and understand the result, by Shopify -- `Ruby`
+* [Kubernetes Network Policy Recipes](https://github.com/ahmetb/kubernetes-network-policy-recipes) - Example recipes for Kubernetes Network Policies that you can just copy paste -- `collection`
 * [kubespray](https://github.com/kubernetes-incubator/kubespray) - Deploy a production ready Kubernetes cluster, a Kubernetes Incubator project -- `Golang`
 * [kubewatch](https://github.com/bitnami-labs/kubewatch) - Kubernetes event watcher and handler (currently only publishes to Slack channels, integrations wanted!) -- `Golang`
 * [kubicorn](https://github.com/kris-nova/kubicorn) - Multi-provider deployment abstraction layer / library for Kubernetes -- `Golang`
@@ -1141,6 +1141,7 @@
 * [Overcast](https://github.com/andrewchilds/overcast) - VM orchestration and provisioning for DigitalOcean, Linode and Amazon, or locally using Vagrant + Virtualbox -- `various lang`
 * [Packer](https://www.packer.io/) - Automates VM creation for multiple platforms (VMware, AWS, etc) -- `Golang`
 * [Terraform](https://www.terraform.io/) - Infrastructure provisioning using existing tools, supports many providers (AWS, Azure, DO, OpenStack, etc) -- `Golang` `Hashicorp`
+* [Terraform Landscape](https://github.com/coinbase/terraform-landscape) - Makes terraform plan easier to read -- `Ruby`
 * [Terragrunt](https://github.com/gruntwork-io/terragrunt) - Tools for keeping your Terraform configurations DRY, working with multiple Terraform modules, and managing remote state -- `Golang`
 * [Terratest](https://github.com/gruntwork-io/terratest) - Makes it easier to write automated tests for your infrastructure code, provides a variety of helper functions and patterns for common infrastructure testing tasks -- `Golang`
 * [tflint](https://github.com/wata727/tflint) - Terraform linter for detecting errors that can not be detected by terraform plan -- `Golang`
@@ -2112,6 +2113,7 @@
 * [Secure Messaging Apps](https://www.securemessagingapps.com/) - True comparison of the technical features and merits of various apps, which are TRULY secure? -- `collection`
 * [Security 101 for SaaS Startups](https://github.com/forter/security-101-for-saas-startups) - Excellent checklist and guide in easy to understand terms for non-infrastructure people -- `collection`
 * [Site Reliability Engineering (SRE) by Google](https://landing.google.com/sre/book.html) - Full, free, online version of the O'Reilly book -- `the best`
+* [Site Reliability Workbook](https://landing.google.com/sre/workbook/toc/) - By Google - `book`
 * [StackStorm](https://github.com/StackStorm/st2) - IFTTT for Ops -- `Python`
 * [Steps Recorder (aka Problem Steps Recorder)](https://support.microsoft.com/en-us/help/22878/windows-10-record-steps) - Windows 7+, user records themselves reproducing a problem, they send video to you, you playback -- `closed source`
 * [System Architecture](https://github.com/orrsella/soft-eng-interview-prep/blob/master/topics/system-architecture.md) - Great refresher, not so great for first time learners -- `collection`
