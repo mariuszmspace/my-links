@@ -2043,6 +2043,7 @@
 * [CRIU (Checkpoint Restore in Userspace)](https://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later -- `insane`
 * [Cybersecurity Canon](https://cybercanon.paloaltonetworks.com/) - A Rock & Roll Hall of Fame for cybersecurity books, by Palo Alto -- `collection`
 * [Dark Mode by Bernard](https://addons.mozilla.org/en-US/firefox/addon/dark-mode-webextension/) - Simple dark mode / night mode for Firefox -- `JavaScript`
+* [Databases by Daniel Soper](https://www.youtube.com/watch?v=4Z9KEBexzcM&list=PL1LIXLIF50uXWJ9alDSXClzNCMynac38g&index=1) - From the ground up, Personally recommended -- `tutorial`
 * [Design Patterns for Humans](https://github.com/kamranahmedse/design-patterns-for-humans) - An ultra-simplified explanation of repeatable software design patterns -- `article`
 * [Design Patterns](https://sourcemaking.com/design_patterns) - Wonderful collection of software development design patterns with examples, includes anti-patterns and refactoring guidelines -- `collection`
 * [Designing Data Intensive Applications](https://dataintensive.net/) - The big ideas behind reliable, scalable, and maintable systems - highly recommened -- `book`
