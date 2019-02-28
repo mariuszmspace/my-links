@@ -443,6 +443,7 @@
 * [Heptio Sonobuoy](https://github.com/heptio/sonobuoy) - Kubernetes end to end conformance testing and debugging tool -- `Golang`
 * [img](https://github.com/genuinetools/img) - Standalone, daemon-less, unprivileged Dockerfile and OCI compatible container image builder -- `Golang`
 * [Install RedHat OKD](https://github.com/gshipley/installcentos?files=1) - Set of file that installs OKD (OpenShift's upstream) on a single VM for testing & dev -- `shell`
+* [Istio Operator](https://github.com/banzaicloud/istio-operator/) - An operator that manages Istio deployments on Kubernetes, by Banzai Cloud -- `Golang`
 * [Jenkins Docker Slaves Plugin](https://github.com/jenkinsci/docker-slaves-plugin) - Aka Dockins, execute a Jenkins job inside one or more containers, supports most job types -- `Java`
 * [Jenkins Kubernetes Plugin](https://wiki.jenkins.io/display/JENKINS/Kubernetes+Plugin) - Use a Kubernetes cluster to dynamically provision a Jenkins agent (using Kubernetes scheduling mechanisms to optimize the loads), run a single build, then tear-down that agent -- `Java`
 * [Jenkins X](https://jenkins-x.io/) - Another Kubernetes deployer -- `various lang`
@@ -454,6 +455,7 @@
 * [Kitematic](https://kitematic.com/) - GUI Docker management on Mac & Windows (laptops), official -- `JavaScript` `Windows` `OS X`
 * [Kong](https://getkong.org/) - Microservice abstraction layer (aka API Gateway or Service Mesh), great for creating API endpoints -- `Lua`
 * [kops](https://github.com/kubernetes/kops) - CLI for managing, upgrading, maintaining, creating, etc Kubernetes clusters -- `Golang`
+* [kubeadm-aws](https://github.com/cablespaghetti/kubeadm-aws) - Really cheap Kubernetes cluster on AWS with kubeadm -- `Terraform`
 * [kubeadm-dind-cluster](https://github.com/mirantis/kubeadm-dind-cluster) - kubeadm and DIND (Docker in Docker) create a multi-node Kubernetes cluster on your laptop for dev -- `Shell`
 * [kube-applier](https://github.com/box/kube-applier) - service that enables continuous deployment of Kubernetes objects by applying declarative configuration files from a Git repository to a Kubernetes cluster -- `Golang`
 * [kube-bench](https://github.com/aquasecurity/kube-bench) - Compliance checker for Kubernetes CIS benchmarks -- `Golang`
@@ -461,6 +463,7 @@
 * [kubectx](https://github.com/ahmetb/kubectx) - Easily switch between kubectl contexts and namespaces -- `Ruby`
 * [kubed](https://github.com/appscode/kubed) - Perform periodic cluster snapshots, provide temp storage for deleted objects, automatic event forwarding, deliver notifications via various channels for Kubernetes -- `Golang`
 * [kubediscovery](https://github.com/cloud-ark/kubediscovery) - Tool that helps you find dynamic composition tree of Kubernetes objects -- `Golang`
+* [kubehost](https://github.com/GoogleContainerTools/kubehost) - Uses existing features of GKE to expose your service directly onto one of the VMs -- `shell`
 * [Kubernetes](https://kubernetes.io/) - Open source orchestration system for Docker containers, by Google -- `Golang`
 * [kubernetes-cloudflare-sync](https://github.com/calebdoxsey/kubernetes-cloudflare-sync) - Run in your Kubernetes Cluster on GKE and sync DNS records on Cloudflare with your nodes IPs to avoid GCP LB fees -- `Golang`
 * [kubernetes-deploy](https://github.com/Shopify/kubernetes-deploy) - tool that helps you ship changes to a Kubernetes namespace and understand the result, by Shopify -- `Ruby`
