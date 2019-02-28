@@ -448,6 +448,7 @@
 * [Jenkins Kubernetes Plugin](https://wiki.jenkins.io/display/JENKINS/Kubernetes+Plugin) - Use a Kubernetes cluster to dynamically provision a Jenkins agent (using Kubernetes scheduling mechanisms to optimize the loads), run a single build, then tear-down that agent -- `Java`
 * [Jenkins X](https://jenkins-x.io/) - Another Kubernetes deployer -- `various lang`
 * [jib](https://github.com/GoogleContainerTools/jib) - Build container images for your Java applications, by Google -- `Java`
+* [k3s](https://k3s.io/) - Lighweight Kubernetes in a 40mb binary, built for the edge, by Rancher -- `Golang`
 * [k8s-prom-hpa](https://github.com/stefanprodan/k8s-prom-hpa) - A Kubernetes horizontal pod autoscaler with Prometheus custom metrics -- `Golang`
 * [Kata Containers](https://katacontainers.io/) - A mix of Clear Containers / Clear Linux and Hyper's runV -- `frankencontainers` `various lang`
 * [Keel](https://keel.sh) - Stateless, automated Kubernetes deployment updates -- `Golang`
