@@ -442,7 +442,6 @@
 * [Heptio Ark](https://github.com/heptio/ark) - Manage disaster recovery for your Kubernetes persistent volumes and cluster resources -- `Golang`
 * [Heptio Sonobuoy](https://github.com/heptio/sonobuoy) - Kubernetes end to end conformance testing and debugging tool -- `Golang`
 * [img](https://github.com/genuinetools/img) - Standalone, daemon-less, unprivileged Dockerfile and OCI compatible container image builder -- `Golang`
-* [Install RedHat OKD](https://github.com/gshipley/installcentos?files=1) - Set of file that installs OKD (OpenShift's upstream) on a single VM for testing & dev -- `shell`
 * [Istio Operator](https://github.com/banzaicloud/istio-operator/) - An operator that manages Istio deployments on Kubernetes, by Banzai Cloud -- `Golang`
 * [Jenkins Docker Slaves Plugin](https://github.com/jenkinsci/docker-slaves-plugin) - Aka Dockins, execute a Jenkins job inside one or more containers, supports most job types -- `Java`
 * [Jenkins Kubernetes Plugin](https://wiki.jenkins.io/display/JENKINS/Kubernetes+Plugin) - Use a Kubernetes cluster to dynamically provision a Jenkins agent (using Kubernetes scheduling mechanisms to optimize the loads), run a single build, then tear-down that agent -- `Java`
@@ -483,10 +482,11 @@
 * [Minishift](https://www.openshift.org/minishift/) - OpenShift in a VM for testing / learning -- `Golang`
 * [ngnix-proxy](https://github.com/jwilder/nginx-proxy) - Nginx proxy for Docker containers using docker-gen, recommened -- `Python`
 * [OKD](https://www.okd.io/) - The upstream for Red Hat's OpenShift 3.x, previously OpenShift Origin -- `Golang`
+* [OKD Install](https://github.com/gshipley/installcentos?files=1) - Set of file that installs OKD (OpenShift's upstream, formerly OpenShift Origin) on a single CentOS VM for testing & dev -- `shell`
 * [Panamax](https://panamax.io/) - Containerized app creator with an open-source app marketplace hosted in GitHub -- `various lang`
 * [pipework](https://github.com/jpetazzo/pipework) - SDN for Linux Containers -- `various lang`
 * [Portainer](https://github.com/portainer/portainer) - Web interface for Docker aka us-for-docker -- `JavaScript`
-* [Project Atomic](https://www.projectatomic.io/) - Super stripped down Linux OS designed to only run containers and nothing more, aka RHEL Atomic -- `various lang`
+* [Project Atomic](https://www.projectatomic.io/) - Stripped down containers-only version of CentOS and RHEL, official -- `various lang`
 * [Prometheus Operator](https://github.com/coreos/prometheus-operator) - Creates/configures/manages Prometheus clusters atop Kubernetes -- `Golang`
 * [pulumi](https://pulumi.io/) - HOT create and deploy cloud programs that use containers, serverless functions, hosted services, and infrastructure, on any cloud, supports most languages -- `various lang`
 * [Rancher](https://rancher.com/) - Provides a complete platform for operating Docker in production -- `various lang`
@@ -1636,6 +1636,7 @@
 * [Sonatype Nexus](http://www.sonatype.org/nexus/) - Software / binary artifact storage -- `Java`
 * [SourceGraph](https://github.com/sourcegraph/sourcegraph) - Perhaps the best code search and navigation engine -- `Golang`
 * [SymbolHound](http://symbolhound.com) - Search engine that doesn't ignore special characters, great for programming questions -- `try it`
+* [Visual Studio Code - Open Source](https://code.visualstudio.com/Download) - Open source version of Microsoft's product -- `JavaScript`
 * [watchman](https://github.com/facebook/watchman) - Watch files and take action when they change (eg: kick off the CI system), by Facebook -- `C`
 * [WireMock](http://wiremock.org/) - Flexible stubbing and mocking services -- `Java`
 
@@ -2091,10 +2092,10 @@
 * [Kubernetes Clusters for the Hobbyiest](https://github.com/hobby-kube/guide) - How to securely run Kubernetes on providers that don't have ELBs, private networking, or persistent storage (Hetzner Cloud, DigitalOcean or Scaleway) -- `guide`
 * [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) - Build Kubernetes from the ground up as a learning exercise -- `tutorial`
 * [Kubernetes the Hard Way Vagrant](https://github.com/kinvolk/kubernetes-the-hard-way-vagrant) - A port of Kelsey Hightower's "Kubernetes the Hard Way" tutorial to Vagrant -- `tutorial`
-* [Kubernetes Up and Running](https://github.com/iMarcoGovea/books/blob/master/dev-ops/kubernetes/kubernetes-up-running.pdf) - Full book -- `tutorial`
 * [Libby](https://meet.libbyapp.com/) - App for ebooks and audio books for USA public library members, from OverDrive -- `explore yours today` `Android` `iOS` `Windows 10`
 * [Linux Performance](http://www.brendangregg.com/linuxperf.html) - Centralized page for all of Brendan Gregg's Linux performance material (slides videos pages etc) -- `the man`
 * [Linux Tracing Workshop](https://github.com/goldshtn/linux-tracing-workshop) - Hands on exercises with perf, bcc, and similar tools -- `various lang`
+* [Managing Kubernetes](https://go.heptio.com/rs/383-ENX-437/images/Managing_Kubernetes.pdf) - Full ebook by Heptio and O'Reilly -- `book`
 * [maybe](https://github.com/p-e-w/maybe) - Allows a dry run of almost any Linux binary, see the files it will modify, calls made, etc -- `Python pip`
 * [Memory Management Reference](http://www.memorymanagement.org/index.html) - All in one reference for memory management and garbage collection -- `collection`
 * [MIT OpenCourseWare](https://ocw.mit.edu/about/) - MIT's real course materials from 2400+ courses -- `collection`
@@ -2113,6 +2114,8 @@
 * [OpenShift v3 DevOps Workshop](https://github.com/openshift-labs/devops-guides) - An interactive workshop -- `tutorial`
 * [OpenShift v3 Ops Workshop](https://github.com/RedHatWorkshops/openshiftv3-ops-workshop) - Admin / ops / design tasks and discussions -- `tutorial`
 * [OpenShift v3 Workshop](https://github.com/RedHatWorkshops/openshiftv3-workshop) - Interactive and free, a good starting point -- `tutorial`
+* [OpenShift v4 Developer Preview](https://try.openshift.com/) - Give it a try -- `tutorial`
+* [OpenShift v4 Training](https://github.com/openshift/training) - Official, requires AWS -- `tutorial`
 * [OpenVim](http://www.openvim.com/tutorial.html) - In-browser vim tutorial -- `tutorial` `in-browser`
 * [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/%7Eremzi/OSTEP/) - Probably the best OS book out there, free -- `book`
 * [Outages.org Mailing List](https://puck.nether.net/mailman/listinfo/outages) - Report and discuss major outages, network status updates, etc -- `mailing list`
