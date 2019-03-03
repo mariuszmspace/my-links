@@ -208,7 +208,6 @@
 * [localstack](https://github.com/localstack/localstack) - A fully functional local AWS cloud stack for offline dev and test -- `Python`
 * [Moto](https://github.com/spulec/moto) - Library that allows your Python tests to easily mock out the boto library -- `Python pip`
 * [My Arsenal of AWS Security Tools](https://github.com/toniblyx/my-arsenal-of-aws-security-tools) - List of open source tools for AWS security: defensive, offensive, auditing, DFIR, etc -- `collection`
-* [Open Guides: AWS](https://github.com/open-guides/og-aws) - Yowza -- `collection`
 * [Prowler](https://github.com/toniblyx/prowler) - For AWS account security assessment and hardenin, based on aws-cli commands -- `shell`
 * [refunc](https://github.com/refunc/refunc) - Run AWS Lambda on Kubernetes, a Lambda-compatable API -- `Golang`
 * [s3cmd](https://s3tools.org/s3cmd) - Backup to AWS via the command line -- `Python`
@@ -841,7 +840,7 @@
 * [m3](https://github.com/m3db/m3) - Distributed TSDB and query dngine, Prometheus sidecar and metrics platform by Uber -- `Golang`
 * [Metricbeat](https://github.com/elastic/beats/tree/master/metricbeat) - fetches a set of metrics on a predefined interval from OS & services and ships them to Elasticsearch or Logstash -- `Golang`
 * [Metrics](https://github.com/dropwizard/metrics) - Metrics and instrumentation at both the JVM and application level -- `Java`
-* [Micrometer](http://micrometer.io/) - Provides a simple facade (fake interface) over the instrumentation clients for the most popular monitoring systems, allowing you to instrument your JVM-based application code without vendor lock-in -- `Java`
+* [Micrometer](https://micrometer.io/) - Provides a simple facade (fake interface) over the instrumentation clients for the most popular monitoring systems, allowing you to instrument your JVM-based application code without vendor lock-in -- `Java`
 * [mtail](https://github.com/google/mtail) - Extract monitoring data from application logs for collection into a timeseries database, by Google -- `Golang`
 * [OpenTSDB](http://opentsdb.net/) - Store and serve massive amounts of time series data without losing granularity -- `Java`
 * [Prometheus](https://prometheus.io/) - Metrics collection and storage, can trigger alerts when thresholds are breached, based on Borgmon -- `Golang`
@@ -863,10 +862,10 @@
 > Monitor stuff, send alerts, wake you up - see also [Metrics and Time Series Data](#metrics-and-time-series-data) and [Logging](#logging) and [Data Visualization and Dashboards](#data-visualization-and-dashboards)
 
 * [Adagios](http://adagios.org/) - Web based Nagios configuration interface -- `HTML`
-* [Alerta](http://alerta.io/) - Distributed and de-coupled, requires MongoDB -- `Python`
-* [Bosun](http://bosun.org/) - Monitoring and alerting system written by Stack Exchange, based on Borgmon -- `Golang`
+* [Alerta](https://alerta.io/) - Distributed and de-coupled, requires MongoDB -- `Python`
+* [Bosun](https://bosun.org/) - Monitoring and alerting system written by Stack Exchange, based on Borgmon -- `Golang`
 * [Cabot](https://github.com/arachnys/cabot) - Self-hosted, easily-deployable monitoring and alerts service - like a lightweight PagerDuty -- `Python`
-* [check_mk](http://mathias-kettner.com/check_mk.html) - Extensions / plugins for Nagios -- `C`
+* [check_mk](https://mathias-kettner.com/check_mk.html) - Extensions / plugins for Nagios -- `C`
 * [check_mk Multisite](https://mathias-kettner.de/checkmk_multisite.html) - GUI for check_mk -- `various lang`
 * [Daemon Tools](https://cr.yp.to/daemontools.html) - Service monitoring and management tools -- `DJB`
 * [FastForward (ffwd)](https://github.com/spotify/ffwd) - Flexible system event and metric forwarding agent by Spotify -- `Ruby gem`
@@ -875,8 +874,8 @@
 * [Icinga2](https://github.com/Icinga/icinga2) - Complete re-write of Icinga by the same folks -- `various lang`
 * [LibreNMS](https://www.librenms.org/) - GPL fork of Observium -- `various lang`
 * [Monit](https://mmonit.com/monit/) - Includes tools to automatically take action when certain conditions are met (eg: restart a process when it dies) -- `C`
-* [Monitorix](http://www.monitorix.org/) - So lightweight that it can be used in mobile devices, aka Mikaku -- `perl`
-* [Naemon](http://www.naemon.org/) - Modular Nagios fork -- `various lang`
+* [Monitorix](https://www.monitorix.org/) - So lightweight that it can be used in mobile devices, aka Mikaku -- `perl`
+* [Naemon](https://www.naemon.org/) - Modular Nagios fork -- `various lang`
 * [Nagios](https://www.nagios.org/) - One of the most widely used OSS monitoring programs -- `various lang`
 * [nagios-herald](https://github.com/etsy/nagios-herald) - Gives context to Nagios alerts, by Etsy -- `Ruby`
 * [Nagios Exchange](https://exchange.nagios.org/) - Centralized repository of Nagios plugins, addons, extensions, etc -- `collection`
@@ -1482,7 +1481,7 @@
 * [hashcat](https://hashcat.net/hashcat/) - World's fastest CPU password cracker / password recovery -- `C`
 * [Hybrid Analysis](https://www.hybrid-analysis.com/) - Dree malware analysis service that detects and analyzes unknown threats using a unique *Hybrid Analysis* -- `in-browser`
 * [icebreaker](https://github.com/DanMcInerney/icebreaker) - Automates internal network attacks against Active Directory to deliver you plaintext credentials -- `various lang`
-* [Information Security Cheat Sheets and Checklists](https://zeltser.com/cheat-sheets/) - An assortment of IS checklists and cheat sheets -- `collection`
+* [Information Security Cheat Sheets and Checklists](https://zeltser.com/cheat-sheets/) - An assortment of IS checklists and cheat sheets,  -- `collection`
 * [Just the Basics (JTB) Investigator](https://github.com/Th3J0kr/jtb_investigator) - Simple menu & CLI to automate repetitive everyday tasks -- `Python`
 * [geoiplookup](https://linux.die.net/man/1/geoiplookup) - Uses the GeoIP DB and library to determine which physical country an IP or host originates in, includes PAM library -- `built-in`
 * [Hindsight](https://github.com/obsidianforensics/hindsight) - Internet history forensics for Google Chrome/Chromium  -- `Python`
@@ -1599,8 +1598,6 @@
 * [ack2](https://beyondgrep.com/) - grep-like tool designed to search source code -- `perl`
 * [afl-unicorn](https://github.com/njv299/afl-unicorn) - Fuzz any piece of binary that can be emulated by Unicorn Engine -- `C`
 * [ag (aka The Silver Searcher)](https://github.com/ggreer/the_silver_searcher) - Source code searching tool, a better grep -- `C`
-* [Algorithms and Data Structures Part 1](https://www.coursera.org/learn/algorithms-part1) - By Princeton University -- `course`
-* [Algorithms and Data Structures Part 2](https://www.coursera.org/learn/algorithms-part2) - By Princeton University -- `course`
 * [Barkeep](http://getbarkeep.org/) - Code review tool, kinda sorta like GitHub -- `Ruby`
 * [Bazel](https://bazel.build/) - Google's build system -- `Java`
 * [Bento](https://www.bento.io/grid) - Links to tutorials based on subject (programming, sysadmin, protocols, standards, etc) -- `collection`
@@ -1623,7 +1620,6 @@
 * [Jenkins Log Recorder](https://wiki.jenkins.io/display/JENKINS/Logging) - Helps you group relevant logs together while filtering out the noise -- `Java`
 * [Jenkins ThinBackup](https://wiki.jenkins-ci.org/display/JENKINS/thinBackup) - Jenkins plugin that backups configurations (not workspaces or archives) -- `Java`
 * [JSON Server](https://github.com/typicode/json-server) - Full fake REST API for quickly prototyping and mocking in 30 seconds -- `JavaScript`
-* [LearnXinYMinutes](https://learnxinyminutes.com/) - Super fast tutorials for almost every programming language -- `collection`
 * [MockServer](http://mock-server.com/) - Web server to remotely or locally mock HTTP/HTTPS and similar -- `Java`
 * [mountebank](http://www.mbtest.org/) - Stub downstream resources for testing, supports HTTP HTTPS SMTP TCP -- `JavaScript` `Windows` `OS X`
 * [Ninja](https://ninja-build.org/) - Small build system with a focus on speed -- `Python`
@@ -1799,7 +1795,6 @@
 > [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor) is the successor to two-factor authentication / TFA / 2FA and multi-factor authentication / MFA.  Avoid using SMS if possible - see also [VPNs and Tunnels](#vpns-and-tunnels) and [Secrets Management](#secrets-management)
 
 * [Authelia](https://github.com/clems4ever/authelia) - 2FA and SSO for your apps via Docker on Kubernetes, supports Yubikey, Google Authenticator, and e-mail based password reset -- `Golang`
-* [Two Factor Auth (2FA)](https://twofactorauth.org/) - Web sites that do and don't support 2FA, organized by category -- `checkit` `collection`
 * [CentOS 7 2FA VPN](https://github.com/rharmonson/richtech/wiki/CentOS-7-Minimal-&-Two-factor-Authentication-using-FreeRADIUS-3,-SSSD-1.12,-&-Google-Authenticator) - VPN with CentOS 7 + FreeRADIUS + FreeIPA + Google Authenticator -- `tutorial`
 * [FreeOTP](https://freeotp.github.io/) - Open source fork of Google Authenticator, by Red Hat -- `C` `mobile`
 * [Google Authenticator](https://github.com/google/google-authenticator) - Official project, supports Android, iOS, and has a PAM module for SSH 2FA -- `C`
@@ -2030,6 +2025,8 @@
 
 * [A Practical Guide to (Correctly) Troubleshooting with Traceroute](https://www.nanog.org/sites/default/files/10_Roisman_Traceroute.pdf) - Presentation, really digs in -- `article`
 * [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/) - Concise breakdown, by Red Hat -- `article`
+* [Algorithms and Data Structures Part 1](https://www.coursera.org/learn/algorithms-part1) - By Princeton University -- `course`
+* [Algorithms and Data Structures Part 2](https://www.coursera.org/learn/algorithms-part2) - By Princeton University -- `course`
 * [Amazon ECS Workshop](https://ecsworkshop.com/) - Configure GitHub, CodePipeline, CodeBuild, VPC, ALB, ECS, Autoscaling, and log aggregation using a framework called Mu to launch microservices on AWS Elastic Container Service -- `tutorial`
 * [Amazon EKS Workshop](https://eksworkshop.com/) - Designed to educate engineers that might not be familiar with Amazon EKS, Kubernetes, and possibly even Docker container workflow -- `tutorial`
 * [An Illustrated Guide to Kubernetes Networking](https://morioh.com/p/ecb38c8342ba/an-illustrated-guide-to-kubernetes-networking) - See title -- `article`
@@ -2097,6 +2094,7 @@
 * [Kubernetes Clusters for the Hobbyist](https://github.com/hobby-kube/guide) - How to securely run Kubernetes on providers that don't have ELBs, private networking, or persistent distributed storage (Hetzner Cloud, DigitalOcean or Scaleway) -- `guide`
 * [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) - Build Kubernetes from the ground up as a learning exercise -- `tutorial`
 * [Kubernetes the Hard Way Vagrant](https://github.com/kinvolk/kubernetes-the-hard-way-vagrant) - A port of Kelsey Hightower's "Kubernetes the Hard Way" tutorial to Vagrant -- `tutorial`
+* [LearnXinYMinutes](https://learnxinyminutes.com/) - Super fast tutorials for almost every programming language -- `collection`
 * [Libby](https://meet.libbyapp.com/) - App for ebooks and audio books for USA public library members, from OverDrive -- `explore yours today` `Android` `iOS` `Windows 10`
 * [Linux Performance](http://www.brendangregg.com/linuxperf.html) - Centralized page for all of Brendan Gregg's Linux performance material (slides videos pages etc) -- `the man`
 * [Linux Tracing Workshop](https://github.com/goldshtn/linux-tracing-workshop) - Hands on exercises with perf, bcc, and similar tools -- `various lang`
@@ -2122,6 +2120,7 @@
 * [OpenShift v4 Developer Preview](https://try.openshift.com/) - Give it a try -- `tutorial`
 * [OpenShift v4 Training](https://github.com/openshift/training) - Official, requires AWS -- `tutorial`
 * [OpenVim](http://www.openvim.com/tutorial.html) - In-browser vim tutorial -- `tutorial` `in-browser`
+* [Open Guides: AWS](https://github.com/open-guides/og-aws) - Excellent summary of almost all services -- `collection`
 * [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/%7Eremzi/OSTEP/) - Probably the best OS book out there, free -- `book`
 * [Outages.org Mailing List](https://puck.nether.net/mailman/listinfo/outages) - Report and discuss major outages, network status updates, etc -- `mailing list`
 * [OverDrive](https://www.overdrive.com/) - Ebooks and audio books for USA public library members -- `explore yours today`
@@ -2149,6 +2148,7 @@
 * [The Little Go Book](https://www.openmymind.net/The-Little-Go-Book/) - Free book, available in various formats - `book`
 * [Twelve-Factor App](https://12factor.net/) - Language-independent rules for codebase, dependencies, build/release/run, dev and prod, logs, etc for a cloud/web-centric app -- `collection`
 * [Twilight](https://play.google.com/store/apps/details?id=com.urbandroid.lux&hl=en) - F.lux for Android -- `closed source`
+* [Two Factor Auth (2FA)](https://twofactorauth.org/) - Web sites that do and don't support 2FA, organized by category, submit PRs for changes -- `collection`
 * [uBlock Origin](https://github.com/gorhill/uBlock) - Ad blocker, only use Origin, do not use another uBlock -- `Firefox` `Chrome`
 * [Unix Rosetta Stone](http://bhami.com/rosetta.html) - The one and only resource for a mixed Linux/Unix environment -- `translator`
 * [Use the Index, Luke](https://use-the-index-luke.com/) - SQL indexing and tuning for developers -- `collection`
