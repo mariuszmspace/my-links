@@ -482,7 +482,7 @@
 * [Minishift](https://www.openshift.org/minishift/) - OpenShift in a VM for testing / learning -- `Golang`
 * [ngnix-proxy](https://github.com/jwilder/nginx-proxy) - Nginx proxy for Docker containers using docker-gen, recommened -- `Python`
 * [OKD](https://www.okd.io/) - The upstream for Red Hat's OpenShift 3.x, previously OpenShift Origin -- `Golang`
-* [OKD Install](https://github.com/gshipley/installcentos?files=1) - Set of file that installs OKD (OpenShift's upstream, formerly OpenShift Origin) on a single CentOS VM for testing & dev -- `shell`
+* [OKD Install](https://github.com/gshipley/installcentos) - Set of file that installs OKD 3.x (OpenShift's upstream, formerly OpenShift Origin) on a single CentOS VM for testing & dev -- `shell`
 * [Panamax](https://panamax.io/) - Containerized app creator with an open-source app marketplace hosted in GitHub -- `various lang`
 * [pipework](https://github.com/jpetazzo/pipework) - SDN for Linux Containers -- `various lang`
 * [Portainer](https://github.com/portainer/portainer) - Web interface for Docker aka us-for-docker -- `JavaScript`
@@ -2025,6 +2025,7 @@
 > Everything else - see also everything else
 
 * [A Practical Guide to (Correctly) Troubleshooting with Traceroute](https://www.nanog.org/sites/default/files/10_Roisman_Traceroute.pdf) - Presentation, really digs in -- `article`
+* [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/) - Concise breakdown, by Red Hat -- `article`
 * [Amazon ECS Workshop](https://ecsworkshop.com/) - Configure GitHub, CodePipeline, CodeBuild, VPC, ALB, ECS, Autoscaling, and log aggregation using a framework called Mu to launch microservices on AWS Elastic Container Service -- `tutorial`
 * [Amazon EKS Workshop](https://eksworkshop.com/) - Designed to educate engineers that might not be familiar with Amazon EKS, Kubernetes, and possibly even Docker container workflow -- `tutorial`
 * [An Illustrated Guide to Kubernetes Networking](https://morioh.com/p/ecb38c8342ba/an-illustrated-guide-to-kubernetes-networking) - See title -- `article`
@@ -2089,13 +2090,13 @@
 * [Kanopy](https://www.kanopystreaming.com/) - Streaming movies for USA public library members -- `explore yours today`
 * [Katacoda](https://www.katacoda.com/learn) - In-browser labs and exercises with modern DevOps tools -- `way cool`
 * [Kubernetes by Example](http://kubernetesbyexample.com/) - By the RedHat OpenShift team -- `tutorial`
-* [Kubernetes Clusters for the Hobbyiest](https://github.com/hobby-kube/guide) - How to securely run Kubernetes on providers that don't have ELBs, private networking, or persistent storage (Hetzner Cloud, DigitalOcean or Scaleway) -- `guide`
+* [Kubernetes Clusters for the Hobbyist](https://github.com/hobby-kube/guide) - How to securely run Kubernetes on providers that don't have ELBs, private networking, or persistent distributed storage (Hetzner Cloud, DigitalOcean or Scaleway) -- `guide`
 * [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) - Build Kubernetes from the ground up as a learning exercise -- `tutorial`
 * [Kubernetes the Hard Way Vagrant](https://github.com/kinvolk/kubernetes-the-hard-way-vagrant) - A port of Kelsey Hightower's "Kubernetes the Hard Way" tutorial to Vagrant -- `tutorial`
 * [Libby](https://meet.libbyapp.com/) - App for ebooks and audio books for USA public library members, from OverDrive -- `explore yours today` `Android` `iOS` `Windows 10`
 * [Linux Performance](http://www.brendangregg.com/linuxperf.html) - Centralized page for all of Brendan Gregg's Linux performance material (slides videos pages etc) -- `the man`
 * [Linux Tracing Workshop](https://github.com/goldshtn/linux-tracing-workshop) - Hands on exercises with perf, bcc, and similar tools -- `various lang`
-* [Managing Kubernetes](https://go.heptio.com/rs/383-ENX-437/images/Managing_Kubernetes.pdf) - Full ebook by Heptio and O'Reilly -- `book`
+* [Managing Kubernetes](https://go.heptio.com/rs/383-ENX-437/images/Managing_Kubernetes.pdf) - Full 2019 ebook by Heptio and O'Reilly -- `book`
 * [maybe](https://github.com/p-e-w/maybe) - Allows a dry run of almost any Linux binary, see the files it will modify, calls made, etc -- `Python pip`
 * [Memory Management Reference](http://www.memorymanagement.org/index.html) - All in one reference for memory management and garbage collection -- `collection`
 * [MIT OpenCourseWare](https://ocw.mit.edu/about/) - MIT's real course materials from 2400+ courses -- `collection`
