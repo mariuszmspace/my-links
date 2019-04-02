@@ -466,6 +466,7 @@
 * [kubectx](https://github.com/ahmetb/kubectx) - Easily switch between kubectl contexts and namespaces, also includes the kubens tool -- `Ruby`
 * [kubed](https://github.com/appscode/kubed) - Perform periodic cluster snapshots, provide temp storage for deleted objects, automatic event forwarding, deliver notifications via various channels for Kubernetes -- `Golang`
 * [kubediscovery](https://github.com/cloud-ark/kubediscovery) - Tool that helps you find dynamic composition tree of Kubernetes objects -- `Golang`
+* [KubeEdge](https://github.com/kubeedge/kubeedge) - CNCF project to run Kubernetes at edge -- `Golang`
 * [kubehost](https://github.com/GoogleContainerTools/kubehost) - Uses existing features of GKE to expose your service directly onto one of the VMs -- `shell`
 * [Kubernetes](https://kubernetes.io/) - Open source orchestration system for Docker containers, by Google -- `Golang`
 * [kubernetes-cloudflare-sync](https://github.com/calebdoxsey/kubernetes-cloudflare-sync) - Run in your Kubernetes Cluster on GKE and sync DNS records on Cloudflare with your nodes IPs to avoid GCP LB fees -- `Golang`
@@ -948,8 +949,10 @@
 * [Netconf](https://github.com/v1tal3/netconfig) - Web-based GUI for configuring API-less Cisco devices -- `Python`
 * [netsniff-ng](http://netsniff-ng.org/) - High performance, zero-copy networking sniffer -- `C`
 * [netstack](https://github.com/google/netstack) - Multi-platform userspace network stack written in Go -- `Golang`
+* [NETworkManager](https://github.com/BornToBeRoot/NETworkManager) - All in one network GUI (config, troubleshooting, etc), neat! -- `C Sharp`
 * [NfSen](http://nfsen.sourceforge.net/) - GUI for and visualization nfdump -- `perl`
 * [ngrep](https://linux.die.net/man/8/ngrep) - Network grep -- `C` `built-in`
+* [Nornir](https://github.com/nornir-automation/nornir) - Python automation framework without a DSL, alternative to managing network devices with Ansible -- `Python`
 * [nping](https://nmap.org/nping/) - Create custom network packets -- `C`
 * [OpenBGPD](http://www.openbgpd.org/) - Free implementation of BGP v4 -- `C`
 * [OpenBMP](http://openbmp.org) - BGP Monitoring Protocol collector with real-time monitoring, looking glass, analytics, etc -- `various lang`
@@ -966,6 +969,7 @@
 * [tcpflow](https://github.com/simsong/tcpflow) - TCP demultiplexer, each flow is stored in it's own file -- `C++`
 * [tcpreplay](http://tcpreplay.appneta.com/) - Capture, edit, and replay network traffic -- `C`
 * [tracepath](https://linux.die.net/man/8/tracepath) - Traceroute that doesn't require root -- `C`
+* [tracetcp](https://github.com/SimulatedSimian/tracetcp) - Traceroute via SYN packets -- `C++`
 * [Trigger](https://github.com/trigger/trigger) - Network automation toolkit written in Python, created by AOL -- `Python`
 * [UDR](https://github.com/LabAdvComp/UDR) - UDT wrapper for rsync that improves throughput of large data transfers over long distances -- `C++`
 * [vFlow](https://github.com/VerizonDigital/vflow) - High-performance, scalable and reliable enterprise netflow collector with Kafka integration, by Verizon -- `Golang`
@@ -1019,6 +1023,7 @@
 * [Tracebox](http://www.tracebox.org/) - Detect middleboxes (NAT, transparent proxies, etc) in a network path -- `C++`
 * [trickle](https://linux.die.net/man/1/trickle) - Userspace bandwidth shaper -- `built-in`
 * [vnStat](http://humdi.net/vnstat/) - Console based traffic monitor, supports statistic collecting -- `C`
+* [WinMTR](https://github.com/White-Tiger/WinMTR) - Windows GUI for MTR -- `C++`
 * [Yconalyzer](http://yconalyzer.sourceforge.net/) - Monitor and analyze TCP connections -- `C++`
 
 
@@ -1457,6 +1462,7 @@
 
 > Misc security tools - see also [Live CD Tools](#live-cd-tools) and [Networking Tools](#networking-tools) and [Secrets Management](#secrets-management) and [SSL Tools](#ssl-tools) and [Two Factor Authentication](#two-factor-authentication) and [VPNs and Tunnels](#vpns-and-tunnels) and [Logging](#logging)
 
+* [Advanced IP Scanner](https://www.advanced-ip-scanner.com/) - For Windows, recommended -- `closed source`
 * [afl-fuzz (American Fuzzy Lop)](http://lcamtuf.coredump.cx/afl/) - One of the best fuzzers -- `C`
 * [AIDE (Advanced Intrusion Detection Environment)](http://aide.sourceforge.net/) - File integrity checker, alternative to Tripwire -- `various lang`
 * [Amass](https://github.com/OWASP/Amass) - Automatically obtains subdomain names in a variety of ways and uses that info to build maps of the target network, by OWASP -- `Golang`
@@ -1630,6 +1636,7 @@
 * [Jenkins Log Recorder](https://wiki.jenkins.io/display/JENKINS/Logging) - Helps you group relevant logs together while filtering out the noise -- `Java`
 * [Jenkins ThinBackup](https://wiki.jenkins-ci.org/display/JENKINS/thinBackup) - Jenkins plugin that backups configurations (not workspaces or archives) -- `Java`
 * [JSON Server](https://github.com/typicode/json-server) - Full fake REST API for quickly prototyping and mocking in 30 seconds -- `JavaScript`
+* [Meld](http://meldmerge.org/) - Diff tool, recommended -- `Python`
 * [MockServer](http://mock-server.com/) - Web server to remotely or locally mock HTTP/HTTPS and similar -- `Java`
 * [mountebank](http://www.mbtest.org/) - Stub downstream resources for testing, supports HTTP HTTPS SMTP TCP -- `JavaScript` `Windows` `OS X`
 * [Ninja](https://ninja-build.org/) - Small build system with a focus on speed -- `Python`
@@ -2035,8 +2042,6 @@
 
 * [A Practical Guide to (Correctly) Troubleshooting with Traceroute](https://www.nanog.org/sites/default/files/10_Roisman_Traceroute.pdf) - Presentation, really digs in -- `article`
 * [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/) - Concise breakdown, by Red Hat -- `article`
-* [Algorithms and Data Structures Part 1](https://www.coursera.org/learn/algorithms-part1) - By Princeton University -- `course`
-* [Algorithms and Data Structures Part 2](https://www.coursera.org/learn/algorithms-part2) - By Princeton University -- `course`
 * [Amazon ECS Workshop](https://ecsworkshop.com/) - Configure GitHub, CodePipeline, CodeBuild, VPC, ALB, ECS, Autoscaling, and log aggregation using a framework called Mu to launch microservices on AWS Elastic Container Service -- `tutorial`
 * [Amazon EKS Workshop](https://eksworkshop.com/) - Designed to educate engineers that might not be familiar with Amazon EKS, Kubernetes, and possibly even Docker container workflow -- `tutorial`
 * [An Illustrated Guide to Kubernetes Networking](https://morioh.com/p/ecb38c8342ba/an-illustrated-guide-to-kubernetes-networking) - See title -- `article`
@@ -2064,6 +2069,7 @@
 * [conserver](http://www.conserver.com/) - Virtual console server with many features (multi-user, console log history, etc) -- `C`
 * [Container Training](https://container.training/intro-selfpaced.yml.html#1) - Self paced and interactive, formerly Intro to Docker -- `training`
 * [Convergent Encryption](https://en.wikipedia.org/wiki/Convergent_encryption) - Produces identical ciphertext from identical plaintext files, used for dedupe / space savings in the cloud -- `article`
+* [Cool Store](https://github.com/vietnam-devs/coolstore-microservices) - An exercise to wire up small microservices into a larger application -- `tutorial`
 * [CRIU (Checkpoint Restore in Userspace)](https://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later -- `insane`
 * [Cybersecurity Canon](https://cybercanon.paloaltonetworks.com/) - A Rock & Roll Hall of Fame for cybersecurity books, by Palo Alto -- `collection`
 * [Dark Mode by Bernard](https://addons.mozilla.org/en-US/firefox/addon/dark-mode-webextension/) - Simple dark mode / night mode for Firefox -- `JavaScript`
@@ -2147,7 +2153,8 @@
 * [Secure Messaging Apps](https://www.securemessagingapps.com/) - True comparison of the technical features and merits of various apps, which are TRULY secure? -- `collection`
 * [Security 101 for SaaS Startups](https://github.com/forter/security-101-for-saas-startups) - Excellent checklist and guide in easy to understand terms for non-infrastructure people -- `collection`
 * [Site Reliability Engineering (SRE) by Google](https://landing.google.com/sre/book.html) - Full, free, online version of the O'Reilly book -- `the best`
-* [Site Reliability Workbook](https://landing.google.com/sre/workbook/toc/) - By Google - `book`
+* [Site Reliability Workbook](https://landing.google.com/sre/workbook/toc/) - By Google -- `book`
+* [Spectacle](https://www.spectacleapp.com/) - Control desktop windows via keyboard shortcuts -- `Objective C`
 * [StackStorm](https://github.com/StackStorm/st2) - IFTTT for Ops -- `Python`
 * [Steps Recorder (aka Problem Steps Recorder)](https://support.microsoft.com/en-us/help/22878/windows-10-record-steps) - Windows 7+, user records themselves reproducing a problem, they send video to you, you playback -- `closed source`
 * [System Architecture](https://github.com/orrsella/soft-eng-interview-prep/blob/master/topics/system-architecture.md) - Great refresher, not so great for first time learners -- `collection`
