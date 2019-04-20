@@ -88,6 +88,7 @@
 * [Light Reading](https://www.lightreading.com/)
 * [Network Computing](https://www.networkcomputing.com/)
 * [Network World](https://www.networkworld.com)
+* [Packet Storm](https://packetstormsecurity.com/news/)
 * [Re/Code](https://recode.net/)
 * [SD Times](https://sdtimes.com/)
 * [TechCrunch](https://techcrunch.com/)
@@ -416,6 +417,7 @@
 * [distroless](https://github.com/GoogleContainerTools/distroless) - "Distroless" images contain only your application and its runtime dependencies and nothing else, by Google -- `various lang`
 * [docker-gc](https://github.com/spotify/docker-gc) - Docker garbage collection of containers and images  -- `shell`
 * [DockerSlim](http://dockersl.im/) - Uses static and dynamic analysis to create skinny image variants of your fat images -- `Golang`
+* [dockerviz](https://github.com/justone/dockviz) - Great tool for analyzing images -- `Golang`
 * [Docker Bench](https://github.com/docker/docker-bench-security) - Checks for dozens of common best-practices around deploying Docker containers in production -- `shell`
 * [Docker Compose](https://github.com/docker/compose) - Define and run multi-container apps with Docker, previously known as fig, official -- `Python`
 * [Docker Distribution](https://github.com/docker/distribution) - AKA Docker Registry 2.0 - pack, ship, store, and deliver containers -- `Golang`
@@ -432,6 +434,7 @@
 * [Eirini](https://github.com/cloudfoundry-incubator/eirini) - Kubernetes backend for Cloud Foundry -- `Golang`
 * [Escalator](https://github.com/atlassian/escalator) - Batch or job optimized horizontal autoscaler for Kubernetes -- `Golang`
 * [Fabric8](https://fabric8.io/) - Open source microservices platform based on Docker, Kubernetes and Jenkins -- `Java`
+* [Fedora CoreOS](https://coreos.fedoraproject.org/) - The best of CoreOS + Fedora Atomic Host, upstream to RHEL CoreOS, successor to now sunset RHEL / Fedora Atomic & Container Linux -- `various lang`
 * [Flannel](https://github.com/coreos/flannel) - Network fabric for containers via etcd, designed for Kubernetes -- `Golang`
 * [Flux](https://github.com/weaveworks/flux) - Tool that automatically ensures that the state of a Kubernetes cluster matches the config in git via Kubernetes operators -- `Golang`
 * [Flynn](https://flynn.io/) - PaaS built on top of Docker, can run stateful services -- `Golang`
@@ -440,7 +443,6 @@
 * [gvisor](https://github.com/google/gvisor) - User-space kernel, can be used to sandbox containers, by Google -- `Golang`
 * [Helm](https://github.com/kubernetes/helm) - tool for managing Kubernetes charts (packages of pre-configured Kubernetes resources) -- `Golang`
 * [helm-value-store](https://github.com/skuid/helm-value-store) - Manage working with multiple values.yaml files for nearly identitcal deployments -- `Golang`
-* [Heptio Ark](https://github.com/heptio/ark) - Manage disaster recovery for your Kubernetes persistent volumes and cluster resources -- `Golang`
 * [Heptio Sonobuoy](https://github.com/heptio/sonobuoy) - Kubernetes end to end conformance testing and debugging tool -- `Golang`
 * [img](https://github.com/genuinetools/img) - Standalone, daemon-less, unprivileged Dockerfile and OCI compatible container image builder -- `Golang`
 * [Istio Operator](https://github.com/banzaicloud/istio-operator/) - An operator that manages Istio deployments on Kubernetes, by Banzai Cloud -- `Golang`
@@ -463,6 +465,7 @@
 * [kube-bench](https://github.com/aquasecurity/kube-bench) - Compliance checker for Kubernetes CIS benchmarks -- `Golang`
 * [kube-hunter](https://github.com/aquasecurity/kube-hunter) - Hunt for security weaknesses in Kubernetes clusters -- `Python`
 * [kube-spawn](https://github.com/kinvolk/kube-spawn) - A tool for creating multi-node Kubernetes clusters on a Linux machine using kubeadm & systemd-nspawn -- `Golang`
+* [Kubecost](https://github.com/kubecost/cost-model) - Creates cost future and past models so you can see and predict your spend -- `Golang`
 * [kubectx](https://github.com/ahmetb/kubectx) - Easily switch between kubectl contexts and namespaces, also includes the kubens tool -- `Ruby`
 * [kubed](https://github.com/appscode/kubed) - Perform periodic cluster snapshots, provide temp storage for deleted objects, automatic event forwarding, deliver notifications via various channels for Kubernetes -- `Golang`
 * [kubediscovery](https://github.com/cloud-ark/kubediscovery) - Tool that helps you find dynamic composition tree of Kubernetes objects -- `Golang`
@@ -482,6 +485,7 @@
 * [Logspout](https://github.com/gliderlabs/logspout) - Log router for Docker containers -- `Golang`
 * [Magic Namespace](https://github.com/helm/charts/tree/master/stable/magic-namespace) - Helm chart for managing security between namespaces, great for multitenant clusters -- `YAML`
 * [memcached-operator](https://github.com/ianlewis/memcached-operator) - A Kubernetes operator for memcached, good to use as an Operator example too -- `Golang`
+* [MetalKube](https://github.com/metalkube) - Bare metal provisioning for Kubernetes, by Red Hat -- `Golang`
 * [MetalLB](https://github.com/google/metallb) - Load balancer for bare metal Kubernetes clusters, by Google -- `Golang`
 * [Microk8s](https://microk8s.io/) - Alternative to minikube, by Canonical -- `shell`
 * [minikube](https://kubernetes.io/docs/getting-started-guides/minikube/) - Kubernetes environments on your laptop -- `Golang`
@@ -492,8 +496,8 @@
 * [OKD Install](https://github.com/gshipley/installcentos) - Set of file that installs OKD 3.x (OpenShift's upstream, formerly OpenShift Origin) on a single CentOS VM for testing & dev -- `shell`
 * [Panamax](https://panamax.io/) - Containerized app creator with an open-source app marketplace hosted in GitHub -- `various lang`
 * [pipework](https://github.com/jpetazzo/pipework) - SDN for Linux Containers -- `various lang`
+* [Popeye](https://github.com/derailed/popeye) - Scans the live cluster for dead or unused resources such as ports mismatches, metrics utilization, probes, container images, RBAC rules, naked resources, etc -- `Golang`
 * [Portainer](https://github.com/portainer/portainer) - Web interface for Docker aka us-for-docker -- `JavaScript`
-* [Project Atomic](https://www.projectatomic.io/) - Stripped down containers-only version of CentOS and RHEL, official -- `various lang`
 * [Prometheus Operator](https://github.com/coreos/prometheus-operator) - Creates/configures/manages Prometheus clusters atop Kubernetes -- `Golang`
 * [pulumi](https://pulumi.io/) - HOT create and deploy cloud programs that use containers, serverless functions, hosted services, and infrastructure, on any cloud, supports most languages -- `various lang`
 * [Rancher](https://rancher.com/) - Provides a complete platform for operating Docker in production -- `various lang`
@@ -504,6 +508,7 @@
 * [skaffold](https://github.com/GoogleCloudPlatform/skaffold) - Easy and repeatable Kubernetes development, test locally then push to a cluster, by Google -- `Golang`
 * [Spinnaker](https://spinnaker.io/) - Cloud-focused CI/CD system for immutable infrastructure, by Netflix -- `Python`
 * [Squash](https://github.com/solo-io/squash) - Debug applications from your terminal or IDE while they run in Kubernetes or OpenShift (locally or remotely) -- `Golang`
+* [swarm-viz](https://github.com/mikesir87/swarm-viz) - Docker Swarm visualizer -- `JavaScript`
 * [Tectonic Installer](https://github.com/coreos/tectonic-installer) - Install an opinionated Kubernetes cluster the "Tectonic Way", a sane predefined deployment and workflow -- `various lang`
 * [Telepresense](https://www.telepresence.io/) - Local development against a remote Kubernetes or OpenShift cluster -- `Python`
 * [Teleport](https://gravitational.com/teleport/) - Auditing bastion host & middleman, now supports the Kubernetes apifserver protocol -- `Golang`
@@ -513,7 +518,9 @@
 * [Typhoon](https://typhoon.psdn.io/) - Minimal and free Kubernetes distro, great for testing and learning on small systems -- `various lang`
 * [Watchtower](https://github.com/v2tec/watchtower) - Monitors your running Docker containers and restart them when a new image is available -- `Golang`
 * [Weave](https://github.com/zettio/weave/) - Virtual network that connects Docker containers deployed across multiple hosts -- `Golang`
+* [Velero](https://github.com/heptio/velero) - Manage disaster recovery for your Kubernetes persistent volumes and cluster resources, formerly Heptio Ark -- `Golang`
 * [virtlet](https://github.com/Mirantis/virtlet) - Kubernetes CRI implementation for running VM workloads (QCOW2 images) -- `Golang`
+* [virtual-kublet](https://github.com/virtual-kubelet/virtual-kubelet) - kublet implementation that masquerades as a kubelet for the purposes of connecting Kubernetes to other APIs (Fargate, ACI, IoT, Nomad, Azure, etc) -- `Golang`
 * [Voyager](https://github.com/appscode/voyager) - HAProxy backed secure L7 and L4 ingress controller for Kubernetes -- `Golang`
 
 
@@ -1074,7 +1081,7 @@
 * [CentOS Software Collections (SCL)](https://wiki.centos.org/AdditionalResources/Repositories/SCL) - Use multiple versions of software on a system without disturbing the system default version -- `C`
 * [Copr](https://pagure.io/copr/copr) - Automatic build system providing a package repository as its output, by Fedora -- `C`
 * [cowbuilder](https://wiki.debian.org/cowbuilder) - Package builder that uses copy-on-write (COW) to speed up the build process -- `C`
-* [DNF](https://fedoraproject.org/wiki/Features/DNF) - Package management system that will replace Yum in upcoming Fedora/RHEL/CentOS releases -- `article`
+* [DNF aka Dandified yum ](https://fedoraproject.org/wiki/Features/DNF) - yum v4 packaging system, added to upcoming Fedora/RHEL/CentOS 8 releases -- `article`
 * [ELRepo](https://elrepo.org) - Repo that focuses on hardware related packages, supports RHEL and CentOS -- `repo`
 * [Extra Packages for Enterprise Linux (EPEL)](https://fedoraproject.org/wiki/EPEL) - Supports CentOS, RHEL, Scientific Linux, and Oracle Linux -- `repo`
 * [Extra Packaging Guidelines and Policies for EPEL](https://fedoraproject.org/wiki/EPEL/GuidelinesAndPolicies) - Packaging guidelines, great even if not creating EPEL stuff -- `readit`
@@ -1245,6 +1252,7 @@
 > Tutorials, exercises, and challenges for learning Python.  I have no idea how good/bad these are
 
 * [500 Lines](https://github.com/aosabook/500lines) - Many full Python programs written in 500 lines or less, great for beginners
+* [CheckiO](https://py.checkio.org/) - Challenges, shows all submitted solutions to a challenge and people vote for best - great way to see each POV -- `in-browser`
 * [Codecademy](http://www.codecademy.com/tracks/python) - Codecademy's online Python course
 * [CodingBat](http://codingbat.com/python) - Practice problems
 * [Coursera](https://www.coursera.org/courses?orderby=upcoming&search=python) - Online Python courses at various institutions
@@ -2080,6 +2088,7 @@
 * [DevDocs](https://devdocs.io/) - Documentation browser for almost every API -- `collection`
 * [DevOps Conferences](http://www.gotodevops.org/) - Add and remove via PR, please contribute -- `collection`
 * [Docker Curriculum](https://docker-curriculum.com/) - One-stop shop for getting your hands dirty with Docker -- `tutorial`
+* [Dog vs. Cat: Docker Swarm Stacks](https://github.com/BretFisher/dogvscat) - Examples for building full Swarm-based clusters including proxies, centralized logging, persistent storage, deployment pipelines, and more -- `tutorial`
 * [Every Programmer Should Know...](https://github.com/mtdvio/every-programmer-should-know) - A collection of (mostly) technical things every software developer should know -- `collection`
 * [Everything You Should Know About Certificates and PKI](https://smallstep.com/blog/everything-pki.html) - Easy to understand tutorial -- `tutorial`
 * [f.lux](https://justgetflux.com/) - Changes your screen from blue light to yellow light when the sun sets to tell your brain it's night time -- `closed source` `OS X` `Windows`
@@ -2112,8 +2121,10 @@
 * [Kubernetes the Hard Way Vagrant](https://github.com/kinvolk/kubernetes-the-hard-way-vagrant) - A port of Kelsey Hightower's "Kubernetes the Hard Way" tutorial to Vagrant -- `tutorial`
 * [LearnXinYMinutes](https://learnxinyminutes.com/) - Super fast tutorials for almost every programming language -- `collection`
 * [Libby](https://meet.libbyapp.com/) - App for ebooks and audio books for USA public library members, from OverDrive -- `explore yours today` `Android` `iOS` `Windows 10`
+* [Library Extension](https://www.libraryextension.com/) - Browser extension that shows you which Amazon books are available free at your local libraries, please donate -- `closed source` `Firefox coming soon`
 * [Linux Performance](http://www.brendangregg.com/linuxperf.html) - Centralized page for all of Brendan Gregg's Linux performance material (slides videos pages etc) -- `the man`
 * [Linux Tracing Workshop](https://github.com/goldshtn/linux-tracing-workshop) - Hands on exercises with perf, bcc, and similar tools -- `various lang`
+* [Little Book of Python Anti-Patterns](https://docs.quantifiedcode.com/python-anti-patterns/) - See title -- `book`
 * [Mail Tester](https://www.mail-tester.com/) - Test the spammyness of your e-mails -- `in-browser`
 * [Managing Kubernetes](https://go.heptio.com/rs/383-ENX-437/images/Managing_Kubernetes.pdf) - Full 2019 ebook by Heptio and O'Reilly -- `book`
 * [maybe](https://github.com/p-e-w/maybe) - Allows a dry run of almost any Linux binary, see the files it will modify, calls made, etc -- `Python pip`
@@ -2124,8 +2135,10 @@
 * [MX Toolbox](https://mxtoolbox.com/) - SMTP blacklist lookup, header analysis, and more -- `in-browser`
 * [Network UPS Tools (NUT)](http://www.networkupstools.org/) - Manage power devices from over 100 manufacturers using a single web interface -- `C` `Windows`
 * [Networking Cheat Sheets](http://packetlife.net/library/cheat-sheets/) - Protocols, devices, ports, physical connectors, and more, by PacketLife -- `collection`
+* [NoRoot Firewall](https://play.google.com/store/apps/details?id=app.greyshirts.firewall&hl=en_US) - Android app that logs connections to show overly chatty background apps and more -- `closed source`
 * [NoScript](https://noscript.net/) - JavaScript, XSS, tracker, Flash blockers and more - your condom for the Internet -- `Firefox`
 * [oauth2_proxy](https://github.com/pusher/oauth2_proxy) - A reverse proxy that provides authentication with Google, Github or other provider -- `Golang`
+* [oomd](https://github.com/facebookincubator/oomd) - Userspace OOM killer, highly configurable and much improved over the kernel's built in OOM killer -- `C++`
 * [Open Source Society University (OSSU)](https://github.com/ossu/computer-science) - A complete education in computer science using free online materials -- `collection`
 * [Open19](https://www.open19.org/) - Open data center hardware for standard size racks -- `neat`
 * [OpenBMC](https://github.com/facebook/openbmc) - Framework to build a complete Linux image for a Board Management Controller (BMC), by Facebook -- `C`
