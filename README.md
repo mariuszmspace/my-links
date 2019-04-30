@@ -185,6 +185,7 @@
 * [awless](https://github.com/wallix/awless) - Another AWS CLI, give it a try -- `Golang`
 * [aws-shell (formerly Supercharged AWS CLI (SAWS))](https://github.com/awslabs/aws-shell) - The best CLI for interacting with AWS -- `Python pip`
 * [aws-vault](https://github.com/99designs/aws-vault) - A vault for securely storing and accessing AWS credentials in development environments  -- `Golang`
+* [AWSConsoleRecorder](https://github.com/iann0036/AWSConsoleRecorder) - Records actions made in the AWS Management Console and outputs the equivalent CLI/SDK commands and CloudFormation/Terraform templates -- `Chrome` `JavaScript
 * [AWS Extend Switch Roles](https://github.com/tilfin/aws-extend-switch-roles) - Extend your AWS IAM switching roles by Chrome extension or Firefox add-on -- `JavaScript`
 * [AWS SAM Local](https://github.com/awslabs/aws-sam-local) - CLI tool for local development and testing of Lambda applications -- `Golang`
 * [azcopy](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy) - Official CLI for copying data to/from Microsoft Azure Blob, File, and Table storage -- `closed source`
@@ -415,6 +416,7 @@
 * [ctop](https://ctop.sh/) - ncurses top-like UI for containers -- `Golang`
 * [DevSpace](https://github.com/covexo/devspace) - Build, test and run code directly inside any Kubernetes cluster, no more waiting for rebuild + redeploy, run code instantly -- `Golang`
 * [distroless](https://github.com/GoogleContainerTools/distroless) - "Distroless" images contain only your application and its runtime dependencies and nothing else, by Google -- `various lang`
+* [docker-debug](https://github.com/zeromake/docker-debug) - Attach a new "debug container" to existing namespaces so you don't have to include debug tools in the app containers -- `Golang`
 * [docker-gc](https://github.com/spotify/docker-gc) - Docker garbage collection of containers and images  -- `shell`
 * [DockerSlim](http://dockersl.im/) - Uses static and dynamic analysis to create skinny image variants of your fat images -- `Golang`
 * [dockerviz](https://github.com/justone/dockviz) - Great tool for analyzing images -- `Golang`
@@ -476,11 +478,10 @@
 * [kubernetes-deploy](https://github.com/Shopify/kubernetes-deploy) - tool that helps you ship changes to a Kubernetes namespace and understand the result, by Shopify -- `Ruby`
 * [Kubernetes IN Docker (KinD)](https://github.com/kubernetes-sigs/kind) - Tool for running local Kubernetes clusters using Docker container "nodes" -- `Golang`
 * [Kubernetes Network Policy Recipes](https://github.com/ahmetb/kubernetes-network-policy-recipes) - Example recipes for Kubernetes Network Policies that you can just copy paste -- `collection`
-* [Kubernetes the Easier Way](https://github.com/darxkies/k8s-tew/) - Install a Kubernetes Cluster (local, single-node, multi-node or HA-cluster) on bare metal, also acts as a simple supervisor -- `Golang`
 * [kubespray](https://github.com/kubernetes-incubator/kubespray) - Deploy a production ready Kubernetes cluster, a Kubernetes Incubator project -- `Golang`
 * [kubewatch](https://github.com/bitnami-labs/kubewatch) - Kubernetes event watcher and handler (currently only publishes to Slack channels, integrations wanted!) -- `Golang`
 * [kubicorn](https://github.com/kris-nova/kubicorn) - Multi-provider deployment abstraction layer / library for Kubernetes -- `Golang`
-* [kustomize](https://github.com/kubernetes-sigs/kustomize) - Customize raw, template-free YAML files for multiple purposes, leaving the original YAML untouched and usable as is -- `Golang`
+* [kustomize](https://github.com/kubernetes-sigs/kustomize) - The preferred templating tool, now built-in to kubectl, official -- `Golang`
 * [LinuxKit](https://github.com/linuxkit/linuxkit) - Toolkit for building custom minimal, immutable Linux distributions -- `Golang`
 * [Logspout](https://github.com/gliderlabs/logspout) - Log router for Docker containers -- `Golang`
 * [Magic Namespace](https://github.com/helm/charts/tree/master/stable/magic-namespace) - Helm chart for managing security between namespaces, great for multitenant clusters -- `YAML`
@@ -518,6 +519,7 @@
 * [Typhoon](https://typhoon.psdn.io/) - Minimal and free Kubernetes distro, great for testing and learning on small systems -- `various lang`
 * [Watchtower](https://github.com/v2tec/watchtower) - Monitors your running Docker containers and restart them when a new image is available -- `Golang`
 * [Weave](https://github.com/zettio/weave/) - Virtual network that connects Docker containers deployed across multiple hosts -- `Golang`
+* [Wormhole](https://github.com/gravitational/wormhole) - CNI plugin for Kubernetes that uses WireGuard for creating a full mesh encrypted network between each host in the Kubernetes cluster. The Kubernetes API is used to coordinate key exchange and configuration -- `Golang`
 * [Velero](https://github.com/heptio/velero) - Manage disaster recovery for your Kubernetes persistent volumes and cluster resources, formerly Heptio Ark -- `Golang`
 * [virtlet](https://github.com/Mirantis/virtlet) - Kubernetes CRI implementation for running VM workloads (QCOW2 images) -- `Golang`
 * [virtual-kublet](https://github.com/virtual-kubelet/virtual-kubelet) - kublet implementation that masquerades as a kubelet for the purposes of connecting Kubernetes to other APIs (Fargate, ACI, IoT, Nomad, Azure, etc) -- `Golang`
@@ -2054,6 +2056,7 @@
 * [Amazon EKS Workshop](https://eksworkshop.com/) - Designed to educate engineers that might not be familiar with Amazon EKS, Kubernetes, and possibly even Docker container workflow -- `tutorial`
 * [An Illustrated Guide to Kubernetes Networking](https://morioh.com/p/ecb38c8342ba/an-illustrated-guide-to-kubernetes-networking) - See title -- `article`
 * [Ansible Interactive Tutorial](https://github.com/turkenh/ansible-interactive-tutorial) - Interactive tutorials for Ansible via Docker, super simple -- `tutorial`
+* [Ansible Lightbulb](https://ansible.github.io/lightbulb/) - Workshops, training decks, and guides, by Red Hat -- `tutorials`
 * [Anti-Ablock Killer](https://reek.github.io/anti-adblock-killer/) - Keep your ad-blocker active when pages take anti-blocking measures, requires Greasemonkey or similar -- `JavaScript`
 * [Application Layer Transport Security](https://cloud.google.com/security/encryption-in-transit/application-layer-transport-security/) - Use mutual TLS to secure RPC calls between entities, designed with containers and microservices in mind -- `article`
 * [Architecture of Open Source Applications](http://www.aosabook.org/en/) - The authors of four dozen open source applications explain how their software is structured, and why -- `collection`
@@ -2117,11 +2120,13 @@
 * [Katacoda](https://www.katacoda.com/learn) - In-browser labs and exercises with modern DevOps tools -- `way cool`
 * [Kubernetes by Example](http://kubernetesbyexample.com/) - By the RedHat OpenShift team -- `tutorial`
 * [Kubernetes Clusters for the Hobbyist](https://github.com/hobby-kube/guide) - How to securely run Kubernetes on providers that don't have ELBs, private networking, or persistent distributed storage (Hetzner Cloud, DigitalOcean or Scaleway) -- `guide`
+* [Kubernetes Failure Stories](https://github.com/hjacobs/kubernetes-failure-stories) - Post mortems of Kubernetes outages, great way to learn -- `collection`
 * [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) - Build Kubernetes from the ground up as a learning exercise -- `tutorial`
 * [Kubernetes the Hard Way Vagrant](https://github.com/kinvolk/kubernetes-the-hard-way-vagrant) - A port of Kelsey Hightower's "Kubernetes the Hard Way" tutorial to Vagrant -- `tutorial`
 * [LearnXinYMinutes](https://learnxinyminutes.com/) - Super fast tutorials for almost every programming language -- `collection`
 * [Libby](https://meet.libbyapp.com/) - App for ebooks and audio books for USA public library members, from OverDrive -- `explore yours today` `Android` `iOS` `Windows 10`
 * [Library Extension](https://www.libraryextension.com/) - Browser extension that shows you which Amazon books are available free at your local libraries, please donate -- `closed source` `Firefox coming soon`
+* [Linux Network Performance Parameters](https://github.com/leandromoreira/linux-network-performance-parameters) - Tutorial, data flows, explinations and more -- `tutorial`
 * [Linux Performance](http://www.brendangregg.com/linuxperf.html) - Centralized page for all of Brendan Gregg's Linux performance material (slides videos pages etc) -- `the man`
 * [Linux Tracing Workshop](https://github.com/goldshtn/linux-tracing-workshop) - Hands on exercises with perf, bcc, and similar tools -- `various lang`
 * [Little Book of Python Anti-Patterns](https://docs.quantifiedcode.com/python-anti-patterns/) - See title -- `book`
@@ -2162,6 +2167,7 @@
 * [PrivacyTools.io](https://www.privacytools.io/) - All in one collection, web site source is on GitHub -- `collection`
 * [Privacy Badger](https://www.eff.org/privacybadger) - The best in-browser privacy and anti-tracking tool, by the EFF (donate) -- `Chrome` `Firefox`
 * [Production Readiness Checklist](https://www.gruntwork.io/devops-checklist/) - Excellent checklist for pre-go-live, AWS-centric but great general advice -- `collection`
+* [repl.it](https://repl.it/languages) - In-browser REPLs for a ton of languages -- `in-browser`
 * [runwhen](http://code.dogmap.org/runwhen/) - Utilities for running commands at particular times, cron on steroids -- `C`
 * [Secure Messaging Apps](https://www.securemessagingapps.com/) - True comparison of the technical features and merits of various apps, which are TRULY secure? -- `collection`
 * [Security 101 for SaaS Startups](https://github.com/forter/security-101-for-saas-startups) - Excellent checklist and guide in easy to understand terms for non-infrastructure people -- `collection`
