@@ -1414,6 +1414,7 @@
 > regex checkers, creators, evaluators, debuggers, and tutorials - see also [Shell Scripting and Tools](#shell-scripting-and-tools) and [Software Development Tools](#software-development-tools)
 
 * [Debuggex](https://www.debuggex.com/) - Online regex debugger -- `in-browser`
+* [ExtendsClass](https://extendsclass.com/regex-tester.html) - Online visual regex tester -- `in-browser`
 * [perlretut](http://perldoc.perl.org/perlretut.html) - perl-focused but very useful for all regex -- `article`
 * [Refiddle](http://refiddle.com/) - Online, supports JavaScript, Ruby, and .NET only -- `in-browser`
 * [regex101](https://regex101.com/) - Online regex tester and debugger, supports multiple languages -- `in-browser`
