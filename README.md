@@ -6,7 +6,6 @@
 
 ---
 * [Josh Turgasen on LinkedIn](https://www.linkedin.com/in/jturgasen)
-* [My 24/7 EDM Streaming Radio Playlist on YouTube](https://www.youtube.com/watch?v=KvRVky0r7YM&list=PL0uoJwfTsSqrG_3hyYU9KVWweBvpcSJ5U)
 
 ---
 # Table of Contents
@@ -495,6 +494,7 @@
 * [kube-spawn](https://github.com/kinvolk/kube-spawn) - A tool for creating multi-node Kubernetes clusters on a Linux machine using kubeadm & systemd-nspawn -- `Golang`
 * [kube2iam](https://github.com/jtblin/kube2iam) - Provide IAM credentials to containers running inside a kubernetes cluster based on annotations -- `Golang`
 * [Kubecost](https://github.com/kubecost/cost-model) - Creates cost future and past models so you can see and predict your spend -- `Golang`
+* [kubectl-debug](https://github.com/aylei/kubectl-debug) - Debug your pod via a new container with every troubleshooting tools pre-installed  -- `Golang`
 * [kubectx](https://github.com/ahmetb/kubectx) - Easily switch between kubectl contexts and namespaces, also includes the kubens tool -- `Ruby`
 * [kubed](https://github.com/appscode/kubed) - Perform periodic cluster snapshots, provide temp storage for deleted objects, automatic event forwarding, deliver notifications via various channels for Kubernetes -- `Golang`
 * [kubediscovery](https://github.com/cloud-ark/kubediscovery) - Tool that helps you find dynamic composition tree of Kubernetes objects -- `Golang`
@@ -522,6 +522,7 @@
 * [Microk8s](https://microk8s.io/) - Alternative to minikube, by Canonical -- `shell`
 * [minikube](https://kubernetes.io/docs/getting-started-guides/minikube/) - Kubernetes environments on your laptop -- `Golang`
 * [Minishift](https://www.openshift.org/minishift/) - OpenShift in a VM for testing / learning -- `Golang`
+* [MKIT (Managed Kubernetes Inspection Tool)](https://github.com/darkbitio/mkit) - A quick way to assess several common misconfigurations in their Kubernetes environment (AKS, EKS, GKE) -- `Dockerfile`
 * [ngnix-proxy](https://github.com/jwilder/nginx-proxy) - Nginx proxy for Docker containers using docker-gen, recommened -- `Python`
 * [oc-cluster-up](https://github.com/gustavonalle/oc-cluster-up) - Docker container to launch a multi-node, docker-in-docker OKD 4.x cluster -- `shell`
 * [Octant](https://github.com/vmware/octant) - Web based representation of a Kubernetes cluster, by VMware -- `various lang`
@@ -946,6 +947,7 @@
 * [Sensu](https://sensuapp.org/) - Open source monitoring framework, cloud-focused, dynamic, scalable - also does metrics collection -- `Ruby`
 * [Sensu Plugins](https://github.com/sensu-plugins) - Official community site for Sensu plugins -- `various lang`
 * [Shinken](http://www.shinken-monitoring.org/) - Nagios-compatible monitoring, supports high availability -- `Python`
+* [Statping](https://github.com/statping/statping) - THE BEST simple all in one monitoring solution, with mobile app, great for home/small networks -- `OMG`
 * [Tattle](https://github.com/wayfair/Graphite-Tattle) - Self service alerting and dashboard frontend for Graphite and Ganglia -- `PHP`
 * [Uptime](https://github.com/fzaninotto/uptime) - Remote monitoring application using Node.js, MongoDB, and Twitter Bootstrap -- `JavaScript`
 * [Xymon](https://www.xymon.com/) - Fork of Big Brother -- `C`
@@ -1529,7 +1531,7 @@
 * [Armitage](http://www.fastandeasyhacking.com/) - GUI for Metasploit -- `Java`
 * [ATA Secure Erase](https://ata.wiki.kernel.org/index.php/ATA_Secure_Erase) - Send a signal to an ATA drive to perform a hardware-based erase, the ONLY way to wipe a SSD properly -- `article`
 * [Attack Surface Analyzer 2.0](https://github.com/microsoft/AttackSurfaceAnalyzer) - See exactly what changed post-OS install or post-software install, by Microsoft -- `Windows`
-* [auditd-attack](https://github.com/bfuzzy1/auditd-attack) - A Linux Auditd rule set mapped to MITRE's Attack Framework -- `collection`
+* [auditd-attack](https://github.com/bfuzzy/auditd-attack) - A Linux Auditd rule set mapped to MITRE's Attack Framework -- `collection`
 * [authconv](https://github.com/authcov/authcov) - Web app authorization coverage scanning -- `JavaScript`
 * [Awesome Honeypots](https://github.com/paralax/awesome-honeypots) - Curated collection of honepots and honeypot resources -- `collection`
 * [bettercap](https://www.bettercap.org/) -  Swiss Army knife for 802.11, BlueTooth, and Ethernet networks reconnaissance and attacks -- `Golang`
@@ -1772,6 +1774,7 @@
 * [Dogtag Certificate System](http://pki.fedoraproject.org/wiki/PKI_Main_Page) - PKI component of FreeIPA, by Fedora -- `C`
 * [Fizz](https://github.com/facebookincubator/fizz) - C++14 implementation of the TLS-1.3 standard, by Facebook -- `C++`
 * [HSTS (HTTP Strict Transport Secuirity)](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) - Forces browsers to interact with a site by only using HTTPS -- `article`
+* [HSTS Preload Submission](https://hstspreload.org/) - Submit your site to be preloaded in major browsers -- `security`
 * [Lemur](https://github.com/Netflix/lemur) - Broker between CAs and environments providing a central portal for developers to issue TLS certificates with 'sane' defaults -- `Python`
 * [Let's Encrypt](https://letsencrypt.org/) - Free SSL certs from a real CA -- `in-browser`
 * [LibreSSL](https://www.libressl.org/) - OpenBSD's fork of OpenSSL, Linux compatible -- `C`
@@ -2118,6 +2121,7 @@
 * [A Gentle Introduction to Kubernetes](https://github.com/eon01/kubernetes-workshop) - With more than just the basics -- `tutorial`
 * [A Practical Guide to (Correctly) Troubleshooting with Traceroute](https://www.nanog.org/sites/default/files/10_Roisman_Traceroute.pdf) - Presentation, really digs in -- `article`
 * [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/) - Concise breakdown, by Red Hat -- `article`
+* [A Visual Guide to Troubleshooting Kubernetes Deployments](https://learnk8s.io/troubleshooting-deployments) - With flowcharts -- `handy`
 * [Adblock Radio](https://github.com/adblockradio/adblockradio) - An adblocker for live radio streams and podcasts -- `various lang`
 * [Algorithms, 4th Edition](https://algs4.cs.princeton.edu/home/) - 100% free high quality ebook from Princeton -- `book`
 * [Amazon Builder's Library](https://aws.amazon.com/builders-library) - Amazon shares their learnings -- `articles`
@@ -2145,6 +2149,7 @@
 * [BBR NKOTB](https://blog.apnic.net/2017/05/09/bbr-new-kid-tcp-block/) - Excellent article that explains BBR and compares it to traditional TCP congestion and loss algorithms -- `article`
 * [Beyond the 12 Factor App](https://content.pivotal.io/ebooks/beyond-the-12-factor-app) - Free ebook, by Pivotal -- `book`
 * [Borg, Omega, and Kubernetes - Lessons Learned from 3 Container Management Systems Over a Decade](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf) - Paper by Google -- `article`
+* [Building Secure & Reliable Systems](https://landing.google.com/sre/books/) - The third SRE book from Google, free -- `book`
 * [Bypass Paywalls](https://github.com/iamadamdev) - Shhh -- `Firefox` `Chrome`
 * [Caffeine](http://lightheadsw.com/caffeine/) - Simple menu bar app to stop your Mac from sleeping -- `closed source` `OS X`
 * [Chaos Engineering](https://www.oreilly.com/webops-perf/free/chaos-engineering.csp) - Building confidence in system behavior through experiments, free book by Netflix -- `book`
@@ -2168,8 +2173,10 @@
 * [Design Patterns for Humans](https://github.com/kamranahmedse/design-patterns-for-humans) - An ultra-simplified explanation of repeatable software design patterns -- `article`
 * [Design Patterns](https://sourcemaking.com/design_patterns) - Wonderful collection of software development design patterns with examples, includes anti-patterns and refactoring guidelines -- `collection`
 * [Designing Data Intensive Applications](https://dataintensive.net/) - The big ideas behind reliable, scalable, and maintable systems - highly recommened -- `book`
+* [Designing Data Intensive Applications - Book Review](https://henrikwarne.com/2019/07/27/book-review-designing-data-intensive-applications/) - The one you need -- `book`
 * [DevDocs](https://devdocs.io/) - Documentation browser for almost every API -- `collection`
 * [DevOps Conferences](http://www.gotodevops.org/) - Add and remove via PR, please contribute -- `collection`
+* [Discount for Student Dev](https://github.com/AchoArnold/discount-for-student-dev) - Programming and DevOps related discounts for .edu addresses, updated frequently, please contribute -- `collection`
 * [Docker Curriculum](https://docker-curriculum.com/) - One-stop shop for getting your hands dirty with Docker -- `tutorial`
 * [Dog vs. Cat: Docker Swarm Stacks](https://github.com/BretFisher/dogvscat) - Examples for building full Swarm-based clusters including proxies, centralized logging, persistent storage, deployment pipelines, and more -- `tutorial`
 * [Domain Block List](https://dbl.oisd.nl) - The only Pi Hole blocklist you'll need -- `collection`
@@ -2186,6 +2193,7 @@
 * [Good Sleep, Good Learning, Good Life](http://super-memory.com/articles/sleep.htm) - Compiled knowledege about sleep with sources and citations -- `zzz`
 * [GoodRX](https://www.goodrx.com) - Coupons for prescriptions, vaccines, and more, can be used pre-deductible, USA-centric -- `ez savings`
 * [Google Advanced Operators for Web Search](https://sites.google.com/site/gwebsearcheducation/advanced-operators) - Search modifiers for more accurate results, by Google -- `collection`
+* [Google Cloud Solutions Architecture Reference](https://gcp.solutions/) - Some simple reference architectures -- `collection`
 * [Google's Technical Development Guide](https://techdevguide.withgoogle.com/) - Hands on, free, self-paced courses to help you develop your programming skills -- `collection`
 * [googler](https://github.com/jarun/googler) - Google search, news, and site search from the terminal, slick -- `Python`
 * [gosu](https://github.com/tianon/gosu) - Simple Go-based setuid+setgid+setgroups+exec for stepping down privs, use me to avoid weird su and sudo TTY bugs -- `Golang`
@@ -2200,6 +2208,7 @@
 * [HTTPS Everywhere](https://www.eff.org/https-everywhere) - Uses client-side tricks to force misconfigured sites to use HTTPS all the time, by the EFF (donate) -- `Firefox` `Chrome`
 * [Huginn](https://github.com/cantino/huginn) - Build agents that perform automated tasks/workflows for you online or locally, like IFTTT -- `Ruby`
 * [In Defense of Swap](https://chrisdown.name/2018/01/02/in-defence-of-swap.html) - Well informed article about why you need some swap -- `article`
+* [Insanely Complete Ansible Playbook](https://gist.github.com/phred/2897937) - An explination of every available option, work exploring -- `collection`
 * [Interactive Coding Challenges](https://github.com/donnemartin/interactive-coding-challenges) - 120+ interactive Python coding interview challenges (algorithms and data structures), includes Anki flashcards -- `Python`
 * [Interlibrary Loan](https://en.wikipedia.org/wiki/Interlibrary_loan) - If your local library doesn't have a book or DVD in their collection they can use this service to order it from another library so you can borrow it out -- `i'm learnding`
 * [Introduction to Cloud Infrastructure Technologies](https://github.com/darshanime/notes/blob/master/cloud.org) - Notes from the superb course on edX -- `collection`
@@ -2217,9 +2226,11 @@
 * [Kubernetes Clusters for the Hobbyist](https://github.com/hobby-kube/guide) - How to securely run Kubernetes on providers that don't have ELBs, private networking, or persistent distributed storage (Hetzner Cloud, DigitalOcean or Scaleway) -- `guide`
 * [Kubernetes Failure Stories](https://github.com/hjacobs/kubernetes-failure-stories) - Post mortems of Kubernetes outages, great way to learn -- `collection`
 * [Kubernetes Patterns](https://www.redhat.com/cms/managed-files/cm-oreilly-kubernetes-patterns-ebook-f19824-201910-en.pdf) - Free ebook from Red Hat and O-Reilly -- `book`
+* [Kubernetes Production Best Practices](https://learnk8s.io/production-best-practices) - Checklist -- `collection`
 * [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) - Build Kubernetes from the ground up as a learning exercise -- `tutorial`
 * [Kubernetes the Hard Way Azure](https://github.com/salaxander/kubernetes-the-hard-way) - Ported to Azure -- `tutorial`
 * [Kubernetes the Hard Way Vagrant](https://github.com/kinvolk/kubernetes-the-hard-way-vagrant) - A port of Kelsey Hightower's "Kubernetes the Hard Way" tutorial to Vagrant -- `tutorial`
+* [Kubernetes the Hard Way VirtualBox](https://github.com/sgargel/kubernetes-the-hard-way-virtualbox) - Bootstrap Kubernetes the hard way on VirtualBox. No scripts. -- `tutorial`
 * [Latency: A Primer](https://igor.io/latency/) - Web-app centric, defines all the terms you need to know then puts the knowledge together -- `article`
 * [LearnXinYMinutes](https://learnxinyminutes.com/) - Super fast tutorials for almost every programming language -- `collection`
 * [Libby](https://meet.libbyapp.com/) - App for ebooks and audio books for USA public library members, from OverDrive -- `explore yours today` `Android` `iOS` `Windows 10`
@@ -2233,6 +2244,7 @@
 * [Mail Tester](https://www.mail-tester.com/) - Test the spammyness of your e-mails -- `in-browser`
 * [Managing Kubernetes](https://go.heptio.com/rs/383-ENX-437/images/Managing_Kubernetes.pdf) - Full 2019 ebook by Heptio and O'Reilly -- `book`
 * [maybe](https://github.com/p-e-w/maybe) - Allows a dry run of almost any Linux binary, see the files it will modify, calls made, etc -- `Python pip`
+* [Maza](https://github.com/tanrax/maza-ad-blocking) - Like Pi-hole but local and using your operating system -- `shell`
 * [Memory Management Reference](http://www.memorymanagement.org/index.html) - All in one reference for memory management and garbage collection -- `collection`
 * [MIT OpenCourseWare](https://ocw.mit.edu/about/) - MIT's real course materials from 2400+ courses -- `collection`
 * [Mjolnir](https://github.com/sdegutis/mjolnir) - Automation for OS X, think AutoHotKey for Mac -- `C` `OS X`
@@ -2278,11 +2290,12 @@
 * [Secure Messaging Apps](https://www.securemessagingapps.com/) - True comparison of the technical features and merits of various apps, which are TRULY secure? -- `collection`
 * [Security 101 for SaaS Startups](https://github.com/forter/security-101-for-saas-startups) - Excellent checklist and guide in easy to understand terms for non-infrastructure people -- `collection`
 * [Security Engineering 3rd Edition](https://www.cl.cam.ac.uk/~rja14/book.html) - Free concise ebook, updated 2020 -- `book`
-* [Site Reliability Engineering (SRE) by Google](https://landing.google.com/sre/book.html) - Full, free, online version of the O'Reilly book -- `the best`
-* [Site Reliability Workbook](https://landing.google.com/sre/workbook/toc/) - By Google -- `book`
+* [Site Reliability Engineering (SRE) by Google](https://landing.google.com/sre/books/) - Full, free, online version of the O'Reilly book -- `the best`
+* [Site Reliability Workbook](https://landing.google.com/sre/books/) - Free, by Google -- `book`
 * [Spectacle](https://www.spectacleapp.com/) - Control desktop windows via keyboard shortcuts -- `Objective C`
 * [StackStorm](https://github.com/StackStorm/st2) - IFTTT for Ops -- `Python`
 * [Steps Recorder (aka Problem Steps Recorder)](https://support.microsoft.com/en-us/help/22878/windows-10-record-steps) - Windows 7+, user records themselves reproducing a problem, they send video to you, you playback -- `closed source`
+* [Stock Images](https://news.ycombinator.com/item?id=15602538) - An excellent collection from HN -- `collection`
 * [System Architecture](https://github.com/orrsella/soft-eng-interview-prep/blob/master/topics/system-architecture.md) - Great refresher, not so great for first time learners -- `collection`
 * [System Design Primer](https://github.com/donnemartin/system-design-primer) - Learn how to design large-scale systems -- `article`
 * [SymbolHound](http://symbolhound.com) - Search engine that doesn't ignore special characters, great for programming questions -- `try it`
@@ -2300,3 +2313,5 @@
 * [Use the Index, Luke](https://use-the-index-luke.com/) - SQL indexing and tuning for developers -- `collection`
 * [Vim Adventures](https://vim-adventures.com/) - A game to learn  vi / vim using your browser -- `in-browser` `tutorial`
 * [Web Security Academy](https://portswigger.net/web-security) - Free online training for the creators of Burp Suite -- `tutorial`
+* [What Happens When... Kubernetes Edition](https://github.com/jamiehannaford/what-happens-when-k8s) - Walks through what happens behind the scenes when you do a kubectl run -- `tutorial`
+* [WhosHere](https://github.com/curtbraz/whoshere) - Monitor an area for WiFi and Bluetooth probe requests to see when people (devices) come and go, with web UI and IFTTT webhook integraiton for Slack/SMS pushes -- `PHP`
