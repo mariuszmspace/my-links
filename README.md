@@ -6,6 +6,7 @@
 
 ---
 * [Josh Turgasen on LinkedIn](https://www.linkedin.com/in/jturgasen)
+* [Software Engineering at Google: Lessons Learns from Programming Over Time - Notes by JoshT](https://www.seagnotes.com)
 
 ---
 # Table of Contents
@@ -426,6 +427,7 @@
 * [Clear Linux](https://clearlinux.org/) - New name for Clear Containers, attempts combine the security advantages of VMs with the deployment advantages of containers -- `various lang`
 * [Click](https://github.com/databricks/click) - REPL CLI for Kubernetes -- `Rust`
 * [Cloud Foundry](https://www.cloudfoundry.org/) - Open source PaaS by VMware and Pivotal -- `Golang` `Ruby`
+* [ClusterCloner](https://github.com/doitintl/ClusterCloner) - Reads the Kubernetes clusters in one location (optionally filtering by labels) and clones them into another (or just outputs JSON as a dry run), to/from AWS, GCP, and Azure -- `Golang`
 * [CodeReady Containers](https://github.com/code-ready/crc) - Run OpenShift 4.x locally on your laptop, RECOMMENDED -- `various lang`
 * [CodeReady Single Node Cluster (SNC)](https://github.com/code-ready/snc) - Script to create an OpenShift 4.x single node cluster on Linux using KVM -- `shell`
 * [Contour](https://github.com/heptio/contour) - Kubernetes ingress controller using Lyft's Envoy proxy -- `Golang`
@@ -1489,8 +1491,9 @@
 
 * [Bitwarden](https://bitwarden.com/) - The new hotness in password management -- `various lang`
 * [blackbox](https://github.com/StackExchange/blackbox) - Safely store secrets in Git, by Stack Exchange -- `shell`
-* [Diceware](http://world.std.com/~reinhold/diceware.html) - Neat IRL passphrase generator -- `doitirl`
 * [credstash](https://github.com/fugue/credstash) - Secrets management using AWS KMS -- `Python pip`
+* [Diceware](http://world.std.com/~reinhold/diceware.html) - Neat IRL passphrase generator -- `doitirl`
+* [encpass](https://github.com/plyint/encpass.sh) - Lightweight solution for using encrypted passwords in shell scripts -- `shell`
 * [GPG (GNU Privacy Guard)](https://www.gnupg.org/) - The original! Store em in text files and encrypt -- `C` `pro`
 * [GRC Password Generator](https://www.grc.com/passwords.htm) - Generates 63 bit passwords -- `in-browser`
 * [Kee](https://www.kee.pm/) - Auto-fill website logins using KeePass as a source, like LastPass -- `C#` `Firefox`
@@ -1541,6 +1544,7 @@
 * [Brida](https://github.com/federicodotta/Brida) - Bridge between Burp Suite & Frida, lets you use and manipulate applications own methods while tampering the traffic exchanged between the applications and their back-end services/servers -- `various lang`
 * [bro](https://github.com/bro/bro) - Framework for network analysis and security monitoring -- `C++`
 * [CALDERA](https://github.com/mitre/caldera) - Automated adversary emulation system that performs post-compromise adversarial behavior within Windows Enterprise networks -- `Python`
+* [Checkov](https://www.checkov.io/) - Scans cloud infrastructure provisioned using Terraform, Cloudformation or Kubernetes and detects security and compliance misconfigurations -- `Golang`
 * [cherrytree](https://www.giuspen.com/cherrytree/) - Hierarchical note taking application, excellent for red team / pentest notes -- `Python`
 * [chkrootkit](http://www.chkrootkit.org/) - Rootkit checker, best used from a live CD -- `C`
 * [CIS Linux Benchmarks](https://learn.cisecurity.org/benchmarks?category=benchmarks.os.linux) - Linux OS hardening guides, superb! -- `collection`
@@ -2176,7 +2180,7 @@
 * [Design Patterns for Humans](https://github.com/kamranahmedse/design-patterns-for-humans) - An ultra-simplified explanation of repeatable software design patterns -- `article`
 * [Design Patterns](https://sourcemaking.com/design_patterns) - Wonderful collection of software development design patterns with examples, includes anti-patterns and refactoring guidelines -- `collection`
 * [Designing Data Intensive Applications](https://dataintensive.net/) - The big ideas behind reliable, scalable, and maintable systems - highly recommened -- `book`
-* [Designing Data Intensive Applications - Book Review](https://henrikwarne.com/2019/07/27/book-review-designing-data-intensive-applications/) - The one you need -- `book`
+* [Designing Data Intensive Applications - Book Notes](https://hoanhan101.github.io/2020/07/05/design-data-intensive-apps) - The one you need -- `book`
 * [DevDocs](https://devdocs.io/) - Documentation browser for almost every API -- `collection`
 * [DevOps Conferences](http://www.gotodevops.org/) - Add and remove via PR, please contribute -- `collection`
 * [Discount for Student Dev](https://github.com/AchoArnold/discount-for-student-dev) - Programming and DevOps related discounts for .edu addresses, updated frequently, please contribute -- `collection`
@@ -2188,6 +2192,7 @@
 * [Everything You Should Know About Certificates and PKI](https://smallstep.com/blog/everything-pki.html) - Easy to understand tutorial -- `tutorial`
 * [f.lux](https://justgetflux.com/) - Changes your screen from blue light to yellow light when the sun sets to tell your brain it's night time -- `closed source` `OS X` `Windows`
 * [Fossor](https://github.com/linkedin/fossor) - Automate on-call investigation steps, by LinkedIn -- `Python pip`
+* [GKE Demo](https://github.com/ilya-lesikov/gke-demo) - Demonstration of complete, fully-featured CI/CD and cloud automation for microservices, done with GCP/GKE -- `various lang`
 * [Geocities-izer](http://www.wonder-tonic.com/geocitiesizer/) - Make any HTML web page look like a Geocities page -- `sweeeeeeet`
 * [go-perfbook](https://github.com/dgryski/go-perfbook) - Outlines best practices for writing high-performance Go code -- `article`
 * [Goalkicker](https://goalkicker.com/) - Free programming ebooks -- `collection`
@@ -2202,7 +2207,7 @@
 * [gosu](https://github.com/tianon/gosu) - Simple Go-based setuid+setgid+setgroups+exec for stepping down privs, use me to avoid weird su and sudo TTY bugs -- `Golang`
 * [Hashicorp Learn](https://learn.hashicorp.com/) - Official training for Vault, Consul, Terraform, Vagrant, Packer, and Nomad -- `training`
 * [HEAD](https://htmlhead.dev/) - A free guide to HTML5 <head> elements -- `collection`
-* [High Performance Browser Networking](https://hpbn.co/) - What every web developer needs to know about the various types of networks (WiFi, 3G/4G), transport protocols (UDP, TCP, and TLS), application protocols (HTTP/1.1, HTTP/2), and APIs available in the browser (XHR, WebSocket, WebRTC, and more) -- `book` 
+* [High Performance Browser Networking](https://hpbn.co/) - What every web developer needs to know about the various types of networks (WiFi, 3G/4G), transport protocols (UDP, TCP, and TLS), application protocols (HTTP/1.1, HTTP/2), and APIs available in the browser (XHR, WebSocket, WebRTC, and more) -- `book`
 * [Homomorphic Encryption](https://en.m.wikipedia.org/wiki/Homomorphic_encryption) - Allows data to be encrypted and out-sourced to 3rd parties for processing, all while encrypted (or remove HIPAA barriers) -- `article`
 * [Hoopla](https://www.hoopladigital.com/) - Digital movies, music and ebooks for USA public library members -- `explore yours today`
 * [How Complex Systems Fail](http://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf) - Paper by MIT, a great read for operations -- `article`
@@ -2258,6 +2263,7 @@
 * [NoRoot Firewall](https://play.google.com/store/apps/details?id=app.greyshirts.firewall&hl=en_US) - Android app that logs connections to show overly chatty background apps and more -- `closed source`
 * [NoScript](https://noscript.net/) - JavaScript, XSS, tracker, Flash blockers and more - your condom for the Internet -- `Firefox`
 * [oauth2_proxy](https://github.com/pusher/oauth2_proxy) - A reverse proxy that provides authentication with Google, Github or other provider -- `Golang`
+* [Omni Calculator](https://www.omnicalculator.com/) - 1168 free calculators -- `collection`
 * [oomd](https://github.com/facebookincubator/oomd) - Userspace OOM killer, highly configurable and much improved over the kernel's built in OOM killer -- `C++`
 * [Open Source Society University (OSSU)](https://github.com/ossu/computer-science) - A complete education in computer science using free online materials -- `collection`
 * [Open19](https://www.open19.org/) - Open data center hardware for standard size racks -- `neat`
@@ -2286,16 +2292,19 @@
 * [Privacy Badger](https://www.eff.org/privacybadger) - The best in-browser privacy and anti-tracking tool, by the EFF (donate) -- `Chrome` `Firefox`
 * [Production Readiness Checklist](https://www.gruntwork.io/devops-checklist/) - Excellent checklist for pre-go-live, AWS-centric but great general advice -- `collection`
 * [Puffer](https://puffer.stanford.edu/) - Re-transmits free over-the-air broadcast television signals received by an antenna located on the campus of Stanford University, USA geo-locked, by Stanford Platform Lab and many others -- `in-browser` `Android`
+* [Python Cheat Sheet](https://github.com/wilfredinni/python-cheatsheet) - Mostly based on the book written by Al Sweigart, Automate the Boring Stuff with Python -- `collection`
 * [repl.it](https://repl.it/languages) - In-browser REPLs for a ton of languages -- `in-browser`
 * [Reverse Engineering for Beginners](https://beginners.re/RE4B-EN.pdf) - Some serious work was put into this -- `book`
 * [runwhen](http://code.dogmap.org/runwhen/) - Utilities for running commands at particular times, cron on steroids -- `C`
 * [SaaS CTO Security Checklist](https://www.sqreen.com/checklists/saas-cto-security-checklist) - Categorizes and prioritizes actions by funding round -- `collection`
+* [scrcpy](https://github.com/Genymobile/scrcpy) - Remote display and control of Android devices connected on USB or TCP/IP -- `C`
 * [Scrum Guide](https://www.scrumguides.org/) - Explains Scrum in a concise and straightforward way in about 10 pages, by the creators -- `article`
 * [Secure Messaging Apps](https://www.securemessagingapps.com/) - True comparison of the technical features and merits of various apps, which are TRULY secure? -- `collection`
 * [Security 101 for SaaS Startups](https://github.com/forter/security-101-for-saas-startups) - Excellent checklist and guide in easy to understand terms for non-infrastructure people -- `collection`
 * [Security Engineering 3rd Edition](https://www.cl.cam.ac.uk/~rja14/book.html) - Free concise ebook, updated 2020 -- `book`
 * [Site Reliability Engineering (SRE) by Google](https://landing.google.com/sre/books/) - Full, free, online version of the O'Reilly book -- `the best`
 * [Site Reliability Workbook](https://landing.google.com/sre/books/) - Free, by Google -- `book`
+* [Software Engineering at Google](https://www.seagnotes.com) - Notes from the book, by me -- `notes`
 * [Spectacle](https://www.spectacleapp.com/) - Control desktop windows via keyboard shortcuts -- `Objective C`
 * [StackStorm](https://github.com/StackStorm/st2) - IFTTT for Ops -- `Python`
 * [Steps Recorder (aka Problem Steps Recorder)](https://support.microsoft.com/en-us/help/22878/windows-10-record-steps) - Windows 7+, user records themselves reproducing a problem, they send video to you, you playback -- `closed source`
@@ -2305,6 +2314,7 @@
 * [SymbolHound](http://symbolhound.com) - Search engine that doesn't ignore special characters, great for programming questions -- `try it`
 * [Teach Yourself Computer Science](https://teachyourselfcs.com/) - 9 subjects, they choose the best free source to learn each subject and explain why that source is the best - they did the research for you -- `collection`
 * [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/) - SWE / dev-centric -- `tutorial`
+* [Terragrunt Reference Architecture (AWS)](https://github.com/antonbabenko/terragrunt-reference-architecture) - Nice, looking forward to their GCP one -- `various lang`
 * [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line) - The BEST interactive Linux tutorial, newbie focused -- `learn it`
 * [The Early Security Engineer’s First 90 Days Checklist](https://www.sqreen.com/checklists/security-engineer-checklist) - Aims to help security engineers and CISOs in early stage companies to prioritize their efforts in the first months of their new job -- `list`
 * [The Illustrated TLS Connection](https://tls.ulfheim.net/) - Every byte of a TLS connection explained and reproduced -- `article`
