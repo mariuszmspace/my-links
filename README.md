@@ -6,7 +6,7 @@
 
 ---
 
-* [SEAGNotes.com - Software Engineering at Google: Lessons Learns from Programming Over Time - Notes by JoshT](https://www.seagnotes.com)
+* [SEAGNotes.com - Software Engineering at Google: Lessons Learned from Programming Over Time - Notes by JoshT](https://www.seagnotes.com)
 
 ---
 # Table of Contents
