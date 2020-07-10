@@ -5,8 +5,8 @@
 * Please don't submit to Reddit, HN, or post this on Twitter.  Share, but share with close friends!
 
 ---
-* [Josh Turgasen on LinkedIn](https://www.linkedin.com/in/jturgasen)
-* [Software Engineering at Google: Lessons Learns from Programming Over Time - Notes by JoshT](https://www.seagnotes.com)
+
+* [SEAGNotes.com - Software Engineering at Google: Lessons Learns from Programming Over Time - Notes by JoshT](https://www.seagnotes.com)
 
 ---
 # Table of Contents
