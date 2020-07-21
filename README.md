@@ -2142,6 +2142,7 @@
 * [Amazon EKS Workshop](https://eksworkshop.com/) - Designed to educate engineers that might not be familiar with Amazon EKS, Kubernetes, and possibly even Docker container workflow -- `tutorial`
 * [An Illustrated Guide to Kubernetes Networking](https://morioh.com/p/ecb38c8342ba/an-illustrated-guide-to-kubernetes-networking) - See title -- `article`
 * [An Introduction to Distributed Systems](https://github.com/aphyr/distsys-class) - by Aphyr -- `tutorial`
+* [Ansible Examples](https://github.com/ansible/ansible-examples) - Shows features and how they work together, a great hands-on, official -- `tutorial`
 * [Ansible for DevOps](https://www.ansiblefordevops.com/) - The recommended book to learn Ansible -- `book`
 * [Ansible Interactive Tutorial](https://github.com/turkenh/ansible-interactive-tutorial) - Interactive tutorials for Ansible via Docker, super simple -- `tutorial`
 * [Ansible Lightbulb](https://ansible.github.io/lightbulb/) - Workshops, training decks, and guides, by Red Hat -- `tutorials`
@@ -2222,7 +2223,6 @@
 * [HTTPS Everywhere](https://www.eff.org/https-everywhere) - Uses client-side tricks to force misconfigured sites to use HTTPS all the time, by the EFF (donate) -- `Firefox` `Chrome`
 * [Huginn](https://github.com/cantino/huginn) - Build agents that perform automated tasks/workflows for you online or locally, like IFTTT -- `Ruby`
 * [In Defense of Swap](https://chrisdown.name/2018/01/02/in-defence-of-swap.html) - Well informed article about why you need some swap -- `article`
-* [Insanely Complete Ansible Playbook](https://gist.github.com/phred/2897937) - An explination of every available option, work exploring -- `collection`
 * [Interactive Coding Challenges](https://github.com/donnemartin/interactive-coding-challenges) - 120+ interactive Python coding interview challenges (algorithms and data structures), includes Anki flashcards -- `Python`
 * [Interlibrary Loan](https://en.wikipedia.org/wiki/Interlibrary_loan) - If your local library doesn't have a book or DVD in their collection they can use this service to order it from another library so you can borrow it out -- `i'm learnding`
 * [Introduction to Cloud Infrastructure Technologies](https://github.com/darshanime/notes/blob/master/cloud.org) - Notes from the superb course on edX -- `collection`
