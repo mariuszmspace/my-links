@@ -6,11 +6,13 @@
 
 ---
 
-* [Software Engineering at Google: Lessons Learned from Programming Over Time](https://www.seagnotes.com) notes by me
+* [Software Engineering at Google: Lessons Learned from Programming Over Time](https://www.seagnotes.com)
 
 * [Josh's Website](https://www.joshturgasen.com)
 
 * [Josh's Tech Blog v2](https://jturgasen.github.io)
+
+* [Jump to learning resources](#misc-tools-and-learning-opportunities)
 
 ---
 # Table of Contents
