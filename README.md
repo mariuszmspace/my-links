@@ -6,29 +6,30 @@
 
 ---
 
-* [Software Engineering at Google: Lessons Learned from Programming Over Time](https://www.seagnotes.com)
+---
+# Table of Contents
+
+* [Tools by Category](#tools-by-category)
+
+* [IT News](#it-news)
+ 
+* [Learning Resources](#learning-resources)
+ 
+
+
+* [Notes from the book Software Engineering at Google: Lessons Learned from Programming Over Time](https://www.seagnotes.com)
 
 * [Josh's Website](https://www.joshturgasen.com)
 
 * [Josh's Tech Blog v2](https://jturgasen.github.io)
 
-* [Jump to learning resources](#misc-tools-and-learning-opportunities)
-
----
-# Table of Contents
-
-* [Tools by Category](#tools-by-category)
-* [IT News](#it-news)
-* [Linux News and Articles](#linux-news-and-articles)
-* [Linux Message Boards and Forums](#linux-message-boards-and-forums)
 
 ---
 # Tools by Category
 
 * [X](#asset-management) Asset Management
-* [X](#aws-tools) AWS Tools
+* [X](#aws-tools) AWS Tools and Learning Resources
 * [X](#backups) Backups
-* [X](#chef) Chef
 * [X](#cloud-file-sync-and-sharing) Cloud File Sync and Sharing
 * [X](#collaboration-tools) Collaboration Tools
 * [X](#configuration-management) Configuration Management
@@ -40,6 +41,7 @@
 * [X](#graphics-stuff) Graphics Stuff
 * [X](#high-availability-clustering-tools) High Availability Clustering Tools
 * [X](#hpc-tools) HPC Tools
+* [X](#kubernetes) Kubernetes
 * [X](#live-cd-tools) Live CD Tools
 * [X](#logging) Logging
 * [X](#metrics-and-time-series-data) Metrics and Time Series Data
@@ -55,8 +57,6 @@
 * [X](#rdbms-and-sql-tools) RDBMS and SQL Tools
 * [X](#rdbms-performance-analysis-tools) RDBMS Performance Analysis Tools
 * [X](#regular-expressions) Regular Expressions
-* [X](#ruby-tools-and-resources) Ruby Tools and Resources
-* [X](#ruby-programming-tutorials) Ruby Programming Tutorials
 * [X](#secrets-management) Secrets Management
 * [X](#security-tools) Security Tools
 * [X](#shell-scripting-and-tools) Shell Scripting and Tools
@@ -73,7 +73,8 @@
 * [X](#vpns-and-tunnels) VPNs and Tunnels
 * [X](#web-and-http-tools) Web and HTTP Tools
 * [X](#web-and-http-performance-analysis-tools) Web and HTTP Performance Analysis Tools
-* [X](#misc-tools-and-learning-opportunities) Misc Tools and Learning Opportunities
+* [X](#misc-tools-of-note) Misc Tools of Note
+* [X](#learning-resources) Learning Resources
 
 ---
 # IT News
@@ -104,56 +105,6 @@
 * [The Register](https://www.theregister.co.uk/)
 * [Webshit Weekly](http://www.n-gate.com/)
 
----
-# Linux News and Articles
-
-> Linux-centric news and articles
-
-* [Distro Watch](https://distrowatch.com/)
-* [Fedora Magazine](https://fedoramagazine.org/)
-* [FOSS Force](https://fossforce.com/)
-* [Full Circle Magazine](https://fullcirclemagazine.org/)
-* [Linux.com](https://www.linux.com/)
-* [Linux Insider](https://www.linuxinsider.com/)
-* [Linux Journal](https://www.linuxjournal.com/)
-* [Linux Magazine](http://www.linux-magazine.com/)
-* [Linux Today](https://www.linuxtoday.com/)
-* [Linux Weekly News (LWN)](https://lwn.net/)
-* [OpenSource.com](https://opensource.com/)
-* [Phoronix](https://www.phoronix.com)
-* [Planet Fedora](http://planet.fedoraproject.org/)
-* [Planet Ubuntu](http://planet.ubuntu.com/)
-* [/r/linux](https://www.reddit.com/r/linux)
-* [Red Hat Developer Blog](https://developers.redhat.com/blog/)
-* [Red Hat Enterprise Linux Blog](https://rhelblog.redhat.com/)
-* [Tux Machines](http://www.tuxmachines.org/)
-* [Ubuntu Weekly Newsletter](https://wiki.ubuntu.com/UbuntuWeeklyNewsletter)
-
----
-# Linux Message Boards and Forums
-
-> Resources for troubleshooting and technical questions
-
-* [Mailing Lists](http://www.example.com) - No link, there's like 4 trillion of them
-* [IRC](http://www.example.com) - Same as above
-* [Arch Linux BBS](https://bbs.archlinux.org/) - Official
-* [Ask Fedora](https://ask.fedoraproject.org/) - Official
-* [Ask Ubuntu](https://askubuntu.com/) - StackExchange
-* [CentOS Forums](https://www.centos.org/forums/) - Official
-* [Fedora Forums](https://www.forums.fedoraforum.org/)
-* [JustLinux Forums](http://forums.justlinux.com/)
-* [LinuxForums.org](https://www.linuxforums.org/forums)
-* [LinuxQuestions.org](https://www.linuxquestions.org/questions/)
-* [linux.stackexchange.com](https://linux.stackexchange.com/) - StackExchange
-* [Linux Mint Forums](https://forums.linuxmint.com/) - Official
-* [Red Hat Support Portal](https://access.redhat.com/) - Subscription required
-* [serverfault.com](https://serverfault.com/) - StackExchange
-* [superuser.com](https://superuser.com/) - StackExchange
-* [SUSE / SLES Support Portal and Knowledge Base](https://www.suse.com/support/) - Official
-* [SUSE Forums](https://forums.suse.com/forum.php) - Official
-* [UbuntuForums.org](https://ubuntuforums.org/) - Official
-* [Unix.com Forums](https://www.unix.com/)
-
 
 ---
 ## Asset Management
@@ -182,24 +133,24 @@
 
 
 ---
-## AWS Tools
+## AWS Tools and Learning Resources
 
-> Tools for interacting with the Amazon Web Services ecosystem
+> Learning resources and tools for interacting with the Amazon Web Services ecosystem
 
-* [Aminator](https://github.com/Netflix/aminator) - Create application-specific custom AMIs, by Netflix -- `Python`
-* [asecurecloud](https://asecure.cloud/) - Create a stack and have it output as CF or AWS CLI pre-secured using best practices -- `in-browser`
+* [Amazon Builder's Library](https://aws.amazon.com/builders-library) - Amazon shares their learnings from building and operating AWS -- `articles`
+* [asecurecloud](https://asecure.cloud/) - A free library of 400+ customizable AWS security configurations and best practices (CF, Terraform, and AWS CLI) -- `collection`
 * [assume-role](https://github.com/coinbase/assume-role) - CLI tool making it easy to assume IAM roles through an AWS Bastion account -- `shell`
 * [awacs (Amazon Web Access Control Subsystem)](https://github.com/cloudtools/awacs) - Allows for easier creation of AWS Access Policy Language JSON by writing Python code to describe the AWS policies -- `Python pip`
 * [Awesome AWS](https://github.com/donnemartin/awesome-aws) - Curated list of AWS resources -- `collection`
-* [awless](https://github.com/wallix/awless) - Another AWS CLI, give it a try -- `Golang`
+* [Awesome AWS Workshops](https://awesome-aws-workshops.com/) - Dozens of free interactive AWS workshops covering almost every major service -- `tutorial`
 * [aws-shell (formerly Supercharged AWS CLI (SAWS))](https://github.com/awslabs/aws-shell) - The best CLI for interacting with AWS -- `Python pip`
 * [aws-vault](https://github.com/99designs/aws-vault) - A vault for securely storing and accessing AWS credentials in development environments  -- `Golang`
 * [AWSConsoleRecorder](https://github.com/iann0036/AWSConsoleRecorder) - Records actions made in the AWS Management Console and outputs the equivalent CLI/SDK commands and CloudFormation/Terraform templates -- `Chrome` `JavaScript
 * [AWS Amplify](https://github.com/aws-amplify) - Front end JS suite that provides a templated foundation for cloud-centric apps including authn, analytics, API, push notifications, Graph QL, and more -- `JavaScript`
 * [AWS Breaking Changes](https://github.com/SummitRoute/aws_breaking_changes) - List of changes announced for AWS that may break existing code -- `collection`
 * [AWS Extend Switch Roles](https://github.com/tilfin/aws-extend-switch-roles) - Extend your AWS IAM switching roles by Chrome extension or Firefox add-on -- `JavaScript`
+* [AWS IAM Authenticator for Kubernetes](https://github.com/kubernetes-sigs/aws-iam-authenticator) - A tool for using AWS IAM credentials to authenticate to a Kubernetes cluster -- `Golang`
 * [AWS SAM Local](https://github.com/awslabs/aws-sam-local) - CLI tool for local development and testing of Lambda applications -- `Golang`
-* [azcopy](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy) - Official CLI for copying data to/from Microsoft Azure Blob, File, and Table storage -- `closed source`
 * [boto3](https://boto3.readthedocs.io/en/latest/) - The AWS SDK for Python 3 -- `Python`
 * [boto3_type_annotations](https://github.com/alliefitter/boto3_type_annotations) - Adds code completion in IDEs such as PyCharm -- `Python`
 * [botostubs](https://github.com/jeshan/botostubs) - boto3 code assistance for any API in any IDE, always up to date -- `Python`
@@ -212,22 +163,22 @@
 * [CloudFormation Roadmap](https://github.com/aws-cloudformation/aws-cloudformation-coverage-roadmap) - Official roadmap -- `article`
 * [CloudMapper](https://github.com/duo-labs/cloudmapper) - Generates network diagrams of Amazon Web Services (AWS) environments and displays them via your browser, by Duo Security -- `Python`
 * [CloudSploit Scans](https://github.com/cloudsploit/scans) - Scan AWS accounts for security risks -- `JavaScript`
+* [ClusterCloner](https://github.com/doitintl/ClusterCloner) - Reads the Kubernetes clusters in one location (optionally filtering by labels) and clones them into another (or just outputs JSON as a dry run), to/from AWS, GCP, and Azure -- `Golang`
 * [credstash](https://github.com/fugue/credstash) - Secrets management using AWS KMS -- `Python pip`
 * [eb_deploy](https://github.com/ThoughtWorksStudios/eb_deployer) - Elastic Beanstalk blue-green deployment automation -- `Ruby gem`
 * [ec2-price-check](https://github.com/Bjorn248/ec2-price-check) - Gives a quick price check for an instance type -- `shell`
 * [ec2instances.info](https://www.ec2instances.info/) - Open source and up to date instance price comparison tool -- `Python`
 * [eksctl](https://eksctl.io/) - CLI tool for creating and managing clusters on AWS EKS -- `Golang`
-* [Empire](https://github.com/remind101/empire) - PaaS built on top of Amazon EC2 Container Service (ECS) -- `Golang`
 * [Fargate](https://github.com/jpignata/fargate) - CLI for AWS Fargate, unofficial -- `Golang`
 * [Force MFA](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_users-self-manage-mfa-and-creds.html) - Allows users to manage their own passwords and MFA devices but nothing else unless they authenticate with MFA, also makes API calls require MFA -- `policy`
 * [Former2](https://github.com/iann0036/former2) - Generate CloudFormation / Terraform / Troposphere templates from your existing AWS resources via self-hosted web GUI -- `JavaScript`
 * [haproxy-autoscale](https://github.com/markcaudill/haproxy-autoscale) - Wrapper for haproxy that handles auto-scaling EC2 instances -- `Python`
-* [Ice](https://github.com/Netflix/ice) - AWS usage tool, by Netflix -- `Grails`
-* [jungle](https://github.com/achiku/jungle) - awscli wrapper to make commands simpler and more UNIX-like -- `Python pip`
 * [kappa](https://github.com/garnaat/kappa) - CLI tool that makes it easier to deploy, update, and test Lambda functions -- `Python`
 * [localstack](https://github.com/localstack/localstack) - A fully functional local AWS cloud stack for offline dev and test -- `Python`
 * [Moto](https://github.com/spulec/moto) - Library that allows your Python tests to easily mock out the boto library -- `Python pip`
 * [My Arsenal of AWS Security Tools](https://github.com/toniblyx/my-arsenal-of-aws-security-tools) - List of open source tools for AWS security: defensive, offensive, auditing, DFIR, etc -- `collection`
+* [Open Guides: AWS](https://github.com/open-guides/og-aws) - Excellent summary of almost all services -- `collection`
+* [Production Readiness Checklist](https://www.gruntwork.io/devops-checklist/) - Excellent checklist for pre-go-live, AWS-centric but great general advice -- `collection`
 * [Prowler](https://github.com/toniblyx/prowler) - For AWS account security assessment and hardenin, based on aws-cli commands -- `shell`
 * [refunc](https://github.com/refunc/refunc) - Run AWS Lambda on Kubernetes, a Lambda-compatable API -- `Golang`
 * [s3cmd](https://s3tools.org/s3cmd) - Backup to AWS via the command line -- `Python`
@@ -239,7 +190,9 @@
 * [StackMaster](https://github.com/envato/stack_master) - Provides a ton of info pre-CloudFormation run so that you know exactly what will change -- `Ruby gem`
 * [StarCluster](http://star.mit.edu/cluster/) - Toolkit for using AWS for high performance computing (HPC), by MIT -- `Python`
 * [Stout](https://github.com/cloudflare/Stout) - Easy way to reliably upload a static website to S3, capable of configuring CloudFront and Route 53 -- `Golang`
+* [Terraformer](https://github.com/GoogleCloudPlatform/terraformer) - Generate Terraform files from existing infrastructure (reverse Terraform), supports AWS and GCP, by Google -- `Golang`
 * [Terraforming](https://terraforming.dtan4.net/) - Export all AWS resources into Terraform -- `Ruby gem`
+* [Terragrunt Reference Architecture (AWS)](https://github.com/antonbabenko/terragrunt-reference-architecture) - Nice, looking forward to their GCP one -- `various lang`
 * [Tools for Amazon Web Services](https://aws.amazon.com/tools/) - Amazon's portal for their official tools -- `various lang`
 * [troposphere](https://github.com/cloudtools/troposphere) - Python library to create CloudFormation descriptions -- `Python pip`
 * [Zappa](https://github.com/Miserlou/Zappa) - Build and deploy serverless, event-driven Python applications -- `Python`
@@ -283,40 +236,6 @@
 
 
 ---
-## Chef
-
-> Chef gets it's own category because they're MY links - see also [Configuration Management](#configuration-management)
-
-* [Bento](https://github.com/chef/bento) - Chef's collection of baseboxes configured to work with Packer and Vagrant, great for testing -- `Ruby`
-* [Berkshelf](https://docs.chef.io/berkshelf.html) - Like gem bundler for Chef cookbooks, manages dependencies -- `Ruby gem`
-* [Chake](https://gitlab.com/terceiro/chake) - Tool that helps you manage multiple hosts with chef-solo, think simple mini self-contained Chef (no server) -- `Ruby gem`
-* [chef-guard](https://github.com/xanzy/chef-guard) - feature rich Chef add-on that protects your Chef server from untested and potentially dangerous cookbooks -- `Ruby`
-* [chef-vault](https://docs.chef.io/chef_vault.html) - Allow specified node(s) to dencrypt the contents of encrypted data bags -- `Ruby gem`
-* [chef-whitelist](https://github.com/etsy/chef-whitelist) - Library that enables easy rollout of changes to one or more hosts, by Etsy -- `Ruby`
-* [ChefDK (Chef Development Kit)](https://downloads.chef.io/chef-dk/) - Includes Berkshelf, Test Kitchen, ChefSpec, Foodcritic, Knife, Chef Zero, Ohai, and more -- `Ruby`
-* [ChefSpec Examples](https://github.com/sethvargo/chefspec/tree/master/examples) - A billion code snippets and tests for ChefSpec -- `Ruby`
-* [Chef Partner GitHub Repos](https://github.com/chef-partners) - Official repo for tools, provisioners, and knife plugins from partners (VMware, GCE, Azure, AWS, etc) -- `collections`
-* [Chef Sugar](https://github.com/sethvargo/chef-sugar) - Syntactic sugar for Chef by Seth V -- `Ruby gem`
-* [Chef Supermarket (community)](https://supermarket.chef.io/) - Official community site for cookbooks -- `various lang`
-* [Chef Supermarket (self-hosted)](https://github.com/chef/supermarket) - Cookbook repository for Chef, can be hosted internally -- `Ruby`
-* [Citadel](https://github.com/poise/citadel) - Cookbook to store secrets in AWS S3 buckets using EC2 and IAM -- `Ruby`
-* [Foodcritic](http://www.foodcritic.io/) - Chef linter and static code analysis -- `Ruby gem`
-* [grocery-delivery](https://github.com/facebook/grocery-delivery) - Utility for managing cookbook uploads to distributed Chef backends, by Facebook -- `Ruby`
-* [Handlers](https://docs.chef.io/handlers.html#community-handlers) - The official list of community written handlers (Airbrake, IRC, Campfire, etc) -- `Ruby`
-* [Itamae](https://github.com/itamae-kitchen/itamae) - CM tool inspired by Chef, but simpler and lightweight, formerly LightChef -- `Ruby gem`
-* [Inspec](https://www.inspec.io/) - Drop-in replacement for ServerSpec, can be used for audit purposes too -- `Ruby gem`
-* [knife-backup](https://github.com/mdxp/knife-backup) - Knife plugin to help backup and restore a Chef server -- `Ruby gem`
-* [knife-push](https://docs.chef.io/push_jobs.html) - Official push jobs - action or a command to be executed against a subset of nodes -- `Ruby`
-* [Knife Plugins](https://docs.chef.io/community_plugin_knife.html) - The official list of community written plugins for Knife -- `collection`
-* [omnibus](https://github.com/chef/omnibus) - Create full-stack installers for your project -- `Ruby gem`
-* [Policy File](https://docs.chef.io/config_rb_policyfile.html) - Policyfile is a single document to specify the cookbooks and recipes that should be applied to node(s) -- `official` `experimental`
-* [Ridley](https://github.com/reset/ridley) - Chef API client -- `Ruby gem`
-* [ServerSpec](https://serverspec.org/) - RSpec tests for your servers configured by Puppet, Chef or anything else -- `Ruby`
-* [spiceweasel](https://github.com/mattray/spiceweasel) - Quickly automates the creation of whole Chef environments (batch loading) -- `Ruby`
-* [Test Kitchen](https://kitchen.ci/) - Automated testing for configuration management tools (mostly Chef) -- `Ruby gem`
-
-
----
 ## Cloud File Sync and Sharing
 
 > Sync files to and share from public or private file stores (think Dropbox, Google Drive, etc) - see also [Backups](#backups)
@@ -342,7 +261,6 @@
 > ChatOps, code review, groupware, webmail, code sharing, and more - see also [Dashboards and Data Visualization](#dashboards-and-data-visualization) and [Graphics Stuff](#graphics-stuff) and [Editors](#editors) and [Git Tools](#git-tools) and [Software Development Tools](#software-development-tools)
 
 * [Citadel](http://www.citadel.org/) - Messaging, collaboration tools, and groupware - an all-in-one package -- `C`
-* [Codeshare](https://codeshare.io/) - In-browser screenshare to teach coding, group code, or as an interview whiteboard -- `in-browser`
 * [dev-setup](https://github.com/donnemartin/dev-setup) - Automated setup scripts for laptop tools like Sublime Text, AWS, Spark, Android dev, and more -- `collection`
 * [Etherpad](https://etherpad.org/) - Enter, save, and share text/code in a web browser -- `JavaScript`
 * [FreeIPA](https://www.freeipa.org/page/Main_Page) - Identity, policy, and audit suite, think Active Directory for Linux (LDAP, CA, x509, DNS, Kerberos) -- `various lang`
@@ -355,7 +273,6 @@
 * [Kanboard](https://kanboard.org/) - Simple Kanban board -- `PHP`
 * [Kolab](https://kolab.org/) - Unified communication and collaboration system -- `PHP`
 * [LDAP Account Manager (LAM)](https://www.ldap-account-manager.org/lamcms/) - Full featured LDAP management GUI, can manage almost anything -- `PHP`
-* [Let's Chat](https://sdelements.github.io/lets-chat/) - Self-hosted open source HipChat clone -- `JavaScript`
 * [Mattermost](https://about.mattermost.com/download/) - OSS Slack alternative -- `Golang` `JavaScript`
 * [Mailtrain](https://github.com/Mailtrain-org/mailtrain) - Self hosted news letter e-mail app, similar to Mailchimp -- `JavaScript`
 * [OpenProject](https://www.openproject.org) - Web-based project management system built on Ruby on Rails -- `Ruby`
@@ -372,7 +289,6 @@
 * [Review Board](https://www.reviewboard.org/) - Code review tool for multiple SCM systems -- `Python`
 * [Rocket.Chat](https://rocket.chat/) - OSS Slack clone built with Meteor.js -- `JavaScript`
 * [Roundcube](https://roundcube.net/) - Browser-based multilingual IMAP client -- `PHP`
-* [Say What](https://github.com/joshnewlan/say_what) - Using speech-to-text to fully check out during conference calls -- `Python`
 * [Scribus](https://www.scribus.net/) - Open source desktop publishing (layout, typesetting, etc), Adobe InDesign alternative -- `C++` `Windows` `OS X`
 * [SOGo](https://www.sogo.nu/) - Groupware that integrates with Microsoft, Android, and Apple products -- `Objective-C` `OS X`
 * [Sovereign](https://github.com/al3x/sovereign) - Set of Ansible playbooks to deploy a suite of self-hosted apps (mail, colab, calendar, file sync, and more) -- `Python`
@@ -388,58 +304,41 @@
 ---
 ## Configuration Management
 
-> OS-level configuration management, [Chef](#chef) has it's own category because - see also [Asset Management](#asset-management) and [Orchestration](#orchestration) and [Package Patch and Repository Tools](#package-patch-and-repository-tools)
+> OS-level configuration management - see also [Asset Management](#asset-management) and [Orchestration](#orchestration) and [Package Patch and Repository Tools](#package-patch-and-repository-tools)
 
 * [Ansible](https://www.ansible.com) - CM and orchestration, also can do provisioning -- `Python`
 * [Ansible Galaxy](https://galaxy.ansible.com/) - Community site for finding, reusing, and sharing Ansible content -- `various lang`
 * [Automatic Server Hardening](https://dev-sec.io/) - Linux hardening cookbooks/manifests/playbooks for Puppet, Chef, and Ansible -- `various lang`
 * [awx](https://github.com/ansible/awx) - Upstream to Ansible Tower - REST API, task engine, etc -- `Python`
 * [Blueprint](https://github.com/devstructure/blueprint) - Reverse engineer a server configuration -- `Python pip`
-* [BOSH](https://github.com/cloudfoundry/bosh) - Cloud orchestration, supports Docker containers too -- `Ruby`
 * [Boxen](https://boxen.github.com/) - Mac / OS X configuration management -- `Ruby gem` `OS X`
-* [hiera-eyaml](https://github.com/TomPoulton/hiera-eyaml) - Backend for Hiera that provides per-value encryption of sensitive data within Puppet yaml files -- `Ruby`
 * [Jenkins Ansible Tower Plugin](https://github.com/jenkinsci/ansible-tower-plugin) - Run Ansible Tower jobs as a build step -- `Java`
-* [Juju](https://juju.ubuntu.com/) - Ubuntu focused but works on RHEL / CentOS now -- `Golang`
-* [librarian-puppet](https://librarian-puppet.com/) - Bundler for Puppet, manages dependencies -- `Ruby gem`
 * [Oxidized](https://github.com/ytti/oxidized) - RANCID replacement, supports many platforms (Cisco, Brocade, Juniper, Citrix, etc) -- `Ruby gem`
-* [puppet-lint](http://puppet-lint.com/) - Check that your Puppet manifest conform to the style guide -- `Ruby gem`
-* [Puppet Dashboard](https://github.com/sodabrew/puppet-dashboard) - Web based dashboard for Puppet -- `JavaScript`
-* [Puppet Forge](https://forge.puppetlabs.com/) - The official community repository of Puppet modules -- `collection`
-* [puppet-module-skeleton](https://github.com/garethr/puppet-module-skeleton) - Skeleton modules for Puppet -- `Ruby`
-* [r10k](https://github.com/puppetlabs/r10k) - General purpose toolset for deploying Puppet environments and modules -- `Ruby gem`
 * [RANCID - (Really Awesome New Cisco confIg Differ)](https://www.shrubbery.net/rancid/) - Pulls and saves network device configs and saves them into a CVS, now supports git -- `C`
 * [Reclass](https://reclass.pantsfullofunix.net/index.html) - External node classifier for most CM systems, allows for a tagging system that's a layer above the CM tool -- `Python`
-* [Rudder](https://www.rudder-project.org/site/) - Automation and compliance, uses CFengine -- `Scala`
 * [Salt / Saltstack](https://www.saltstack.com/) - Orchestration, server provisioning, and configuration management -- `Python`
 
 
 ---
 ## Containers
 
-> Linux containers, container orchestration, networking, Docker, OpenShift, Kubernetes, and related tools - see also [Distributed Systems Tools](#distributed-systems-tools) and [Virtualization and SDN](#virtualization-and-sdn) and [Web and HTTP Tools](#web-and-http-tools)
+> Linux containers, container orchestration, networking, Docker, OpenShift, and related tools - see also [Distributed Systems Tools](#distributed-systems-tools) and [Virtualization and SDN](#virtualization-and-sdn) and [Web and HTTP Tools](#web-and-http-tools)
 
 * [Alpine Linux](https://alpinelinux.org/) - Super minimal BusyBox based Linux distro, perfect for hosting containers -- `various lang`
 * [Anchore](https://github.com/anchore/anchore-engine) - A centralized service for inspection, analysis and certification of container images -- `Golang`
 * [appscale](https://github.com/AppScale/appscale) - Open source implementation of Google App Engine -- `Python`
-* [Argo](https://github.com/argoproj/argo) - Container-native workflow engine  implemented as a Kubernetes CRD (Custom Resource Definition) -- `Golang`
-* [Authenticator](https://github.com/heptio/authenticator) - A tool for using AWS IAM credentials to authenticate to a Kubernetes cluster -- `Golang`
 * [Awesome Docker](https://github.com/veggiemonk/awesome-docker) - Massive Docker collection -- `collection`
-* [Awesome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes) - Collection -- `collection`
-* [Banzai Cloud](https://github.com/banzaicloud) - Kubernetes based, open source, multi-cloud with all the good stuff baked in (Prometheus, CICD pipelines, and more) CHECK THIS -- `various lang`
 * [Buildah](https://github.com/containers/buildah) - A low-level interface to core-utils, build container images with the scripting language of your choice without using Dockerfiles, compare to Podman -- `Golang`
 * [cadvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers -- `Golang`
 * [cert-manager](https://github.com/jetstack/cert-manager) - Automate the management and issuance of TLS certificates from various issuing sources -- `Golang`
 * [Cilium](https://github.com/cilium/cilium) - Transparently secure layer 7 services, communicate based on identity groups, load balancing, BPF-level for performance and instrumentation & more -- `Golang`
 * [Clear Linux](https://clearlinux.org/) - New name for Clear Containers, attempts combine the security advantages of VMs with the deployment advantages of containers -- `various lang`
-* [Click](https://github.com/databricks/click) - REPL CLI for Kubernetes -- `Rust`
 * [Cloud Foundry](https://www.cloudfoundry.org/) - Open source PaaS by VMware and Pivotal -- `Golang` `Ruby`
 * [ClusterCloner](https://github.com/doitintl/ClusterCloner) - Reads the Kubernetes clusters in one location (optionally filtering by labels) and clones them into another (or just outputs JSON as a dry run), to/from AWS, GCP, and Azure -- `Golang`
 * [CodeReady Containers](https://github.com/code-ready/crc) - Run OpenShift 4.x locally on your laptop, RECOMMENDED -- `various lang`
 * [CodeReady Single Node Cluster (SNC)](https://github.com/code-ready/snc) - Script to create an OpenShift 4.x single node cluster on Linux using KVM -- `shell`
-* [Contour](https://github.com/heptio/contour) - Kubernetes ingress controller using Lyft's Envoy proxy -- `Golang`
 * [crane](https://github.com/michaelsauter/crane) - Docker orchestration, similar to Docker Compose -- `Golang`
 * [ctop](https://ctop.sh/) - ncurses top-like UI for containers -- `Golang`
-* [DevSpace](https://github.com/covexo/devspace) - Build, test and run code directly inside any Kubernetes cluster, no more waiting for rebuild + redeploy, run code instantly -- `Golang`
 * [Dex](https://github.com/dexidp/dex) - A federated OpenID Connect provider -- `Golang`
 * [distroless](https://github.com/GoogleContainerTools/distroless) - "Distroless" images contain only your application and its runtime dependencies and nothing else, by Google -- `various lang`
 * [docker-debug](https://github.com/zeromake/docker-debug) - Attach a new "debug container" to existing namespaces so you don't have to include debug tools in the app containers -- `Golang`
@@ -451,91 +350,26 @@
 * [Docker Desktop](https://www.docker.com/products/docker-desktop) - Notable because it works without admin / root, Mac and Windows -- `Golang`
 * [Docker Distribution](https://github.com/docker/distribution) - AKA Docker Registry 2.0 - pack, ship, store, and deliver containers -- `Golang`
 * [Docker Hub](https://registry.hub.docker.com/) - Official Docker images for many projects -- `various lang`
-* [Docker Swarm](https://github.com/docker/swarmkit) - Docker-native clustering and scaling system, super simple, a good step before jumping to Kubernetes -- `Golang`
-* [Docker Swarm Visualizer](https://github.com/dockersamples/docker-swarm-visualizer) - A visualizer for Docker Swarm using the Docker Remote API, Node.JS, and D3 -- `JavaScript`
 * [Docker Toolbox](https://www.docker.com/toolbox) - Docker Client, Machine, Compose, Kitematic, VirtualBox, and the boot2docker VM in a single package, official -- `various lang`
 * [Dockit](https://github.com/awkspace/dockit) - Jump into a container image of your choosing, taking all the files from the current directory with you -- `shell`
 * [Dokku](https://github.com/progrium/dokku) - Docker powered mini-Heroku (PaaS) in around 100 lines of bash -- `shell`
-* [draft](https://github.com/Azure/draft) - Streamlined Kubernetes development with sandbox testing & deployment in seconds -- `Golang`
-* [draino](https://github.com/negz/draino) - Automatically drains Kubernetes nodes based on labels and node conditions, can be used for auto-remediation -- `Golang`
-* [drone](https://github.com/drone/drone) - CI platform built on Docker / containers, can also deploy to Kubernetes -- `Golang`
 * [dumb-init](https://github.com/Yelp/dumb-init) - Minimal init system for containers, by Yelp -- `C`
-* [EdgeFS](http://edgefs.io/) - Rook plugin that provides NFS, S3, and iSCSI volumes to containers via a Kubernetes operator, integrated with Kubernetes CSI -- `Golang`
-* [Eirini](https://github.com/cloudfoundry-incubator/eirini) - Kubernetes backend for Cloud Foundry -- `Golang`
-* [Escalator](https://github.com/atlassian/escalator) - Batch or job optimized horizontal autoscaler for Kubernetes -- `Golang`
-* [Fabric8](https://fabric8.io/) - Open source microservices platform based on Docker, Kubernetes and Jenkins -- `Java`
 * [Fedora CoreOS](https://coreos.fedoraproject.org/) - The best of CoreOS + Fedora Atomic Host, upstream to RHEL CoreOS, successor to now sunset RHEL / Fedora Atomic & Container Linux -- `various lang`
-* [Flannel](https://github.com/coreos/flannel) - Network fabric for containers via etcd, designed for Kubernetes -- `Golang`
-* [Fluent Bit Kubernetes Daemonset](https://github.com/fluent/fluent-bit-kubernetes-logging) - The best logger, super light weight -- `Golang`
-* [Flux](https://github.com/weaveworks/flux) - Tool that automatically ensures that the state of a Kubernetes cluster matches the config in git via Kubernetes operators -- `Golang`
-* [Flynn](https://flynn.io/) - PaaS built on top of Docker, can run stateful services -- `Golang`
-* [Gangway](https://github.com/heptiolabs/gangway) - Enable authentication flows via OIDC (OpenID Connect Tokens) for a Kubernetes cluster -- `Golang`
-* [Gitkube](https://gitkube.sh/) - Build and deploy docker images to Kubernetes using git push -- `various lang`
-* [GKE On-prem](https://cloud.google.com/gke-on-prem/) - An on-premise version of Google Kubernetes Engine, currently in beta -- `Golang`
-* [gravity](https://github.com/gravitational/gravity) - Creates snapshots of a Kubernetes cluster that can be restored elsewhere (on-prem, DR situation, etc) -- `Golang`
 * [gvisor](https://github.com/google/gvisor) - User-space kernel, can be used to sandbox containers, by Google -- `Golang`
-* [Helm](https://github.com/kubernetes/helm) - tool for managing Kubernetes charts (packages of pre-configured Kubernetes resources) -- `Golang`
-* [helm-value-store](https://github.com/skuid/helm-value-store) - Manage working with multiple values.yaml files for nearly identitcal deployments -- `Golang`
-* [Heptio Sonobuoy](https://github.com/heptio/sonobuoy) - Kubernetes end to end conformance testing and debugging tool -- `Golang`
-* [IcePanel](https://icepanel.io/) - Create and visualize your microservice applications (Helm charts), VSCode plugin -- `plugin`
 * [img](https://github.com/genuinetools/img) - Standalone, daemon-less, unprivileged Dockerfile and OCI compatible container image builder -- `Golang`
-* [Istio Operator](https://github.com/banzaicloud/istio-operator/) - An operator that manages Istio deployments on Kubernetes, by Banzai Cloud -- `Golang`
 * [Jenkins Docker Slaves Plugin](https://github.com/jenkinsci/docker-slaves-plugin) - Aka Dockins, execute a Jenkins job inside one or more containers, supports most job types -- `Java`
-* [Jenkins Kubernetes Plugin](https://wiki.jenkins.io/display/JENKINS/Kubernetes+Plugin) - Use a Kubernetes cluster to dynamically provision a Jenkins agent (using Kubernetes scheduling mechanisms to optimize the loads), run a single build, then tear-down that agent -- `Java`
-* [Jenkins X](https://jenkins-x.io/) - Another Kubernetes deployer -- `various lang`
 * [jib](https://github.com/GoogleContainerTools/jib) - Build container images for your Java applications, by Google -- `Java`
-* [k3s](https://k3s.io/) - Lighweight Kubernetes in a 40mb binary, built for the edge or laptop or Pi, by Rancher -- `Golang`
-* [k8s-prom-hpa](https://github.com/stefanprodan/k8s-prom-hpa) - A Kubernetes horizontal pod autoscaler with Prometheus custom metrics -- `Golang`
 * [Kata Containers](https://katacontainers.io/) - A mix of Clear Containers / Clear Linux and Hyper's runV -- `frankencontainers` `various lang`
-* [Keel](https://keel.sh) - Stateless, automated Kubernetes deployment updates -- `Golang`
-* [Kind](https://kind.sigs.k8s.io/) - Run local Kubernetes clusters using Docker container “nodes", great for local development -- `Golang`
-* [Kismatic](https://github.com/apprenda/kismatic) - Set of production-ready defaults and best practice tools for creating enterprise-tuned Kubernetes clusters, supports bare metal. -- `Golang`
 * [Kitematic](https://kitematic.com/) - GUI Docker management on Mac & Windows (laptops), official -- `JavaScript` `Windows` `OS X`
 * [Kong](https://getkong.org/) - Microservice abstraction layer (aka API Gateway or Service Mesh), great for creating API endpoints -- `Lua`
-* [kops](https://github.com/kubernetes/kops) - CLI for managing, upgrading, maintaining, creating, etc Kubernetes clusters -- `Golang`
 * [Kraken](https://github.com/uber/kraken) P2P Docker registry capable of distributing TBs of data in seconds using a slightly modified BitTorrent protocol -- `Golang`
-* [kubeadm-aws](https://github.com/cablespaghetti/kubeadm-aws) - Really cheap Kubernetes cluster on AWS with kubeadm -- `Terraform`
-* [kubeadm-dind-cluster](https://github.com/kubernetes-sigs/kubeadm-dind-cluster) - kubeadm and DIND (Docker in Docker) create a multi-node Kubernetes cluster on your laptop for dev -- `Shell`
-* [kubepug](https://github.com/rikatz/kubepug) - Kubernetes PreUpGrade (Checker) -- `Golang`
-* [kube-applier](https://github.com/box/kube-applier) - service that enables continuous deployment of Kubernetes objects by applying declarative configuration files from a Git repository to a Kubernetes cluster -- `Golang`
-* [kube-bench](https://github.com/aquasecurity/kube-bench) - Compliance checker for Kubernetes CIS benchmarks -- `Golang`
-* [kube-hunter](https://github.com/aquasecurity/kube-hunter) - Hunt for security weaknesses in Kubernetes clusters -- `Python`
-* [kube-prometheus](https://github.com/coreos/kube-prometheus) - Use Prometheus to monitor Kubernetes and applications running on Kubernetes -- `Golang`
-* [kube-spawn](https://github.com/kinvolk/kube-spawn) - A tool for creating multi-node Kubernetes clusters on a Linux machine using kubeadm & systemd-nspawn -- `Golang`
-* [kube2iam](https://github.com/jtblin/kube2iam) - Provide IAM credentials to containers running inside a kubernetes cluster based on annotations -- `Golang`
-* [Kubecost](https://github.com/kubecost/cost-model) - Creates cost future and past models so you can see and predict your spend -- `Golang`
-* [kubectl-debug](https://github.com/aylei/kubectl-debug) - Debug your pod via a new container with every troubleshooting tools pre-installed  -- `Golang`
-* [kubectx](https://github.com/ahmetb/kubectx) - Easily switch between kubectl contexts and namespaces, also includes the kubens tool -- `Ruby`
-* [kubed](https://github.com/appscode/kubed) - Perform periodic cluster snapshots, provide temp storage for deleted objects, automatic event forwarding, deliver notifications via various channels for Kubernetes -- `Golang`
-* [kubediscovery](https://github.com/cloud-ark/kubediscovery) - Tool that helps you find dynamic composition tree of Kubernetes objects -- `Golang`
-* [KubeEdge](https://github.com/kubeedge/kubeedge) - CNCF project to run Kubernetes at edge -- `Golang`
-* [kubehost](https://github.com/GoogleContainerTools/kubehost) - Uses existing features of GKE to expose your service directly onto one of the VMs -- `shell`
-* [kubeprovenance](https://github.com/cloud-ark/kubeprovenance) - Track chronology of declarative operations performed on custom resources to understand how these operations affect underlying platform elements, amazing historical auditing and reporting tool -- `Golang`
-* [Kubernetes](https://kubernetes.io/) - Open source orchestration system for Docker containers, by Google -- `Golang`
-* [kubernetes-cloudflare-sync](https://github.com/calebdoxsey/kubernetes-cloudflare-sync) - Run in your Kubernetes Cluster on GKE and sync DNS records on Cloudflare with your nodes IPs to avoid GCP LB fees -- `Golang`
-* [kubernetes-deploy](https://github.com/Shopify/kubernetes-deploy) - tool that helps you ship changes to a Kubernetes namespace and understand the result, by Shopify -- `Ruby`
-* [Kubernetes IN Docker (KinD)](https://github.com/kubernetes-sigs/kind) - Tool for running local Kubernetes clusters using Docker container "nodes" -- `Golang`
-* [Kubernetes Job/CronJob Notifier](https://github.com/sukeesh/k8s-job-notify) - Puts a message into Slack -- `Golang`
-* [Kubernetes Network Policy Recipes](https://github.com/ahmetb/kubernetes-network-policy-recipes) - Example recipes for Kubernetes Network Policies that you can just copy paste -- `collection`
-* [kubespray](https://github.com/kubernetes-incubator/kubespray) - Deploy a production ready Kubernetes cluster, a Kubernetes Incubator project -- `Golang`
-* [kubewatch](https://github.com/bitnami-labs/kubewatch) - Kubernetes event watcher and handler (currently only publishes to Slack channels, integrations wanted!) -- `Golang`
-* [Kube Forwarder](https://kube-forwarder.pixelpoint.io/) - GUI Kubernetes port forwarding manager -- `JavaScript`
-* [kubicorn](https://github.com/kris-nova/kubicorn) - Multi-provider deployment abstraction layer / library for Kubernetes -- `Golang`
-* [kustomize](https://github.com/kubernetes-sigs/kustomize) - The preferred templating tool, now built-in to kubectl, official -- `Golang`
 * [LinuxKit](https://github.com/linuxkit/linuxkit) - Toolkit for building custom minimal, immutable Linux distributions -- `Golang`
 * [Logspout](https://github.com/gliderlabs/logspout) - Log router for Docker containers -- `Golang`
-* [Lokomotive](https://github.com/kinvolk/lokomotive-kubernetes) - Kubernetes distribution with baked in multi-cloud and Terraform support, by Kinvolk -- `various lang`
 * [Magic Namespace](https://github.com/helm/charts/tree/master/stable/magic-namespace) - Helm chart for managing security between namespaces, great for multitenant clusters -- `YAML`
-* [memcached-operator](https://github.com/ianlewis/memcached-operator) - A Kubernetes operator for memcached, good to use as an Operator example too -- `Golang`
-* [MetalKube](https://github.com/metalkube) - Bare metal provisioning for Kubernetes, by Red Hat -- `Golang`
-* [MetalLB](https://github.com/google/metallb) - Load balancer for bare metal Kubernetes clusters, by Google -- `Golang`
-* [Microk8s](https://microk8s.io/) - Alternative to minikube, by Canonical -- `shell`
-* [minikube](https://kubernetes.io/docs/getting-started-guides/minikube/) - Kubernetes environments on your laptop -- `Golang`
 * [Minishift](https://www.openshift.org/minishift/) - OpenShift in a VM for testing / learning -- `Golang`
-* [MKIT (Managed Kubernetes Inspection Tool)](https://github.com/darkbitio/mkit) - A quick way to assess several common misconfigurations in their Kubernetes environment (AKS, EKS, GKE) -- `Dockerfile`
 * [ngnix-proxy](https://github.com/jwilder/nginx-proxy) - Nginx proxy for Docker containers using docker-gen, recommened -- `Python`
+* [Nomad](https://www.nomadproject.io/) - Highly scalable application, process, and container orchestraction, multi-cloud support -- `Golang`
 * [oc-cluster-up](https://github.com/gustavonalle/oc-cluster-up) - Docker container to launch a multi-node, docker-in-docker OKD 4.x cluster -- `shell`
-* [Octant](https://github.com/vmware/octant) - Web based representation of a Kubernetes cluster, by VMware -- `various lang`
 * [OKD](https://www.okd.io/) - The upstream for Red Hat's OpenShift 3.x, previously OpenShift Origin -- `Golang`
 * [OKD Install](https://github.com/gshipley/installcentos) - Set of file that installs OKD 3.x (OpenShift's upstream, formerly OpenShift Origin) on a single CentOS VM for testing & dev -- `shell`
 * [OpenShift Container Platform Install Demo](https://github.com/redhatdemocentral/ocp-install-demo) - Install an OpenShift 4.x demo system on Linux, Windows, or Mac, by Red Hat -- `various lang`
@@ -544,35 +378,14 @@
 * [pipework](https://github.com/jpetazzo/pipework) - SDN for Linux Containers -- `various lang`
 * [Popeye](https://github.com/derailed/popeye) - Scans the live cluster for dead or unused resources such as ports mismatches, metrics utilization, probes, container images, RBAC rules, naked resources, etc -- `Golang`
 * [Portainer](https://github.com/portainer/portainer) - Web interface for Docker aka us-for-docker -- `JavaScript`
-* [Prometheus Operator](https://github.com/coreos/prometheus-operator) - Creates/configures/manages Prometheus clusters atop Kubernetes -- `Golang`
 * [pulumi](https://pulumi.io/) - HOT create and deploy cloud programs that use containers, serverless functions, hosted services, and infrastructure, on any cloud, supports most languages -- `various lang`
 * [Rancher](https://rancher.com/) - Provides a complete platform for operating Docker in production -- `various lang`
 * [Registrator](https://github.com/gliderlabs/registrator) - Service registry bridge for Docker, supports Consul, etcd -- `Golang`
 * [rkt (Rocket)](https://github.com/coreos/rocket) - New container system by the CoreOS guys -- `Golang`
 * [Rocker](https://github.com/grammarly/rocker) - Adds new instructions to the Dockerfile instruction set for smaller images and faster builds -- `Golang`
-* [Rook](https://rook.io/) - Self managing, self healing storage orchestrator for Kubernetes via an operator plugin, see also EdgeFS -- `Golang`
-* [Security Goals](https://github.com/cds-snc/security-goals) - Compliance checking and reporting for Kubernetes based applications, by the Canadian Digital Service -- `various lang`
-* [shell-operator](https://github.com/flant/shell-operator) - Integration layer between Kubernetes cluster events and shell scripts by treating scripts as hooks triggered by events -- `Golang`
-* [skaffold](https://github.com/GoogleCloudPlatform/skaffold) - Easy and repeatable Kubernetes development, test locally then push to a cluster, by Google -- `Golang`
-* [Sloop](https://github.com/salesforce/sloop) - Monitors Kubernetes, recording histories of events and resource state changes and providing visualizations to aid in debugging past events, by Salesforce -- `Golang`
-* [Spinnaker](https://spinnaker.io/) - Cloud-focused CI/CD system for immutable infrastructure, by Netflix -- `Python`
-* [Squash](https://github.com/solo-io/squash) - Debug applications from your terminal or IDE while they run in Kubernetes or OpenShift (locally or remotely) -- `Golang`
 * [swarm-viz](https://github.com/mikesir87/swarm-viz) - Docker Swarm visualizer -- `JavaScript`
-* [Tectonic Installer](https://github.com/coreos/tectonic-installer) - Install an opinionated Kubernetes cluster the "Tectonic Way", a sane predefined deployment and workflow -- `various lang`
-* [Telepresense](https://www.telepresence.io/) - Local development against a remote Kubernetes or OpenShift cluster -- `Python`
-* [Teleport](https://gravitational.com/teleport/) - Auditing bastion host & middleman, now supports the Kubernetes apifserver protocol -- `Golang`
-* [Terraform Operator](https://github.com/rancher/terraform-operator) - Use Kubernetes to run Terraform, by Rancher -- `Golang`
-* [Tsuru](https://github.com/tsuru/tsuru) - Docker-based PaaS -- `Golang`
-* [Tubekit](https://github.com/reconquest/tubekit) - kubectl wrapper with powerful yet context switching and pattern matching -- `Golang`
-* [Typhoon](https://typhoon.psdn.io/) - Minimal and free Kubernetes distro, great for testing and learning on small systems -- `various lang`
 * [Watchtower](https://github.com/v2tec/watchtower) - Monitors your running Docker containers and restart them when a new image is available -- `Golang`
 * [Weave](https://github.com/zettio/weave/) - Virtual network that connects Docker containers deployed across multiple hosts -- `Golang`
-* [Wormhole](https://github.com/gravitational/wormhole) - CNI plugin for Kubernetes that uses WireGuard for creating a full mesh encrypted network between each host in the Kubernetes cluster. The Kubernetes API is used to coordinate key exchange and configuration -- `Golang`
-* [Vault Secrets Operator](https://github.com/ricoberger/vault-secrets-operator) - Kubernetes operator for Hashicorp Vault -- `Golang`
-* [Velero](https://github.com/heptio/velero) - Manage disaster recovery for your Kubernetes persistent volumes and cluster resources, formerly Heptio Ark -- `Golang`
-* [virtlet](https://github.com/Mirantis/virtlet) - Kubernetes CRI implementation for running VM workloads (QCOW2 images) -- `Golang`
-* [virtual-kublet](https://github.com/virtual-kubelet/virtual-kubelet) - kublet implementation that masquerades as a kubelet for the purposes of connecting Kubernetes to other APIs (Fargate, ACI, IoT, Nomad, Azure, etc) -- `Golang`
-* [Voyager](https://github.com/appscode/voyager) - HAProxy backed secure L7 and L4 ingress controller for Kubernetes -- `Golang`
 
 
 ---
@@ -592,7 +405,6 @@
 * [Graphene](https://jondot.github.io/graphene/) - Graphite dashboard in D3 and Backbone -- `JavaScript`
 * [Graphiti](https://github.com/paperlesspost/graphiti) - Graphite dashboard using Ruby and Redis -- `Ruby`
 * [Hygieia](https://github.com/capitalone/Hygieia) - Visualize near real-time status of the entire delivery pipeline, by Capital One -- `Java`
-* [Hystrix Dashboard](https://github.com/Netflix/Hystrix/tree/master/hystrix-dashboard) - Dashboard for Netflix's Hystrix tool -- `Java`
 * [Kibana](https://www.elastic.co/products/kibana) - Visualization component of the ELK stack -- `JavaScript`
 * [ksar](https://sourceforge.net/projects/ksar/) - Creates pretty graphs from sar output -- `Java`
 * [logstalgia](https://logstalgia.io/) - Web site access log visualization tool, aka Apache Pong -- `C++`
@@ -624,67 +436,43 @@
 ---
 ## Distributed Systems Tools
 
-> DCOSes, microservices, service discovery, schedulers, Mesos, and related tools for dynamic, warehouse-scale computing - see also [Containers](#containers) and [HPC Tools](#hpc-tools)
+> DCOSes, microservices, service discovery, schedulers, and related tools for dynamic, warehouse-scale computing - see also [Containers](#containers) and [HPC Tools](#hpc-tools)
 
 * [Akkio](https://code.fb.com/core-data/akkio/) - Data placement service that determines how and when to move information in order to optimize retrieval speed for people across the globe, using the minimum required number of copies -- `various lang`
-* [Ambassador](https://www.getambassador.io/) - Kubernetes-native API gateway built on Envoy proxy includes gRPC, auth, TLS, and more -- `Python`
-* [Aurora](https://aurora.incubator.apache.org/) - Mesos scheduler for long running services and cron jobs, similar to Marathon -- `Java`
 * [Avro](https://avro.apache.org/) - Data serialization system with backwards compatible schemas -- `Java`
-* [Bamboo](https://github.com/QubitProducts/bamboo) - HAProxy auto configuration and auto service discovery for Mesos and Marathon -- `Golang`
 * [Chaperone](https://github.com/uber/chaperone) - End-to-end Kafka auditing (data loss, latency, message duplication, etc), by Uber -- `Java`
-* [Chronos](https://github.com/airbnb/chronos) - Distributed, fault tolerant cron scheduler that runs on top of Apache Mesos -- `various lang`
 * [confd](https://github.com/kelseyhightower/confd) - Manage local application configuration files using templates and data from etcd or consul -- `Golang`
 * [Crossplane](https://crossplane.io/) - Multicloud control plane -- `Golang`
 * [Cruise Control](https://github.com/linkedin/cruise-control) - Fully automate the dynamic workload rebalance and self-healing of a Kafka cluster, by Linkedin -- `Java`
 * [Cruise Control UI](https://github.com/linkedin/cruise-control-ui/) - Also by Linkedin -- `JavaScript`
 * [consul](https://www.consul.io/) - Service discovery and configuration via DNS or HTTP, great for auto-scaling -- `Golang`
 * [consul Tools](https://www.consul.io/downloads_tools.html) - Official, includes consul-template and others -- `various lang`
-* [Curator](https://curator.apache.org/) - ZooKeeper client wrapper and rich ZooKeeper framework, by Netflix -- `Java`
-* [DC/OS](https://dcos.io/) - Pre-configured data center OS distribution that includes Mesos, Marathon, AdminRouter, and more -- `Python`
 * [DoctorKafka](https://github.com/pinterest/doctorkafka) - Kafka cluster auto healing and workload auto-balancing -- `Java`
-* [Envoy Proxy](https://lyft.github.io/envoy/) - Sidecar container for distributed applications or microservices, data plane service mesh / edge proxy -- `C++`
 * [etcd](https://github.com/coreos/etcd) - Distributed, consistent key-value store for shared configuration and service discovery -- `Golang`
-* [eureka](https://github.com/Netflix/eureka) - AWS Service registry for resilient mid-tier load balancing and failover, by Netflix -- `Java`
 * [fabio](https://github.com/eBay/fabio) - Zero-conf load balancing HTTP(S) router for deploying microservices managed by Consul, by eBay -- `Golang`
 * [Flink](https://flink.apache.org) - Next-generation true stream processing platform for real-time analytics -- `Java`
-* [Gloo](https://github.com/solo-io/gloo) - Gateway / abstraction layer between upstream services, based off of Envoy -- `Golang`
 * [GraphQL](https://en.wikipedia.org/wiki/GraphQL) - Alternative to REST, allows clients to define the structure of the data, subscribing to data flows, and more -- `various lang`
-* [Hystrix](https://github.com/Netflix/Hystrix) - Library to stop cascading failures -- `Java`
+* [Hystrix](https://github.com/Netflix/Hystrix) - Circuit breaker library to stop cascading failures, by Netflix -- `Java`
 * [Ignite](https://ignite.apache.org/) - General-purpose in-memory platform for in-memory computing use cases -- `Java`
-* [Istio](https://istio.io) - Envoy + auth, policy enforcement, telemetry, traffic flow management etc control plane that runs on top of Mesos and Kubernetes, service mesh control plane -- `various lang`
 * [jespen](https://github.com/aphyr/jepsen) - A framework for distributed systems verification, with fault injection -- `Clojure`
 * [JVM Profiler](https://eng.uber.com/jvm-profiler/) - Distributed profiler to collect JVM performance and resource usage metrics and serve them for further analysis, by Uber -- `Java`
 * [Kafka](https://kafka.apache.org) - Stream processing platform (logs, IoT metrics, anything) -- `Java`
 * [kafkacat](https://github.com/edenhill/kafkacat) - Generic CLI producer and consumer -- `C`
-* [linkerd2](https://github.com/linkerd/linkerd2) - The project formerly known as Conduit has been merged into this -- `Golang`
 * [LogDevice](https://logdevice.io/) - A distributed data store for logs, by Facebook -- `C++`
 * [Mantl](https://mantl.io/) - Complete microservices infrastructure built using OSS tools by Cisco -- `various lang` `yowza`
-* [Marathon](https://github.com/mesosphere/marathon) - Mesos scheduler for "always on" jobs (eg: web services) -- `Scala`
 * [MaxScale](https://github.com/mariadb-corporation/MaxScale) - General purpose DB query proxy, router, and load balancer, by MariaDB -- `C`
 * [mcrouter](https://github.com/facebook/mcrouter) - memcached protocol router for scaling memcached, by Facebook -- `C++`
-* [Mesos](https://mesos.apache.org/) - Cluster manager and scheduler, similar to Google's Borg and Omega projects -- `C++`
-* [mesos-consul](https://github.com/CiscoCloud/mesos-consul) - Automatically registers/deregisters services run as Mesos tasks -- `Golang`
-* [Mesosphere](https://mesosphere.com/) - Apache Mesos schedulers for almost anything, commercial support is available -- `C++`
-* [miniMesos](https://www.minimesos.org/) - Spin up Mesos clusters on your OS X laptop, can be used for TDD too -- `Java`
 * [Mitogen](https://mitogen.readthedocs.io/en/latest/) - Python library for writing distributed self-replicating programs like magic -- `Python`
-* [Nomad](https://www.nomadproject.io/) - Highly scalable application, process, and container scheduling tool, multi-cloud support -- `Golang`
 * [nsq](https://nsq.io/) - Realtime distributed messaging platform / message queue -- `Golang`
 * [OpenStack](https://www.openstack.org/) - Private cloud -- `Python`
 * [Pinpoint](https://github.com/naver/pinpoint) - Application Performance Monitoring (APM) for distributed systems, based on Dapper -- `Java`
-* [Pulsar](https://pulsar.apache.org/) - A Kafka alternative, by Yahoo -- `Java`
 * [redis-cell](https://github.com/brandur/redis-cell) - Redis module that provides rate limiting in Redis as a single command using GCRA -- `C`
 * [Redisson](https://github.com/mrniko/redisson) - Distributed and scalable Java data structures on top of Redis -- `Java`
 * [Riemann](http://riemann.io/) - Aggregates events from your servers and applications with a powerful stream processing language, for distributed systems, similar to Borgmon -- `Clojure`
-* [Ringpop](https://github.com/uber/ringpop-go) - Fault tolerant application-level sharding for Golang or Javascript -- `JavaScript` `Golang`
 * [Serf](https://www.serfdom.io/) - Decentralized solution for service discovery and orchestration -- `Golang`
-* [SkyDNS](https://github.com/skynetservices/skydns) - Service discovery via DNS for etcd -- `Golang`
 * [Spark](https://spark.apache.org) - Near real-time analytics processing platform, succeeded by Flink (real streaming vs Spark's microbatches) -- `various lang`
 * [Spring Cloud Config](https://cloud.spring.io/spring-cloud-config/) - Allows Java Spring to read config info from service discovery or similar source -- `Java`
-* [Status](https://github.com/indeedeng/status) - Report the current state of external systems that an application depends on, as well as the current health of any internal aspects of the application, by Indeed -- `Java`
-* [SuperGloo](https://github.com/solo-io/supergloo) - Service mesh management and orchtestration -- `Golang`
-* [Synapse](https://github.com/airbnb/synapse) - Service discovery framework by Airbnb -- `Ruby`
 * [uReplicator](https://github.com/uber/ureplicator) - Improved Kafka MirrorMaker by Uber -- `Java`
-* [vulcand](https://vulcand.github.io/) - Programmatically extendable proxy for microservices and API management -- `Golang`
 * [Zookeeper](https://zookeeper.apache.org/) - Distributed configuration service, synchronization service, and naming registry -- `Java`
 
 
@@ -701,7 +489,6 @@
 * [Brackets](http://brackets.io/) - Modern editor that understands and focuses on web design, by Adobe -- `JavaScript`
 * [LargeFile](https://www.vim.org/scripts/script.php?script_id=1506) - vim plugin that automatically disables certain things so you can edit large (multi-gig) files faster -- `vim`
 * [Light Table](http://lighttable.com/) - Next-generation editor that gives you instant feedback -- `Clojure`
-* [livedown](https://github.com/shime/livedown) - Live, in-browser markdown previews for vim and Sublime -- `various lang`
 * [MacDown](https://macdown.uranusjr.com/) - Markdown editor and live preview for Mac -- `Objective-C` `OS X`
 * [MacVim](https://github.com/macvim-dev/macvim) - Has far more features than the vim that's included with the OS -- `C`
 * [Nuclide](https://nuclide.io/) - Collection of packages for Atom to provide IDE-like functionality for a variety of programming languages and technologies, by Facebook -- `JavaScript`
@@ -713,6 +500,7 @@
 * [vim-json](https://github.com/elzr/vim-json) - A better JSON plugin for vim -- `vim`
 * [vim-snippets](https://github.com/honza/vim-snippets) - snipMate & UltiSnip snippets -- `vim`
 * [Vimium](https://vimium.github.io/) - Chrome extension that provides vi/vim style shortcuts for navigation and control -- `CoffeeScript` `Chrome`
+* [Visual Studio Code - Open Source](https://code.visualstudio.com/Download) - Open source version of Microsoft's product -- `JavaScript`
 * [Vundle](https://github.com/VundleVim/Vundle.vim) - Popular plug-in manager for vim -- `vim`
 * [wasavi](https://github.com/akahuku/wasavi) - vim/vi controls in browser text areas -- `JavaScript` `Firefox` `Chrome`
 * [wxHexEditor](https://www.wxhexeditor.org/) - Free hex editor, disk editor, and big file editor for Linux, Windows and Mac OS X -- `C`
@@ -779,8 +567,6 @@
 
 > HA clustering tools including storage replication, failover, VIPs, and more - see also [Distributed Systems Tools](#distributed-systems-tools) and [Containers](#containers)
 
-* [AN! Cluster Tutorial 2](https://alteeve.ca/w/AN!Cluster_Tutorial_2) - Building clusters with OSS software, very detailed -- `article`
-* [Cluster Manager (cman)](https://linux.die.net/man/5/cman) - Clustering framework that's built into RHEL/CentOS/Fedora -- `built-in`
 * [Corosync](https://corosync.github.io/corosync/) - HA framework and cluster engine -- `C`
 * [csync2](https://github.com/LINBIT/csync2) - General purpose cluster file sync tool -- `C`
 * [DRBD (Distributed Replicated Block Device)](https://docs.linbit.com/) - Mirror block devices to a remote system aka replication -- `C`
@@ -820,6 +606,109 @@
 * [Slurm (Simple Linux Utility for Resource Management)](https://slurm.schedmd.com/) - One of the mostly widely used schedulers
 * [StarCluster](http://star.mit.edu/cluster/) - Toolkit for using AWS for HPC, by MIT -- `Python`
 * [TORQUE (Terascale Open-source Resource and QUEue Manager)](http://www.adaptivecomputing.com/products/open-source/torque/) - An updated and extended version of Portable Batch System (PBS)
+
+
+---
+## Kubernetes
+
+> Kubernetes is ancient Egyptian for "he who has won the platform wars", see [Learning Resources](#learning-resources) for tutorials
+
+* [Nomad](https://www.nomadproject.io/) - Consdier Nomad as a lightweight alternative to Kubernetes, by Hashicorp -- `Golang`
+* [Ambassador](https://www.getambassador.io/) - Kubernetes-native API gateway built on Envoy proxy includes gRPC, auth, TLS, and more -- `Python`
+* [Argo](https://github.com/argoproj/argo) - Container-native workflow engine  implemented as a Kubernetes CRD (Custom Resource Definition) -- `Golang`
+* [Awesome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes) - Collection -- `collection`
+* [Banzai Cloud](https://github.com/banzaicloud) - Kubernetes based, open source, multi-cloud with all the good stuff baked in (Prometheus, CICD pipelines, and more) CHECK THIS -- `various lang`
+* [Click](https://github.com/databricks/click) - REPL CLI for Kubernetes -- `Rust`
+* [ClusterCloner](https://github.com/doitintl/ClusterCloner) - Reads the Kubernetes clusters in one location (optionally filtering by labels) and clones them into another (or just outputs JSON as a 
+dry run), to/from AWS, GCP, and Azure -- `Golang`
+* [Contour](https://github.com/heptio/contour) - Kubernetes ingress controller using Lyft's Envoy proxy -- `Golang`
+* [DevSpace](https://github.com/covexo/devspace) - Build, test and run code directly inside any Kubernetes cluster, no more waiting for rebuild + redeploy, run code instantly -- `Golang`
+* [draft](https://github.com/Azure/draft) - Streamlined Kubernetes development with sandbox testing & deployment in seconds -- `Golang`
+* [draino](https://github.com/negz/draino) - Automatically drains Kubernetes nodes based on labels and node conditions, can be used for auto-remediation -- `Golang`
+* [drone](https://github.com/drone/drone) - CI platform built on Docker / containers, can also deploy to Kubernetes -- `Golang`
+* [EdgeFS](http://edgefs.io/) - Rook plugin that provides NFS, S3, and iSCSI volumes to containers via a Kubernetes operator, integrated with Kubernetes CSI -- `Golang`
+* [Eirini](https://github.com/cloudfoundry-incubator/eirini) - Kubernetes backend for Cloud Foundry -- `Golang`
+* [Envoy Proxy](https://lyft.github.io/envoy/) - Sidecar container for distributed applications or microservices, data plane service mesh / edge proxy -- `C++`
+* [Escalator](https://github.com/atlassian/escalator) - Batch or job optimized horizontal autoscaler for Kubernetes -- `Golang`
+* [Fabric8](https://fabric8.io/) - Open source microservices platform based on Docker, Kubernetes and Jenkins -- `Java`
+* [Fluent Bit Kubernetes Daemonset](https://github.com/fluent/fluent-bit-kubernetes-logging) - The best logger, super light weight -- `Golang`
+* [Flux](https://github.com/weaveworks/flux) - Tool that automatically ensures that the state of a Kubernetes cluster matches the config in git via Kubernetes operators -- `Golang`
+* [Flannel](https://github.com/coreos/flannel) - Network fabric for containers via etcd, designed for Kubernetes -- `Golang`
+* [Gangway](https://github.com/heptiolabs/gangway) - Enable authentication flows via OIDC (OpenID Connect Tokens) for a Kubernetes cluster -- `Golang`
+* [Gitkube](https://gitkube.sh/) - Build and deploy docker images to Kubernetes using git push -- `various lang`
+* [Gloo](https://github.com/solo-io/gloo) - Gateway / abstraction layer between upstream services, based off of Envoy -- `Golang`
+* [gravity](https://github.com/gravitational/gravity) - Creates snapshots of a Kubernetes cluster that can be restored elsewhere (on-prem, DR situation, etc) -- `Golang`
+* [Helm](https://github.com/kubernetes/helm) - tool for managing Kubernetes charts (packages of pre-configured Kubernetes resources) -- `Golang`
+* [helm-value-store](https://github.com/skuid/helm-value-store) - Manage working with multiple values.yaml files for nearly identitcal deployments -- `Golang`
+* [Heptio Sonobuoy](https://github.com/heptio/sonobuoy) - Kubernetes end to end conformance testing and debugging tool -- `Golang`
+* [IcePanel](https://icepanel.io/) - Create and visualize your microservice applications (Helm charts), VSCode plugin -- `plugin`
+* [Istio](https://istio.io) - Envoy + auth, policy enforcement, telemetry, traffic flow management etc control plane that runs on top of Mesos and Kubernetes, service mesh control plane -- `various lang`
+* [Istio Operator](https://github.com/banzaicloud/istio-operator/) - An operator that manages Istio deployments on Kubernetes, by Banzai Cloud -- `Golang`
+* [Jenkins Kubernetes Plugin](https://wiki.jenkins.io/display/JENKINS/Kubernetes+Plugin) - Use a Kubernetes cluster to dynamically provision a Jenkins agent (using Kubernetes scheduling mechanisms to optimize the loads), run a single build, then tear-down that agent -- `Java`
+* [Jenkins X](https://jenkins-x.io/) - Another Kubernetes deployer -- `various lang`
+* [k3s](https://k3s.io/) - Lighweight Kubernetes in a 40mb binary, built for the edge or laptop or Pi, by Rancher -- `Golang`
+* [k8s-prom-hpa](https://github.com/stefanprodan/k8s-prom-hpa) - A Kubernetes horizontal pod autoscaler with Prometheus custom metrics -- `Golang`
+* [Keel](https://keel.sh) - Stateless, automated Kubernetes deployment updates -- `Golang`
+* [Kind](https://kind.sigs.k8s.io/) - Run local Kubernetes clusters using Docker container “nodes", great for local development -- `Golang`
+* [Kismatic](https://github.com/apprenda/kismatic) - Set of production-ready defaults and best practice tools for creating enterprise-tuned Kubernetes clusters, supports bare metal. -- `Golang`
+* [kops](https://github.com/kubernetes/kops) - CLI for managing, upgrading, maintaining, creating, etc Kubernetes clusters -- `Golang`
+* [kubeadm-dind-cluster](https://github.com/kubernetes-sigs/kubeadm-dind-cluster) - kubeadm and DIND (Docker in Docker) create a multi-node Kubernetes cluster on your laptop for dev -- `Shell`
+* [kubepug](https://github.com/rikatz/kubepug) - Kubernetes PreUpGrade (Checker) -- `Golang`
+* [kube-applier](https://github.com/box/kube-applier) - service that enables continuous deployment of Kubernetes objects by applying declarative configuration files from a Git repository to a Kubernetes cluster -- `Golang`
+* [kube-bench](https://github.com/aquasecurity/kube-bench) - Compliance checker for Kubernetes CIS benchmarks -- `Golang`
+* [kube-hunter](https://github.com/aquasecurity/kube-hunter) - Hunt for security weaknesses in Kubernetes clusters -- `Python`
+* [kube-prometheus](https://github.com/coreos/kube-prometheus) - Use Prometheus to monitor Kubernetes and applications running on Kubernetes -- `Golang`
+* [kube-spawn](https://github.com/kinvolk/kube-spawn) - A tool for creating multi-node Kubernetes clusters on a Linux machine using kubeadm & systemd-nspawn -- `Golang`
+* [kube2iam](https://github.com/jtblin/kube2iam) - Provide IAM credentials to containers running inside a kubernetes cluster based on annotations -- `Golang`
+* [kube2pulumi](https://www.pulumi.com/kube2pulumi/) - k8s yaml in, language of your choice out -- `Python`
+* [Kubecost](https://github.com/kubecost/cost-model) - Creates cost future and past models so you can see and predict your spend -- `Golang`
+* [kubectl-debug](https://github.com/aylei/kubectl-debug) - Debug your pod via a new container with every troubleshooting tools pre-installed  -- `Golang`
+* [kubectx](https://github.com/ahmetb/kubectx) - Easily switch between kubectl contexts and namespaces, also includes the kubens tool -- `Ruby`
+* [kubed](https://github.com/appscode/kubed) - Perform periodic cluster snapshots, provide temp storage for deleted objects, automatic event forwarding, deliver notifications via various channels for Kubernetes -- `Golang`
+* [kubediscovery](https://github.com/cloud-ark/kubediscovery) - Tool that helps you find dynamic composition tree of Kubernetes objects -- `Golang`
+* [KubeEdge](https://github.com/kubeedge/kubeedge) - CNCF project to run Kubernetes at edge -- `Golang`
+* [kubehost](https://github.com/GoogleContainerTools/kubehost) - Uses existing features of GKE to expose your service directly onto one of the VMs -- `shell`
+* [kubeprovenance](https://github.com/cloud-ark/kubeprovenance) - Track chronology of declarative operations performed on custom resources to understand how these operations affect underlying platform elements, amazing historical auditing and reporting tool -- `Golang`
+* [Kubernetes](https://kubernetes.io/) - Open source orchestration system for Docker containers, by Google -- `Golang`
+* [kubernetes-cloudflare-sync](https://github.com/calebdoxsey/kubernetes-cloudflare-sync) - Run in your Kubernetes Cluster on GKE and sync DNS records on Cloudflare with your nodes IPs to avoid GCP LB fees -- `Golang`
+* [kubernetes-deploy](https://github.com/Shopify/kubernetes-deploy) - tool that helps you ship changes to a Kubernetes namespace and understand the result, by Shopify -- `Ruby`
+* [Kubernetes IN Docker (KinD)](https://github.com/kubernetes-sigs/kind) - Tool for running local Kubernetes clusters using Docker container "nodes" -- `Golang`
+* [Kubernetes Job/CronJob Notifier](https://github.com/sukeesh/k8s-job-notify) - Puts a message into Slack -- `Golang`
+* [Kubernetes Network Policy Recipes](https://github.com/ahmetb/kubernetes-network-policy-recipes) - Example recipes for Kubernetes Network Policies that you can just copy paste -- `collection`
+* [kubespray](https://github.com/kubernetes-incubator/kubespray) - Deploy a production ready Kubernetes cluster, a Kubernetes Incubator project -- `Golang`
+* [kubewatch](https://github.com/bitnami-labs/kubewatch) - Kubernetes event watcher and handler (currently only publishes to Slack channels, integrations wanted!) -- `Golang`
+* [Kube Forwarder](https://kube-forwarder.pixelpoint.io/) - GUI Kubernetes port forwarding manager -- `JavaScript`
+* [kubicorn](https://github.com/kris-nova/kubicorn) - Multi-provider deployment abstraction layer / library for Kubernetes -- `Golang`
+* [kustomize](https://github.com/kubernetes-sigs/kustomize) - The preferred templating tool, now built-in to kubectl, official -- `Golang`
+* [linkerd2](https://github.com/linkerd/linkerd2) - The project formerly known as Conduit has been merged into this -- `Golang`
+* [Lokomotive](https://github.com/kinvolk/lokomotive-kubernetes) - Kubernetes distribution with baked in multi-cloud and Terraform support, by Kinvolk -- `various lang`
+* [memcached-operator](https://github.com/ianlewis/memcached-operator) - A Kubernetes operator for memcached, good to use as an Operator example too -- `Golang`
+* [MetalKube](https://github.com/metalkube) - Bare metal provisioning for Kubernetes, by Red Hat -- `Golang`
+* [MetalLB](https://github.com/google/metallb) - Load balancer for bare metal Kubernetes clusters, by Google -- `Golang`
+* [Microk8s](https://microk8s.io/) - Alternative to minikube, by Canonical -- `shell`
+* [minikube](https://kubernetes.io/docs/getting-started-guides/minikube/) - Kubernetes environments on your laptop -- `Golang`
+* [MKIT (Managed Kubernetes Inspection Tool)](https://github.com/darkbitio/mkit) - A quick way to assess several common misconfigurations in their Kubernetes environment (AKS, EKS, GKE) -- `Dockerfile`
+* [Octant](https://github.com/vmware/octant) - Web based representation of a Kubernetes cluster, by VMware -- `various lang`
+* [Prometheus Operator](https://github.com/coreos/prometheus-operator) - Creates/configures/manages Prometheus clusters atop Kubernetes -- `Golang`
+* [Rook](https://rook.io/) - Self managing, self healing storage orchestrator for Kubernetes via an operator plugin, see also EdgeFS -- `Golang`
+* [Security Goals](https://github.com/cds-snc/security-goals) - Compliance checking and reporting for Kubernetes based applications, by the Canadian Digital Service -- `various lang`
+* [shell-operator](https://github.com/flant/shell-operator) - Integration layer between Kubernetes cluster events and shell scripts by treating scripts as hooks triggered by events -- `Golang`
+* [skaffold](https://github.com/GoogleCloudPlatform/skaffold) - Easy and repeatable Kubernetes development, test locally then push to a cluster, by Google -- `Golang`
+* [Sloop](https://github.com/salesforce/sloop) - Monitors Kubernetes, recording histories of events and resource state changes and providing visualizations to aid in debugging past events, by Salesforce -- `Golang`
+* [Squash](https://github.com/solo-io/squash) - Debug applications from your terminal or IDE while they run in Kubernetes or OpenShift (locally or remotely) -- `Golang`
+* [SuperGloo](https://github.com/solo-io/service-mesh-hub) - Service mesh management and orchtestration -- `Golang`
+* [Tectonic Installer](https://github.com/coreos/tectonic-installer) - Install an opinionated Kubernetes cluster the "Tectonic Way", a sane predefined deployment and workflow -- `various lang`
+* [Telepresense](https://www.telepresence.io/) - Local development against a remote Kubernetes or OpenShift cluster -- `Python`
+* [Teleport](https://gravitational.com/teleport/) - Auditing bastion host & middleman, now supports the Kubernetes apifserver protocol -- `Golang`
+* [Terraform Operator](https://github.com/rancher/terraform-operator) - Use Kubernetes to run Terraform, by Rancher -- `Golang`
+* [Tubekit](https://github.com/reconquest/tubekit) - kubectl wrapper with powerful yet context switching and pattern matching -- `Golang`
+* [Typhoon](https://typhoon.psdn.io/) - Minimal and free Kubernetes distro, great for testing and learning on small systems -- `various lang`
+* [Wormhole](https://github.com/gravitational/wormhole) - CNI plugin for Kubernetes that uses WireGuard for creating a full mesh encrypted network between each host in the Kubernetes cluster. The Kubernetes API is used to coordinate key exchange and configuration -- `Golang`
+* [Vault Secrets Operator](https://github.com/ricoberger/vault-secrets-operator) - Kubernetes operator for Hashicorp Vault -- `Golang`
+* [Velero](https://github.com/heptio/velero) - Manage disaster recovery for your Kubernetes persistent volumes and cluster resources, formerly Heptio Ark -- `Golang`
+* [virtlet](https://github.com/Mirantis/virtlet) - Kubernetes CRI implementation for running VM workloads (QCOW2 images) -- `Golang`
+* [virtual-kublet](https://github.com/virtual-kubelet/virtual-kubelet) - kublet implementation that masquerades as a kubelet for the purposes of connecting Kubernetes to other APIs (Fargate, ACI, IoT, Nomad, Azure, etc) -- `Golang`
+* [Voyager](https://github.com/appscode/voyager) - HAProxy backed secure L7 and L4 ingress controller for Kubernetes -- `Golang`
 
 
 ---
@@ -1022,7 +911,7 @@
 * [OpenBMP](http://openbmp.org) - BGP Monitoring Protocol collector with real-time monitoring, looking glass, analytics, etc -- `various lang`
 * [OpenOnload](http://openonload.org/) - User-land network stack that requires no modifications to applications to use by intercepting calls -- `C`
 * [OpenWRT](https://openwrt.org/) - Full Linux distro for consumer-grade routers, allows for tons of non-vendor customization -- `various lang`
-* [PFQ](http://pfq.github.io/PFQ/) - Framework that allows efficient packets capture/transmission, in-kernel functional processing, and packets steering across sockets/end-points -- `C`
+* [PFQ](http://www.pfq.io/) - Framework that allows efficient packets capture/transmission, in-kernel functional processing, and packets steering across sockets/end-points -- `C`
 * [PowerAdmin](http://www.poweradmin.org/) - Simple Web UI for PowerDNS -- `PHP`
 * [Quagga](http://www.nongnu.org/quagga/) - Routing software suite, supports most routing protocols -- `C`
 * [SiLK (System for Internet-Level Knowledge)](https://tools.netsa.cert.org/silk/) - Tool suite supports the efficient collection, storage, and analysis of network flow data, enabling network security analysts to rapidly query large historical traffic data sets -- `C`
@@ -1097,7 +986,6 @@
 > OS and VM level orchestration as well as parallel SSH tools - see also [Containers](#containers) and [Distributed Systems Tools](#distributed-systems-tools) for container orchestration and [Terminal Tools and SSH Clients](#terminal-tools-and-ssh-clients) for SSH clients and [SSH Tools](#ssh-tools) for misc SSH tools and [Provisioning Tools](#provisioning-tools)
 
 * [Ansible](https://www.ansible.com) - CM and orchestration, also can do provisioning -- `Python`
-* [Archipel](http://archipelproject.org/) - Use XMPP push notifications to manage, supervise, and orchestrate VMs -- `Objective-J`
 * [Batou](https://batou.readthedocs.org/en/latest/) - Define and perform automated service deployments -- `Python pip`
 * [Capistrano](http://capistranorb.com/) - Use Ruby to run scripts/commands and push software via SSH, uses a Rake DSL -- `Ruby gem`
 * [ClusterSHISH](https://www.siftsoft.com/clustershish.html) - Cluster SSH for Windows, works with PuTTY and OpenSSH for Windows -- `closed source` `Windows`
@@ -1105,19 +993,14 @@
 * [csshX](https://github.com/brockgr/csshx) - Cluster SSH for OS X -- `C`
 * [KeyBox](https://sshkeybox.com/) - Web-based SSH console that executes commands on multiple shells simultaneously and supports terminal sharing -- `Java`
 * [KeyBox-OpenShift](https://github.com/skavanagh/KeyBox-OpenShift) - KeyBox for OpenShift gears -- `Java`
-* [ManageIQ](http://manageiq.org/) - Upstream OSS project for Red Hat's CloudForms -- `Ruby`
 * [Mass Parallel SSH (mpssh)](https://github.com/ndenev/mpssh) - Simple parallel SSH -- `C`
-* [mcollective (Marionette Collective)](https://puppetlabs.com/mcollective) - Orchestration, can be used independently of Puppet -- `Ruby gem`
 * [Multipass](https://github.com/CanonicalLtd/multipass) - Super light weight VM manager, easy way to get a fresh Ubuntu machine -- `C++`
-* [mussh](https://linux.die.net/man/1/mussh) - MUltihost SSH -- `C` `built-in`
 * [OpenLMI (Open Linux Management Infrastructure)](http://www.openlmi.org/) - Manage, monitor, and configure servers via API calls (instead of SSH), included in RHEL 7 -- `various lang`
 * [orgalorg](https://github.com/reconquest/orgalorg) - Next generation parallel SSH tool because most other major ones are no longer maintined -- `Golang`
 * [parallel](https://www.gnu.org/software/parallel/) - Execute jobs in parallel using one or more computers -- `built-in`
 * [parallel-ssh (pssh)](https://linux.die.net/man/1/pssh) - Parallel version of OpenSSH tools - comes with prsync, pscp, pnuke, and pslurp too -- `Python` `built-in`
-* [Parallel Distributed Shell (pdsh)](https://github.com/grondo/pdsh) - Kick off many SSH sessions in parallel -- `C`
+* [Parallel Distributed Shell (pdsh)](https://github.com/chaos/pdsh) - Kick off many SSH sessions in parallel -- `C`
 * [PyDSH](http://pydsh.sourceforge.net/) - Python Distributed Shell, parallel SSH -- `Python`
-* [Rex](http://www.rexify.org/) - Framework for server orchestration and to simplify system administration -- `perl`
-* [Rubber](http://rubber.io/) - Capistrano/rails plugin that makes it easy to deploy/manage/scale to various service providers -- `Ruby`
 * [Rundeck](http://rundeck.org/) - Job scheduler and runbook automation, enable self-service access to existing scripts and tools -- `Groovy`
 * [Salt / Saltstack](https://www.saltstack.com/) - Orchestration, server provisioning, and configuration management -- `Python`
 * [Spacewalk](https://www.spacewalkproject.org/) - Remote commands/orchestration, patch management, and more - the upstream for Red Hat Satellite 5.x and earlier -- `various lang`
@@ -1144,7 +1027,6 @@
 * [Extra Packages for Enterprise Linux (EPEL)](https://fedoraproject.org/wiki/EPEL) - Supports CentOS, RHEL, Scientific Linux, and Oracle Linux -- `repo`
 * [Extra Packaging Guidelines and Policies for EPEL](https://fedoraproject.org/wiki/EPEL/GuidelinesAndPolicies) - Packaging guidelines, great even if not creating EPEL stuff -- `readit`
 * [Fedora Packaging Guidelines](https://fedoraproject.org/wiki/Packaging:Guidelines) - Excellent information that can be applied to CentOS & RHEL -- `readit`
-* [Flatpak](https://flatpak.org/) - Standalone, sandboxed apps so you can avoid package management all together -- `C`
 * [fpm (Fucking Package Management)](https://github.com/jordansissel/fpm) - Build packages for multiple platforms (deb, rpm, etc) with great ease and sanity -- `Ruby gem`
 * [fpm-cookery](https://github.com/bernd/fpm-cookery) - Tool for building software packages with FPM -- `Ruby gem`
 * [Habitat](https://www.habitat.sh/) - Creates platform-independent build artifacts and provides built-in deployment and management capabilities -- `Golang`
@@ -1173,7 +1055,6 @@
 > Non-specific and all-in-one performance monitoring tools - see also [web](#web-and-http-performance-analysis-tools), [network](#network-performance-analysis-tools), [storage](#storage-performance-analysis-tools), and [RDBMS](#rdbms-performance-analysis-tools) and [Tracing and Profiling](#tracing-and-profiling)
 
 * [atop](https://www.atoptool.nl/) - Supports both real-time and historical performance monitoring -- `C`
-* [bwm-ng](https://www.gropp.org/?id=projects&sub=bwm-ng) - Small and simple console-based live network and disk I/O bandwidth monitor for a wide variety of UNIXes and Windows -- `C`
 * [Conky](https://github.com/brndnmtthws/conky) - Lightweight system monitor for X windows -- `C++`
 * [dstat](http://dag.wiee.rs/home-made/dstat/) - Versatile replacement for vmstat, iostat, netstat and ifstat -- `Python`
 * [Glances](https://nicolargo.github.io/glances/) - Real-time performance monitoring, written in curses and Python -- `Python`
@@ -1186,7 +1067,6 @@
 * [nmon](http://nmon.sourceforge.net/pmwiki.php) - Provides both real-time and historical performance metrics -- `C`
 * [NumaTOP](https://01.org/numatop) - top for NUMA systems, shows hotspots, call chains, etc -- `C`
 * [PerfKit Benchmarker](https://github.com/GoogleCloudPlatform/PerfKitBenchmarker) - Open effort to define a canonical set of benchmarks to measure and compare cloud offerings (disk, network, CPU, etc) -- `various lang`
-* [Performance Co-Pilot (PCP)](http://pcp.io/) - System performance and analysis framework, included in RHEL 7 -- `C`
 * [Phoronix Test Suite](https://www.phoronix-test-suite.com/) - Benchmarking and profiling suite, very feature-rich and versatile -- `PHP`
 * [pidstat](https://linux.die.net/man/1/pidstat) - vmstat type output for CPU, disk I/O, page faults, and more on a per-process basis -- `built-in`
 * [pmap](http://milianw.de/code-snippets/tracking-memory-consumption-using-pmap) - Shell scripts for tracking memory usage using "pmap" -- `shell`
@@ -1208,25 +1088,20 @@
 > OS provisioning, image creation, installation, bootstrapping, and lifecycle management - see also [Package Patch and Repository Tools](#package=patch-and-repository-tools) and [Containers](#containers) and [Distributed Systems Tools](#distributed-systems-tools) and [Live CD Tools](#live-cd-tools)
 
 * [Atlantis](https://github.com/runatlantis/atlantis) - A unified workflow for collaborating on Terraform through GitHub and GitLab, by Hootsuite -- `Golang`
-* [Bento](https://github.com/chef/bento#current-baseboxes) - Baseboxes provided by Chef, for Packer + Vagrant -- `various lang`
 * [bootrino](https://www.bootrino.com/) - Provision run-in-RAM / diskless OSes (Linux, etc) in various clouds -- `various lang`
 * [Box-Cutter](https://github.com/boxcutter) - Hashicorp's community repo for Packer & Vagrant templates -- `Ruby`
 * [Clonezilla](http://clonezilla.org/) - Disk image/cloning tool, supports most file system types -- `perl` `shell`
 * [cloud-init](https://launchpad.net/cloud-init) - Configures settings the first time a system spins up (SSH keys, hostname, variables, etc), note NoCloud -- `C`
-* [Cobbler](https://cobbler.github.io/) - Provisioning system used in Red Hat's Satellite -- `Python`
-* [Crowbar](https://crowbar.github.io/) - Multi-purpose provisioning tool, created by Dell -- `Ruby`
 * [Fog](https://www.fogproject.org/) - Computer / OS cloning tool, also has remote client management capabilities -- `C++`
 * [Foreman](https://theforeman.org/) - Provisioning and life cycle management -- `Ruby` `Windows` `OS X`
 * [iPXE](http://ipxe.org/) - GPL'ed version of PXE, official replacement for gPXE -- `C`
-* [Katello](https://theforeman.org/plugins/katello/) - Candlepin + Pulp + Foreman, the core of Red Hat Satellite 6 -- `various lang`
 * [Kickstart](https://fedoraproject.org/wiki/Anaconda/Kickstart) - The classic Red Hat tool -- `various lang`
 * [kitchen-terraform](https://github.com/newcontext-oss/kitchen-terraform) - Test Kitchen plugins for testing Terraform configurations with InSpec -- `Ruby gem`
-* [Metal as a Service (MaaS)](https://maas.ubuntu.com/) - Ubuntu provisioning system -- `various lang`
 * [netboot.xyz](https://netboot.xyz/) - Simple iPXE menu and installer -- `shell`
-* [Overcast](https://github.com/andrewchilds/overcast) - VM orchestration and provisioning for DigitalOcean, Linode and Amazon, or locally using Vagrant + Virtualbox -- `various lang`
 * [Packer](https://www.packer.io/) - Automates VM creation for multiple platforms (VMware, AWS, etc) -- `Golang`
 * [Terraform](https://www.terraform.io/) - Infrastructure provisioning using existing tools, supports many providers (AWS, Azure, DO, OpenStack, etc) -- `Golang` `Hashicorp`
 * [Terraformer](https://github.com/GoogleCloudPlatform/terraformer) - Generate terraform files from existing infrastructure (reverse Terraform), supports AWS and GCP, by Google -- `Golang`
+* [Terraform CDK](https://github.com/hashicorp/terraform-cdk) - Use TypeScript or Python to generate Terraform config files -- `Golang`
 * [Terraform Landscape](https://github.com/coinbase/terraform-landscape) - Makes terraform plan easier to read -- `Ruby`
 * [Terragrunt](https://github.com/gruntwork-io/terragrunt) - Tools for keeping your Terraform configurations DRY, working with multiple Terraform modules, and managing remote state -- `Golang`
 * [Terraparty](https://terraparty.com/) - GUI Terraform script creator -- `in-browser`
@@ -1238,11 +1113,8 @@
 * [vagrant-cachier](http://fgrehm.viewdocs.io/vagrant-cachier/) - Cache BLOB downloads to reduce network usage -- `Ruby`
 * [vagrant-host-shell](https://github.com/phinze/vagrant-host-shell) - Simple plugin to run commands on the VM when it boots (think cloud-init) -- `Ruby`
 * [vagrant-hostsupdater](https://github.com/cogitatio/vagrant-hostsupdater) - Plugin to add your own /etc/hosts to the VM -- `Ruby`
-* [vagrant-lxc](https://github.com/fgrehm/vagrant-lxc) - Provision to Linux containers instead of the usual VirtualBox -- `Ruby`
 * [vagrant-triggers](https://github.com/emyl/vagrant-triggers) - Run arbitrary scripts on the guest before and/or after Vagrant commands -- `Ruby`
 * [vagrant-vbguest](https://github.com/dotless-de/vagrant-vbguest) - Auto-install the latest VirtualBox tools at boot time (if necessary) -- `Ruby`
-* [veewee](https://github.com/jedi4ever/veewee) - Easily (and repeatedly) build custom Vagrant base boxes, KVMs, and VM images -- `Ruby`
-* [veewee-to-packer](https://github.com/mitchellh/veewee-to-packer) - translate veewee templates to Packer templates -- `Ruby gem`
 * [Salt / Saltstack](https://www.saltstack.com/) - Orchestration, server provisioning, and configuration management -- `Python`
 
 
@@ -1258,8 +1130,6 @@
 * [Celery](http://www.celeryproject.org/) - Async task/job queue based on distributed message passing -- `Python`
 * [ciscoconfparse](https://github.com/mpenning/ciscoconfparse) - Parse, audit, query, build, and modify Cisco IOS-style configurations -- `Python pip`
 * [Collections](https://docs.python.org/2/library/collections.html) - High-performance container data types -- `Python`
-* [Common Python Mistakes](https://news.ycombinator.com/item?id=7715349) - Link and discussion on HN -- `article`
-* [Easy-Python](https://easy-python.readthedocs.org) - Collection of Python resources that "you didn't know you would need" -- `collection`
 * [exscript](https://github.com/knipknap/exscript) - Write less code using than either pure paramiko or netmiko -- `Python`
 * [Fabric](http://www.fabfile.org/) - Uses paramiko to implement a higher-level API for performing commands over SSH, particularly for deployment sysadmin tasks  -- `Python pip`
 * [Faker](http://www.joke2k.net/faker/) - Generate fake data easily -- `Python pip`
@@ -1287,9 +1157,7 @@
 * [PyEnv](https://github.com/pyenv/pyenv) - Simple Python version management that keeps everything within your home directory, virtualenv alternative -- `shell`
 * [Pynag](https://pypi.python.org/pypi/pynag) - Interface with Nagios via Python -- `Python pip`
 * [PyPI (Python Package Index)](https://pypi.python.org/pypi) - Software repo for Python packages, like Ruby gems or a RPM repo -- `collection`
-* [Python Reference](https://github.com/rasbt/python_reference) - A collection of useful scripts, tutorials, and other Python-related things -- `collection`
 * [PyPy](http://pypy.org/) - Python alternative with advance features (JIT compiles, sandboxing, etc) -- `Python`
-* [python-patterns](https://github.com/faif/python-patterns) - A collection of design patterns and idioms in Python -- `collection`
 * [python-prompt-toolkit](https://github.com/jonathanslenders/python-prompt-toolkit) - Library for building interactive command lines -- `Python pip`
 * [Python Patterns](https://python-patterns.guide) - Python patterns by Brandon Rhodes -- `collection`
 * [RadSSH](https://pypi.python.org/pypi/radssh) - Paramiko-based parallel SSH -- `Python pip`
@@ -1442,54 +1310,6 @@
 * [txt2re](http://txt2re.com/) - Regex generator, recommended -- `in-browser`
 * [txt2regex](http://aurelio.net/projects/txt2regex/) - Converts human sentences to regex, written in bash -- `shell`
 
-
----
-## Ruby Tools and Resources
-
-> Ruby toolbox full of junk
-
-* [Awesome Ruby](https://github.com/markets/awesome-ruby) - A collection of awesome Ruby libraries, tools, frameworks and software -- `collection`
-* [Bundler](https://bundler.io/) - Manage Gem dependencies using simple config files -- `Ruby gem`
-* [did_you_mean](https://github.com/yuki24/did_you_mean) - Suggestions for typos in Ruby code -- `Ruby`
-* [fog](http://fog.io/) - Library for communicating with clouds -- `Ruby gem`
-* [Omniref](https://www.omniref.com/) - A better search site for Ruby documentation -- `collection`
-* [Pry](http://pryrepl.org/) - IRB alternative, very feature-rich, great for debugging -- `Ruby gem`
-* [Rake](https://github.com/ruby/rake) - Make / Makefile-like build utility -- `Ruby gem`
-* [rbenv](https://github.com/sstephenson/rbenv) - Alternative to RVM -- `shell`
-* [replicate](https://github.com/rtomayko/replicate) - Dump and load relational objects between Ruby environments (eg: prod and dev) -- `Ruby gem`
-* [RSpec](https://en.wikipedia.org/wiki/RSpec) - Behavior-driven development (BDD) testing framework -- `Ruby`
-* [RuboCop](https://github.com/bbatsov/rubocop) - Static code analyzer that enforces guidelines -- `Ruby gem`
-* [Ruby Gems](https://rubygems.org/) - The Ruby package manager, gems are essentially libraries -- `Ruby gems`
-* [Ruby Toolbox](https://www.ruby-toolbox.com/) - Trillions of Ruby projects, categorized -- `collection`
-* [RVM (Ruby Version Manager)](https://rvm.io/) - Install, manage, and work with multiple Ruby environments -- `Ruby`
-
-
----
-## Ruby Programming Tutorials
-
-> Tutorials, exercises, and challenges for learning Ruby.  I have no idea how good/bad these are
-
-* [Basic Ruby](https://www.basicruby.com/) - Videos and exercises
-* [Codecademy](https://www.codecademy.com/tracks/ruby) - Ruby course at Codecademy
-* [Coderbyte](https://coderbyte.com/) - Programming challenges
-* [Codewars](https://www.codewars.com/) - More challenges!
-* [Coursera](https://www.coursera.org/courses?orderby=upcoming&search=ruby) - Online Ruby courses at various institutions
-* [edX](https://www.edx.org/course?search_query=ruby) - Ruby courses at edX
-* [exercism.io](http://exercism.io/) - Challenges with peer review!
-* [Introduction to Programming with Ruby](https://launchschool.com/books/ruby) - By Tealeaf Academy & Launch School
-* [Learn Ruby the Hard Way](https://learnrubythehardway.org/book/) - Have fun with this
-* [r/dailyprogrammer](https://www.reddit.com/r/dailyprogrammer) - Programming exercises, includes Ruby
-* [r/learnruby](https://www.reddit.com/r/learnruby) - Subreddit for beginners
-* [Rubeque](http://www.rubeque.com/problems) - Super easy to hard level challenges
-* [Ruby Koans](http://rubykoans.com/) - The most highly recommended tutorial
-* [Ruby Monk](https://rubymonk.com/) - Free, interactive tutorials to help you discover Ruby idioms in your browser
-* [Ruby Quiz](http://rubyquiz.com/) - Weekly programming challenge
-* [Ruby Warrior](https://www.bloc.io/ruby-warrior#/) - Coding challenges **WARNING** sound, but you can turn it off
-* [Treehouse Ruby Courses](https://teamtreehouse.com/library/topic:ruby) - Recommended
-* [Try Ruby](http://tryruby.org) - Interactive tutorial in your web browser
-* [Tutorials Point](https://www.tutorialspoint.com/ruby/) - Interactive online course
-
-
 ---
 ## Secrets Management
 
@@ -1497,7 +1317,6 @@
 
 * [Bitwarden](https://bitwarden.com/) - The new hotness in password management -- `various lang`
 * [blackbox](https://github.com/StackExchange/blackbox) - Safely store secrets in Git, by Stack Exchange -- `shell`
-* [credstash](https://github.com/fugue/credstash) - Secrets management using AWS KMS -- `Python pip`
 * [Diceware](http://world.std.com/~reinhold/diceware.html) - Neat IRL passphrase generator -- `doitirl`
 * [encpass](https://github.com/plyint/encpass.sh) - Lightweight solution for using encrypted passwords in shell scripts -- `shell`
 * [GPG (GNU Privacy Guard)](https://www.gnupg.org/) - The original! Store em in text files and encrypt -- `C` `pro`
@@ -1743,7 +1562,6 @@
 * [Sonatype Nexus](http://www.sonatype.org/nexus/) - Software / binary artifact storage -- `Java`
 * [SourceGraph](https://github.com/sourcegraph/sourcegraph) - Perhaps the best code search and navigation engine -- `Golang`
 * [SymbolHound](http://symbolhound.com) - Search engine that doesn't ignore special characters, great for programming questions -- `try it`
-* [Visual Studio Code - Open Source](https://code.visualstudio.com/Download) - Open source version of Microsoft's product -- `JavaScript`
 * [watchman](https://github.com/facebook/watchman) - Watch files and take action when they change (eg: kick off the CI system), by Facebook -- `C`
 * [WireMock](http://wiremock.org/) - Flexible stubbing and mocking services -- `Java`
 
@@ -1753,16 +1571,12 @@
 
 > Misc SSH stuff - see also [Terminal Tools and SSH Clients](#terminal-tools-and-ssh-clients) for clients and [Orchestration](#orchestration) for parallel SSH tools and [Shell Scripting and Tools](#shell-scripting-and-tools)
 
-* [Advanced SSH Config](https://pypi.python.org/pypi/advanced-ssh-config/) - Enhances ssh_config file capabilities -- `Python pip`
 * [autossh](http://www.harding.motd.ca/autossh/) - Automatically restart SSH sessions that stop passing traffic -- `C`
-* [Ballast (Balancing Load Across Systems)](https://sourceforge.net/projects/ballast/) - Balance user load across SSH servers based on configured policies -- `C`
 * [Corkscrew](https://github.com/bryanpkc/corkscrew) - Tunnel SSH through HTTP proxies -- `C`
 * [Dropbear](https://matt.ucc.asn.au/dropbear/dropbear.html) - Small / minimal SSH client and server, often used in IoT and embedded devices -- `C`
 * [Keychain](https://www.funtoo.org/Keychain) - Manage SSH and GPG keys, acts as a frontend to ssh-agent, only enter passphrase once per reboot -- `shell`
 * [Match](https://linux.die.net/man/5/sshd_config) - Creates a conditional block, great for controlling actions on a per-user and/or per-host basis in sshd_config -- `built-in`
 * [Mosh (Mobile Shell)](https://mosh.org/) - Remote shell that supports roaming (client IP address changes) and intermittent connectivity, by MIT -- `C++`
-* [rssh](http://www.pizzashack.org/rssh/) - Restricted shell for SSH, only allows scp, sftp, rdist, rsync, and cvs -- `C`
-* [scponly](https://github.com/scponly/scponly/) - Shell that only allows incoming SCP, supports chroot -- `C`
 * [Shuttle](https://github.com/fitztrev/shuttle) - A simple SSH shortcut menu for macOS -- `Objective-C`
 * [ssh-chat](https://github.com/shazow/ssh-chat) Instead of a shell you get a chat prompt -- `Golang`
 * [ssh-ldap-helper](https://linux.die.net/man/8/ssh-ldap-helper) - Store public keys in LDAP -- `built-in`
@@ -1788,7 +1602,6 @@
 * [Fizz](https://github.com/facebookincubator/fizz) - C++14 implementation of the TLS-1.3 standard, by Facebook -- `C++`
 * [HSTS (HTTP Strict Transport Secuirity)](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) - Forces browsers to interact with a site by only using HTTPS -- `article`
 * [HSTS Preload Submission](https://hstspreload.org/) - Submit your site to be preloaded in major browsers -- `security`
-* [Lemur](https://github.com/Netflix/lemur) - Broker between CAs and environments providing a central portal for developers to issue TLS certificates with 'sane' defaults -- `Python`
 * [Let's Encrypt](https://letsencrypt.org/) - Free SSL certs from a real CA -- `in-browser`
 * [LibreSSL](https://www.libressl.org/) - OpenBSD's fork of OpenSSL, Linux compatible -- `C`
 * [Mozilla Server Side TLS](https://wiki.mozilla.org/Security/Server_Side_TLS) - Mozilla's extensive server side TLS configuration guide -- `wiki`
@@ -2003,7 +1816,6 @@
 * [dnscrypt-proxy](https://github.com/jedisct1/dnscrypt-proxy) - DNS proxy, with support for modern encrypted DNS protocols such as DNSCrypt v2 and DNS-over-HTTP/2 -- `Golang`
 * [dnscrypt-wrapper](https://github.com/Cofyc/dnscrypt-wrapper) - Add dnscrypt support to any resolver, server-side dnscrypt proxy -- `C`
 * [fwknop (FireWall KNock OPerator)](http://www.cipherdyne.org/fwknop/) - Single Packet Authorization (SPA), authoriation packet from you opens firewall rules so only you can get in -- `various lang`
-* [Go HTTP Tunnel](https://github.com/mmatczuk/go-http-tunnel) - Fast and secure reverse tunnels over HTTP/2 and TLS, share localhost without having a public IP -- `Golang`
 * [IP Leak](https://ipleak.net/) - Test to see if your browser is leaking information -- `in-browser`
 * [kcptun](https://github.com/xtaci/kcptun) - Secure and fast tunnel based on KCP, can increase throughput -- `Golang`
 * [localtunnel](https://localtunnel.me/) - Share a HTTP/web service on your local development machine without messing with DNS and firewall settings -- `JavaScript` `Windows` `OS X`
@@ -2034,11 +1846,8 @@
 > RPC is dead, long live RPC - see also [SSL Tools](#ssl-tools) and [Networking Tools](#networking-tools)
 
 * [API Blueprint](https://apiblueprint.org/) - Supports bindings/plugins for many APIs -- `various lang`
-* [Awesome JSON](https://github.com/burningtree/awesome-json) - It's the new XML -- `collection`
-* [Awesome Nginx](https://github.com/fcambus/nginx-resources) - A collection of resources covering Nginx, Nginx + Lua, OpenResty and Tengine -- `collection`
 * [curlish](https://pythonhosted.org/curlish/) - Improved curl, includes cookie management and OAuth 2.0 support -- `Python pip`
 * [Fiddler](https://www.telerik.com/fiddler) - HTTP/HTTPS debugging proxy for any browser, system or platform -- `closed source`
-* [GoReplay](https://github.com/buger/goreplay) - Capture and replay HTTP traffic for testing -- `Golang`
 * [gRPC](https://www.grpc.io/) - High performance RPC via HTTP/2, by Google -- `C`
 * [h2i](https://github.com/golang/net/tree/master/http2/h2i) - Go's interactive HTTP/2 console debugger, send raw frames, etc -- `Golang`
 * [Hamms](https://github.com/kevinburke/hamms) - Simulate/create connection failures, malformed response data, slow servers, fat headers, and more! -- `Python`
@@ -2053,7 +1862,6 @@
 * [Insomnia REST Client](https://insomnia.rest/) - An alternative to POSTman, additional features -- `Electron` `Windows` `OS X` `Linux`
 * [JSON Server](https://github.com/typicode/json-server) - Full fake REST API for quickly prototyping and mocking in 30 seconds -- `JavaScript`
 * [jq](https://stedolan.github.io/jq/) - Command line JSON processor and manipulator -- `C`
-* [Lighthouse](https://developers.google.com/web/tools/lighthouse/) - Chrome extension to audit a web page for performance, accessibility, progressive web apps, and more, by Google -- `in-browser`
 * [localtunnel](https://localtunnel.me/) - Share a HTTP/web service on your local development machine without messing with DNS and firewall settings -- `JavaScript` `Windows` `OS X`
 * [mitmproxy](https://mitmproxy.org/) - Intercept, modify, replay and save HTTP/S traffic - even edit flows on the fly -- `Python pip`
 * [mountebank](http://www.mbtest.org/) - Stub downstream resources for testing, supports HTTP HTTPS SMTP TCP -- `JavaScript` `Windows` `OS X`
@@ -2067,7 +1875,6 @@
 * [POSTman](https://www.getpostman.com/) - Create and share API and HTTP requests, great for testing and sharing -- `Chrome`
 * [Puppeteer](https://github.com/GoogleChrome/puppeteer) - Provides a high-level API to control headless Chrome over the DevTools Protocol -- `JavaScript`
 * [Pushpin](http://pushpin.org/) - Proxy server that adds WebSockets to existing request-response APIs -- `C++`
-* [RapidJSON](http://rapidjson.org/) - Super fast JSON parser and generator -- `C++` `Windows`
 * [Redirect Detective](http://redirectdetective.com/) - See the complete path a redirected URL goes through -- `in-browser`
 * [Repose](http://openrepose.org/) - REST proxy, solutions to API tasks such as auth, rate limiting, API validation, HTTP logging, and much more -- `Java`
 * [Resty](https://github.com/micha/resty) - CLI REST client you can use in shell/bash/zsh pipes -- `shell`
@@ -2095,11 +1902,8 @@
 * [Chrome DevTools](https://developer.chrome.com/devtools) - Many built-in tools for performance analysis -- `mostly OSS`
 * [Gatling](https://gatling.io/) - HTTP, JMS, and WebSocket load generator -- `Scala`
 * [Firefox Developer Tools](https://developer.mozilla.org/en-US/docs/Tools) - A full list of built-in Firefox developer tools including performance tools -- `various lang`
-* [flask-debugtoolbar](https://github.com/mgood/flask-debugtoolbar) - The Django Debug Toolbar ported to Flask -- `Python`
 * [h2load](https://nghttp2.org/documentation/h2load.1.html) - HTTP/2 and SPDY load generation tool, part of the nghttp2 suite -- `C`
 * [HAR Analyzer](https://toolbox.googleapps.com/apps/har_analyzer/) - HTTP Archive analyzier for troubleshooting from a browser perspective, by Google -- `in-browser`
-* [Hey](https://github.com/rakyll/hey) - HTTP load generator written in -- `Golang`
-* [httperf](https://github.com/httperf/httperf) - HTTP load generator, originally created, by HP -- `C`
 * [httping](http://www.vanheusden.com/httping/) - Simple program that "pings" a URL and shows response time -- `C`
 * [JChav](https://jchav.blogspot.com/) - Visualize JMeter output -- `Java`
 * [Jaeger](https://github.com/jaegertracing/jaeger) - OpenTracing compatible distributed tracing system, works well with Istio and Envoy, by Uber -- `Golang`
@@ -2112,12 +1916,9 @@
 * [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) - Analyzes the content of a web page, then generates suggestions to make that page faster, by Google -- `in-browser`
 * [PageSpeed Module](https://developers.google.com/speed/pagespeed/module) - Open-source server modules that optimize your site automatically (nginx and Apache), by Google -- `various lang`
 * [peep](https://github.com/evan/peep) - Heap inspector for live memcached instances -- `Ruby`
-* [phantomas](https://github.com/macbre/phantomas) - JS web performance metrics collector and monitoring tool -- `JavaScript`
 * [redis-faina](https://github.com/facebookarchive/redis-faina) - Query analyzer that parses Redis' MONITOR command for counter/timing stats about query patterns, by Facebook -- `Python`
-* [Siege](https://www.joedog.org/siege-home/) - CLI based HTTP load generation tool, supports basic authentication, cookies, and HTTPS -- `C`
 * [Speed Tracer](https://developers.google.com/web-toolkit/speedtracer/?csw=1) - Helps you identify and fix performance problems in your web applications, by Google -- `Chrome`
 * [Tsung](http://tsung.erlang-projects.org/) - Distributed stress tester, also supports stress testing DBs -- `Erlang`
-* [vegeta](https://github.com/tsenart/vegeta) - HTTP load testing tool, written in Go -- `Golang`
 * [Web Page Test](http://www.webpagetest.org/) - Free website speed test from multiple locations around the globe using real browsers (IE and Chrome) and at real consumer connection speeds -- `in-browser`
 * [wrk](https://github.com/wg/wrk) - Multi-threaded CLI-based HTTP load generation tool -- `C`
 * [wrk2](https://github.com/giltene/wrk2) - Fork of wrk that fixes the "coordinated omissions problem" -- `C`
@@ -2127,78 +1928,121 @@
 
 
 ---
-## Misc Tools and Learning Opportunities
+## Misc Tools of Note
 
-> Everything else - see also everything else
+> Everything else
+
+
+* [Adblock Radio](https://github.com/adblockradio/adblockradio) - An adblocker for live radio streams and podcasts -- `various lang`
+* [Anti-Ablock Killer](https://reek.github.io/anti-adblock-killer/) - Keep your ad-blocker active when pages take anti-blocking measures, requires Greasemonkey or similar -- `JavaScript`
+* [AppLock](https://play.google.com/store/apps/details?id=com.sp.protector.free) - Lock individual apps on Android -- `Java`
+* [AutoIT](https://www.autoitscript.com/site/) - Scriptable GUI input for Windows (think AutoHotKey) but with a BASIC-like syntax -- `closed source`
+* [Bypass Paywalls](https://github.com/iamadamdev) - Shhh -- `Firefox` `Chrome`
+* [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian) - Rules engine for managing public cloud accounts and resources via policies, by Capital One -- `various lang`
+* [Codeshare](https://codeshare.io/) - In-browser screenshare to teach coding, group code, or as an interview whiteboard -- `in-browser`
+* [conserver](http://www.conserver.com/) - Virtual console server with many features (multi-user, console log history, etc) -- `C`
+* [Cookie Autodelete](https://www.google.com/search?&q=cookie+autodelete) - Browser add-on that's essentially a cookie whitelist / grey list -- `Firefox` `Chrome`
+* [CRIU (Checkpoint Restore in Userspace)](https://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later -- `insane`
+* [Domain Block List](https://dbl.oisd.nl) - The only Pi Hole blocklist you'll need -- `collection`
+* [Etcher](https://www.balena.io/etcher/) - SD card writing software, easy -- `various lang`
+* [f.lux](https://justgetflux.com/) - Changes your screen from blue light to yellow light when the sun sets to tell your brain it's night time -- `closed source` `OS X` `Windows`
+* [Fossor](https://github.com/linkedin/fossor) - Automate on-call investigation steps, by LinkedIn -- `Python pip`
+* [googler](https://github.com/jarun/googler) - Google search, news, and site search from the terminal, slick -- `Python`
+* [Google Advanced Operators for Web Search](https://sites.google.com/site/gwebsearcheducation/advanced-operators) - Search modifiers for more accurate results, by Google -- `collection`
+* [GoodRX](https://www.goodrx.com) - Coupons for prescriptions, vaccines, and more, can be used pre-deductible, USA-centric -- `ez savings`
+* [gosu](https://github.com/tianon/gosu) - Simple Go-based setuid+setgid+setgroups+exec for stepping down privs, use me to avoid weird su and sudo TTY bugs -- `Golang`
+* [Homomorphic Encryption](https://en.m.wikipedia.org/wiki/Homomorphic_encryption) - Allows data to be encrypted and out-sourced to 3rd parties for processing, all while encrypted (or remove HIPAA barriers) -- `article`
+* [HTTPS Everywhere](https://www.eff.org/https-everywhere) - Uses client-side tricks to force misconfigured sites to use HTTPS all the time, by the EFF (donate) -- `Firefox` `Chrome`
+* [Huginn](https://github.com/cantino/huginn) - Build agents that perform automated tasks/workflows for you online or locally, like IFTTT -- `Ruby`
+* [inxi](https://github.com/smxi/inxi) - "a full featured system information script" (hardware info, etc) -- `shell`
+* [IPTV](https://github.com/iptv-org/iptv) - Collection of 8000+ publicly available IPTV channels from all over the world -- `collection`
+* [Library Extension](https://www.libraryextension.com/) - Browser extension that shows you which Amazon books are available free at your local libraries, please donate -- `closed source`
+* [Locast](https://www.locast.org/) - Watch your local broadcast TV for free on any device, USA geo-locked, **please donate** -- `all platforms!`
+* [Mail Tester](https://www.mail-tester.com/) - Test the spammyness of your e-mails -- `in-browser`
+* [maybe](https://github.com/p-e-w/maybe) - Allows a dry run of almost any Linux binary, see the files it will modify, calls made, etc -- `Python pip`
+* [Maza](https://github.com/tanrax/maza-ad-blocking) - Like Pi-hole but local and using your operating system -- `shell`
+* [Mjolnir](https://github.com/sdegutis/mjolnir) - Automation for OS X, think AutoHotKey for Mac -- `C` `OS X`
+* [MultiRBL](http://multirbl.valli.org/) - SMTP blackhole lookup tools -- `in-browser`
+* [MX Toolbox](https://mxtoolbox.com/) - SMTP blacklist lookup, header analysis, and more -- `in-browser`
+* [Network UPS Tools (NUT)](http://www.networkupstools.org/) - Manage power devices from over 100 manufacturers using a single web interface -- `C` `Windows`
+* [NoRoot Firewall](https://play.google.com/store/apps/details?id=app.greyshirts.firewall&hl=en_US) - Android app that logs connections to show overly chatty background apps and more -- `closed source`
+* [NoScript](https://noscript.net/) - JavaScript, XSS, tracker, Flash blockers and more - your condom for the Internet -- `Firefox`
+* [oauth2_proxy](https://github.com/pusher/oauth2_proxy) - A reverse proxy that provides authentication with Google, Github or other provider -- `Golang`
+* [Omni Calculator](https://www.omnicalculator.com/) - 1168 free calculators -- `collection`
+* [oomd](https://github.com/facebookincubator/oomd) - Userspace OOM killer, highly configurable and much improved over the kernel's built in OOM killer -- `C++`
+* [Open19](https://www.open19.org/) - Open data center hardware for standard size racks -- `neat`
+* [OpenBMC](https://github.com/facebook/openbmc) - Framework to build a complete Linux image for a Board Management Controller (BMC), by Facebook -- `C`
+* [Pi-Hole](https://pi-hole.net/) - Ad and tracking blackhole that covers your entire network with a single device -- `hardware`
+* [Privacy Badger](https://www.eff.org/privacybadger) - The best in-browser privacy and anti-tracking tool, by the EFF (donate) -- `Chrome` `Firefox`
+* [PrivacyTools.io](https://www.privacytools.io/) - All in one collection, web site source is on GitHub -- `collection`
+* [Puffer](https://puffer.stanford.edu/) - Re-transmits free over-the-air broadcast television signals received by an antenna located on the campus of Stanford University, USA geo-locked, by Stanford Platform Lab and many others -- `in-browser` `Android`
+* [repl.it](https://repl.it/languages) - In-browser REPLs for a ton of languages -- `in-browser`
+* [runwhen](http://code.dogmap.org/runwhen/) - Utilities for running commands at particular times, cron on steroids -- `C`
+* [Say What](https://github.com/joshnewlan/say_what) - Using speech-to-text to fully check out during conference calls -- `Python`
+* [scrcpy](https://github.com/Genymobile/scrcpy) - Remote display and control of Android devices connected on USB or TCP/IP -- `C`
+* [Spectacle](https://www.spectacleapp.com/) - Control desktop windows via keyboard shortcuts -- `Objective C`
+* [StackStorm](https://github.com/StackStorm/st2) - IFTTT for Ops -- `Python`
+* [Steps Recorder (aka Problem Steps Recorder)](https://support.microsoft.com/en-us/help/22878/windows-10-record-steps) - Windows 7+, user records themselves reproducing a problem, they send video to you, you playback -- `closed source`
+* [Twilight](https://play.google.com/store/apps/details?id=com.urbandroid.lux&hl=en) - F.lux for Android -- `closed source`
+* [uBlock Origin](https://github.com/gorhill/uBlock) - Ad blocker, only use Origin, do not use another uBlock -- `Firefox` `Chrome`
+* [WhosHere](https://github.com/curtbraz/whoshere) - Monitor an area for WiFi and Bluetooth probe requests to see when people (devices) come and go, with web UI and IFTTT webhook integraiton for Slack/SMS pushes -- `PHP`
+
+
+
+---
+## Learning Resources
+
+> Free learning resources and collections of note (DevOps/SRE, cloud, information security, Kubernetes, Docker/containers, Python, Golang)
 
 * [A Gentle Introduction to Kubernetes](https://github.com/eon01/kubernetes-workshop) - With more than just the basics -- `tutorial`
 * [A Practical Guide to (Correctly) Troubleshooting with Traceroute](https://www.nanog.org/sites/default/files/10_Roisman_Traceroute.pdf) - Presentation, really digs in -- `article`
 * [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/) - Concise breakdown, by Red Hat -- `article`
 * [A Visual Guide to Troubleshooting Kubernetes Deployments](https://learnk8s.io/troubleshooting-deployments) - With flowcharts -- `handy`
-* [Adblock Radio](https://github.com/adblockradio/adblockradio) - An adblocker for live radio streams and podcasts -- `various lang`
 * [Algorithms, 4th Edition](https://algs4.cs.princeton.edu/home/) - 100% free high quality ebook from Princeton -- `book`
 * [Amazon Builder's Library](https://aws.amazon.com/builders-library) - Amazon shares their learnings -- `articles`
-* [Amazon ECS Workshop](https://ecsworkshop.com/) - Configure GitHub, CodePipeline, CodeBuild, VPC, ALB, ECS, Autoscaling, and log aggregation using a framework called Mu to launch microservices on AWS Elastic Container Service -- `tutorial`
-* [Amazon EKS Workshop](https://eksworkshop.com/) - Designed to educate engineers that might not be familiar with Amazon EKS, Kubernetes, and possibly even Docker container workflow -- `tutorial`
 * [An Illustrated Guide to Kubernetes Networking](https://morioh.com/p/ecb38c8342ba/an-illustrated-guide-to-kubernetes-networking) - See title -- `article`
 * [An Introduction to Distributed Systems](https://github.com/aphyr/distsys-class) - by Aphyr -- `tutorial`
 * [Ansible Examples](https://github.com/ansible/ansible-examples) - Shows features and how they work together, a great hands-on, official -- `tutorial`
 * [Ansible for DevOps](https://www.ansiblefordevops.com/) - The recommended book to learn Ansible -- `book`
 * [Ansible Interactive Tutorial](https://github.com/turkenh/ansible-interactive-tutorial) - Interactive tutorials for Ansible via Docker, super simple -- `tutorial`
 * [Ansible Lightbulb](https://ansible.github.io/lightbulb/) - Workshops, training decks, and guides, by Red Hat -- `tutorials`
-* [Anti-Ablock Killer](https://reek.github.io/anti-adblock-killer/) - Keep your ad-blocker active when pages take anti-blocking measures, requires Greasemonkey or similar -- `JavaScript`
 * [Application Layer Transport Security](https://cloud.google.com/security/encryption-in-transit/application-layer-transport-security/) - Use mutual TLS to secure RPC calls between entities, designed with containers and microservices in mind -- `article`
-* [AppLock](https://play.google.com/store/apps/details?id=com.sp.protector.free) - Lock individual apps on Android -- `Java`
 * [Architecture of Open Source Applications](http://www.aosabook.org/en/) - The authors of four dozen open source applications explain how their software is structured, and why -- `collection`
 * [Archive.org aka The Internet Archive aka The Wayback Machine](https://archive.org/) - Yo donate, this is beyond important -- `the biggest collection`
-* [AutoIT](https://www.autoitscript.com/site/) - Scriptable GUI input for Windows (think AutoHotKey) but with a BASIC-like syntax -- `closed source`
 * [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) - Exceptional -- `book`
 * [Awesome](https://github.com/sindresorhus/awesome) - Top level list of awesome lists -- `collection`
 * [Awesome SRE](https://github.com/dastergon/awesome-sre) - Too lazy to think of a description -- `collection`
-* [AWS Geek](https://www.awsgeek.com/) - Notes and diagrams -- `collection`
-* [AWS Security Workshops](https://github.com/aws-samples/aws-security-workshops/) - An official collection by Amazon -- `tutorial`
 * [AutoHotKey](https://autohotkey.com/) - Automate input (desktop and web forms, data entry, keybinds, etc) -- `C++` `Windows`
 * [Awesome AutoHotKey](https://github.com/ahkscript/awesome-AutoHotkey) - A collection of AutoHotKey scripts and libraries -- `various lang`
 * [Bandit](http://overthewire.org/wargames/bandit/) - A "wargame" that teaches the user how to use Linux -- `neat`
 * [BBR NKOTB](https://blog.apnic.net/2017/05/09/bbr-new-kid-tcp-block/) - Excellent article that explains BBR and compares it to traditional TCP congestion and loss algorithms -- `article`
-* [Beyond the 12 Factor App](https://content.pivotal.io/ebooks/beyond-the-12-factor-app) - Free ebook, by Pivotal -- `book`
+* [Beyond the 12 Factor App](https://tanzu.vmware.com/content/ebooks/beyond-the-12-factor-app) - Free ebook, by Pivotal -- `book`
 * [Borg, Omega, and Kubernetes - Lessons Learned from 3 Container Management Systems Over a Decade](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf) - Paper by Google -- `article`
 * [Building Secure & Reliable Systems](https://landing.google.com/sre/books/) - The third SRE book from Google, free -- `book`
-* [Bypass Paywalls](https://github.com/iamadamdev) - Shhh -- `Firefox` `Chrome`
-* [Caffeine](http://lightheadsw.com/caffeine/) - Simple menu bar app to stop your Mac from sleeping -- `closed source` `OS X`
 * [Chaos Engineering](https://www.oreilly.com/webops-perf/free/chaos-engineering.csp) - Building confidence in system behavior through experiments, free book by Netflix -- `book`
-* [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian) - Rules engine for managing public cloud accounts and resources via policies, by Capital One -- `various lang`
 * [Cloud Design Patterns](https://docs.microsoft.com/en-us/azure/architecture/patterns/) - Useful for building reliable, scalable, secure applications in the cloud, by Microsoft -- `collection`
 * [Cloud Native DevOps with Kubernetes](https://www.nginx.com/resources/library/cloud-native-devops-with-kubernetes/) - Full book -- `book`
 * [Cloud Native Landscape](https://github.com/cncf/landscape) - A map that attempts to categorize most of the projects and product offerings in the cloud native space -- `collection`
 * [Command Line Text Processing](https://github.com/learnbyexample/Command-line-text-processing) - awk grep sed etc - interactive tutorial for newbies -- `tutorial`
+* [Common Python Mistakes](https://news.ycombinator.com/item?id=7715349) - Link and discussion on HN -- `article`
 * [Comprehensive Python Cheatsheet](https://gto76.github.io/python-cheatsheet/) - Includes many modules -- `collection`
 * [Computer Science Flash Cards](https://github.com/jwasham/computer-science-flash-cards) - As described, can be converted into an Anki deck -- `Python`
-* [conserver](http://www.conserver.com/) - Virtual console server with many features (multi-user, console log history, etc) -- `C`
 * [Container Training](https://container.training/intro-selfpaced.yml.html#1) - Self paced and interactive, formerly Intro to Docker -- `training`
-* [Convergent Encryption](https://en.wikipedia.org/wiki/Convergent_encryption) - Produces identical ciphertext from identical plaintext files, used for dedupe / space savings in the cloud -- `article`
-* [Cookie Autodelete](https://www.google.com/search?&q=cookie+autodelete) - Browser add-on that's essentially a cookie whitelist / grey list -- `Firefox` `Chrome`
 * [Cool Store](https://github.com/vietnam-devs/coolstore-microservices) - An exercise to wire up small microservices into a larger application -- `tutorial`
-* [CRIU (Checkpoint Restore in Userspace)](https://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later -- `insane`
 * [curl Exercises](https://jvns.ca/blog/2019/08/27/curl-exercises/) - Exercises for the 'curl' command -- `tutorial`
 * [Cybersecurity Canon](https://cybercanon.paloaltonetworks.com/) - A Rock & Roll Hall of Fame for cybersecurity books, by Palo Alto -- `collection`
-* [Dark Mode by Bernard](https://addons.mozilla.org/en-US/firefox/addon/dark-mode-webextension/) - Simple dark mode / night mode for Firefox -- `JavaScript`
 * [Databases by Daniel Soper](https://www.youtube.com/watch?v=4Z9KEBexzcM&list=PL1LIXLIF50uXWJ9alDSXClzNCMynac38g&index=1) - From the ground up, Personally recommended -- `tutorial`
 * [Design Patterns for Humans](https://github.com/kamranahmedse/design-patterns-for-humans) - An ultra-simplified explanation of repeatable software design patterns -- `article`
 * [Design Patterns](https://sourcemaking.com/design_patterns) - Wonderful collection of software development design patterns with examples, includes anti-patterns and refactoring guidelines -- `collection`
-* [Designing Data Intensive Applications](https://dataintensive.net/) - The big ideas behind reliable, scalable, and maintable systems - highly recommened -- `book`
 * [Designing Data Intensive Applications - Book Notes](https://hoanhan101.github.io/2020/07/05/design-data-intensive-apps) - The one you need -- `book`
 * [DevDocs](https://devdocs.io/) - Documentation browser for almost every API -- `collection`
 * [DevOps Conferences](http://www.gotodevops.org/) - Add and remove via PR, please contribute -- `collection`
 * [Discount for Student Dev](https://github.com/AchoArnold/discount-for-student-dev) - Programming and DevOps related discounts for .edu addresses, updated frequently, please contribute -- `collection`
 * [Docker Curriculum](https://docker-curriculum.com/) - One-stop shop for getting your hands dirty with Docker -- `tutorial`
 * [Dog vs. Cat: Docker Swarm Stacks](https://github.com/BretFisher/dogvscat) - Examples for building full Swarm-based clusters including proxies, centralized logging, persistent storage, deployment pipelines, and more -- `tutorial`
-* [Domain Block List](https://dbl.oisd.nl) - The only Pi Hole blocklist you'll need -- `collection`
-* [Etcher](https://www.balena.io/etcher/) - SD card writing software, easy -- `various lang`
+* [Easy-Python](https://easy-python.readthedocs.org) - Collection of Python resources that "you didn't know you would need" -- `collection`
 * [Every Programmer Should Know...](https://github.com/mtdvio/every-programmer-should-know) - A collection of (mostly) technical things every software developer should know -- `collection`
 * [Everything You Should Know About Certificates and PKI](https://smallstep.com/blog/everything-pki.html) - Easy to understand tutorial -- `tutorial`
-* [f.lux](https://justgetflux.com/) - Changes your screen from blue light to yellow light when the sun sets to tell your brain it's night time -- `closed source` `OS X` `Windows`
-* [Fossor](https://github.com/linkedin/fossor) - Automate on-call investigation steps, by LinkedIn -- `Python pip`
 * [GKE Demo](https://github.com/ilya-lesikov/gke-demo) - Demonstration of complete, fully-featured CI/CD and cloud automation for microservices, done with GCP/GKE -- `various lang`
 * [Geocities-izer](http://www.wonder-tonic.com/geocitiesizer/) - Make any HTML web page look like a Geocities page -- `sweeeeeeet`
 * [go-perfbook](https://github.com/dgryski/go-perfbook) - Outlines best practices for writing high-performance Go code -- `article`
@@ -2206,30 +2050,21 @@
 * [Go by Example](https://gobyexample.com/) - Hands-on introduction to Go using annotated example programs -- `tutorial`
 * [Go Tooling In Action](https://github.com/campoy/go-tooling-workshop) - A workshop covering all the tools used in the day to day life of a Golang dev -- `tutorial`
 * [Good Sleep, Good Learning, Good Life](http://super-memory.com/articles/sleep.htm) - Compiled knowledege about sleep with sources and citations -- `zzz`
-* [GoodRX](https://www.goodrx.com) - Coupons for prescriptions, vaccines, and more, can be used pre-deductible, USA-centric -- `ez savings`
-* [Google Advanced Operators for Web Search](https://sites.google.com/site/gwebsearcheducation/advanced-operators) - Search modifiers for more accurate results, by Google -- `collection`
 * [Google Cloud Solutions Architecture Reference](https://gcp.solutions/) - Some simple reference architectures -- `collection`
 * [Google's Technical Development Guide](https://techdevguide.withgoogle.com/) - Hands on, free, self-paced courses to help you develop your programming skills -- `collection`
-* [googler](https://github.com/jarun/googler) - Google search, news, and site search from the terminal, slick -- `Python`
-* [gosu](https://github.com/tianon/gosu) - Simple Go-based setuid+setgid+setgroups+exec for stepping down privs, use me to avoid weird su and sudo TTY bugs -- `Golang`
 * [Hashicorp Learn](https://learn.hashicorp.com/) - Official training for Vault, Consul, Terraform, Vagrant, Packer, and Nomad -- `training`
 * [HEAD](https://htmlhead.dev/) - A free guide to HTML5 <head> elements -- `collection`
 * [High Performance Browser Networking](https://hpbn.co/) - What every web developer needs to know about the various types of networks (WiFi, 3G/4G), transport protocols (UDP, TCP, and TLS), application protocols (HTTP/1.1, HTTP/2), and APIs available in the browser (XHR, WebSocket, WebRTC, and more) -- `book`
-* [Homomorphic Encryption](https://en.m.wikipedia.org/wiki/Homomorphic_encryption) - Allows data to be encrypted and out-sourced to 3rd parties for processing, all while encrypted (or remove HIPAA barriers) -- `article`
 * [Hoopla](https://www.hoopladigital.com/) - Digital movies, music and ebooks for USA public library members -- `explore yours today`
 * [How Complex Systems Fail](http://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf) - Paper by MIT, a great read for operations -- `article`
 * [How to Ask Good Questions](https://jvns.ca/blog/good-questions/) - By Julia Evans -- `article`
 * [HTTP/3 Explained](https://daniel.haxx.se/http3-explained/) - QUIC = next generation TCP via UDP to bypass TCP's bad algos, used in HTTPv3 by haxx -- `book`
-* [HTTPS Everywhere](https://www.eff.org/https-everywhere) - Uses client-side tricks to force misconfigured sites to use HTTPS all the time, by the EFF (donate) -- `Firefox` `Chrome`
-* [Huginn](https://github.com/cantino/huginn) - Build agents that perform automated tasks/workflows for you online or locally, like IFTTT -- `Ruby`
 * [In Defense of Swap](https://chrisdown.name/2018/01/02/in-defence-of-swap.html) - Well informed article about why you need some swap -- `article`
 * [Interactive Coding Challenges](https://github.com/donnemartin/interactive-coding-challenges) - 120+ interactive Python coding interview challenges (algorithms and data structures), includes Anki flashcards -- `Python`
 * [Interlibrary Loan](https://en.wikipedia.org/wiki/Interlibrary_loan) - If your local library doesn't have a book or DVD in their collection they can use this service to order it from another library so you can borrow it out -- `i'm learnding`
 * [Introduction to Cloud Infrastructure Technologies](https://github.com/darshanime/notes/blob/master/cloud.org) - Notes from the superb course on edX -- `collection`
 * [Introduction to Kubernetes](https://github.com/darshanime/notes/blob/master/kubernetes.org) - Notes from the Introduction to Kubernetes course on edX -- `collection`
 * [Introduction to Linux](https://www.edx.org/course/introduction-to-linux) - Endorsed by Linus himself, via edX -- `course`
-* [inxi](https://github.com/smxi/inxi) - "a full featured system information script" (hardware info, etc) -- `shell`
-* [IPTV](https://github.com/iptv-org/iptv) - Collection of 8000+ publicly available IPTV channels from all over the world -- `collection`
 * [JVM Anatomy Park](https://shipilev.net/jvm-anatomy-park/) - Anatomy of the JVM -- `collection`
 * [JVM Internals](http://blog.jamesdbloom.com/JVMInternals.html) - A superb explanation of how the Java JVM works in easy to understand terms -- `collection`
 * [Kanopy](https://www.kanopystreaming.com/) - Streaming movies for USA public library members -- `explore yours today`
@@ -2254,56 +2089,31 @@
 * [Linux Performance](http://www.brendangregg.com/linuxperf.html) - Centralized page for all of Brendan Gregg's Linux performance material (slides videos pages etc) -- `the man`
 * [Linux Tracing Workshop](https://github.com/goldshtn/linux-tracing-workshop) - Hands on exercises with perf, bcc, and similar tools -- `various lang`
 * [Little Book of Python Anti-Patterns](https://docs.quantifiedcode.com/python-anti-patterns/) - See title -- `book`
-* [Locast](https://www.locast.org/) - Watch your local broadcast TV for free on any device, USA geo-locked, **please donate** -- `all platforms!`
-* [Mail Tester](https://www.mail-tester.com/) - Test the spammyness of your e-mails -- `in-browser`
 * [Managing Kubernetes](https://go.heptio.com/rs/383-ENX-437/images/Managing_Kubernetes.pdf) - Full 2019 ebook by Heptio and O'Reilly -- `book`
-* [maybe](https://github.com/p-e-w/maybe) - Allows a dry run of almost any Linux binary, see the files it will modify, calls made, etc -- `Python pip`
-* [Maza](https://github.com/tanrax/maza-ad-blocking) - Like Pi-hole but local and using your operating system -- `shell`
 * [Memory Management Reference](http://www.memorymanagement.org/index.html) - All in one reference for memory management and garbage collection -- `collection`
 * [MIT OpenCourseWare](https://ocw.mit.edu/about/) - MIT's real course materials from 2400+ courses -- `collection`
-* [Mjolnir](https://github.com/sdegutis/mjolnir) - Automation for OS X, think AutoHotKey for Mac -- `C` `OS X`
-* [MultiRBL](http://multirbl.valli.org/) - SMTP blackhole lookup tools -- `in-browser`
-* [MX Toolbox](https://mxtoolbox.com/) - SMTP blacklist lookup, header analysis, and more -- `in-browser`
-* [Network UPS Tools (NUT)](http://www.networkupstools.org/) - Manage power devices from over 100 manufacturers using a single web interface -- `C` `Windows`
 * [Networking Cheat Sheets](http://packetlife.net/library/cheat-sheets/) - Protocols, devices, ports, physical connectors, and more, by PacketLife -- `collection`
-* [NoRoot Firewall](https://play.google.com/store/apps/details?id=app.greyshirts.firewall&hl=en_US) - Android app that logs connections to show overly chatty background apps and more -- `closed source`
-* [NoScript](https://noscript.net/) - JavaScript, XSS, tracker, Flash blockers and more - your condom for the Internet -- `Firefox`
-* [oauth2_proxy](https://github.com/pusher/oauth2_proxy) - A reverse proxy that provides authentication with Google, Github or other provider -- `Golang`
-* [Omni Calculator](https://www.omnicalculator.com/) - 1168 free calculators -- `collection`
-* [oomd](https://github.com/facebookincubator/oomd) - Userspace OOM killer, highly configurable and much improved over the kernel's built in OOM killer -- `C++`
 * [Open Source Society University (OSSU)](https://github.com/ossu/computer-science) - A complete education in computer science using free online materials -- `collection`
-* [Open19](https://www.open19.org/) - Open data center hardware for standard size racks -- `neat`
-* [OpenBMC](https://github.com/facebook/openbmc) - Framework to build a complete Linux image for a Board Management Controller (BMC), by Facebook -- `C`
 * [OpenShift Interactive Learning Portal](https://learn.openshift.com/) - Learn OpenShift in your web browser, by Red Hat -- `tutorial`
-* [OpenShift v3 Developing Java Applications](https://github.com/openshift-labs/starter-guides) - An interactive workshop -- `tutorial`
-* [OpenShift v3 DevOps Workshop](https://github.com/openshift-labs/devops-guides) - An interactive workshop -- `tutorial`
-* [OpenShift v3 Ops Workshop](https://github.com/RedHatWorkshops/openshiftv3-ops-workshop) - Admin / ops / design tasks and discussions -- `tutorial`
-* [OpenShift v3 Workshop](https://github.com/RedHatWorkshops/openshiftv3-workshop) - Interactive and free, a good starting point, by Red Hat -- `tutorial`
 * [OpenShift v4 Developer Preview](https://try.openshift.com/) - Give it a try -- `tutorial`
 * [OpenShift v4 Training](https://github.com/openshift/training) - Official, requires AWS -- `tutorial`
 * [OpenShift v4 Workshop](https://github.com/RedHatWorkshops/openshiftv4-workshop) - By Red Hat -- `tutorial`
 * [OpenVim](http://www.openvim.com/tutorial.html) - In-browser vim tutorial -- `tutorial` `in-browser`
-* [Open Guides: AWS](https://github.com/open-guides/og-aws) - Excellent summary of almost all services -- `collection`
 * [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/%7Eremzi/OSTEP/) - Probably the best OS book out there, free -- `book`
 * [Outages.org Mailing List](https://puck.nether.net/mailman/listinfo/outages) - Report and discuss major outages, network status updates, etc -- `mailing list`
 * [OverDrive](https://www.overdrive.com/) - Ebooks and audio books for USA public library members -- `explore yours today`
 * [OWASP Secure Coding Practices - Quick Reference Guide](https://www.owasp.org/index.php/OWASP_Secure_Coding_Practices_-_Quick_Reference_Guide) -- Great cheat sheet, language-agnostic -- `collection`
 * [Phil's Data Structure Zoo](https://g1thubhub.github.io/data-structure-zoo.html) - Classifes some of the most popular data structures at the theoretical, implementation, and empirical levels -- `collection`
-* [Pi-Hole](https://pi-hole.net/) - Ad and tracking blackhole that covers your entire network with a single device -- `hardware`
 * [Play with Docker](https://labs.play-with-docker.com/) - Docker playground that allows users to run Docker commands in a matter of seconds (Alpine + Docker in Docker (DIN)) -- `learning`
 * [Play with Docker Classroom](https://training.play-with-docker.com/) - Interactive tutorials using Play with Docker (see above) -- `learning`
 * [Play with Kubernetes](https://labs.play-with-k8s.com/) - A simple, interactive and fun playground to learn Kubernetes in your browser, by Docker -- `in-browser`
 * [Preparing a Google Kubernetes Engine Environment for Production](https://cloud.google.com/solutions/prep-kubernetes-engine-for-prod) - The best GKE summary, covers everything -- `collection`
-* [PrivacyTools.io](https://www.privacytools.io/) - All in one collection, web site source is on GitHub -- `collection`
-* [Privacy Badger](https://www.eff.org/privacybadger) - The best in-browser privacy and anti-tracking tool, by the EFF (donate) -- `Chrome` `Firefox`
 * [Production Readiness Checklist](https://www.gruntwork.io/devops-checklist/) - Excellent checklist for pre-go-live, AWS-centric but great general advice -- `collection`
-* [Puffer](https://puffer.stanford.edu/) - Re-transmits free over-the-air broadcast television signals received by an antenna located on the campus of Stanford University, USA geo-locked, by Stanford Platform Lab and many others -- `in-browser` `Android`
+* [python-patterns](https://github.com/faif/python-patterns) - A collection of design patterns and idioms in Python -- `collection`
 * [Python Cheat Sheet](https://github.com/wilfredinni/python-cheatsheet) - Mostly based on the book written by Al Sweigart, Automate the Boring Stuff with Python -- `collection`
-* [repl.it](https://repl.it/languages) - In-browser REPLs for a ton of languages -- `in-browser`
+* [Python Reference](https://github.com/rasbt/python_reference) - A collection of useful scripts, tutorials, and other Python-related things -- `collection`
 * [Reverse Engineering for Beginners](https://beginners.re/RE4B-EN.pdf) - Some serious work was put into this -- `book`
-* [runwhen](http://code.dogmap.org/runwhen/) - Utilities for running commands at particular times, cron on steroids -- `C`
 * [SaaS CTO Security Checklist](https://www.sqreen.com/checklists/saas-cto-security-checklist) - Categorizes and prioritizes actions by funding round -- `collection`
-* [scrcpy](https://github.com/Genymobile/scrcpy) - Remote display and control of Android devices connected on USB or TCP/IP -- `C`
 * [Scrum Guide](https://www.scrumguides.org/) - Explains Scrum in a concise and straightforward way in about 10 pages, by the creators -- `article`
 * [Secure Messaging Apps](https://www.securemessagingapps.com/) - True comparison of the technical features and merits of various apps, which are TRULY secure? -- `collection`
 * [Security 101 for SaaS Startups](https://github.com/forter/security-101-for-saas-startups) - Excellent checklist and guide in easy to understand terms for non-infrastructure people -- `collection`
@@ -2311,28 +2121,21 @@
 * [Site Reliability Engineering (SRE) by Google](https://landing.google.com/sre/books/) - Full, free, online version of the O'Reilly book -- `the best`
 * [Site Reliability Workbook](https://landing.google.com/sre/books/) - Free, by Google -- `book`
 * [Software Engineering at Google](https://www.seagnotes.com) - Notes from the book, by me -- `notes`
-* [Spectacle](https://www.spectacleapp.com/) - Control desktop windows via keyboard shortcuts -- `Objective C`
-* [StackStorm](https://github.com/StackStorm/st2) - IFTTT for Ops -- `Python`
-* [Steps Recorder (aka Problem Steps Recorder)](https://support.microsoft.com/en-us/help/22878/windows-10-record-steps) - Windows 7+, user records themselves reproducing a problem, they send video to you, you playback -- `closed source`
 * [Stock Images](https://news.ycombinator.com/item?id=15602538) - An excellent collection from HN -- `collection`
 * [System Architecture](https://github.com/orrsella/soft-eng-interview-prep/blob/master/topics/system-architecture.md) - Great refresher, not so great for first time learners -- `collection`
 * [System Design Primer](https://github.com/donnemartin/system-design-primer) - Learn how to design large-scale systems -- `article`
 * [SymbolHound](http://symbolhound.com) - Search engine that doesn't ignore special characters, great for programming questions -- `try it`
 * [Teach Yourself Computer Science](https://teachyourselfcs.com/) - 9 subjects, they choose the best free source to learn each subject and explain why that source is the best - they did the research for you -- `collection`
 * [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/) - SWE / dev-centric -- `tutorial`
-* [Terragrunt Reference Architecture (AWS)](https://github.com/antonbabenko/terragrunt-reference-architecture) - Nice, looking forward to their GCP one -- `various lang`
 * [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line) - The BEST interactive Linux tutorial, newbie focused -- `learn it`
 * [The Early Security Engineer’s First 90 Days Checklist](https://www.sqreen.com/checklists/security-engineer-checklist) - Aims to help security engineers and CISOs in early stage companies to prioritize their efforts in the first months of their new job -- `list`
 * [The Illustrated TLS Connection](https://tls.ulfheim.net/) - Every byte of a TLS connection explained and reproduced -- `article`
 * [The Little Go Book](https://www.openmymind.net/The-Little-Go-Book/) - Free book, available in various formats - `book`
 * [The Manager's Path](https://github.com/keyvanakbary/learning-notes/blob/master/books/the-managers-path.md) - Concise notes from the book -- `notes`
 * [Twelve-Factor App](https://12factor.net/) - Language-independent rules for codebase, dependencies, build/release/run, dev and prod, logs, etc for a cloud/web-centric app -- `collection`
-* [Twilight](https://play.google.com/store/apps/details?id=com.urbandroid.lux&hl=en) - F.lux for Android -- `closed source`
 * [Two Factor Auth (2FA)](https://twofactorauth.org/) - Web sites that do and don't support 2FA, organized by category, submit PRs for changes -- `collection`
-* [uBlock Origin](https://github.com/gorhill/uBlock) - Ad blocker, only use Origin, do not use another uBlock -- `Firefox` `Chrome`
 * [Unix Rosetta Stone](http://bhami.com/rosetta.html) - The one and only resource for a mixed Linux/Unix environment -- `translator`
 * [Use the Index, Luke](https://use-the-index-luke.com/) - SQL indexing and tuning for developers -- `collection`
 * [Vim Adventures](https://vim-adventures.com/) - A game to learn  vi / vim using your browser -- `in-browser` `tutorial`
 * [Web Security Academy](https://portswigger.net/web-security) - Free online training for the creators of Burp Suite -- `tutorial`
 * [What Happens When... Kubernetes Edition](https://github.com/jamiehannaford/what-happens-when-k8s) - Walks through what happens behind the scenes when you do a kubectl run -- `tutorial`
-* [WhosHere](https://github.com/curtbraz/whoshere) - Monitor an area for WiFi and Bluetooth probe requests to see when people (devices) come and go, with web UI and IFTTT webhook integraiton for Slack/SMS pushes -- `PHP`
