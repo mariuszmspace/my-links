@@ -135,8 +135,9 @@
 ---
 ## AWS Tools and Learning Resources
 
-> Learning resources and tools for interacting with the Amazon Web Services ecosystem
+> And some GCP / Google Cloud
 
+* [A giant list of Google Cloud resources](https://cloud.google.com/blog/topics/developers-practitioners/giant-list-google-cloud-resources) - From Google -- `collection`
 * [Amazon Builder's Library](https://aws.amazon.com/builders-library) - Amazon shares their learnings from building and operating AWS -- `articles`
 * [asecurecloud](https://asecure.cloud/) - A free library of 400+ customizable AWS security configurations and best practices (CF, Terraform, and AWS CLI) -- `collection`
 * [assume-role](https://github.com/coinbase/assume-role) - CLI tool making it easy to assume IAM roles through an AWS Bastion account -- `shell`
@@ -148,9 +149,12 @@
 * [AWSConsoleRecorder](https://github.com/iann0036/AWSConsoleRecorder) - Records actions made in the AWS Management Console and outputs the equivalent CLI/SDK commands and CloudFormation/Terraform templates -- `Chrome` `JavaScript
 * [AWS Amplify](https://github.com/aws-amplify) - Front end JS suite that provides a templated foundation for cloud-centric apps including authn, analytics, API, push notifications, Graph QL, and more -- `JavaScript`
 * [AWS Breaking Changes](https://github.com/SummitRoute/aws_breaking_changes) - List of changes announced for AWS that may break existing code -- `collection`
+* [AWS Copilot](https://aws.github.io/copilot-cli/) - OSS CLI to build, release, and operate apps for ECS and Fargate -- `Golang`
 * [AWS Extend Switch Roles](https://github.com/tilfin/aws-extend-switch-roles) - Extend your AWS IAM switching roles by Chrome extension or Firefox add-on -- `JavaScript`
 * [AWS IAM Authenticator for Kubernetes](https://github.com/kubernetes-sigs/aws-iam-authenticator) - A tool for using AWS IAM credentials to authenticate to a Kubernetes cluster -- `Golang`
 * [AWS SAM Local](https://github.com/awslabs/aws-sam-local) - CLI tool for local development and testing of Lambda applications -- `Golang`
+* [AWS Toolkit for Visual Studio Code](https://aws.amazon.com/visualstudiocode/) - Give it a go -- `various lang`
+* [AWS Video Catalog](https://www.awsvideocatalog.com/) - ALL official AWS videos cataloged and categorized (by topic, by year, etc) -- `collection`
 * [boto3](https://boto3.readthedocs.io/en/latest/) - The AWS SDK for Python 3 -- `Python`
 * [boto3_type_annotations](https://github.com/alliefitter/boto3_type_annotations) - Adds code completion in IDEs such as PyCharm -- `Python`
 * [botostubs](https://github.com/jeshan/botostubs) - boto3 code assistance for any API in any IDE, always up to date -- `Python`
@@ -172,6 +176,7 @@
 * [Fargate](https://github.com/jpignata/fargate) - CLI for AWS Fargate, unofficial -- `Golang`
 * [Force MFA](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_users-self-manage-mfa-and-creds.html) - Allows users to manage their own passwords and MFA devices but nothing else unless they authenticate with MFA, also makes API calls require MFA -- `policy`
 * [Former2](https://github.com/iann0036/former2) - Generate CloudFormation / Terraform / Troposphere templates from your existing AWS resources via self-hosted web GUI -- `JavaScript`
+* [gcpviz](https://github.com/GoogleCloudPlatform/professional-services/tree/master/tools/gcpviz) - Visualization tool that takes input from Cloud Asset Inventory -- `Golang`
 * [haproxy-autoscale](https://github.com/markcaudill/haproxy-autoscale) - Wrapper for haproxy that handles auto-scaling EC2 instances -- `Python`
 * [kappa](https://github.com/garnaat/kappa) - CLI tool that makes it easier to deploy, update, and test Lambda functions -- `Python`
 * [localstack](https://github.com/localstack/localstack) - A fully functional local AWS cloud stack for offline dev and test -- `Python`
@@ -195,6 +200,7 @@
 * [Terragrunt Reference Architecture (AWS)](https://github.com/antonbabenko/terragrunt-reference-architecture) - Nice, looking forward to their GCP one -- `various lang`
 * [Tools for Amazon Web Services](https://aws.amazon.com/tools/) - Amazon's portal for their official tools -- `various lang`
 * [troposphere](https://github.com/cloudtools/troposphere) - Python library to create CloudFormation descriptions -- `Python pip`
+* [Weird Behaviors in S3 Bucket Policies](https://github.com/elfakyn/knowledge/blob/master/src/cloud/aws/services/s3_bucket_policy_weird_behaviors.md) - Documented weirdness of S3 buckets -- `collection`
 * [Zappa](https://github.com/Miserlou/Zappa) - Build and deploy serverless, event-driven Python applications -- `Python`
 
 
@@ -351,10 +357,12 @@
 * [Docker Distribution](https://github.com/docker/distribution) - AKA Docker Registry 2.0 - pack, ship, store, and deliver containers -- `Golang`
 * [Docker Hub](https://registry.hub.docker.com/) - Official Docker images for many projects -- `various lang`
 * [Docker Toolbox](https://www.docker.com/toolbox) - Docker Client, Machine, Compose, Kitematic, VirtualBox, and the boot2docker VM in a single package, official -- `various lang`
+* [dockerfile-security](https://github.com/gbrindisi/dockerfile-security) - Open Policy Agent (OPA) rules for dockerfiles that can be integrated into your pipeline -- `collection`
 * [Dockit](https://github.com/awkspace/dockit) - Jump into a container image of your choosing, taking all the files from the current directory with you -- `shell`
 * [Dokku](https://github.com/progrium/dokku) - Docker powered mini-Heroku (PaaS) in around 100 lines of bash -- `shell`
 * [dumb-init](https://github.com/Yelp/dumb-init) - Minimal init system for containers, by Yelp -- `C`
 * [Fedora CoreOS](https://coreos.fedoraproject.org/) - The best of CoreOS + Fedora Atomic Host, upstream to RHEL CoreOS, successor to now sunset RHEL / Fedora Atomic & Container Linux -- `various lang`
+* [Flatcar Container Linux]((https://www.flatcar-linux.org/) - Immutable Linux distribution for containers, the modern choice -- `various lang`
 * [gvisor](https://github.com/google/gvisor) - User-space kernel, can be used to sandbox containers, by Google -- `Golang`
 * [img](https://github.com/genuinetools/img) - Standalone, daemon-less, unprivileged Dockerfile and OCI compatible container image builder -- `Golang`
 * [Jenkins Docker Slaves Plugin](https://github.com/jenkinsci/docker-slaves-plugin) - Aka Dockins, execute a Jenkins job inside one or more containers, supports most job types -- `Java`
@@ -408,6 +416,7 @@
 * [Kibana](https://www.elastic.co/products/kibana) - Visualization component of the ELK stack -- `JavaScript`
 * [ksar](https://sourceforge.net/projects/ksar/) - Creates pretty graphs from sar output -- `Java`
 * [logstalgia](https://logstalgia.io/) - Web site access log visualization tool, aka Apache Pong -- `C++`
+* [Loki](https://github.com/grafana/loki) - Like Prometheus but for logs -- `Golang`
 * [lsofgraph](https://github.com/zevv/lsofgraph) - lsof output into to Graphviz -- `Lua`
 * [Grafana](https://grafana.org/) - Modern dashboard for Graphite -- `JavaScript`
 * [grafana-statusmap](https://github.com/flant/grafana-statusmap) - Grafana status panel -- `JavaScript`
@@ -466,6 +475,7 @@
 * [nsq](https://nsq.io/) - Realtime distributed messaging platform / message queue -- `Golang`
 * [OpenStack](https://www.openstack.org/) - Private cloud -- `Python`
 * [Pinpoint](https://github.com/naver/pinpoint) - Application Performance Monitoring (APM) for distributed systems, based on Dapper -- `Java`
+* [Plumber](https://github.com/batchcorp/plumber) - Read and write messages to Kafka, RabbitMQ, Google Cloud PubSub, and more -- `Golang`
 * [redis-cell](https://github.com/brandur/redis-cell) - Redis module that provides rate limiting in Redis as a single command using GCRA -- `C`
 * [Redisson](https://github.com/mrniko/redisson) - Distributed and scalable Java data structures on top of Redis -- `Java`
 * [Riemann](http://riemann.io/) - Aggregates events from your servers and applications with a powerful stream processing language, for distributed systems, similar to Borgmon -- `Clojure`
@@ -668,6 +678,7 @@ dry run), to/from AWS, GCP, and Azure -- `Golang`
 * [kubediscovery](https://github.com/cloud-ark/kubediscovery) - Tool that helps you find dynamic composition tree of Kubernetes objects -- `Golang`
 * [KubeEdge](https://github.com/kubeedge/kubeedge) - CNCF project to run Kubernetes at edge -- `Golang`
 * [kubehost](https://github.com/GoogleContainerTools/kubehost) - Uses existing features of GKE to expose your service directly onto one of the VMs -- `shell`
+* [KubeLinter](https://github.com/stackrox/kube-linter) - Supports k8s and Helm -- `Golang`
 * [kubeprovenance](https://github.com/cloud-ark/kubeprovenance) - Track chronology of declarative operations performed on custom resources to understand how these operations affect underlying platform elements, amazing historical auditing and reporting tool -- `Golang`
 * [Kubernetes](https://kubernetes.io/) - Open source orchestration system for Docker containers, by Google -- `Golang`
 * [kubernetes-cloudflare-sync](https://github.com/calebdoxsey/kubernetes-cloudflare-sync) - Run in your Kubernetes Cluster on GKE and sync DNS records on Cloudflare with your nodes IPs to avoid GCP LB fees -- `Golang`
@@ -690,6 +701,7 @@ dry run), to/from AWS, GCP, and Azure -- `Golang`
 * [MKIT (Managed Kubernetes Inspection Tool)](https://github.com/darkbitio/mkit) - A quick way to assess several common misconfigurations in their Kubernetes environment (AKS, EKS, GKE) -- `Dockerfile`
 * [Octant](https://github.com/vmware/octant) - Web based representation of a Kubernetes cluster, by VMware -- `various lang`
 * [Prometheus Operator](https://github.com/coreos/prometheus-operator) - Creates/configures/manages Prometheus clusters atop Kubernetes -- `Golang`
+* [Reloader](https://github.com/stakater/Reloader) - Reloader can watch changes in ConfigMap and Secret and do rolling upgrades on Pods -- `Golang`
 * [Rook](https://rook.io/) - Self managing, self healing storage orchestrator for Kubernetes via an operator plugin, see also EdgeFS -- `Golang`
 * [Security Goals](https://github.com/cds-snc/security-goals) - Compliance checking and reporting for Kubernetes based applications, by the Canadian Digital Service -- `various lang`
 * [shell-operator](https://github.com/flant/shell-operator) - Integration layer between Kubernetes cluster events and shell scripts by treating scripts as hooks triggered by events -- `Golang`
@@ -706,6 +718,7 @@ dry run), to/from AWS, GCP, and Azure -- `Golang`
 * [Wormhole](https://github.com/gravitational/wormhole) - CNI plugin for Kubernetes that uses WireGuard for creating a full mesh encrypted network between each host in the Kubernetes cluster. The Kubernetes API is used to coordinate key exchange and configuration -- `Golang`
 * [Vault Secrets Operator](https://github.com/ricoberger/vault-secrets-operator) - Kubernetes operator for Hashicorp Vault -- `Golang`
 * [Velero](https://github.com/heptio/velero) - Manage disaster recovery for your Kubernetes persistent volumes and cluster resources, formerly Heptio Ark -- `Golang`
+* [version-checker](https://github.com/jetstack/version-checker) - Check image versions running in the cluster vs the newest and then alert via Prometheus when newer ones are available for evaluation -- `Golang`
 * [virtlet](https://github.com/Mirantis/virtlet) - Kubernetes CRI implementation for running VM workloads (QCOW2 images) -- `Golang`
 * [virtual-kublet](https://github.com/virtual-kubelet/virtual-kubelet) - kublet implementation that masquerades as a kubelet for the purposes of connecting Kubernetes to other APIs (Fargate, ACI, IoT, Nomad, Azure, etc) -- `Golang`
 * [Voyager](https://github.com/appscode/voyager) - HAProxy backed secure L7 and L4 ingress controller for Kubernetes -- `Golang`
@@ -769,6 +782,7 @@ dry run), to/from AWS, GCP, and Azure -- `Golang`
 * [multitail](https://www.vanheusden.com/multitail/) - Monitor multiple log files in a single terminal window -- `C`
 * [netconsole](https://wiki.archlinux.org/index.php/Netconsole) - Kernel module that sends kernel log messages (dmesg, etc) to a remote system without using syslog -- `C`
 * [NXLOG](https://nxlog-ce.sourceforge.net/) - Universal log collector and forwarder, supports many formats/platforms/sources including Windows -- `C` `Windows`
+* [Open Distro for ElasticSearch](https://opendistro.github.io/for-elasticsearch/) - Distro of ElasticSearch with all of the enterprise-grade features added in -- `Java`
 * [Open Web Analytics (OWA)](http://www.openwebanalytics.com/) - Track and analyze how people use your websites and applications -- `PHP`
 * [Sentry](https://sentry.io) - Application exception logging -- `Python`
 * [Snoopy Logger](https://github.com/a2o/snoopy) - Logs commands that are executed and saves the information to syslog -- `C`
@@ -1846,6 +1860,7 @@ dry run), to/from AWS, GCP, and Azure -- `Golang`
 > RPC is dead, long live RPC - see also [SSL Tools](#ssl-tools) and [Networking Tools](#networking-tools)
 
 * [API Blueprint](https://apiblueprint.org/) - Supports bindings/plugins for many APIs -- `various lang`
+* [Caddy](https://caddyserver.com/) - Web server with automatic TLS and more -- `Golang`
 * [curlish](https://pythonhosted.org/curlish/) - Improved curl, includes cookie management and OAuth 2.0 support -- `Python pip`
 * [Fiddler](https://www.telerik.com/fiddler) - HTTP/HTTPS debugging proxy for any browser, system or platform -- `closed source`
 * [gRPC](https://www.grpc.io/) - High performance RPC via HTTP/2, by Google -- `C`
@@ -1943,9 +1958,11 @@ dry run), to/from AWS, GCP, and Azure -- `Golang`
 * [conserver](http://www.conserver.com/) - Virtual console server with many features (multi-user, console log history, etc) -- `C`
 * [Cookie Autodelete](https://www.google.com/search?&q=cookie+autodelete) - Browser add-on that's essentially a cookie whitelist / grey list -- `Firefox` `Chrome`
 * [CRIU (Checkpoint Restore in Userspace)](https://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later -- `insane`
+* [crumbs](https://github.com/lucasepe/crumbs) - Simple mind maps with asterisks - great for brain dumping with little transcription overhead -- `Golang`
 * [Domain Block List](https://dbl.oisd.nl) - The only Pi Hole blocklist you'll need -- `collection`
 * [Etcher](https://www.balena.io/etcher/) - SD card writing software, easy -- `various lang`
 * [f.lux](https://justgetflux.com/) - Changes your screen from blue light to yellow light when the sun sets to tell your brain it's night time -- `closed source` `OS X` `Windows`
+* [FigmaToCode](https://github.com/bernaferrari/FigmaToCode) - Outputs Figma objects to Tailwind, Flutter, or SwiftUI code -- `JavaScript`
 * [Fossor](https://github.com/linkedin/fossor) - Automate on-call investigation steps, by LinkedIn -- `Python pip`
 * [googler](https://github.com/jarun/googler) - Google search, news, and site search from the terminal, slick -- `Python`
 * [Google Advanced Operators for Web Search](https://sites.google.com/site/gwebsearcheducation/advanced-operators) - Search modifiers for more accurate results, by Google -- `collection`
@@ -1955,7 +1972,7 @@ dry run), to/from AWS, GCP, and Azure -- `Golang`
 * [HTTPS Everywhere](https://www.eff.org/https-everywhere) - Uses client-side tricks to force misconfigured sites to use HTTPS all the time, by the EFF (donate) -- `Firefox` `Chrome`
 * [Huginn](https://github.com/cantino/huginn) - Build agents that perform automated tasks/workflows for you online or locally, like IFTTT -- `Ruby`
 * [inxi](https://github.com/smxi/inxi) - "a full featured system information script" (hardware info, etc) -- `shell`
-* [IPTV](https://github.com/iptv-org/iptv) - Collection of 8000+ publicly available IPTV channels from all over the world -- `collection`
+* [IPTV](https://github.com/iptv-org/iptv) - Collection of 8000+ publicly available IPTV channels from all over the world -- screw off Bundesliga -- `collection`
 * [Library Extension](https://www.libraryextension.com/) - Browser extension that shows you which Amazon books are available free at your local libraries, please donate -- `closed source`
 * [Locast](https://www.locast.org/) - Watch your local broadcast TV for free on any device, USA geo-locked, **please donate** -- `all platforms!`
 * [Mail Tester](https://www.mail-tester.com/) - Test the spammyness of your e-mails -- `in-browser`
@@ -2134,6 +2151,7 @@ dry run), to/from AWS, GCP, and Azure -- `Golang`
 * [The Manager's Path](https://github.com/keyvanakbary/learning-notes/blob/master/books/the-managers-path.md) - Concise notes from the book -- `notes`
 * [Twelve-Factor App](https://12factor.net/) - Language-independent rules for codebase, dependencies, build/release/run, dev and prod, logs, etc for a cloud/web-centric app -- `collection`
 * [Two Factor Auth (2FA)](https://twofactorauth.org/) - Web sites that do and don't support 2FA, organized by category, submit PRs for changes -- `collection`
+* [Understanding OAuth2 and OpenID Connect](https://www.polarsparc.com/xhtml/OAuth2-OIDC.html) - THE BEST article -- `article`
 * [Unix Rosetta Stone](http://bhami.com/rosetta.html) - The one and only resource for a mixed Linux/Unix environment -- `translator`
 * [Use the Index, Luke](https://use-the-index-luke.com/) - SQL indexing and tuning for developers -- `collection`
 * [Vim Adventures](https://vim-adventures.com/) - A game to learn  vi / vim using your browser -- `in-browser` `tutorial`
