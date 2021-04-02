@@ -136,11 +136,15 @@
 * [asecurecloud](https://asecure.cloud/) - A free library of 400+ customizable AWS security configurations and best practices (CF, Terraform, and AWS CLI) -- `collection`
 * [awacs (Amazon Web Access Control Subsystem)](https://github.com/cloudtools/awacs) - Allows for easier creation of AWS Access Policy Language JSON by writing Python code to describe the AWS policies -- `Python pip`
 * [Awesome AWS](https://github.com/donnemartin/awesome-aws) - Curated list of AWS resources -- `collection`
+* [aws-runas](https://github.com/mmmorris1975/aws-runas) - A friendly way to do AWS STS AssumeRole operations so you can perform AWS API actions using a particular set of permissions -- `Golang`
 * [aws-shell (formerly Supercharged AWS CLI (SAWS))](https://github.com/awslabs/aws-shell) - The best CLI for interacting with AWS -- `Python pip`
+* [aws-ssm-tree](https://github.com/brunorubin/aws-ssm-tree) - Provides a tree visualization of the parameters hierarchy from AWS System Manager Parameter Store -- `Python pip`
 * [aws-vault](https://github.com/99designs/aws-vault) - A vault for securely storing and accessing AWS credentials in development environments  -- `Golang`
-* [AWSConsoleRecorder](https://github.com/iann0036/AWSConsoleRecorder) - Records actions made in the AWS Management Console and outputs the equivalent CLI/SDK commands and CloudFormation/Terraform templates -- `Chrome` `JavaScript
+* [AWSConsoleRecorder](https://github.com/iann0036/AWSConsoleRecorder) - Records actions made in the AWS Management Console and outputs the equivalent CLI/SDK commands and CloudFormation/Terraform templates -- `Chrome` `JavaScript`
+* [awspec](https://github.com/k1LoW/awspec) - rspec for AWS resources -- `Ruby gem`
 * [AWS Amplify](https://github.com/aws-amplify) - Front end JS suite that provides a templated foundation for cloud-centric apps including authn, analytics, API, push notifications, Graph QL, and more -- `JavaScript`
 * [AWS Copilot](https://aws.github.io/copilot-cli/) - OSS CLI to build, release, and operate apps for ECS and Fargate -- `Golang`
+* [AWS Encryption CLI](https://docs.aws.amazon.com/encryption-sdk/latest/developer-guide/crypto-cli.html) - CLI for KMS -- `Python`
 * [AWS Extend Switch Roles](https://github.com/tilfin/aws-extend-switch-roles) - Extend your AWS IAM switching roles by Chrome extension or Firefox add-on -- `JavaScript`
 * [AWS IAM Authenticator for Kubernetes](https://github.com/kubernetes-sigs/aws-iam-authenticator) - A tool for using AWS IAM credentials to authenticate to a Kubernetes cluster -- `Golang`
 * [AWS SAM Local](https://github.com/awslabs/aws-sam-local) - CLI tool for local development and testing of Lambda applications -- `Golang`
@@ -161,6 +165,7 @@
 * [ClusterCloner](https://github.com/doitintl/ClusterCloner) - Reads the Kubernetes clusters in one location (optionally filtering by labels) and clones them into another (or just outputs JSON as a dry run), to/from AWS, GCP, and Azure -- `Golang`
 * [credstash](https://github.com/fugue/credstash) - Secrets management using AWS KMS -- `Python pip`
 * [eb_deploy](https://github.com/ThoughtWorksStudios/eb_deployer) - Elastic Beanstalk blue-green deployment automation -- `Ruby gem`
+* [EB CLI](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3.html) - CLI for Elastic Beanstalk -- `Python`
 * [ec2-price-check](https://github.com/Bjorn248/ec2-price-check) - Gives a quick price check for an instance type -- `shell`
 * [ec2instances.info](https://instances.vantage.sh/) - Open source and up to date instance price comparison tool -- `Python`
 * [ec2.shop](https://ec2.shop/) - ec2 price checker, supports curl -- `various lang`
@@ -183,6 +188,7 @@
 * [Serverless (formerly JAWS)](https://github.com/jaws-stack/JAWS) - Javascript + AWS stack, the entire backend is Lambda functions, server-free -- `JavaScript`
 * [Serverless by Design](https://github.com/danilop/ServerlessByDesign) - In-browser or self-hosted GUI for making flow charts for serverless apps -- `various lang`
 * [Serverless Stack Toolkit (SST)](https://serverless-stack.com/) - extension of AWS CDK that includes a live Lambda dev environment and more -- `JavaScript`
+* [Session Manager Plugin for AWS CLI](https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-working-with-install-plugin.html) - Used to start and end sessions that connect you to your managed instances -- `Python`
 * [Sneaker](https://github.com/codahale/sneaker) - Store secrets on S3 using Amazon KMS -- `Golang`
 * [ssh2ec2](https://pypi.python.org/pypi/ssh2ec2) - SSH into EC2 instances by tag name and/or other metadata filters -- `Python pip`
 * [SSM Helpers](https://github.com/disneystreaming/ssm-helpers) - Interactive shell with an instance via AWS Systems Manager Session Manager and more -- `Golang`
@@ -392,6 +398,7 @@
 * [Bigdesk](https://github.com/hlstudio/bigdesk) - Live charts and statistics for Elasticsearch cluster -- `JavaScript`
 * [Cachet](https://cachethq.io/) - Create beautiful, responsive status pages -- `PHP`
 * [Cacti](https://cacti.net/) - Web-based network monitoring and graphing tool designed as a front-end to RRDtool -- `PHP`
+* [Dashkiosk](https://github.com/vincentbernat/dashkiosk) - An excellent, simple dashboard that supports multiple screens -- `JavaScript`
 * [Facette](https://facette.io/) - Time series data visualization and graphing software -- `Golang`
 * [Flame Graphs](http://www.brendangregg.com/flamegraphs.html) - Stack trace visualizer by Brendan Gregg -- `perl`
 * [Gource](https://github.com/acaudwell/Gource) - Software version control visualization tool -- `C++`
@@ -429,6 +436,7 @@
 
 * [Akkio](https://code.fb.com/core-data/akkio/) - Data placement service that determines how and when to move information in order to optimize retrieval speed for people across the globe, using the minimum required number of copies -- `various lang`
 * [Avro](https://avro.apache.org/) - Data serialization system with backwards compatible schemas -- `Java`
+* [Celery](http://www.celeryproject.org/) - Async task/job queue based on distributed message passing -- `Python`
 * [Chaperone](https://github.com/uber/chaperone) - End-to-end Kafka auditing (data loss, latency, message duplication, etc), by Uber -- `Java`
 * [confd](https://github.com/kelseyhightower/confd) - Manage local application configuration files using templates and data from etcd or consul -- `Golang`
 * [Crossplane](https://crossplane.io/) - Multicloud control plane -- `Golang`
@@ -453,6 +461,7 @@
 * [MaxScale](https://github.com/mariadb-corporation/MaxScale) - General purpose DB query proxy, router, and load balancer, by MariaDB -- `C`
 * [mcrouter](https://github.com/facebook/mcrouter) - memcached protocol router for scaling memcached, by Facebook -- `C++`
 * [Mitogen](https://mitogen.readthedocs.io/en/latest/) - Python library for writing distributed self-replicating programs like magic -- `Python`
+* [mrjob](https://github.com/Yelp/mrjob) - Lets you write MapReduce and Spark jobs in Python 2.7/3.4+ and run them on several platforms (AWS, GCP) -- `Python pip`
 * [nsq](https://nsq.io/) - Realtime distributed messaging platform / message queue -- `Golang`
 * [OpenStack](https://www.openstack.org/) - Private cloud -- `Python`
 * [Pinpoint](https://github.com/naver/pinpoint) - Application Performance Monitoring (APM) for distributed systems, based on Dapper -- `Java`
@@ -623,6 +632,7 @@ dry run), to/from AWS, GCP, and Azure -- `Golang`
 * [Flux](https://github.com/weaveworks/flux) - Tool that automatically ensures that the state of a Kubernetes cluster matches the config in git via Kubernetes operators -- `Golang`
 * [Flannel](https://github.com/coreos/flannel) - Network fabric for containers via etcd, designed for Kubernetes -- `Golang`
 * [Gangway](https://github.com/heptiolabs/gangway) - Enable authentication flows via OIDC (OpenID Connect Tokens) for a Kubernetes cluster -- `Golang`
+* [Gatekeeper](https://github.com/open-policy-agent/gatekeeper) - Gatekeeper is a validating  webhook that enforces CRD-based policies executed by Open Policy Agent -- `Golang`
 * [Gitkube](https://gitkube.sh/) - Build and deploy docker images to Kubernetes using git push -- `various lang`
 * [Gloo](https://github.com/solo-io/gloo) - Gateway / abstraction layer between upstream services, based off of Envoy -- `Golang`
 * [gravity](https://github.com/gravitational/gravity) - Creates snapshots of a Kubernetes cluster that can be restored elsewhere (on-prem, DR situation, etc) -- `Golang`
@@ -816,6 +826,7 @@ dry run), to/from AWS, GCP, and Azure -- `Golang`
 * [OpenNMS](https://www.opennms.org/) - Network monitoring, also supports configuration/asset management -- `various lang`
 * [pmacct](http://www.pmacct.net/) - IP and network traffic accounting / monitoring -- `C`
 * [PHP Server Monitor](http://www.phpservermonitor.org/) - Simple monitoring package that can use built-in public SMS gateways for notifications -- `PHP`
+* [Pynag](https://pypi.python.org/pypi/pynag) - Interface with Nagios via Python -- `Python pip`
 * [Sensu Go](https://sensuapp.org/) - Open source monitoring framework, cloud-focused, dynamic, scalable - also does metrics collection -- `Ruby`
 * [Sensu Plugins](https://github.com/sensu-plugins) - Official community site for Sensu plugins -- `various lang`
 * [Shinken](http://www.shinken-monitoring.org/) - Nagios-compatible monitoring, supports high availability -- `Python`
@@ -1081,17 +1092,13 @@ dry run), to/from AWS, GCP, and Azure -- `Golang`
 * [atexit](https://docs.python.org/3/library/atexit.html) - Exit handlers -- `Python`
 * [Awesome Python](https://github.com/vinta/awesome-python) - Very large list of Python resources -- `collection`
 * [bpython](https://bpython-interpreter.org/) - Killer interface for the Python interpreter -- `Python`
-* [Celery](http://www.celeryproject.org/) - Async task/job queue based on distributed message passing -- `Python`
 * [ciscoconfparse](https://github.com/mpenning/ciscoconfparse) - Parse, audit, query, build, and modify Cisco IOS-style configurations -- `Python pip`
-* [Collections](https://docs.python.org/2/library/collections.html) - High-performance container data types -- `Python`
 * [exscript](https://github.com/knipknap/exscript) - Write less code using than either pure paramiko or netmiko -- `Python`
 * [Fabric](http://www.fabfile.org/) - Uses paramiko to implement a higher-level API for performing commands over SSH, particularly for deployment sysadmin tasks  -- `Python pip`
 * [Faker](http://www.joke2k.net/faker/) - Generate fake data easily -- `Python pip`
 * [Fire](https://pypi.org/project/fire/) - Turn any Python module, class, object, function, etc into a CLI -- `Python`
 * [functools](https://docs.python.org/3/library/functools.html) - Higher-order functions and operations on callable objects -- `Python`
-* [FunkLoad](https://pypi.python.org/pypi/funkload) - Functional and load web tester -- `Python pip`
 * [getpass](https://pymotw.com/3/getpass/) - Enter a password without echoing what they type to the console -- `Python`
-* [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html) - Google's Python style guide -- `article`
 * [inspect](https://docs.python.org/3/library/inspect.html) - Inspect live objects -- `Python`
 * [IPython](https://ipython.org/) - Interactive Python shell and the kernel for Jupyter -- `Python`
 * [Itertools](https://docs.python.org/3/library/itertools.html) - Functions creating iterators for efficient looping, iterator building blocks -- `Python`
@@ -1109,25 +1116,18 @@ dry run), to/from AWS, GCP, and Azure -- `Golang`
 * [pexpect](https://github.com/pexpect/pexpect) - Expect-like module -- `Python`
 * [pycsco](https://github.com/jedelman8/pycsco) - Python modules to simplify the use of working with Cisco Nexus switches -- `Python`
 * [PyEnv](https://github.com/pyenv/pyenv) - Simple Python version management that keeps everything within your home directory, virtualenv alternative -- `shell`
-* [Pynag](https://pypi.python.org/pypi/pynag) - Interface with Nagios via Python -- `Python pip`
 * [PyPI (Python Package Index)](https://pypi.python.org/pypi) - Software repo for Python packages, like Ruby gems or a RPM repo -- `collection`
 * [PyPy](http://pypy.org/) - Python alternative with advance features (JIT compiles, sandboxing, etc) -- `Python`
 * [python-prompt-toolkit](https://github.com/jonathanslenders/python-prompt-toolkit) - Library for building interactive command lines -- `Python pip`
-* [Python Patterns](https://python-patterns.guide) - Python patterns by Brandon Rhodes -- `collection`
 * [RadSSH](https://pypi.python.org/pypi/radssh) - Paramiko-based parallel SSH -- `Python pip`
 * [Requests](http://docs.python-requests.org/en/latest/) - The best HTTP library -- `Python pip`
 * [scapy](https://pypi.python.org/pypi/scapy) - Interactive packet manipulation for Python -- `Python pip`
 * [selenium](https://pypi.org/project/selenium/) - Browser automation -- `Python`
 * [sh](https://pypi.python.org/pypi/sh) - Library that allows you to call any program (shell command) as if it were a function -- `Python pip`
 * [Subprocess](https://docs.python.org/3/library/subprocess.html) - Spawn subprocesse and collect their output -- `Python`
-* [sys](https://docs.python.org/2/library/sys.html) - System-specific parameters and functions -- `Python`
-* [TCPWatch](https://pypi.python.org/pypi/tcpwatch) - TCP monitoring and logging tool -- `Python pip`
+* [sys](https://docs.python.org/3/library/sys.html) - System-specific parameters and functions -- `Python`
 * [tempfile](https://docs.python.org/3/library/tempfile.html) - Generate temporary files and directories -- `Python`
 * [TextFSM](https://github.com/google/textfsm) - Create a pool of templates to parse text, then use TextFSM to parse useful information from a variety of sources -- `Python`
-* [urllib](https://docs.python.org/3/library/urllib.html) - Open, read, parse URLs and robots.txt -- `Python`
-* [virtualenv](https://virtualenv.pypa.io/en/latest/) - Tool to create isolated Python environments -- `Python pip`
-* [virtualenvwrapper](https://pypi.python.org/pypi/virtualenvwrapper) - Extensions to virtualenv -- `Python pip`
-* [wtfpython](https://github.com/satwikkansal/wtfpython) - A collection of surprising Python snippets and lesser-known features -- `collection`
 * [xlwings](https://xlwings.org/) - Replace your Excel VBA code with Python -- `Python pip`
 
 
@@ -1858,6 +1858,7 @@ dry run), to/from AWS, GCP, and Azure -- `Golang`
 * [Cookie Autodelete](https://www.google.com/search?&q=cookie+autodelete) - Browser add-on that's essentially a cookie whitelist / grey list -- `Firefox` `Chrome`
 * [CRIU (Checkpoint Restore in Userspace)](https://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later -- `insane`
 * [crumbs](https://github.com/lucasepe/crumbs) - Simple mind maps with asterisks - great for brain dumping with little transcription overhead -- `Golang`
+* [Dashkiosk](https://github.com/vincentbernat/dashkiosk) - Manage dashboards on multiple screens, simple and effective -- `JavaScript`
 * [Domain Block List](https://oisd.nl/) - The only Pi Hole blocklist you'll need -- `collection`
 * [Etcher](https://www.balena.io/etcher/) - SD card writing software, easy -- `various lang`
 * [f.lux](https://justgetflux.com/) - Changes your screen from blue light to yellow light when the sun sets to tell your brain it's night time -- `closed source` `OS X` `Windows`
@@ -1870,7 +1871,7 @@ dry run), to/from AWS, GCP, and Azure -- `Golang`
 * [GoodRX](https://www.goodrx.com) - Coupons for prescriptions, vaccines, and more, can be used pre-deductible, USA-centric -- `ez savings`
 * [gosu](https://github.com/tianon/gosu) - Simple Go-based setuid+setgid+setgroups+exec for stepping down privs, use me to avoid weird su and sudo TTY bugs -- `Golang`
 * [Highlight This](https://chrome.google.com/webstore/detail/highlight-this-finds-and/fgmbnmjmbjenlhbefngfibmjkpbcljaj) - Multi-highlight, regex, all data local, tons of features -- `Chrome`
-* [Homomorphic Encryption](https://en.m.wikipedia.org/wiki/Homomorphic_encryption) - Allows data to be encrypted and out-sourced to 3rd parties for processing, all while encrypted (or remove HIPAA barriers) -- `article`
+* [Homomorphic Encryption](https://en.wikipedia.org/wiki/Homomorphic_encryption) - Allows data to be encrypted and out-sourced to 3rd parties for processing, all while encrypted (or remove HIPAA barriers) -- `article`
 * [HTTPS Everywhere](https://www.eff.org/https-everywhere) - Uses client-side tricks to force misconfigured sites to use HTTPS all the time, by the EFF (donate) -- `Firefox` `Chrome`
 * [Huginn](https://github.com/cantino/huginn) - Build agents that perform automated tasks/workflows for you online or locally, like IFTTT -- `Ruby`
 * [ICANN Domain Lookup](https://lookup.icann.org/) - Use this when searching for a domain to buy because they cannot use your searches to jack up the price -- `in-browser`
@@ -1943,12 +1944,16 @@ dry run), to/from AWS, GCP, and Azure -- `Golang`
 * [Awesome System Design](https://github.com/madd86/awesome-system-design) - System Designing articles, videos and resources for distributed computing -- `collection`
 * [AWS Breaking Changes](https://github.com/SummitRoute/aws_breaking_changes) - List of changes announced for AWS that may break existing code -- `collection`
 * [AWS CLI Cheat Sheet](https://github.com/eon01/AWS-CheatSheet) - See name -- `tutorial`
+* [AWS Hands-On Tutorials](https://aws.amazon.com/getting-started/hands-on/?awsf.getting-started-content-type=content-type%23hands-on) - From Amazon - `collection`
 * [AWS Security Maturity Roadmap](https://summitroute.com/downloads/aws_security_maturity_roadmap-Summit_Route.pdf) - A series or actionable steps to improve the security of their AWS environments, updated annually -- `collection`
+* [AWS Solutions Library](https://aws.amazon.com/solutions/) - Includes reference architectures -- `collection`
 * [AWS Stash](https://awsstash.com/) - A collection of AWS related videos, podcasts, code repositories, whitepapers, and feature releases, all in a single, easy to search interface -- `collection`
 * [AWS Video Catalog](https://www.awsvideocatalog.com/) - All official AWS videos cataloged and categorized (by topic, by year, etc) -- `collection`
 * [AWS Well Architected Labs](https://wellarchitectedlabs.com/) - Hands on training and labs -- `collection`
 * [AWS Workshops](https://workshops.aws/) - The official list of 100+ free AWS workshops -- `collection`
 * [Azure DevOps Labs](https://azuredevopslabs.com/) - Self-paced -- `training`
+* [Azure Master Class](https://www.youtube.com/playlist?list=PLlVtbbG169nGccbp8VSpAozu3w9xSQJoY) - Hands on free training by John Savill -- `training`
+* [Azure Security Best Practices Checklist](https://nuvento.com/blog/top-100-azure-security-best-practices-checklist/) - A list of 100 items -- `collection`
 * [Bandit](http://overthewire.org/wargames/bandit/) - A "wargame" that teaches the user how to use Linux -- `neat`
 * [BBR NKOTB](https://blog.apnic.net/2017/05/09/bbr-new-kid-tcp-block/) - Excellent article that explains BBR and compares it to traditional TCP congestion and loss algorithms -- `article`
 * [Beyond the 12 Factor App](https://tanzu.vmware.com/content/ebooks/beyond-the-12-factor-app) - Free ebook, by Pivotal -- `book`
@@ -2053,11 +2058,14 @@ dry run), to/from AWS, GCP, and Azure -- `Golang`
 * [Play with Docker](https://labs.play-with-docker.com/) - Docker playground that allows users to run Docker commands in a matter of seconds (Alpine + Docker in Docker (DIN)) -- `learning`
 * [Play with Docker Classroom](https://training.play-with-docker.com/) - Interactive tutorials using Play with Docker (see above) -- `learning`
 * [Play with Kubernetes](https://labs.play-with-k8s.com/) - A simple, interactive and fun playground to learn Kubernetes in your browser, by Docker -- `in-browser`
+* [Practical Go Lessons](https://www.practical-go-lessons.com/) - Free 700+ page ebook - `book`
 * [Preparing a Google Kubernetes Engine Environment for Production](https://cloud.google.com/solutions/prep-kubernetes-engine-for-prod) - The best GKE summary, covers everything -- `collection`
 * [Production Readiness Checklist](https://www.gruntwork.io/devops-checklist/) - Excellent checklist for pre-go-live, AWS-centric but great general advice -- `collection`
 * [python-patterns](https://github.com/faif/python-patterns) - A collection of design patterns and idioms in Python -- `collection`
 * [Python Cheat Sheet](https://github.com/wilfredinni/python-cheatsheet) - Mostly based on the book written by Al Sweigart, Automate the Boring Stuff with Python -- `collection`
 * [Python Reference](https://github.com/rasbt/python_reference) - A collection of useful scripts, tutorials, and other Python-related things -- `collection`
+* [Python Patterns](https://python-patterns.guide) - Python patterns by Brandon Rhodes -- `collection`
+* [Python Style Guide](https://google.github.io/styleguide/pyguide.html) - Google's Python style guide -- `article`
 * [PyVideo](https://pyvideo.org/) - Thousands of videos from hundreds of Python events and conferences, categorized by subject -- `collection`
 * [SaaS CTO Security Checklist](https://www.sqreen.com/checklists/saas-cto-security-checklist) - Categorizes and prioritizes actions by funding round -- `collection`
 * [Safari Books Online](https://www.oreilly.com/) - ACM members get a full year of access for $99 ($19 for students) [buy a membership here](https://www.acm.org/membership/membership-options) -- `collection`
@@ -2091,3 +2099,4 @@ dry run), to/from AWS, GCP, and Azure -- `Golang`
 * [Web Security Academy](https://portswigger.net/web-security) - Free online training for the creators of Burp Suite -- `tutorial`
 * [Weird Behaviors in S3 Bucket Policies](https://github.com/elfakyn/knowledge/blob/master/src/cloud/aws/services/s3_bucket_policy_weird_behaviors.md) - Documented weirdness of S3 buckets -- `collection`
 * [What Happens When... Kubernetes Edition](https://github.com/jamiehannaford/what-happens-when-k8s) - Walks through what happens behind the scenes when you do a kubectl run -- `tutorial`
+* [wtfpython](https://github.com/satwikkansal/wtfpython) - A collection of surprising Python snippets and lesser-known features -- `collection`
