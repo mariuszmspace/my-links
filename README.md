@@ -141,7 +141,6 @@
 - [asecurecloud](https://asecure.cloud/) - A free library of 400+ customizable AWS security configurations and best practices (CF, Terraform, and AWS CLI) -- `collection`
 - [AutoSpotting](https://github.com/AutoSpotting/AutoSpotting) - A tool implementing an automated bidding algorithm against the Amazon AWS EC2 spot market -- `Golang`
 - [awacs (Amazon Web Access Control Subsystem)](https://github.com/cloudtools/awacs) - Allows for easier creation of AWS Access Policy Language JSON by writing Python code to describe the AWS policies -- `Python pip`
-- [Awesome AWS](https://github.com/donnemartin/awesome-aws) - Curated list of AWS resources -- `collection`
 - [aws-runas](https://github.com/mmmorris1975/aws-runas) - A friendly way to do AWS STS AssumeRole operations so you can perform AWS API actions using a particular set of permissions -- `Golang`
 - [aws-gate](https://github.com/xen0l/aws-gate) - Connect to instances by other means (e.g. DNS, IP, tag, instance name, autoscaling group) -- `Python pip`
 - [aws-shell (formerly Supercharged AWS CLI (SAWS))](https://github.com/awslabs/aws-shell) - The best CLI for interacting with AWS -- `Python pip`
@@ -149,6 +148,7 @@
 - [aws-vault](https://github.com/99designs/aws-vault) - A vault for securely storing and accessing AWS credentials in development environments -- `Golang`
 - [AWSConsoleRecorder](https://github.com/iann0036/AWSConsoleRecorder) - Records actions made in the AWS Management Console and outputs the equivalent CLI/SDK commands and CloudFormation/Terraform templates -- `Chrome` `JavaScript`
 - [awspec](https://github.com/k1LoW/awspec) - rspec for AWS resources -- `Ruby gem`
+- [AWSSupport-SetupIPMonitoringFromVPC](https://aws.amazon.com/blogs/networking-and-content-delivery/debugging-tool-for-network-connectivity-from-amazon-vpc/) - SSM Automation document that launches a Monitor Instance in the specified subnet. The Monitor Instance pushes subnet network telemetry data to CloudWatch Logs -- `article`
 - [AWS Amplify](https://github.com/aws-amplify) - Front end JS suite that provides a templated foundation for cloud-centric apps including authn, analytics, API, push notifications, Graph QL, and more -- `JavaScript`
 - [AWS Copilot](https://aws.github.io/copilot-cli/) - OSS CLI to build, release, and operate apps for ECS and Fargate -- `Golang`
 - [AWS Encryption CLI](https://docs.aws.amazon.com/encryption-sdk/latest/developer-guide/crypto-cli.html) - CLI for KMS -- `Python`
@@ -182,6 +182,7 @@
 - [ClusterCloner](https://github.com/doitintl/ClusterCloner) - Reads the Kubernetes clusters in one location (optionally filtering by labels) and clones them into another (or just outputs JSON as a dry run), to/from AWS, GCP, and Azure -- `Golang`
 - [Complete AWS IAM Reference](https://iam.cloudonaut.io/) - Unofficial but concise -- `collection`
 - [credstash](https://github.com/fugue/credstash) - Secrets management using AWS KMS -- `Python pip`
+- [Disposible Cloud Environment (DCE)](https://dce.readthedocs.io/en/latest/home.html) - Temporary, limited Amazon Web Services (AWS) accounts. Accounts can be “leased” for a period of time or up to a pre-determined budget amount. When the period of time is reached or the maximum budgeted amount is exceeded, the lease is expired -- `Golang`
 - [eb_deploy](https://github.com/ThoughtWorksStudios/eb_deployer) - Elastic Beanstalk blue-green deployment automation -- `Ruby gem`
 - [EB CLI](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3.html) - CLI for Elastic Beanstalk -- `Python`
 - [ec2-price-check](https://github.com/Bjorn248/ec2-price-check) - Gives a quick price check for an instance type -- `shell`
@@ -200,9 +201,11 @@
 - [iamlive](https://github.com/iann0036/iamlive) - Generate a basic IAM policy from AWS client-side monitoring (CSM) -- `Golang`
 - [IAM Policy Simulator](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_testing-policies.html) - Built-in tool where you can test and troubleshoot identity-based policies, IAM permissions boundaries, Organizations service control policies (SCPs), and resource-based policies -- `in-browser`
 - [kappa](https://github.com/garnaat/kappa) - CLI tool that makes it easier to deploy, update, and test Lambda functions -- `Python`
+- [kinesis-scaling-tools](https://github.com/awslabs/amazon-kinesis-scaling-utils) - Tools to make Kinesis shards scale like ASGs -- `Java`
 - [localstack](https://github.com/localstack/localstack) - A fully functional local AWS cloud stack for offline dev and test -- `Python`
 - [Moto](https://github.com/spulec/moto) - Library that allows your Python tests to easily mock out the boto library -- `Python pip`
 - [My Arsenal of AWS Security Tools](https://github.com/toniblyx/my-arsenal-of-aws-security-tools) - List of open source tools for AWS security: defensive, offensive, auditing, DFIR, etc -- `collection`
+- [ParallelCluster](https://aws.amazon.com/hpc/parallelcluster/) - AWS supported Open Source cluster management tool to deploy and manage HPC clusters in the AWS cloud -- `Python`
 - [Prowler](https://github.com/toniblyx/prowler) - For AWS account security assessment and hardening, based on aws-cli commands -- `shell`
 - [refunc](https://github.com/refunc/refunc) - Run AWS Lambda on Kubernetes, a Lambda-compatable API -- `Golang`
 - [s3cmd](https://s3tools.org/s3cmd) - Backup to AWS via the command line -- `Python`
@@ -616,6 +619,7 @@
 - [OpenMPI](https://www.open-mpi.org/) - Popular Message Passing Interface (MPI) library -- `C`
 - [Open Grid Scheduler](http://gridscheduler.sourceforge.net/) - Formerly known as Sun Grid Engine -- `C`
 - [OSCAR (Open Source Cluster Application Resources)](svn.oscar.openclustergroup.org/trac/oscar) - Makes it easy to create a Beauwulf-type HPC cluster
+- [ParallelCluster](https://aws.amazon.com/hpc/parallelcluster/) - AWS supported Open Source cluster management tool to deploy and manage HPC clusters in the AWS cloud -- `Python`
 - [Rocks Cluster Distribution](http://www.rocksclusters.org/) - Linux cluster distribution that enables end users to easily build computational clusters, grid endpoints and visualization displays
 - [Slurm (Simple Linux Utility for Resource Management)](https://slurm.schedmd.com/) - One of the mostly widely used schedulers
 - [StarCluster](http://star.mit.edu/cluster/) - Toolkit for using AWS for HPC, by MIT -- `Python`
@@ -632,11 +636,16 @@
 - [ansible-runner](https://github.com/ansible/ansible-runner) - Provides a stable and consistent interface abstraction to Ansible so you can embed Ansible into other systems such as CI/CD, Jenkins, or other automated tooling -- `Python pip`
 - [Ansible Galaxy](https://galaxy.ansible.com/) - Community site for finding, reusing, and sharing Ansible content -- `various lang`
 - [ara (ARA Records Ansible)](https://github.com/ansible-community/ara) - Provides reporting by saving detailed and granular results of ansible and ansible-playbook commands -- `Python pip`
+- [asecurecloud](https://asecure.cloud/) - A free library of 400+ customizable AWS security configurations and best practices (CF, Terraform, and AWS CLI) -- `collection`
 - [Atlantis](https://github.com/runatlantis/atlantis) - A unified workflow for collaborating on Terraform through GitHub and GitLab, by Hootsuite -- `Golang`
 - [Automatic Server Hardening](https://dev-sec.io/) - Linux hardening cookbooks/manifests/playbooks for Puppet, Chef, and Ansible -- `various lang`
 - [awx](https://github.com/ansible/awx) - Upstream to Ansible Tower - REST API, task engine, etc -- `Python`
+- [Azure Resource Manager (ARM) Tools for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=msazurermtools.azurerm-vscode-tools) - Language support, resource snippets, and resource auto-completion -- `various lang`
+- [Azure Resource Manager (ARM) Viewer for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=bencoleman.armview) - Graphical preview of ARM templates -- `various lang`
 - [Blueprint](https://github.com/devstructure/blueprint) - Reverse engineer a server configuration -- `Python pip`
 - [Boxen](https://boxen.github.com/) - Mac / OS X configuration management -- `Ruby gem` `OS X`
+- [Former2](https://github.com/iann0036/former2) - Generate CloudFormation / Terraform / Troposphere templates from your existing AWS resources via self-hosted web GUI -- `JavaScript`
+- [GKE Demo](https://github.com/ilya-lesikov/gke-demo) - Demonstration of complete, fully-featured CI/CD and cloud automation for microservices, done with GCP/GKE -- `various lang`
 - [Jenkins Ansible Tower Plugin](https://github.com/jenkinsci/ansible-tower-plugin) - Run Ansible Tower jobs as a build step -- `Java`
 - [kitchen-terraform](https://github.com/newcontext-oss/kitchen-terraform) - Test Kitchen plugins for testing Terraform configurations with InSpec -- `Ruby gem`
 - [Molecule](https://github.com/ansible-community/molecule) - Used for testing Ansible roles -- `Python`
@@ -645,14 +654,17 @@
 - [RANCID - (Really Awesome New Cisco confIg Differ)](https://www.shrubbery.net/rancid/) - Pulls and saves network device configs and saves them into a CVS, now supports git -- `C`
 - [Reclass](https://reclass.pantsfullofunix.net/index.html) - External node classifier for most CM systems, allows for a tagging system that's a layer above the CM tool -- `Python`
 - [Salt / Saltstack](https://www.saltstack.com/) - Orchestration, server provisioning, and configuration management -- `Python`
-- [Terraform](https://www.terraform.io/) - Infrastructure provisioning using existing tools, supports many providers (AWS, Azure, DO, OpenStack, etc) -- `Golang` `Hashicorp`
+- [Terraform](https://www.terraform.io/) - 1.0 released! - Infrastructure provisioning using existing tools, supports many providers (AWS, Azure, DO, OpenStack, etc) -- `Golang` `Hashicorp`
 - [Terraformer](https://github.com/GoogleCloudPlatform/terraformer) - Generate terraform files from existing infrastructure (reverse Terraform), supports AWS and GCP, by Google -- `Golang`
 - [Terraform CDK](https://github.com/hashicorp/terraform-cdk) - Use TypeScript or Python to generate Terraform config files -- `Golang`
 - [Terraform Docs](https://terraform-docs.io/user-guide/introduction/) - Utility to generate documentation from Terraform modules in various output formats -- `Golang`
 - [Terraform Landscape](https://github.com/coinbase/terraform-landscape) - Makes terraform plan easier to read -- `Ruby`
 - [Terraform Modules by Cloud Posse](https://registry.terraform.io/namespaces/cloudposse) - Well written, well maintained, recommended -- `collection`
 - [terraform-exec](https://github.com/hashicorp/terraform-exec) - Go module for constructing and running Terraform CLI commands -- `Golang`
+- [Terraformer](https://github.com/GoogleCloudPlatform/terraformer) - Generate Terraform files from existing infrastructure (reverse Terraform), supports AWS and GCP, by Google -- `Golang`
+- [Terraforming](https://terraforming.dtan4.net/) - Export all AWS resources into Terraform -- `Ruby gem`
 - [Terragrunt](https://github.com/gruntwork-io/terragrunt) - Tools for keeping your Terraform configurations DRY, working with multiple Terraform modules, and managing remote state -- `Golang`
+- [Terragrunt Reference Architecture (AWS)](https://github.com/antonbabenko/terragrunt-reference-architecture) - Nice, looking forward to their GCP one -- `various lang`
 - [Terratest](https://github.com/gruntwork-io/terratest) - Makes it easier to write automated tests for your infrastructure code, provides a variety of helper functions and patterns for common infrastructure testing tasks -- `Golang`
 - [tflint](https://github.com/wata727/tflint) - Terraform linter for detecting errors that can not be detected by terraform plan -- `Golang`
 - [tfwriter](https://www.tfwriter.com/) - Auto-generate Terraform code in a non-opinionated way, also great for seeing which parameters a resource provides -- `in-browser`
@@ -708,6 +720,7 @@
 - [kube-hunter](https://github.com/aquasecurity/kube-hunter) - Hunt for security weaknesses in Kubernetes clusters -- `Python`
 - [kube-prometheus](https://github.com/coreos/kube-prometheus) - Use Prometheus to monitor Kubernetes and applications running on Kubernetes -- `Golang`
 - [kube-secrets-init](https://github.com/doitintl/kube-secrets-init) - Kubernetes mutating webhook for `secrets-init` injection -- `Golang`
+- [kube-state-metrics](https://github.com/kubernetes/kube-state-metrics) - It is not focused on the health of the individual Kubernetes components, but rather on the health of the various objects inside, such as deployments, nodes and pods -- `Golang`
 - [kube2iam](https://github.com/jtblin/kube2iam) - Provide IAM credentials to containers running inside a kubernetes cluster based on annotations -- `Golang`
 - [kube2pulumi](https://www.pulumi.com/kube2pulumi/) - k8s yaml in, language of your choice out -- `Python`
 - [Kubecost](https://github.com/kubecost/cost-model) - Creates cost future and past models so you can see and predict your spend -- `Golang`
@@ -1811,6 +1824,7 @@
 - [OpenConnect](http://www.infradead.org/openconnect/) - Supports Cisco's AnyConnect SSL VPN -- `C`
 - [OpenVPN](https://openvpn.net/) - The one and only -- `C`
 - [Pritunl](http://pritunl.com/) - Distributed enterprise VPN server built using the OpenVPN protocol, supports Google sign-in -- `Python`
+- [Project V](https://github.com/v2fly/v2ray-core) - A set of network tools that helps you to build your own computer network. It secures your network connections and thus protects your privacy, a newer Shadowsocks -- `Golang`
 - [Shadowsocks](https://github.com/shadowsocks) - A secure socks5 proxy, designed to protect your Internet traffic -- `various lang` `most platforms`
 - [SoftEther](http://www.softether.org/) - Perhaps the best VPN software out there -- `C`
 - [spiped](https://www.tarsnap.com/spiped.html) - Create encrypted pipes between socket addresses using pre-shared keys (PSKs), similar to ssh -L -- `C`
@@ -1891,11 +1905,11 @@
 - [h2load](https://nghttp2.org/documentation/h2load.1.html) - HTTP/2 and SPDY load generation tool, part of the nghttp2 suite -- `C`
 - [HAR Analyzer](https://toolbox.googleapps.com/apps/har_analyzer/) - HTTP Archive analyzier for troubleshooting from a browser perspective, by Google -- `in-browser`
 - [httping](http://www.vanheusden.com/httping/) - Simple program that "pings" a URL and shows response time -- `C`
-- [Jaeger](https://github.com/jaegertracing/jaeger) - OpenTracing compatible distributed tracing system, works well with Istio and Envoy, by Uber -- `Golang`
+- [Jaeger](https://github.com/jaegertracing/jaeger) - OpenTelemetry compatible distributed tracing system, works well with Istio and Envoy, by Uber -- `Golang`
 - [JMeter](https://jmeter.apache.org/) - Designed to load test functional behavior and measure performance, written in Java -- `Java`
 - [Locust](https://locust.io/) - Load generation tool written in Python that allows you to define user behavior -- `Python`
 - [ngxtop](https://github.com/lebinh/ngxtop) - Real time top for nginx -- `Python`
-- [OpenTelemetry](https://opentelemetry.io/) - Vendor-neutral distributed tracing -- `various lang`
+- [OpenTelemetry](https://opentelemetry.io/) - Vendor-neutral distributed tracing, a merger of OpenTracing and OpenCensus -- `various lang`
 - [OpenZipkin](https://zipkin.io/) - Distributed tracing systems for SaaS and webapps, by Twitter, based on Google's Dapper -- `Scala`
 - [Packetbeat](https://www.elastic.co/products/beats) - Distributed packet monitoring system that can be used for application performance management -- `Golang`
 - [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) - Analyzes the content of a web page, then generates suggestions to make that page faster, by Google -- `in-browser`
@@ -2012,6 +2026,7 @@
 - [Archive.org aka The Internet Archive aka The Wayback Machine](https://archive.org/) - Yo donate, this is beyond important -- `the biggest collection`
 - [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) - Exceptional -- `book`
 - [Awesome](https://github.com/sindresorhus/awesome) - Top level list of awesome lists -- `collection`
+- [Awesome AWS](https://github.com/donnemartin/awesome-aws) - Curated list of AWS resources -- `collection`
 - [Awesome AWS Workshops](https://awesome-aws-workshops.com/) - Dozens of free interactive AWS workshops covering almost every major service (unofficial) -- `tutorial`
 - [AutoHotKey](https://autohotkey.com/) - Automate input (desktop and web forms, data entry, keybinds, etc) -- `C++` `Windows`
 - [Awesome AutoHotKey](https://github.com/ahkscript/awesome-AutoHotkey) - A collection of AutoHotKey scripts and libraries -- `various lang`
@@ -2021,7 +2036,9 @@
 - [AWS CDK Workshop](https://cdkworkshop.com/) - AWS CDK workshop, official -- `tutorial`
 - [AWS CLI Cheat Sheet](https://github.com/eon01/AWS-CheatSheet) - See name -- `tutorial`
 - [AWS Hands-On Tutorials](https://aws.amazon.com/getting-started/hands-on/?awsf.getting-started-content-type=content-type%23hands-on) - From Amazon - `collection`
+- [AWS - Overview of Amazon Web Services](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html) - Amazon's official guide, a few paragraphs for each -- `collection`
 - [AWS Security Maturity Roadmap](https://summitroute.com/downloads/aws_security_maturity_roadmap-Summit_Route.pdf) - A series or actionable steps to improve the security of their AWS environments, updated annually -- `collection`
+- [AWS Security Reference Architecture](https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/architecture.html) - Updated mid-2021 -- `collection`
 - [AWS Solutions Library](https://aws.amazon.com/solutions/) - Includes reference architectures -- `collection`
 - [AWS Stash](https://awsstash.com/) - A collection of AWS related videos, podcasts, code repositories, whitepapers, and feature releases, all in a single, easy to search interface -- `collection`
 - [AWS Video Catalog](https://www.awsvideocatalog.com/) - All official AWS videos cataloged and categorized (by topic, by year, etc) -- `collection`
@@ -2029,6 +2046,7 @@
 - [AWS Workshops](https://workshops.aws/) - The official list of 100+ free AWS workshops -- `collection`
 - [Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/) - Guidance for architecting solutions on Azure using established patterns and practices -- `collection`
 - [Azure DevOps Labs](https://azuredevopslabs.com/) - Self-paced -- `training`
+- [Azure in Bullet Points](https://github.com/undergroundwires/Azure-in-bullet-points) - Super fast way to learn Azure and prep for certifications at the same time -- `collection`
 - [Azure Master Class](https://www.youtube.com/playlist?list=PLlVtbbG169nGccbp8VSpAozu3w9xSQJoY) - Hands on free training by John Savill -- `training`
 - [Azure Security Best Practices Checklist](https://nuvento.com/blog/top-100-azure-security-best-practices-checklist/) - A list of 100 items -- `collection`
 - [Bandit](http://overthewire.org/wargames/bandit/) - A "wargame" that teaches the user how to use Linux -- `neat`
@@ -2038,6 +2056,7 @@
 - [Bookshop.org](https://bookshop.org/) - Bookshop is an online bookstore with a mission to financially support local, independent bookstores - ditch Amazon! -- `check it`
 - [Borg, Omega, and Kubernetes - Lessons Learned from 3 Container Management Systems Over a Decade](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf) - Paper by Google -- `article`
 - [Building Secure & Reliable Systems](https://static.googleusercontent.com/media/sre.google/en//static/pdf/building_secure_and_reliable_systems.pdf) - The third SRE book from Google, free -- `book`
+- [Build Web Application with Golang](https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/) - Follow along -- `tutorial`
 - [C4 Model](https://c4model.com/) - A modern approach for visualising software architecture -- `article`
 - [Chaos Engineering](https://www.oreilly.com/webops-perf/free/chaos-engineering.csp) - Building confidence in system behavior through experiments, free book by Netflix -- `book`
 - [Cloud Design Patterns](https://docs.microsoft.com/en-us/azure/architecture/patterns/) - Useful for building reliable, scalable, secure applications in the cloud, by Microsoft -- `collection`
@@ -2070,6 +2089,7 @@
 - [EKS Best Practices](https://aws.github.io/aws-eks-best-practices/) - By Amazon, contributions welcome -- `collection`
 - [Enterprise Architecture on a Page](http://eaonapage.com/) - One-page aggregated view of popular EA artifacts used in organizations with their most essential properties -- `tutorial`
 - [Every Programmer Should Know...](https://github.com/mtdvio/every-programmer-should-know) - A collection of (mostly) technical things every software developer should know -- `collection`
+- [Everything AWS](https://app.polymersearch.com/discover/aws) - The best way to browse the 6k+ AWS repos -- `collection`
 - [Everything You Should Know About Certificates and PKI](https://smallstep.com/blog/everything-pki.html) - Easy to understand tutorial -- `tutorial`
 - [Explain Shell](https://explainshell.com/) - Enter a command-line to see the help text that matches each argument -- `in-browser`
 - [free-for.dev](https://free-for.dev/) - Massive list of services with free tiers -- `collection`
@@ -2120,6 +2140,7 @@
 - [Kubernetes the Hard Way VirtualBox](https://github.com/sgargel/kubernetes-the-hard-way-virtualbox) - Bootstrap Kubernetes the hard way on VirtualBox. No scripts. -- `tutorial`
 - [Latency: A Primer](https://igor.io/latency/) - Web-app centric, defines all the terms you need to know then puts the knowledge together -- `article`
 - [LearnXinYMinutes](https://learnxinyminutes.com/) - Super fast tutorials for almost every programming language -- `collection`
+- [Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests/) - Explore Golang by writing tests and learn TDD while you're at it -- `tutorial`
 - [Libby](https://meet.libbyapp.com/) - App for ebooks and audio books for USA public library members, from OverDrive -- `explore yours today` `Android` `iOS` `Windows 10`
 - [Library Extension](https://www.libraryextension.com/) - Browser extension that shows you which Amazon books are available free at your local libraries, please donate -- `closed source`
 - [Linux Journey](https://www.linuxjourney.com) - ELI5 Linux training -- `tutorial`
@@ -2165,7 +2186,7 @@
 - [Python Style Guide](https://google.github.io/styleguide/pyguide.html) - Google's Python style guide -- `article`
 - [PyVideo](https://pyvideo.org/) - Thousands of videos from hundreds of Python events and conferences, categorized by subject -- `collection`
 - [SaaS CTO Security Checklist](https://www.sqreen.com/checklists/saas-cto-security-checklist) - Categorizes and prioritizes actions by funding round -- `collection`
-- [Safari Books Online](https://www.oreilly.com/) - ACM members get a full year of access ($99 or $19 for students) [buy a membership here](https://www.acm.org/membership/membership-options) -- `collection`
+- [Safari Books Online](https://www.oreilly.com/) - Non-student ACM members get a full year of access for $99 [buy a membership here](https://www.acm.org/membership/membership-options) -- `collection`
 - [Scrum Guide](https://www.scrumguides.org/) - Explains Scrum in a concise and straightforward way in about 10 pages, by the creators -- `article`
 - [Secure Messaging Apps](https://www.securemessagingapps.com/) - True comparison of the technical features and merits of various apps, which are TRULY secure? -- `collection`
 - [Security 101 for SaaS Startups](https://github.com/forter/security-101-for-saas-startups) - Excellent checklist and guide in easy to understand terms for non-infrastructure people -- `collection`
@@ -2184,6 +2205,7 @@
 - [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/) - SWE / dev-centric -- `tutorial`
 - [Technical Writing by Google](https://developers.google.com/tech-writing/one) - Technical writing, training by Google -- `tutorial`
 - [Terraform Security Tool Comparison](https://github.com/iacsecurity/tool-compare) - Which Terraform code scanners provide the most comprehensive coverage - click to find out -- `collection`
+- [Test Your Sysadmin Skills](https://github.com/trimstray/test-your-sysadmin-skills) - A great little quiz, if you can answer these then you know Linux -- `collection`
 - [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line) - The BEST interactive Linux tutorial, newbie focused -- `learn it`
 - [The Early Security Engineer’s First 90 Days Checklist](https://www.sqreen.com/checklists/security-engineer-checklist) - Aims to help security engineers and CISOs in early stage companies to prioritize their efforts in the first months of their new job -- `list`
 - [The Illustrated TLS Connection](https://tls.ulfheim.net/) - Every byte of a TLS connection explained and reproduced -- `article`
@@ -2196,6 +2218,7 @@
 - [Unix Rosetta Stone](http://bhami.com/rosetta.html) - The one and only resource for a mixed Linux/Unix environment -- `translator`
 - [USE Method](http://www.brendangregg.com/USEmethod/use-rosetta.html) - Brendan Gregg's rosetta stone for performance analysis and tuning -- `article`
 - [Use the Index, Luke](https://use-the-index-luke.com/) - SQL indexing and tuning for developers -- `collection`
+- [USENIX Video Archive](https://www.youtube.com/playlist?list=UU4-GrpQBx6WCGwmwozP744Q) - 4000+ videos from LISA and related events -- `collection`
 - [Vim Adventures](https://vim-adventures.com/) - A game to learn vi / vim using your browser -- `in-browser` `tutorial`
 - [Web Security Academy](https://portswigger.net/web-security) - Free online training for the creators of Burp Suite -- `tutorial`
 - [Weird Behaviors in S3 Bucket Policies](https://github.com/elfakyn/knowledge/blob/master/src/cloud/aws/services/s3_bucket_policy_weird_behaviors.md) - Documented weirdness of S3 buckets -- `collection`
