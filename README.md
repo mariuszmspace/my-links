@@ -9,15 +9,11 @@
 
 - [Tools by Category](#tools-by-category)
 
-- [IT News](#it-news)
+- [News](#it-news)
 
 - [Learning Resources](#learning-resources)
 
-- [Notes from the book Software Engineering at Google: Lessons Learned from Programming Over Time](https://www.seagnotes.com)
-
-- [Josh's Website](https://www.joshturgasen.com)
-
-- [Josh's Tech Blog v2](https://jturgasen.github.io)
+- [Complete notes from the book Software Engineering at Google: Lessons Learned from Programming Over Time](https://www.seagnotes.com) by Josh
 
 ---
 
@@ -81,6 +77,7 @@
 - [Ars Technica](https://arstechnica.com/)
 - [AWS News Blog](https://aws.amazon.com/blogs/aws/)
 - [CIO.com](https://www.cio.com/)
+- [Cloud Native Computing Foundation Blog](https://www.cncf.io/blog/)
 - [Computerworld](https://www.computerworld.com/)
 - [Dark Reading](https://www.darkreading.com)
 - [Data Center Knowledge](https://www.datacenterknowledge.com/)
@@ -162,6 +159,7 @@
 - [AWS Toolkit for Visual Studio Code](https://aws.amazon.com/visualstudiocode/) - Give it a go -- `various lang`
 - [AWS Tools for PowerShell](https://aws.amazon.com/powershell/) - Use an automation language instead of a programming langue -- `various lang`
 - [AzCopy](https://github.com/Azure/azure-storage-azcopy) - CLI to copy data to and from containers and file shares in Azure Storage accounts -- `Golang`
+- [Azure Arc](https://techcommunity.microsoft.com/t5/itops-talk-blog/azure-arc-for-cloud-solutions-architects/ba-p/2521928?WT.mc_id=modinfra-23500-thmaure) - Multi-cloud + on-prem control plane to centralize hybrid management, magical -- `cloud`
 - [Azure Portal Desktop App](https://portal.azure.com/App/Download) - Faster than a browser, full Cloud Shell, fast search -- `various lang`
 - [Azure Resource Manager (ARM) Tools for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=msazurermtools.azurerm-vscode-tools) - Language support, resource snippets, and resource auto-completion -- `various lang`
 - [Azure Resource Manager (ARM) Viewer for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=bencoleman.armview) - Graphical preview of ARM templates -- `various lang`
@@ -450,7 +448,7 @@
 - [Celery](http://www.celeryproject.org/) - Async task/job queue based on distributed message passing -- `Python`
 - [Chaperone](https://github.com/uber/chaperone) - End-to-end Kafka auditing (data loss, latency, message duplication, etc), by Uber -- `Java`
 - [confd](https://github.com/kelseyhightower/confd) - Manage local application configuration files using templates and data from etcd or consul -- `Golang`
-- [Crossplane](https://crossplane.io/) - Multicloud control plane -- `Golang`
+- [Crossplane](https://crossplane.io/) - Multicloud control plane, manage 3rd party services as if they were K8s resources -- `Golang`
 - [Cruise Control](https://github.com/linkedin/cruise-control) - Fully automate the dynamic workload rebalance and self-healing of a Kafka cluster, by Linkedin -- `Java`
 - [Cruise Control UI](https://github.com/linkedin/cruise-control-ui/) - Also by Linkedin -- `JavaScript`
 - [consul](https://www.consul.io/) - Service discovery and configuration via DNS or HTTP, great for auto-scaling -- `Golang`
@@ -647,6 +645,7 @@
 - [Former2](https://github.com/iann0036/former2) - Generate CloudFormation / Terraform / Troposphere templates from your existing AWS resources via self-hosted web GUI -- `JavaScript`
 - [GKE Demo](https://github.com/ilya-lesikov/gke-demo) - Demonstration of complete, fully-featured CI/CD and cloud automation for microservices, done with GCP/GKE -- `various lang`
 - [Jenkins Ansible Tower Plugin](https://github.com/jenkinsci/ansible-tower-plugin) - Run Ansible Tower jobs as a build step -- `Java`
+- [KICS (Keeping Infrastructure as Code Secure)](https://kics.io/) - Supports many many platforms, by Checkmarx -- `Golang`
 - [kitchen-terraform](https://github.com/newcontext-oss/kitchen-terraform) - Test Kitchen plugins for testing Terraform configurations with InSpec -- `Ruby gem`
 - [Molecule](https://github.com/ansible-community/molecule) - Used for testing Ansible roles -- `Python`
 - [Oxidized](https://github.com/ytti/oxidized) - RANCID replacement, supports many platforms (Cisco, Brocade, Juniper, Citrix, etc) -- `Ruby gem`
@@ -683,6 +682,7 @@
 - [ClusterCloner](https://github.com/doitintl/ClusterCloner) - Reads the Kubernetes clusters in one location (optionally filtering by labels) and clones them into another (or just outputs JSON as a
   dry run), to/from AWS, GCP, and Azure -- `Golang`
 - [Contour](https://github.com/heptio/contour) - Kubernetes ingress controller using Lyft's Envoy proxy -- `Golang`
+- [Crossplane](https://crossplane.io/) - Multicloud control plane, manage 3rd party services as if they were K8s resources -- `Golang`
 - [DevSpace](https://github.com/covexo/devspace) - Build, test and run code directly inside any Kubernetes cluster, no more waiting for rebuild + redeploy, run code instantly -- `Golang`
 - [draft](https://github.com/Azure/draft) - Streamlined Kubernetes development with sandbox testing & deployment in seconds -- `Golang`
 - [draino](https://github.com/planetlabs/draino) - Automatically drains Kubernetes nodes based on labels and node conditions, can be used for auto-remediation -- `Golang`
@@ -1946,6 +1946,7 @@
 - [Domain Block List](https://oisd.nl/) - The only Pi Hole blocklist you'll need -- `collection`
 - [Etcher](https://www.balena.io/etcher/) - SD card writing software, easy -- `various lang`
 - [f.lux](https://justgetflux.com/) - Changes your screen from blue light to yellow light when the sun sets to tell your brain it's night time -- `closed source` `OS X` `Windows`
+- [fast-data-dev](https://github.com/lensesio/fast-data-dev) - Docker image for Kafka developement that includes a boatload of related tools -- `various lang`
 - [FigmaToCode](https://github.com/bernaferrari/FigmaToCode) - Outputs Figma objects to Tailwind, Flutter, or SwiftUI code -- `JavaScript`
 - [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/) - Cookies are separated by container, allowing you to use the web with multiple identities or accounts simultaneously -- `Firefox`
 - [Fossor](https://github.com/linkedin/fossor) - Automate on-call investigation steps, by LinkedIn -- `Python pip`
@@ -2013,7 +2014,6 @@
 - [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/) - Concise breakdown, by Red Hat -- `article`
 - [A Visual Guide to Troubleshooting Kubernetes Deployments](https://learnk8s.io/troubleshooting-deployments) - With flowcharts -- `handy`
 - [Algorithms, 4th Edition](https://algs4.cs.princeton.edu/home/) - 100% free high quality ebook from Princeton -- `book`
-- [Amazon Builder's Library](https://aws.amazon.com/builders-library) - Amazon shares their learnings -- `articles`
 - [An Illustrated Guide to Kubernetes Networking](https://morioh.com/p/ecb38c8342ba/an-illustrated-guide-to-kubernetes-networking) - See title -- `article`
 - [An Introduction to Distributed Systems](https://github.com/aphyr/distsys-class) - by Aphyr -- `tutorial`
 - [Ansible Examples](https://github.com/ansible/ansible-examples) - Shows features and how they work together, a great hands-on, official -- `tutorial`
@@ -2033,10 +2033,13 @@
 - [Awesome System Design](https://github.com/madd86/awesome-system-design) - System Designing articles, videos and resources for distributed computing -- `collection`
 - [AWS Architecture Center](https://aws.amazon.com/architecture/) - Reference architecture diagrams, vetted architecture solutions, Well-Architected best practices, patterns, icons, and more -- `collection`
 - [AWS Breaking Changes](https://github.com/SummitRoute/aws_breaking_changes) - List of changes announced for AWS that may break existing code -- `collection`
+- [AWS by Open Guides](https://github.com/open-guides/og-aws) - Excellent summary of almost all services -- `collection`
 - [AWS CDK Workshop](https://cdkworkshop.com/) - AWS CDK workshop, official -- `tutorial`
 - [AWS CLI Cheat Sheet](https://github.com/eon01/AWS-CheatSheet) - See name -- `tutorial`
+- [AWS EKS Best Practices](https://aws.github.io/aws-eks-best-practices/) - By Amazon, contributions welcome -- `collection`
 - [AWS Hands-On Tutorials](https://aws.amazon.com/getting-started/hands-on/?awsf.getting-started-content-type=content-type%23hands-on) - From Amazon - `collection`
-- [AWS - Overview of Amazon Web Services](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html) - Amazon's official guide, a few paragraphs for each -- `collection`
+- [AWS in Bullet Points](https://github.com/undergroundwires/AWS-in-bullet-points) - Certification-centric -- `collection`
+- [AWS SaaS Tenant Isolation Strategies](https://d1.awsstatic.com/whitepapers/saas-tenant-isolation-strategies.pdf) - By AWS -- `article`
 - [AWS Security Maturity Roadmap](https://summitroute.com/downloads/aws_security_maturity_roadmap-Summit_Route.pdf) - A series or actionable steps to improve the security of their AWS environments, updated annually -- `collection`
 - [AWS Security Reference Architecture](https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/architecture.html) - Updated mid-2021 -- `collection`
 - [AWS Solutions Library](https://aws.amazon.com/solutions/) - Includes reference architectures -- `collection`
@@ -2044,6 +2047,12 @@
 - [AWS Video Catalog](https://www.awsvideocatalog.com/) - All official AWS videos cataloged and categorized (by topic, by year, etc) -- `collection`
 - [AWS Well Architected Labs](https://wellarchitectedlabs.com/) - Hands on training and labs -- `collection`
 - [AWS Workshops](https://workshops.aws/) - The official list of 100+ free AWS workshops -- `collection`
+- [AWS - Amazon Builder's Library](https://aws.amazon.com/builders-library) - Amazon shares their learnings -- `articles`
+- [AWS - Everything AWS](https://app.polymersearch.com/discover/aws) - The best way to browse the 6k+ AWS repos -- `collection`
+- [AWS - Overview of Amazon Web Services](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html) - Amazon's official guide, a few paragraphs for each -- `collection`
+- [AWS - Security Overview of AWS Lambda](https://d1.awsstatic.com/whitepapers/Overview-AWS-Lambda-Security.pdf) - From AWS -- `article`
+- [AWS - SaaS Tenant Isolation Strategies](https://d1.awsstatic.com/whitepapers/saas-tenant-isolation-strategies.pdf) - By AWS -- `article`
+- [AWS - Weird Behaviors in S3 Bucket Policies](https://github.com/elfakyn/knowledge/blob/master/src/cloud/aws/services/s3_bucket_policy_weird_behaviors.md) - Documented weirdness of S3 buckets -- `collection`
 - [Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/) - Guidance for architecting solutions on Azure using established patterns and practices -- `collection`
 - [Azure DevOps Labs](https://azuredevopslabs.com/) - Self-paced -- `training`
 - [Azure in Bullet Points](https://github.com/undergroundwires/Azure-in-bullet-points) - Super fast way to learn Azure and prep for certifications at the same time -- `collection`
@@ -2066,6 +2075,8 @@
 - [Common Python Mistakes](https://news.ycombinator.com/item?id=7715349) - Link and discussion on HN -- `article`
 - [Comprehensive Python Cheatsheet](https://gto76.github.io/python-cheatsheet/) - Includes many modules -- `collection`
 - [Computer Science Flash Cards](https://github.com/jwasham/computer-science-flash-cards) - As described, can be converted into an Anki deck -- `Python`
+- [Container Proxy](https://addons.mozilla.org/en-US/firefox/addon/container-proxy/) - Set up proxies and then assign proxy to a container. Each request comming from any tab in the container will use this proxy -- `Firefox`
+- [Container Tabs Sidebar](https://addons.mozilla.org/en-US/firefox/addon/container-tabs-sidebar/) - Show tabs in a sidebar grouped by privacy containers -- `Firefox`
 - [Container Training](https://container.training/intro-selfpaced.yml.html#1) - Self paced and interactive, formerly Intro to Docker -- `training`
 - [Cool Store](https://github.com/vietnam-devs/coolstore-microservices) - An exercise to wire up small microservices into a larger application -- `tutorial`
 - [curl Exercises](https://jvns.ca/blog/2019/08/27/curl-exercises/) - Exercises for the 'curl' command -- `tutorial`
@@ -2074,7 +2085,6 @@
 - [Design Patterns](https://sourcemaking.com/design_patterns) - Wonderful collection of software development design patterns with examples, includes anti-patterns and refactoring guidelines -- `collection`
 - [Design Patterns for Humans](https://github.com/kamranahmedse/design-patterns-for-humans) - An ultra-simplified explanation of repeatable software design patterns -- `article`
 - [Design Patterns in Python](https://refactoring.guru/design-patterns/python) - See title -- `article`
-- [Designing Data Intensive Applications - Book Notes](https://hoanhan101.github.io/2020/07/05/design-data-intensive-apps) - The one you need -- `book`
 - [DevDocs](https://devdocs.io/) - Documentation browser for almost every API -- `collection`
 - [Devhints](https://devhints.io/) - Rico's dev & ops cheat sheets, nice little collection -- `collection`
 - [DevOps Maturity Framework](https://github.com/adidas/adidas-devops-maturity-framework/blob/master/framework/devops_maturity_framework.md) - Categorized by crawl/walk/run, also Google terms like "DevOps maturity model" for similar ideas, by Adidas -- `tutorial`
@@ -2086,22 +2096,22 @@
 - [Dog vs. Cat: Docker Swarm Stacks](https://github.com/BretFisher/dogvscat) - Examples for building full Swarm-based clusters including proxies, centralized logging, persistent storage, deployment pipelines, and more -- `tutorial`
 - [Easy-Python](https://easy-python.readthedocs.org) - Collection of Python resources that "you didn't know you would need" -- `collection`
 - [Effective Engineer](https://gist.github.com/rondy/af1dee1d28c02e9a225ae55da2674a6f) - Notes from the book The Effective Engineer -- `book`
-- [EKS Best Practices](https://aws.github.io/aws-eks-best-practices/) - By Amazon, contributions welcome -- `collection`
 - [Enterprise Architecture on a Page](http://eaonapage.com/) - One-page aggregated view of popular EA artifacts used in organizations with their most essential properties -- `tutorial`
 - [Every Programmer Should Know...](https://github.com/mtdvio/every-programmer-should-know) - A collection of (mostly) technical things every software developer should know -- `collection`
-- [Everything AWS](https://app.polymersearch.com/discover/aws) - The best way to browse the 6k+ AWS repos -- `collection`
 - [Everything You Should Know About Certificates and PKI](https://smallstep.com/blog/everything-pki.html) - Easy to understand tutorial -- `tutorial`
 - [Explain Shell](https://explainshell.com/) - Enter a command-line to see the help text that matches each argument -- `in-browser`
 - [free-for.dev](https://free-for.dev/) - Massive list of services with free tiers -- `collection`
 - [Free Programming Books](https://ebookfoundation.github.io/free-programming-books/) - Thousands -- `collection`
-- [GKE Demo](https://github.com/ilya-lesikov/gke-demo) - Demonstration of complete, fully-featured CI/CD and cloud automation for microservices, done with GCP/GKE -- `various lang`
 - [GlossaryTech](https://glossarytech.com/) - Browser addon to learn tech terms with easy to understand defintions -- `JavaScript`
 - [go-perfbook](https://github.com/dgryski/go-perfbook) - Outlines best practices for writing high-performance Go code -- `article`
 - [Go by Example](https://gobyexample.com/) - Hands-on introduction to Go using annotated example programs -- `tutorial`
 - [Go Tooling In Action](https://github.com/campoy/go-tooling-workshop) - A workshop covering all the tools used in the day to day life of a Golang dev -- `tutorial`
 - [Good Sleep, Good Learning, Good Life](http://super-memory.com/articles/sleep.htm) - Compiled knowledege about sleep with sources and citations -- `zzz`
 - [Google Cloud Architecture Center](https://cloud.google.com/architecture) - Reference architectures, diagrams, design patterns, guidance, and best practices for building or migrating your workloads on Google Cloud -- `collection`
+- [Google Cloud - Best Practices for Enterprise Organizations](https://cloud.google.com/docs/enterprise/best-practices-for-enterprise-organizations) - From Google themselves -- `collection`
 - [Google Cloud Microservices Demo](https://github.com/GoogleCloudPlatform/microservices-demo) - Sample cloud-native application with 10 microservices showcasing Kubernetes / GKE, Istio, gRPC and OpenCensus -- `various lang`
+- [Google Cloud - GKE Demo](https://github.com/ilya-lesikov/gke-demo) - Demonstration of complete, fully-featured CI/CD and cloud automation for microservices, done with GCP/GKE -- `various lang`
+- [Google Cloud - Preparing a Google Kubernetes Engine Environment for Production](https://cloud.google.com/solutions/prep-kubernetes-engine-for-prod) - The best GKE summary, covers everything -- `collection`
 - [Google's Technical Development Guide](https://techdevguide.withgoogle.com/) - Hands on, free, self-paced courses to help you develop your programming skills -- `collection`
 - [Gophercises](https://gophercises.com/) - Golang exercises -- `collection`
 - [Hashicorp Learn](https://learn.hashicorp.com/) - Official training for Vault, Consul, Terraform, Vagrant, Packer, and Nomad -- `training`
@@ -2151,11 +2161,11 @@
 - [Little Book of Python Anti-Patterns](https://docs.quantifiedcode.com/python-anti-patterns/) - See title -- `book`
 - [Memory Management Reference](http://www.memorymanagement.org/index.html) - All in one reference for memory management and garbage collection -- `collection`
 - [Microservices Design Patterns](https://microservices.io/patterns/index.html) - A great foundation -- `collection`
+- [MIT 6.006 Introduction to Algorithms, Fall 2011](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) - The most frequently recommended DS&A course -- `tutorial`
 - [MIT Enterprise Architecture Guide](https://barsand.files.wordpress.com/2014/09/mit-enterprise-architecture-guide.pdf) - An excellent real-world example that you can borrow from -- `real world example`
 - [MIT OpenCourseWare](https://ocw.mit.edu/about/) - MIT's real course materials from 2400+ courses -- `collection`
 - [MySQL Performance Tuning Checklist](http://www.jonathanlevin.co.uk/2018/02/my-mysql-linux-tuning-checklist.html) - No bullshit list in about 15 bullet points -- `collection`
 - [Networking Cheat Sheets](http://packetlife.net/library/cheat-sheets/) - Protocols, devices, ports, physical connectors, and more, by PacketLife -- `collection`
-- [Open Guides: AWS](https://github.com/open-guides/og-aws) - Excellent summary of almost all services -- `collection`
 - [Open Source Society University (OSSU)](https://github.com/ossu/computer-science) - A complete education in computer science using free online materials -- `collection`
 - [OpenLibrary.org](https://openlibrary.org/) - From the good folks at Archive.org -- `collection`
 - [OpenShift Interactive Learning Portal](https://learn.openshift.com/) - Learn OpenShift in your web browser, by Red Hat -- `tutorial`
@@ -2177,7 +2187,6 @@
 - [Play with Kubernetes](https://labs.play-with-k8s.com/) - A simple, interactive and fun playground to learn Kubernetes in your browser, by Docker -- `in-browser`
 - [PowerShell Koans](https://github.com/vexx32/PSKoans) - Learn the PowerShell language through Pester unit testing -- `PowerShell`
 - [Practical Go Lessons](https://www.practical-go-lessons.com/) - Free 700+ page ebook - `book`
-- [Preparing a Google Kubernetes Engine Environment for Production](https://cloud.google.com/solutions/prep-kubernetes-engine-for-prod) - The best GKE summary, covers everything -- `collection`
 - [Production Readiness Checklist](https://www.gruntwork.io/devops-checklist/) - Excellent checklist for pre-go-live, AWS-centric but great general advice -- `collection`
 - [python-patterns](https://github.com/faif/python-patterns) - A collection of design patterns and idioms in Python -- `collection`
 - [Python Cheat Sheet](https://www.pythoncheatsheet.org/) - Mostly based on the book written by Al Sweigart, Automate the Boring Stuff with Python -- `collection`
@@ -2185,13 +2194,11 @@
 - [Python Patterns](https://python-patterns.guide) - Python patterns by Brandon Rhodes -- `collection`
 - [Python Style Guide](https://google.github.io/styleguide/pyguide.html) - Google's Python style guide -- `article`
 - [PyVideo](https://pyvideo.org/) - Thousands of videos from hundreds of Python events and conferences, categorized by subject -- `collection`
-- [SaaS CTO Security Checklist](https://www.sqreen.com/checklists/saas-cto-security-checklist) - Categorizes and prioritizes actions by funding round -- `collection`
 - [Safari Books Online](https://www.oreilly.com/) - Non-student ACM members get a full year of access for $99 [buy a membership here](https://www.acm.org/membership/membership-options) -- `collection`
 - [Scrum Guide](https://www.scrumguides.org/) - Explains Scrum in a concise and straightforward way in about 10 pages, by the creators -- `article`
 - [Secure Messaging Apps](https://www.securemessagingapps.com/) - True comparison of the technical features and merits of various apps, which are TRULY secure? -- `collection`
 - [Security 101 for SaaS Startups](https://github.com/forter/security-101-for-saas-startups) - Excellent checklist and guide in easy to understand terms for non-infrastructure people -- `collection`
 - [Security Engineering 3rd Edition](https://www.cl.cam.ac.uk/~rja14/book.html) - Free concise ebook, updated 2020 -- `book`
-- [Security Overview of AWS Lambda](https://d1.awsstatic.com/whitepapers/Overview-AWS-Lambda-Security.pdf) - From AWS -- `article`
 - [Site Reliability Engineering (SRE) by Google](https://sre.google/sre-book/table-of-contents/) - Full, free, online version of the O'Reilly book -- `the best`
 - [Site Reliability Workbook](https://sre.google/workbook/table-of-contents/) - Free, by Google -- `book`
 - [Software Engineering at Google](https://www.seagnotes.com) - Notes from the book, by me -- `notes`
@@ -2199,6 +2206,7 @@
 - [Step-by-Step Enterprise Architecture Tutorial with TOGAF](https://www.visual-paradigm.com/guide/enterprise-architecture/step-by-step-enterprise-architecture-tutorial-with-togaf-adm/) - An excellent summary -- `tutorial`
 - [System Architecture](https://github.com/orrsella/soft-eng-interview-prep/blob/master/topics/system-architecture.md) - Great refresher, not so great for first time learners -- `collection`
 - [System Design Primer](https://github.com/donnemartin/system-design-primer) - Learn how to design large-scale systems -- `article`
+- [systemd Service File Examples](https://www.shellhacks.com/systemd-service-file-example/) - A good cheat sheet of important options -- `article`
 - [SymbolHound](http://symbolhound.com) - Search engine that doesn't ignore special characters, great for programming questions -- `try it`
 - [Teach Yourself Computer Science](https://teachyourselfcs.com/) - 9 subjects, they choose the best free source to learn each subject and explain why that source is the best - they did the research for you -- `collection`
 - [Team Topologies](https://danlebrero.com/2021/01/20/team-topologies-summary/) - Notes from the book -- `notes`
@@ -2221,6 +2229,5 @@
 - [USENIX Video Archive](https://www.youtube.com/playlist?list=UU4-GrpQBx6WCGwmwozP744Q) - 4000+ videos from LISA and related events -- `collection`
 - [Vim Adventures](https://vim-adventures.com/) - A game to learn vi / vim using your browser -- `in-browser` `tutorial`
 - [Web Security Academy](https://portswigger.net/web-security) - Free online training for the creators of Burp Suite -- `tutorial`
-- [Weird Behaviors in S3 Bucket Policies](https://github.com/elfakyn/knowledge/blob/master/src/cloud/aws/services/s3_bucket_policy_weird_behaviors.md) - Documented weirdness of S3 buckets -- `collection`
 - [What Happens When... Kubernetes Edition](https://github.com/jamiehannaford/what-happens-when-k8s) - Walks through what happens behind the scenes when you do a kubectl run -- `tutorial`
 - [wtfpython](https://github.com/satwikkansal/wtfpython) - A collection of surprising Python snippets and lesser-known features -- `collection`
