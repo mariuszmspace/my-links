@@ -122,6 +122,7 @@
 - [openDCIM](https://opendcim.org/) - Data center infrastructure management -- `PHP`
 - [Open-AudIT](https://open-audit.org/) - Track and report assets and configurations, supports Windows too -- `PHP`
 - [phpIPAM](https://phpipam.net/) - IPAM -- `PHP`
+- [pynetbox](https://github.com/netbox-community/pynetbox) - Python API client library for NetBox -- `python pip`
 - [RackTables](https://github.com/RackTables/racktables) - Data center asset management, being updated again! -- `PHP`
 - [racktables-contribs](https://github.com/RackTables/racktables-contribs/) - RackTables user-contributed plugins -- `PHP`
 - [Ralph](https://ralph.allegro.tech/) - DCIM and CMDB, supports auto-discovery -- `Python pip`
@@ -171,6 +172,7 @@
 - [Azure Resource Manager (ARM) Tools for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=msazurermtools.azurerm-vscode-tools) - Language support, resource snippets, and resource auto-completion -- `various lang`
 - [Azure Resource Manager (ARM) Viewer for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=bencoleman.armview) - Graphical preview of ARM templates -- `various lang`
 - [Azure Service Operator](https://github.com/Azure/azure-service-operator) - Helps you provision Azure resources and connect your applications to them from within Kubernetes and kubectl -- `Golang`
+- [Azure StigRepo](https://github.com/microsoft/StigRepo) - Automate and customize configurations that are compliant with Security Technical Implementation Guides (STIGs) owned and released by the Defense Information Systems Agency (DISA) -- `PowerShell`
 - [Azure VM Comparison](https://azureprice.net/) - Find and compare Azure Virtual Machines specs and pricing on one page across different tiers, payment types, and regions -- `in-browser`
 - [boto3](https://boto3.readthedocs.io/en/latest/) - The AWS SDK for Python 3 -- `Python`
 - [boto3_type_annotations](https://github.com/vemel/mypy_boto3_builder) - Adds code completion in IDEs such as PyCharm -- `Python`
@@ -207,6 +209,7 @@
 - [Former2](https://github.com/iann0036/former2) - Generate CloudFormation / Terraform / Troposphere templates from your existing AWS resources via self-hosted web GUI -- `JavaScript`
 - [gcpviz](https://github.com/GoogleCloudPlatform/professional-services/tree/master/tools/gcpviz) - Visualization tool that takes input from Cloud Asset Inventory -- `Golang`
 - [GKE Autopilot](https://cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview) - Think an opinionated version of GKE, somewhat similar to AWS Fargate -- `neat`
+- [Google Cloud Application Layer Transport Security](https://cloud.google.com/security/encryption-in-transit/application-layer-transport-security/) - Use mutual TLS to secure RPC calls between entities, designed with containers and microservices in mind -- `article`
 - [Google Cloud Official Terraform Modules](https://github.com/GoogleCloudPlatform/cloud-foundation-toolkit/blob/master/docs/terraform.md) - Included as part of the Cloud Foundation Toolkit -- `various lang`
 - [Google Cloud Samples](https://cloud.google.com/docs/samples) - Searchable by language and product -- `collection`
 - [haproxy-autoscale](https://github.com/markcaudill/haproxy-autoscale) - Wrapper for haproxy that handles auto-scaling EC2 instances -- `Python`
@@ -234,7 +237,6 @@
 - [StackMaster](https://github.com/envato/stack_master) - Provides a ton of info pre-CloudFormation run so that you know exactly what will change -- `Ruby gem`
 - [StarCluster](http://star.mit.edu/cluster/) - Toolkit for using AWS for high performance computing (HPC), by MIT -- `Python`
 - [Steampipe](https://github.com/turbot/steampipe) - Query cloud resources using a SQL syntax -- `Golang`
-- [StigRepo](https://github.com/microsoft/StigRepo) - Automate and customize configurations that are compliant with Security Technical Implementation Guides (STIGs) owned and released by the Defense Information Systems Agency (DISA) -- `PowerShell`
 - [Stout](https://github.com/cloudflare/Stout) - Easy way to reliably upload a static website to S3, capable of configuring CloudFront and Route 53 -- `Golang`
 - [taskcat](https://github.com/aws-quickstart/taskcat) - Tool that tests AWS CloudFormation templates. It deploys your AWS CloudFormation template in multiple AWS Regions and generates a report with a pass/fail grade for each region, by AWS -- `Python`
 - [Terraformer](https://github.com/GoogleCloudPlatform/terraformer) - Generate Terraform files from existing infrastructure (reverse Terraform), supports AWS and GCP, by Google -- `Golang`
@@ -694,6 +696,7 @@
 - [Terraform Landscape](https://github.com/coinbase/terraform-landscape) - Makes terraform plan easier to read -- `Ruby`
 - [Terraform Modules by Cloud Posse](https://registry.terraform.io/namespaces/cloudposse) - Well written, well maintained, recommended -- `collection`
 - [Terraform pre-commit git Hooks](https://github.com/antonbabenko/pre-commit-terraform) - Format, validate, lint, and all kinds of good stuff -- `various lang`
+- [Terraform Security Tool Comparison](https://github.com/iacsecurity/tool-compare) - Which Terraform code scanners provide the most comprehensive coverage - click to find out -- `collection`
 - [terraform-exec](https://github.com/hashicorp/terraform-exec) - Go module for constructing and running Terraform CLI commands -- `Golang`
 - [Terraformer](https://github.com/GoogleCloudPlatform/terraformer) - Generate Terraform files from existing infrastructure (reverse Terraform), supports AWS and GCP, by Google -- `Golang`
 - [Terraforming](https://terraforming.dtan4.net/) - Export all AWS resources into Terraform -- `Ruby gem`
@@ -795,6 +798,7 @@
 - [MKIT (Managed Kubernetes Inspection Tool)](https://github.com/darkbitio/mkit) - A quick way to assess several common misconfigurations in their Kubernetes environment (AKS, EKS, GKE) -- `Dockerfile`
 - [Octant](https://octant.dev/) - Web based representation of a Kubernetes cluster, by VMware -- `various lang`
 - [Open Cluster Management](https://github.com/open-cluster-management) - The upstream for Red Hat Advanced Cluster Management, OpenShift-centric -- `various lang`
+- [Peirates](https://github.com/inguardians/peirates) - Kubernetes penetration tool -- `Golang`
 - [Pixie](https://pixielabs.ai/) - Instant visibility by giving access to metrics, events, traces and logs without changing code (DaemonSets + eBPF) -- `Golang`
 - [Prometheus Operator](https://github.com/coreos/prometheus-operator) - Creates/configures/manages Prometheus clusters atop Kubernetes -- `Golang`
 - [pv-migrate](https://github.com/utkuozdemir/pv-migrate) - Tool for migrating PVCs -- `Golang`
@@ -1424,6 +1428,7 @@
 - [asecurecloud](https://asecure.cloud/) - A free library of 400+ customizable AWS security configurations and best practices (CF, Terraform, and AWS CLI) -- `collection`
 - [ATA Secure Erase](https://ata.wiki.kernel.org/index.php/ATA_Secure_Erase) - Send a signal to an ATA drive to perform a hardware-based erase, the ONLY way to wipe a SSD properly -- `article`
 - [Attack Surface Analyzer 2.0](https://github.com/microsoft/AttackSurfaceAnalyzer) - See exactly what changed post-OS install or post-software install, by Microsoft -- `Windows`
+- [Attack Surface Framework](https://github.com/vmware-labs/attack-surface-framework) - ASF will discover assets/subdomains, enumerate their ports and services, track deltas and serve as a continuous and flexible attacking and alerting framework -- `various lang`
 - [auditd-attack](https://github.com/bfuzzy1/auditd-attack) - A Linux Auditd rule set mapped to MITRE's Attack Framework -- `collection`
 - [authconv](https://github.com/authcov/authcov) - Web app authorization coverage scanning -- `JavaScript`
 - [Autopsy](https://sleuthkit.org/autopsy/) - Great for grabbing artifacts for DIFR -- `closed source`
@@ -1543,6 +1548,7 @@
 - [Volatility](https://www.volatilityfoundation.org/) - Open source memory forensics -- `Python`
 - [VulnHub](https://www.vulnhub.com/) - ISOs and more for hands-on security practice -- `collection`
 - [w3af](https://github.com/andresriancho/w3af) - Web application attack and audit framework, OSS vun scanner -- `Python`
+- [Wazuh](https://wazuh.com/) - Host-based open source security platform -- `various lang`
 - [Xplico](https://www.xplico.org/) - Useful for looking at pcaps of web sessions -- `C`
 - [Zed Attack Proxy (ZAP)](https://www.owasp.org/index.php/ZAP) - Pen testing too that focues on web applications -- `Java`
 - [ZMap](https://zmap.io/) - Scanner designed for large address spaces -- `in-browser`
@@ -1852,6 +1858,7 @@
 - [Onyx](https://communities.vmware.com/community/vmtn/automationtools/onyx) - Do something in vSphere and it will create a PowerCLI script to do that thing that you just did -- `closed source` `PowerShell` `Windows`
 - [open-vm-tools](https://github.com/vmware/open-vm-tools) - OSS alternative to VMware Guest Tools -- `C`
 - [PowerCLI](https://my.vmware.com/web/vmware/details?downloadGroup=PCLI650R1&productId=614M) - VMware's CLI -- `closed source`
+- [pyrvtools](https://github.com/jbrt/pyrvtools) - Extract useful information from an RVTools ESX inventory file -- `Python pip`
 - [RVtools](https://www.robware.net/rvtools/) - Killer GUI for viewing information about your VMware environment -- `closed source` `.NET` `Windows`
 - [RVtools Export](https://github.com/Sneddo/Powershell/blob/master/VMware/Export-RVTools.ps1) - Wrapper script to save daily snapshots of your environment using RVtools -- `PowerShell`
 - [Sexigraph](http://www.sexigraf.fr/) - Graphite-based visualization appliance for Sexilog -- `various lang`
@@ -2002,6 +2009,9 @@
 - [Anti-Ablock Killer](https://reek.github.io/anti-adblock-killer/) - Keep your ad-blocker active when pages take anti-blocking measures, requires Greasemonkey or similar -- `JavaScript`
 - [AppLock](https://play.google.com/store/apps/details?id=com.sp.protector.free) - Lock individual apps on Android -- `Java`
 - [Architecture Decision Record](https://github.com/joelparkerhenderson/architecture_decision_record) - Document that captures an important architectural decision made along with its context and consequences -- `template`
+- [Archive.org aka The Internet Archive aka The Wayback Machine](https://archive.org/) - Yo donate, this is beyond important -- `the biggest collection`
+- [AutoHotKey](https://autohotkey.com/) - Automate input (desktop and web forms, data entry, keybinds, etc) -- `C++` `Windows`
+- [Awesome AutoHotKey](https://github.com/ahkscript/awesome-AutoHotkey) - A collection of AutoHotKey scripts and libraries -- `various lang`
 - [AutoIT](https://www.autoitscript.com/site/) - Scriptable GUI input for Windows (think AutoHotKey) but with a BASIC-like syntax -- `closed source`
 - [Backstage](https://github.com/backstage/backstage) - Unifies all your infrastructure tooling, services, and documentation with a single, consistent UI so developers can easily provision and view their resources -- `various lang`
 - [Bypass Paywalls](https://github.com/iamadamdev) - Shhh -- `Firefox` `Chrome`
@@ -2014,20 +2024,25 @@
 - [CRIU (Checkpoint Restore in Userspace)](https://criu.org/Main_Page) - Freeze a process, save it to disk, then resume it later -- `insane`
 - [crumbs](https://github.com/lucasepe/crumbs) - Simple mind maps with asterisks - great for brain dumping with little transcription overhead -- `Golang`
 - [Dashkiosk](https://github.com/vincentbernat/dashkiosk) - Manage dashboards on multiple screens, simple and effective -- `JavaScript`
-- [Domain Block List](https://oisd.nl/) - The only Pi Hole blocklist you'll need -- `collection`
+- [DevOps Conferences](http://www.gotodevops.org/) - Add and remove via PR, please contribute -- `collection`
+- [Discount for Student Dev](https://github.com/AchoArnold/discount-for-student-dev) - Programming and DevOps related discounts for .edu addresses, updated frequently, please contribute -- `collection`
 - [Etcher](https://www.balena.io/etcher/) - SD card writing software, easy -- `various lang`
+- [Exploit Database](https://www.exploit-db.com/) - Collection of current and past exploits -- `collection`
 - [f.lux](https://justgetflux.com/) - Changes your screen from blue light to yellow light when the sun sets to tell your brain it's night time -- `closed source` `OS X` `Windows`
 - [fast-data-dev](https://github.com/lensesio/fast-data-dev) - Docker image for Kafka developement that includes a boatload of related tools -- `various lang`
 - [FigmaToCode](https://github.com/bernaferrari/FigmaToCode) - Outputs Figma objects to Tailwind, Flutter, or SwiftUI code -- `JavaScript`
 - [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/) - Cookies are separated by container, allowing you to use the web with multiple identities or accounts simultaneously -- `Firefox`
 - [Fossor](https://github.com/linkedin/fossor) - Automate on-call investigation steps, by LinkedIn -- `Python pip`
+- [free-for.dev](https://free-for.dev/) - Massive list of services with free tiers -- `collection`
 - [Geocities-izer](http://www.wonder-tonic.com/geocitiesizer/) - Make any HTML web page look like a Geocities page -- `sweeeeeeet`
+- [GlossaryTech](https://glossarytech.com/) - Browser addon to learn tech terms with easy to understand defintions -- `JavaScript`
 - [googler](https://github.com/jarun/googler) - Google search, news, and site search from the terminal, slick -- `Python`
 - [Google Advanced Operators for Web Search](https://sites.google.com/site/gwebsearcheducation/advanced-operators) - Search modifiers for more accurate results, by Google -- `collection`
 - [GoodRX](https://www.goodrx.com) - Coupons for prescriptions, vaccines, and more, can be used pre-deductible, USA-centric -- `ez savings`
 - [gosu](https://github.com/tianon/gosu) - Simple Go-based setuid+setgid+setgroups+exec for stepping down privs, use me to avoid weird su and sudo TTY bugs -- `Golang`
 - [Highlight This](https://chrome.google.com/webstore/detail/highlight-this-finds-and/fgmbnmjmbjenlhbefngfibmjkpbcljaj) - Multi-highlight, regex, all data local, tons of features -- `Chrome`
 - [Homomorphic Encryption](https://en.wikipedia.org/wiki/Homomorphic_encryption) - Allows data to be encrypted and out-sourced to 3rd parties for processing, all while encrypted (or remove HIPAA barriers) -- `article`
+- [Hoopla](https://www.hoopladigital.com/) - Digital movies, music and ebooks for USA public library members -- `explore yours today`
 - [HTML5 Up](https://html5up.net/) - HTML5 website templates all free and under a CC license -- `collection`
 - [HTTPS Everywhere](https://www.eff.org/https-everywhere) - Uses client-side tricks to force misconfigured sites to use HTTPS all the time, by the EFF (donate) -- `Firefox` `Chrome`
 - [Huginn](https://github.com/cantino/huginn) - Build agents that perform automated tasks/workflows for you online or locally, like IFTTT -- `Ruby`
@@ -2035,26 +2050,31 @@
 - [inxi](https://github.com/smxi/inxi) - "a full featured system information script" (hardware info, etc) -- `shell`
 - [IPTV](https://github.com/iptv-org/iptv) - Collection of 8000+ publicly available IPTV channels from all over the world -- screw off Bundesliga -- `collection`
 - [JustWatch](https://www.justwatch.com/) - Search for movies and TV across dozens of streaming services, it shows you which services it is available on, and you can click to watch, app and in-browser -- `collection`
+- [Kanopy](https://www.kanopystreaming.com/) - Streaming movies for USA public library members -- `explore yours today`
+- [Libby](https://meet.libbyapp.com/) - App for ebooks and audio books for USA public library members, from OverDrive -- `explore yours today` `Android` `iOS` `Windows 10`
 - [Library Extension](https://www.libraryextension.com/) - Browser extension that shows you which Amazon books are available free at your local libraries, please donate -- `closed source`
 - [Mail Tester](https://www.mail-tester.com/) - Test the spammyness of your e-mails -- `in-browser`
 - [maybe](https://github.com/p-e-w/maybe) - Allows a dry run of almost any Linux binary, see the files it will modify, calls made, etc -- `Python pip`
 - [Maza](https://github.com/tanrax/maza-ad-blocking) - Like Pi-hole but local and using your operating system -- `shell`
-- [Mjolnir](https://github.com/sdegutis/mjolnir) - Automation for OS X, think AutoHotKey for Mac -- `C` `OS X`
+- [Mjolnir](https://github.com/sdegutis/mjolnir) - Automation for OS X via Lua, think AutoHotKey for Mac -- `C` `OS X`
 - [MultiRBL](http://multirbl.valli.org/) - SMTP blackhole lookup tools -- `in-browser`
 - [MX Toolbox](https://mxtoolbox.com/) - SMTP blacklist lookup, header analysis, and more -- `in-browser`
 - [Network UPS Tools (NUT)](http://www.networkupstools.org/) - Manage power devices from over 100 manufacturers using a single web interface -- `C` `Windows`
 - [NoRoot Firewall](https://play.google.com/store/apps/details?id=app.greyshirts.firewall&hl=en_US) - Android app that logs connections to show overly chatty background apps and more -- `closed source`
 - [NoScript](https://noscript.net/) - JavaScript, XSS, tracker, Flash blockers and more - your condom for the Internet -- `Firefox`
 - [oauth2_proxy](https://github.com/pusher/oauth2_proxy) - A reverse proxy that provides authentication with Google, Github or other provider -- `Golang`
+- [OISD Domain Block List](https://oisd.nl/) - The only Pi-Hole and domain blocklist you'll need -- `collection`
 - [Omni Calculator](https://www.omnicalculator.com/) - 1500+ free calculators -- `collection`
 - [oomd](https://github.com/facebookincubator/oomd) - Userspace OOM killer, highly configurable and much improved over the kernel's built in OOM killer -- `C++`
 - [Open19](https://www.open19.org/) - Open data center hardware for standard size racks -- `neat`
 - [OpenBMC](https://github.com/facebook/openbmc) - Framework to build a complete Linux image for a Board Management Controller (BMC), by Facebook -- `C`
 - [OpenHaystack](https://github.com/seemoo-lab/openhaystack) - Framework for tracking personal Bluetooth devices via Apple's massive Find My network, build your own Airtags -- `various lang`
+- [OverDrive](https://www.overdrive.com/) - Ebooks and audio books for USA public library members -- `explore yours today`
 - [PeerTube](https://joinpeertube.org/) - P2P version of YouTube, don't let your videos get taken down, now supports live streaming -- `free as in freedom`
 - [Pi-Hole](https://pi-hole.net/) - Ad and tracking blackhole that covers your entire network with a single device -- `hardware`
 - [PineTime](https://www.pine64.org/pinetime/) - An open source smartwatch -- `hardware`
 - [Popcorn Time](https://github.com/popcorn-official/popcorn-desktop) - Multi-platform, free software BitTorrent client that includes an integrated media player -- `various lang`
+- [priceMedic](https://pricemedic.com/) - Compare procedures and services at hospitals near you, currently in beta -- `collection`
 - [Privacy Badger](https://www.eff.org/privacybadger) - The best in-browser privacy and anti-tracking tool, by the EFF (donate) -- `Chrome` `Firefox`
 - [PrivacyTools.io](https://www.privacytools.io/) - All in one collection, web site source is on GitHub -- `collection`
 - [Puffer](https://puffer.stanford.edu/) - Re-transmits free over-the-air broadcast television signals received by an antenna located on the campus of Stanford University, USA geo-locked, by Stanford Platform Lab and many others -- `in-browser` `Android`
@@ -2065,12 +2085,16 @@
 - [runwhen](http://code.dogmap.org/runwhen/) - Utilities for running commands at particular times, cron on steroids -- `C`
 - [Say What](https://github.com/joshnewlan/say_what) - Using speech-to-text to fully check out during conference calls -- `Python`
 - [scrcpy](https://github.com/Genymobile/scrcpy) - Remote display and control of Android devices connected on USB or TCP/IP -- `C`
+- [Secure Messaging Apps](https://www.securemessagingapps.com/) - True comparison of the technical features and merits of various apps, which are TRULY secure? -- `collection`
 - [SessionBox](https://chrome.google.com/webstore/detail/sessionbox-multi-login-to/megbklhjamjbcafknkgmokldgolkdfig) - Use websites with multiple accounts at the same time made easy -- `Chrome`
 - [Spectacle](https://www.spectacleapp.com/) - Control desktop windows via keyboard shortcuts -- `Objective C`
-- [StackStorm](https://github.com/StackStorm/st2) - IFTTT for Ops -- `Python`
+- [StackStorm](https://github.com/StackStorm/st2) - IFTTT for Ops, auto-remediation -- `Python`
+- [Stack on a Budget](https://github.com/255kb/stack-on-a-budget) - Collection of services with great free tiers for developers on a budget, excellent for learning -- `collection`
 - [Steps Recorder (aka Problem Steps Recorder)](https://support.microsoft.com/en-us/help/22878/windows-10-record-steps) - Windows 7+, user records themselves reproducing a problem, they send video to you, you playback -- `closed source`
+- [SymbolHound](http://symbolhound.com) - Search engine that doesn't ignore special characters, great for programming questions -- `try it`
 - [Temporary Containers for Firefox](https://addons.mozilla.org/en-US/firefox/addon/temporary-containers/) - Open tabs, websites, and links in automatically managed disposable containers which isolate the data websites store (cookies, storage, and more) from each other, enhancing your privacy and security while you browse -- `addon`
 - [Twilight](https://play.google.com/store/apps/details?id=com.urbandroid.lux&hl=en) - F.lux for Android -- `closed source`
+- [Two Factor Auth (2FA)](https://2fa.directory/) - Web sites that do and don't support 2FA, organized by category, submit PRs for changes -- `collection`
 - [uBlock Origin](https://github.com/gorhill/uBlock) - Ad blocker, only use Origin, do not use another uBlock -- `Firefox` `Chrome`
 - [unPaywall](https://unpaywall.org/) - When you view a paywalled scholarly article, Unpaywall automatically checks its open database of 28 million legal, open-access articles and tells you if you can get it elsewhere for free -- `JavaScript`
 - [WhosHere](https://github.com/curtbraz/whoshere) - Monitor an area for WiFi and Bluetooth probe requests to see when people (devices) come and go, with web UI and IFTTT webhook integraiton for Slack/SMS pushes -- `PHP`
@@ -2082,28 +2106,22 @@
 > Free learning resources and collections of note (DevOps/SRE, cloud, information security, Kubernetes, Docker/containers, Python, Golang)
 
 - [30 Seconds of Code](https://www.30secondsofcode.org/) - Code snippets for tons of languages -- `collection`
-- [4+1 architectural view model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model) - View model used for describing the architecture of software-intensive systems, based on the use of multiple, concurrent views (logical, physical, development, process) -- `article`
-- [A Gentle Introduction to Kubernetes](https://github.com/eon01/kubernetes-workshop) - With more than just the basics -- `tutorial`
+- [4+1 architectural view model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model) - Model used for describing the architecture of software-intensive systems, based on the use of multiple, concurrent views (logical, physical, development, process) -- `article`
 - [A Practical Guide to (Correctly) Troubleshooting with Traceroute](https://www.nanog.org/sites/default/files/10_Roisman_Traceroute.pdf) - Presentation, really digs in -- `article`
 - [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/) - Concise breakdown, by Red Hat -- `article`
-- [A Visual Guide to Troubleshooting Kubernetes Deployments](https://learnk8s.io/troubleshooting-deployments) - With flowcharts -- `handy`
 - [Active Directory Kill Chain Attack & Defense](https://cybersecuritynews-com.cdn.ampproject.org/c/s/cybersecuritynews.com/active-directory-checklist/?amp) - Tactics, techniques, and procedures (TTPs) attackers are leveraging to compromise Active Directory -- `collection`
 - [Agile Manfiesto](https://agilemanifesto.org/) - The OG, read and learn, it's easy -- `tutorial`
 - [Algorithms, 4th Edition](https://algs4.cs.princeton.edu/home/) - 100% free high quality ebook from Princeton -- `book`
-- [An Illustrated Guide to Kubernetes Networking](https://morioh.com/p/ecb38c8342ba/an-illustrated-guide-to-kubernetes-networking) - See title -- `article`
 - [An Introduction to Distributed Systems](https://github.com/aphyr/distsys-class) - by Aphyr -- `tutorial`
 - [Ansible Examples](https://github.com/ansible/ansible-examples) - Shows features and how they work together, a great hands-on, official -- `tutorial`
 - [Ansible for DevOps](https://www.ansiblefordevops.com/) - The recommended book to learn Ansible -- `book`
 - [Ansible Interactive Tutorial](https://github.com/turkenh/ansible-interactive-tutorial) - Interactive tutorials for Ansible via Docker, super simple -- `tutorial`
 - [Ansible Automation Platform Workshops](https://ansible.github.io/workshops/) - Workshops, training decks, and guides, by Red Hat -- `tutorials`
 - [Anti Patterns Catalog](https://wiki.c2.com/?AntiPatternsCatalog) - Includes categories such as architecture, development, UI, organizational, and more -- `collection`
-- [Application Layer Transport Security](https://cloud.google.com/security/encryption-in-transit/application-layer-transport-security/) - Use mutual TLS to secure RPC calls between entities, designed with containers and microservices in mind -- `article`
+- [API design guide](https://cloud.google.com/apis/design) - By Google, maybe the best -- `article`
+- [API Security Maturity Model](https://curity.io/resources/learn/the-api-security-maturity-model/) - By Curity -- `article`
 - [arc42 Documentation](https://arc42.org/documentation/) - Pragmatic, open source way to construct, communicate and document your software architecture -- `tutorial`
 - [Architecture of Open Source Applications](http://www.aosabook.org/en/) - The authors of four dozen open source applications explain how their software is structured, and why -- `collection`
-- [Archive.org aka The Internet Archive aka The Wayback Machine](https://archive.org/) - Yo donate, this is beyond important -- `the biggest collection`
-- [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) - Exceptional -- `book`
-- [AutoHotKey](https://autohotkey.com/) - Automate input (desktop and web forms, data entry, keybinds, etc) -- `C++` `Windows`
-- [Awesome AutoHotKey](https://github.com/ahkscript/awesome-AutoHotkey) - A collection of AutoHotKey scripts and libraries -- `various lang`
 - [Awesome System Design](https://github.com/madd86/awesome-system-design) - System Designing articles, videos and resources for distributed computing -- `collection`
 - [AWS Architecture Center](https://aws.amazon.com/architecture/) - Reference architecture diagrams, vetted architecture solutions, Well-Architected best practices, patterns, icons, and more -- `collection`
 - [AWS Breaking Changes](https://github.com/SummitRoute/aws_breaking_changes) - List of changes announced for AWS that may break existing code -- `collection`
@@ -2138,16 +2156,13 @@
 - [Azure Security Benchmark](https://docs.microsoft.com/en-us/security/benchmark/azure/) - Azure security best practices by Microsoft -- `collection`
 - [Azure Security Best Practices Checklist](https://nuvento.com/blog/top-100-azure-security-best-practices-checklist/) - A list of 100 items -- `collection`
 - [Azure Well-Architected Framework](https://docs.microsoft.com/en-us/azure/architecture/framework/) - Guiding tenets that can be used to improve the quality of a cloud workload -- `article`
-- [Bandit](http://overthewire.org/wargames/bandit/) - A "wargame" that teaches the user how to use Linux -- `neat`
 - [BBR NKOTB](https://blog.apnic.net/2017/05/09/bbr-new-kid-tcp-block/) - Excellent article that explains BBR and compares it to traditional TCP congestion and loss algorithms -- `article`
 - [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/) - Little how-to guide on network programming using Internet sockets -- `tutorial`
 - [Beyond the 12 Factor App](https://tanzu.vmware.com/content/ebooks/beyond-the-12-factor-app) - Free ebook, by Pivotal -- `book`
-- [blktrace how-to](https://old.reddit.com/r/sysadmin/comments/1ib3rl/beyond_iostat_storage_performance_analysis_with/) - `mount -t debugfs debugfs /sys/kernel/debug && blktrace -d /dev/md2 -o - | blkparse -i -` -- `article`
 - [Bookshop.org](https://bookshop.org/) - Bookshop is an online bookstore with a mission to financially support local, independent bookstores - ditch Amazon! -- `check it`
 - [Borg, Omega, and Kubernetes - Lessons Learned from 3 Container Management Systems Over a Decade](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf) - Paper by Google -- `article`
 - [Building Secure & Reliable Systems](https://static.googleusercontent.com/media/sre.google/en//static/pdf/building_secure_and_reliable_systems.pdf) - The third SRE book from Google, free -- `book`
-- [Build Web Application with Golang](https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/) - Follow along -- `tutorial`
-- [Business Technology Architecture Body of Knowledge](https://itabok.iasaglobal.org/) - A new version of Information Technology Architecture Body of Knowledge (ITABoK), a free public archive of IT architecture best practices, skills, and knowledge developed from the experience of individual and corporate members of IASA -- `collection`
+- [Business Technology Architecture Body of Knowledge (BTABoK)](https://itabok.iasaglobal.org/) - New v3 and renamed version of [Information Technology Architecture Body of Knowledge (ITABoK)](https://itabok.iasaglobal.org/itabok-1/), a free public archive of IT architecture best practices, skills, and knowledge developed from the experience of individual and corporate members of IASA -- `collection`
 - [C4 Model](https://c4model.com/) - A modern approach for visualising software architecture -- `article`
 - [Center for Humane Technology](https://www.humanetech.com/) - Non-profit working to expose the effects of persuasive technology -- `join`
 - [Chaos Engineering](https://www.oreilly.com/webops-perf/free/chaos-engineering.csp) - Building confidence in system behavior through experiments, free book by Netflix -- `book`
@@ -2155,16 +2170,11 @@
 - [CIS Policy Template Guide](https://www.cisecurity.org/wp-content/uploads/2020/07/NIST-CSF-Policy-Template-Guide-2020-0720-1.pdf) - Security policy templates, by NIST -- `collection`
 - [Cloud Controls Matrix (CCM) v4](https://cloudsecurityalliance.org/artifacts/cloud-controls-matrix-v4/) - Cybersecurity control framework for cloud computing aligned to the CSA best practices, considered the de-facto standard for cloud security and privacy -- `article`
 - [Cloud Design Patterns](https://docs.microsoft.com/en-us/azure/architecture/patterns/) - Useful for building reliable, scalable, secure applications in the cloud, by Microsoft -- `collection`
-- [Cloud Native DevOps with Kubernetes](https://www.amzn.com/1492040762) - Highly recommended -- `book`
 - [Cloud Native Landscape](https://github.com/cncf/landscape) - A map that attempts to categorize most of the projects and product offerings in the cloud native space -- `collection`
 - [Cloud Security Kanban](https://theartofservice.com/cloud-security-kanban) - Certify your strategy is involved in various relevant areas of compliance (GLBA, SOC II, information security models and risk assessments, IT audits, vendor management, data breach, and incident management) -- `collection`
 - [Cloud Security Orinteering](https://tldrsec.com/blog/cloud-security-orienteering/) - How to rapidly understand and secure a cloud environment -- `article`
 - [Cloud Threat Modeling](https://cloudsecurityalliance.org/artifacts/cloud-threat-modeling/) - By the CSA -- `article`
-- [Command Line Text Processing](https://github.com/learnbyexample/Command-line-text-processing) - awk grep sed etc - interactive tutorial for newbies -- `tutorial`
-- [Common Python Mistakes](https://news.ycombinator.com/item?id=7715349) - Link and discussion on HN -- `article`
-- [Comprehensive Python Cheatsheet](https://gto76.github.io/python-cheatsheet/) - Includes many modules -- `collection`
 - [Computer Science Flash Cards](https://github.com/jwasham/computer-science-flash-cards) - As described, can be converted into an Anki deck -- `Python`
-- [Container Training](https://container.training/intro-selfpaced.yml.html#1) - Self paced and interactive, formerly Intro to Docker -- `training`
 - [Containers, Kubernetes and Red Hat OpenShift Technical Overview](https://www.redhat.com/en/services/training/do080-deploying-containerized-applications-technical-overview) - Free class by Red Hat -- `tutorial`
 - [Cool Store](https://github.com/vietnam-devs/coolstore-microservices) - An exercise to wire up small microservices into a larger application -- `tutorial`
 - [curl Exercises](https://jvns.ca/blog/2019/08/27/curl-exercises/) - Exercises for the 'curl' command -- `tutorial`
@@ -2174,19 +2184,19 @@
 - [Databases by Daniel Soper](https://www.youtube.com/watch?v=4Z9KEBexzcM&list=PL1LIXLIF50uXWJ9alDSXClzNCMynac38g&index=1) - From the ground up, personally recommended -- `tutorial`
 - [Design Patterns](https://sourcemaking.com/design_patterns) - Wonderful collection of software development design patterns with examples, includes anti-patterns and refactoring guidelines -- `collection`
 - [Design Patterns for Humans](https://github.com/kamranahmedse/design-patterns-for-humans) - An ultra-simplified explanation of repeatable software design patterns -- `article`
-- [Design Patterns in Python](https://refactoring.guru/design-patterns/python) - See title -- `article`
 - [DevDocs](https://devdocs.io/) - Documentation browser for almost every API -- `collection`
 - [Devhints](https://devhints.io/) - Rico's dev & ops cheat sheets, nice little collection -- `collection`
 - [DevOps Maturity Framework](https://github.com/adidas/adidas-devops-maturity-framework/blob/master/framework/devops_maturity_framework.md) - Categorized by crawl/walk/run, also Google terms like "DevOps maturity model" for similar ideas, by Adidas -- `tutorial`
-- [DevOps Conferences](http://www.gotodevops.org/) - Add and remove via PR, please contribute -- `collection`
+- [DevSecOps Maturity Model](https://dsomm.timo-pagel.de/) - Provides opportunities to harden DevOps strategies and shows how these can be prioritized, by OWASP -- `tutorial`
 - [Digital Forensics and Incident Response Cheat Sheet](https://www.jaiminton.com/cheatsheet/DFIR/#) - Covers everything, it's like a billion pages and completely detailed -- `collection`
-- [Discount for Student Dev](https://github.com/AchoArnold/discount-for-student-dev) - Programming and DevOps related discounts for .edu addresses, updated frequently, please contribute -- `collection`
 - [Distributed Systems 3rd Edition](https://www.distributed-systems.net/index.php/books/ds3/) - By Tanenbaum et all -- `book`
 - [Docker Curriculum](https://docker-curriculum.com/) - One-stop shop for getting your hands dirty with Docker -- `tutorial`
 - [Docker Handbook](https://docker.farhan.info/) - Free book contributions welcome -- `book`
 - [Docker Security Cheatsheet](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html) - By OWASP -- `tutorial`
-- [Dog vs. Cat: Docker Swarm Stacks](https://github.com/BretFisher/dogvscat) - Examples for building full Swarm-based clusters including proxies, centralized logging, persistent storage, deployment pipelines, and more -- `tutorial`
-- [Easy-Python](https://easy-python.readthedocs.org) - Collection of Python resources that "you didn't know you would need" -- `collection`
+- [Docker - Container Training](https://container.training/intro-selfpaced.yml.html#1) - Self paced and interactive, formerly Intro to Docker -- `training`
+- [Docker - Dog vs. Cat: Docker Swarm Stacks](https://github.com/BretFisher/dogvscat) - Examples for building full Swarm-based clusters including proxies, centralized logging, persistent storage, deployment pipelines, and more -- `tutorial`
+- [Docker - Play with Docker](https://labs.play-with-docker.com/) - Docker playground that allows users to run Docker commands in a matter of seconds (Alpine + Docker in Docker (DIN)) -- `learning`
+- [Docker - Play with Docker Classroom](https://training.play-with-docker.com/) - Interactive tutorials using Play with Docker (see above) -- `learning`
 - [Effective Engineer](https://gist.github.com/rondy/af1dee1d28c02e9a225ae55da2674a6f) - Notes from the book The Effective Engineer -- `book`
 - [Engineering Blogs](https://github.com/kilimchoi/engineering-blogs) - A collection -- `collection`
 - [Engineering Blogs Newsfeed](https://engineeringblogs.xyz/) - 500+ blogs, includes OPML feed, amazing collection, please contribute! -- `collection`
@@ -2194,15 +2204,17 @@
 - [eShop on Dapr](https://github.com/dotnet-architecture/eShopOnDapr) - An example using .NET Core -- `various lang`
 - [Every Programmer Should Know...](https://github.com/mtdvio/every-programmer-should-know) - A collection of (mostly) technical things every software developer should know -- `collection`
 - [Everything You Should Know About Certificates and PKI](https://smallstep.com/blog/everything-pki.html) - Easy to understand tutorial -- `tutorial`
-- [Explain Shell](https://explainshell.com/) - Enter a command-line to see the help text that matches each argument -- `in-browser`
-- [Exploit Database](https://www.exploit-db.com/) - Collection of current and past exploits -- `collection`
-- [free-for.dev](https://free-for.dev/) - Massive list of services with free tiers -- `collection`
-- [Free Cyber Resources](https://www.simplycyber.io/free-cyber-resources) - Biiiiig collection -- `collection`
+- [Free Cyber Resources](https://www.simplycyber.io/free-cyber-resources) - Biiiiig collection of learning resources -- `collection`
 - [Free Programming Books](https://ebookfoundation.github.io/free-programming-books/) - Thousands -- `collection`
 - [GlossaryTech](https://glossarytech.com/) - Browser addon to learn tech terms with easy to understand defintions -- `JavaScript`
-- [go-perfbook](https://github.com/dgryski/go-perfbook) - Outlines best practices for writing high-performance Go code -- `article`
-- [Go by Example](https://gobyexample.com/) - Hands-on introduction to Go using annotated example programs -- `tutorial`
-- [Go Tooling In Action](https://github.com/campoy/go-tooling-workshop) - A workshop covering all the tools used in the day to day life of a Golang dev -- `tutorial`
+- [Golang - Build Web Application with Golang](https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/) - Follow along -- `tutorial`
+- [Golang - go-perfbook](https://github.com/dgryski/go-perfbook) - Outlines best practices for writing high-performance Go code -- `article`
+- [Golang - Gophercises](https://gophercises.com/) - Golang exercises -- `collection`
+- [Golang - Go by Example](https://gobyexample.com/) - Hands-on introduction to Go using annotated example programs -- `tutorial`
+- [Golang - Go Tooling In Action](https://github.com/campoy/go-tooling-workshop) - A workshop covering all the tools used in the day to day life of a Golang dev -- `tutorial`
+- [Golang - Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests/) - Explore Golang by writing tests and learn TDD while you're at it -- `tutorial`
+- [Golang - Practical Go Lessons](https://www.practical-go-lessons.com/) - Free 700+ page ebook - `book`
+- [Golang - The Little Go Book](https://www.openmymind.net/The-Little-Go-Book/) - Free book, available in various formats - `book`
 - [Good Sleep, Good Learning, Good Life](http://super-memory.com/articles/sleep.htm) - Compiled knowledege about sleep with sources and citations -- `zzz`
 - [Google Cloud Architecture Center](https://cloud.google.com/architecture) - Reference architectures, diagrams, design patterns, guidance, and best practices for building or migrating your workloads on Google Cloud -- `collection`
 - [Google Cloud - Best Practices for Enterprise Organizations](https://cloud.google.com/docs/enterprise/best-practices-for-enterprise-organizations) - From Google themselves -- `collection`
@@ -2212,31 +2224,24 @@
 - [Google Cloud - GKE Demo](https://github.com/ilya-lesikov/gke-demo) - Demonstration of complete, fully-featured CI/CD and cloud automation for microservices, done with GCP/GKE -- `various lang`
 - [Google Cloud - Preparing a Google Kubernetes Engine Environment for Production](https://cloud.google.com/solutions/prep-kubernetes-engine-for-prod) - The best GKE summary, covers everything -- `collection`
 - [Google's Technical Development Guide](https://techdevguide.withgoogle.com/) - Hands on, free, self-paced courses to help you develop your programming skills -- `collection`
-- [Gophercises](https://gophercises.com/) - Golang exercises -- `collection`
 - [Gravitational Workshops](https://github.com/gravitational/workshop) - Docker, Kubernetes, and Gravity training -- `collection`
 - [Hashicorp Learn](https://learn.hashicorp.com/) - Official training for Vault, Consul, Terraform, Vagrant, Packer, and Nomad -- `training`
 - [HEAD](https://htmlhead.dev/) - A free guide to HTML5 <head> elements -- `collection`
 - [High Performance Browser Networking](https://hpbn.co/) - What every web developer needs to know about the various types of networks (WiFi, 3G/4G), transport protocols (UDP, TCP, and TLS), application protocols (HTTP/1.1, HTTP/2), and APIs available in the browser (XHR, WebSocket, WebRTC, and more) -- `book`
-- [Hoopla](https://www.hoopladigital.com/) - Digital movies, music and ebooks for USA public library members -- `explore yours today`
 - [How Complex Systems Fail](https://how.complexsystems.fail/) - Paper by MIT, a great read for operations -- `article`
 - [How They SRE](https://github.com/upgundecha/howtheysre) - A curated collection of publicly available resources on how technology and tech-savvy organizations around the world practice Site Reliability Engineering (SRE) -- `collection`
 - [How to Ask Good Questions](https://jvns.ca/blog/good-questions/) - By Julia Evans -- `article`
 - [How to Ask Questions the Smart Way](http://www.catb.org/esr/faqs/smart-questions.html) - By the ESR -- `article`
 - [HTTP/3 Explained](https://daniel.haxx.se/http3-explained/) - QUIC = next generation TCP via UDP to bypass TCP's bad algos, used in HTTPv3 by haxx -- `book`
 - [HTTP API Design Guide](https://geemus.gitbooks.io/http-api-design/content/en/index.html) - A good, consistent, well-documented way to design APIs, not necessarily the only/ideal way -- `book`
-- [IF4IT SDLC](http://www.if4it.com/SYNTHESIZED/FRAMEWORKS/SDLC/sdlc_framework.html) - A more detailed and concise SDLC -- `tutorial`
-- [In Defense of Swap](https://chrisdown.name/2018/01/02/in-defence-of-swap.html) - Well informed article about why you need some swap -- `article`
+- [IF4IT SDLC Phases Catalog](http://nounz.if4it.com/Nouns/SDLC_Phases/Catalog.html) - A more detailed and concise SDLC -- `tutorial`
 - [Incident Response Cycle](https://www.sans.org/media/score/504-incident-response-cycle.pdf) - For cheat sheet for security incidents, by SANS -- `article`
 - [Interactive Coding Challenges](https://github.com/donnemartin/interactive-coding-challenges) - 120+ interactive Python coding interview challenges (algorithms and data structures), includes Anki flashcards -- `Python`
 - [Interlibrary Loan](https://en.wikipedia.org/wiki/Interlibrary_loan) - If your local library doesn't have a book or DVD in their collection they can use this service to order it from another library so you can borrow it out -- `i'm learnding`
-- [Introduction to Cloud Infrastructure Technologies](https://github.com/darshanime/notes/blob/master/cloud.org) - Notes from the superb course on edX -- `collection`
-- [Introduction to Kubernetes](https://github.com/darshanime/notes/blob/master/kubernetes.org) - Notes from the Introduction to Kubernetes course on edX -- `collection`
-- [Introduction to Linux](https://www.edx.org/course/introduction-to-linux) - Endorsed by Linus himself, via edX -- `course`
 - [ITIL v4 Foundation Training](https://www.youtube.com/watch?v=Edn4-SAHT0Q&list=PLU0hwmH1hdn1kN22e6EW_W0uzVbJy11nR) - Learn it all in about 6 hours -- `tutorial`
-- [IT Architect Body of Knowledge – v2](https://itabok.iasaglobal.org/itabok-1/) - Business Technology Architecture Body of Knowledge (BTABoK) 3.0 is the new version of this -- `collection`
+- [IT Architect Body of Knowledge – v2](https://itabok.iasaglobal.org/itabok-1/) - Cover all your bases with this reference, the newer v3 is renamed [Business Technology Architecture Body of Knowledge (BTABoK) 3.0](https://itabok.iasaglobal.org/) -- `collection`
 - [JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms) - JavaScript based examples of many popular algorithms and data structures -- `JavaScript`
 - [JVM Internals](http://blog.jamesdbloom.com/JVMInternals.html) - A superb explanation of how the Java JVM works in easy to understand terms -- `collection`
-- [Kanopy](https://www.kanopystreaming.com/) - Streaming movies for USA public library members -- `explore yours today`
 - [Katacoda](https://www.katacoda.com/learn) - In-browser labs and exercises with modern DevOps tools -- `way cool`
 - [Kubernetes Academy](https://kubernetes.academy/) - k8s and containers tutorials as well as k8s certification preparation, by VMware -- `tutorial`
 - [Kubernetes and Service Mesh Workshop](https://github.com/peterj/workshop-material) - 100% local, no need for cloud or additional hardware -- `tutorial`
@@ -2253,21 +2258,37 @@
 - [Kubernetes the Hard Way Vagrant](https://github.com/kinvolk/kubernetes-the-hard-way-vagrant) - A port of Kelsey Hightower's "Kubernetes the Hard Way" tutorial to Vagrant -- `tutorial`
 - [Kubernetes the Hard Way VirtualBox](https://github.com/sgargel/kubernetes-the-hard-way-virtualbox) - Bootstrap Kubernetes the hard way on VirtualBox. No scripts. -- `tutorial`
 - [Kubernetes Threat Matrix](https://www.microsoft.com/security/blog/2021/03/23/secure-containerized-environments-with-updated-threat-matrix-for-kubernetes/) - By Microsoft, uses MITRE ATT&CK as a foundation -- `article`
+- [Kubernetes - A Gentle Introduction to Kubernetes](https://github.com/eon01/kubernetes-workshop) - With more than just the basics -- `tutorial`
+- [Kubernetes - A Visual Guide to Troubleshooting Kubernetes Deployments](https://learnk8s.io/troubleshooting-deployments) - With flowcharts -- `handy`
+- [Kubernetes - An Illustrated Guide to Kubernetes Networking](https://morioh.com/p/ecb38c8342ba/an-illustrated-guide-to-kubernetes-networking) - See title -- `article`
+- [Kubernetes - Cloud Native DevOps with Kubernetes](https://www.amzn.com/1492040762) - Highly recommended -- `book`
+- [Kubernetes - Play with Kubernetes](https://labs.play-with-k8s.com/) - A simple, interactive and fun playground to learn Kubernetes in your browser, by Docker -- `in-browser`
+- [Kubernetes - What Happens When... Kubernetes Edition](https://github.com/jamiehannaford/what-happens-when-k8s) - Walks through what happens behind the scenes when you do a kubectl run -- `tutorial`
 - [Latency: A Primer](https://igor.io/latency/) - Web-app centric, defines all the terms you need to know then puts the knowledge together -- `article`
 - [LearnXinYMinutes](https://learnxinyminutes.com/) - Super fast tutorials for almost every programming language -- `collection`
-- [Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests/) - Explore Golang by writing tests and learn TDD while you're at it -- `tutorial`
 - [Leetcode Patterns](https://github.com/seanprashad/leetcode-patterns) - Helps you to focus on repeatedly applying common patterns rather than randomly tackling questions -- `collection`
-- [Libby](https://meet.libbyapp.com/) - App for ebooks and audio books for USA public library members, from OverDrive -- `explore yours today` `Android` `iOS` `Windows 10`
 - [Library Extension](https://www.libraryextension.com/) - Browser extension that shows you which Amazon books are available free at your local libraries, please donate -- `closed source`
 - [Linux Journey](https://www.linuxjourney.com) - ELI5 Linux training -- `tutorial`
 - [Linux Network Performance Parameters](https://github.com/leandromoreira/linux-network-performance-parameters) - Tutorial, data flows, explinations and more -- `tutorial`
 - [Linux Performance](http://www.brendangregg.com/linuxperf.html) - Centralized page for all of Brendan Gregg's Linux performance material (slides videos pages etc) -- `the man`
 - [Linux Skillup Challenge](https://github.com/livialima/linuxupskillchallenge) - 20 lessons for new Linux server admins -- `tutorial`
 - [Linux Tracing Workshop](https://github.com/goldshtn/linux-tracing-workshop) - Hands on exercises with perf, bcc, and similar tools -- `various lang`
-- [Little Book of Python Anti-Patterns](https://docs.quantifiedcode.com/python-anti-patterns/) - See title -- `book`
+- [Linux - Bandit](http://overthewire.org/wargames/bandit/) - A "wargame" that teaches the user how to use Linux -- `neat`
+- [Linux - blktrace how-to](https://old.reddit.com/r/sysadmin/comments/1ib3rl/beyond_iostat_storage_performance_analysis_with/) - `mount -t debugfs debugfs /sys/kernel/debug && blktrace -d /dev/md2 -o - | blkparse -i -` -- `article`
+- [Linux - Command Line Text Processing](https://github.com/learnbyexample/Command-line-text-processing) - awk grep sed etc - interactive tutorial for newbies -- `tutorial`
+- [Linux - Explain Shell](https://explainshell.com/) - Enter a command-line to see the help text that matches each argument -- `in-browser`
+- [Linux - In Defense of Swap](https://chrisdown.name/2018/01/02/in-defence-of-swap.html) - Well informed article about why you need some swap -- `article`
+- [Linux - Introduction to Linux](https://www.edx.org/course/introduction-to-linux) - Endorsed by Linus himself, via edX -- `course`
+- [Linux - strace Zine](https://jvns.ca/blog/2015/04/14/strace-zine/) - Printable. On paper. -- `tutorial`
+- [Linux - systemd Service File Examples](https://www.shellhacks.com/systemd-service-file-example/) - A good cheat sheet of important options -- `article`
+- [Linux - Test Your Sysadmin Skills](https://github.com/trimstray/test-your-sysadmin-skills) - A great little quiz, if you can answer these then you know Linux -- `collection`
+- [Linux - The Art of Command Line](https://github.com/jlevy/the-art-of-command-line) - The BEST interactive Linux tutorial, newbie focused -- `learn it`
+- [Linux - Unix Rosetta Stone](http://bhami.com/rosetta.html) - The one and only resource for a mixed Linux/Unix environment -- `translator`
+- [Linux - USE Method](http://www.brendangregg.com/USEmethod/use-rosetta.html) - Brendan Gregg's rosetta stone for performance analysis and tuning -- `article`
 - [Map of Cybersecurity Domains](https://derechodelared.com/wp-content/uploads/2021/04/Cybersecurity-Domains-Map-3.0.pdf) - Image that shows all areas of cybersecurity, version 3.0 -- `collection`
 - [Memory Management Reference](http://www.memorymanagement.org/index.html) - All in one reference for memory management and garbage collection -- `collection`
 - [Microservices Design Patterns](https://microservices.io/patterns/index.html) - A great foundation -- `collection`
+- [Microsoft REST API Guidelines](https://github.com/microsoft/api-guidelines/blob/vNext/Guidelines.md) - By Google.  haha -- `article`
 - [Missing Semester of Your CS Education](https://missing.csail.mit.edu/) - Git, vim, shell, metaprogramming, security, and more - by MIT -- `tutorial`
 - [MIT 6.006 Introduction to Algorithms, Fall 2011](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) - The most frequently recommended DS&A course -- `tutorial`
 - [MIT 6.824: Distributed Systems](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB) - By MIT -- `tutorial`
@@ -2283,7 +2304,7 @@
 - [OpenShift v4 Workshop](https://github.com/RedHatWorkshops/openshiftv4-workshop) - By Red Hat -- `tutorial`
 - [OpenVim](http://www.openvim.com/tutorial.html) - In-browser vim tutorial -- `tutorial` `in-browser`
 - [Open Security Architecture](https://www.opensecurityarchitecture.org/cms/library/patternlandscape) - A collection of security architecture patterns, invaluable -- `collection`
-- [Open Security Training](https://opensecuritytraining.info/) - In the spirit of OpenCourseWare and the Khan Academy -- `tutorial`
+- [OpenSecurityTraining2](https://opensecuritytraining.info/) - In the spirit of OpenCourseWare and the Khan Academy -- `tutorial`
 - [Open Source Intelligence Techniques](https://inteltechniques.com/book1.html) - By the folks who wrote Buscador Investigative Operating System -- `book`
 - [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/%7Eremzi/OSTEP/) - Probably the best OS book out there, free -- `book`
 - [OSINT Framework](https://osintframework.com/) - Focuses on gathering information from free tools or resources. The intention is to help people find free OSINT resources -- `collection`
@@ -2291,66 +2312,54 @@
 - [OverAPI](http://overapi.com/) - Large collection of cheat sheets for almost anything -- `collection`
 - [OverDrive](https://www.overdrive.com/) - Ebooks and audio books for USA public library members -- `explore yours today`
 - [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/) - Contribute on GitHub -- `collection`
-- [OWASP DevSecOps Maturity Model](https://dsomm.timo-pagel.de/) - Provides opportunities to harden DevOps strategies and shows how these can be prioritized -- `tutorial`
 - [OWASP Secure Coding Practices - Quick Reference Guide](https://www.owasp.org/index.php/OWASP_Secure_Coding_Practices_-_Quick_Reference_Guide) -- Great cheat sheet, language-agnostic -- `collection`
-- [Play with Docker](https://labs.play-with-docker.com/) - Docker playground that allows users to run Docker commands in a matter of seconds (Alpine + Docker in Docker (DIN)) -- `learning`
-- [Play with Docker Classroom](https://training.play-with-docker.com/) - Interactive tutorials using Play with Docker (see above) -- `learning`
-- [Play with Kubernetes](https://labs.play-with-k8s.com/) - A simple, interactive and fun playground to learn Kubernetes in your browser, by Docker -- `in-browser`
 - [PowerShell Koans](https://github.com/vexx32/PSKoans) - Learn the PowerShell language through Pester unit testing -- `PowerShell`
-- [Practical Go Lessons](https://www.practical-go-lessons.com/) - Free 700+ page ebook - `book`
-- [priceMedic](https://pricemedic.com/) - Compare procedures and services at hospitals near you, currently in beta -- `collection`
 - [Production Readiness Checklist](https://www.gruntwork.io/devops-checklist/) - Excellent checklist for pre-go-live, AWS-centric but great general advice -- `collection`
-- [Public Pentesting Reports]((https://github.com/juliocesarfort/public-pentesting-reports) - Curated list of public penetration test reports released by several consulting firms and academic security groups -- `collection`
+- [Public Pentesting Reports](https://github.com/juliocesarfort/public-pentesting-reports) - Curated list of public penetration test reports released by several consulting firms and academic security groups -- `collection`
 - [python-patterns](https://github.com/faif/python-patterns) - A collection of design patterns and idioms in Python -- `collection`
 - [Python Cheat Sheet](https://www.pythoncheatsheet.org/) - Mostly based on the book written by Al Sweigart, Automate the Boring Stuff with Python -- `collection`
 - [Python Reference](https://github.com/rasbt/python_reference) - A collection of useful scripts, tutorials, and other Python-related things -- `collection`
 - [Python Patterns](https://python-patterns.guide) - Python patterns by Brandon Rhodes -- `collection`
 - [Python Style Guide](https://google.github.io/styleguide/pyguide.html) - Google's Python style guide -- `article`
-- [PyVideo](https://pyvideo.org/) - Thousands of videos from hundreds of Python events and conferences, categorized by subject -- `collection`
+- [Python - Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) - Exceptional -- `book and video series`
+- [Python - Common Python Mistakes](https://news.ycombinator.com/item?id=7715349) - Link and discussion on HN -- `article`
+- [Python - Comprehensive Python Cheatsheet](https://gto76.github.io/python-cheatsheet/) - Includes many modules -- `collection`
+- [Python - Design Patterns in Python](https://refactoring.guru/design-patterns/python) - See title -- `article`
+- [Python - Easy-Python](https://easy-python.readthedocs.org) - Collection of Python resources that "you didn't know you would need" -- `collection`
+- [Python - Little Book of Python Anti-Patterns](https://docs.quantifiedcode.com/python-anti-patterns/) - See title -- `book`
+- [Python - PyVideo](https://pyvideo.org/) - Thousands of videos from hundreds of Python events and conferences, categorized by subject -- `collection`
+- [Python - Tiny Python Notebook](https://github.com/mattharrison/Tiny-Python-3.8-Notebook) - One of the best syntax cheat sheets -- `article`
+- [Python - wtfpython](https://github.com/satwikkansal/wtfpython) - A collection of surprising Python snippets and lesser-known features -- `collection`
 - [Safari Books Online](https://www.oreilly.com/) - Non-student ACM members get a full year of access for $99 [buy a membership here](https://www.acm.org/membership/membership-options) -- `collection`
 - [Scrum Guide](https://www.scrumguides.org/) - Explains Scrum in a concise and straightforward way in about 10 pages, by the creators -- `article`
-- [Secure Messaging Apps](https://www.securemessagingapps.com/) - True comparison of the technical features and merits of various apps, which are TRULY secure? -- `collection`
 - [Security 101 for SaaS Startups](https://github.com/forter/security-101-for-saas-startups) - Excellent checklist and guide in easy to understand terms for non-infrastructure people -- `collection`
 - [Security Engineering 3rd Edition](https://www.cl.cam.ac.uk/~rja14/book.html) - Free concise ebook, updated 2020 -- `book`
 - [Security Engineering at Google: My Interview Study Notes](https://github.com/gracenolan/Notes/blob/master/interview-study-notes-for-security-engineering.md) - Browsable bullet points -- `collection`
-- [Security Feeds](https://github.com/cudeso/OPML-Security-Feeds) - A collection of security feeds in RSS (OPML) format, import into Feedly or Fever -- `collection`
+- [Security News Feeds](https://github.com/cudeso/OPML-Security-Feeds) - A collection of security feeds in RSS (OPML) format, import into Feedly or Fever -- `collection`
 - [Security Policy Templates](https://www.sans.org/information-security-policy/) - From SANS so you know it's good -- `collection`
+- [Selecting and Hardening Remote Access VPN Solutions](https://media.defense.gov/2021/Sep/28/2002863184/-1/-1/0/CSI_SELECTING-HARDENING-REMOTE-ACCESS-VPNS-20210928.PDF) - By the NSA -- `article`
 - [Site Reliability Engineering (SRE) by Google](https://sre.google/sre-book/table-of-contents/) - Full, free, online version of the O'Reilly book -- `the best`
 - [Site Reliability Workbook](https://sre.google/workbook/table-of-contents/) - Free, by Google -- `book`
-- [Sock Shop : A Microservice Demo Application](https://github.com/microservices-demo/microservices-demo) - User-facing part of an online shop that sells socks and using Spring Boot, Go kit and Node.js and is packaged in Docker containers -- `various lang`
+- [Sock Shop - A Microservice Demo Application](https://github.com/microservices-demo/microservices-demo) - User-facing part of an online shop that sells socks and using Spring Boot, Go kit and Node.js and is packaged in Docker containers -- `various lang`
 - [Software Architecture Monday by Mark Richards](https://www.youtube.com/channel/UC-Z7T0lAq_xECevIz8E5R5w/videos) - Each episode spends 10 minutes on a different topic, a quick and easy way to learn -- `tutorial`
 - [Software Engineering at Google SEAGnotes](https://www.seagnotes.com) - Notes from the book, by me -- `notes`
 - [Software Engineering at Google Lessons Learned from Programming Over Time](https://abseil.io/resources/swe_at_google.2.pdf) - Free electronic copy of the book -- `book`
 - [Software Testing Guide](https://martinfowler.com/testing/) - A collection of articles by Martin Fowler and friends, the best source for learning how to test properly -- `collection`
-- [Stack on a Budget](https://github.com/255kb/stack-on-a-budget) - Collection of services with great free tiers for developers on a budget, excellent for learning -- `collection`
 - [Step-by-Step Enterprise Architecture Tutorial with TOGAF](https://www.visual-paradigm.com/guide/enterprise-architecture/step-by-step-enterprise-architecture-tutorial-with-togaf-adm/) - An excellent summary -- `tutorial`
 - [System Design Primer](https://github.com/donnemartin/system-design-primer) - Learn how to design large-scale systems -- `article`
-- [systemd Service File Examples](https://www.shellhacks.com/systemd-service-file-example/) - A good cheat sheet of important options -- `article`
-- [SymbolHound](http://symbolhound.com) - Search engine that doesn't ignore special characters, great for programming questions -- `try it`
 - [Teach Yourself Computer Science](https://teachyourselfcs.com/) - 9 subjects, they choose the best free source to learn each subject and explain why that source is the best - they did the research for you -- `collection`
 - [Team Topologies](https://danlebrero.com/2021/01/20/team-topologies-summary/) - Notes from the book -- `notes`
 - [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/) - SWE / dev-centric -- `tutorial`
 - [Technical Writing by Google](https://developers.google.com/tech-writing/one) - Technical writing, training by Google -- `tutorial`
 - [Ten Strategies of a World-Class Cybersecurity Operations Center](https://www.mitre.org/sites/default/files/publications/pr-13-1028-mitre-10-strategies-cyber-ops-center.pdf) - Best practices by MITRE -- `article`
-- [Terraform Security Tool Comparison](https://github.com/iacsecurity/tool-compare) - Which Terraform code scanners provide the most comprehensive coverage - click to find out -- `collection`
-- [Test Your Sysadmin Skills](https://github.com/trimstray/test-your-sysadmin-skills) - A great little quiz, if you can answer these then you know Linux -- `collection`
-- [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line) - The BEST interactive Linux tutorial, newbie focused -- `learn it`
 - [The Early Security Engineer’s First 100 Days Checklist](https://www.docdroid.net/file/download/jx8ERKW/first-security-engineer-checklist-pdf.pdf) - Aims to help security engineers and CISOs in early stage companies to prioritize their efforts in the first months of their new job -- `list`
 - [The Illustrated TLS Connection](https://tls.ulfheim.net/) - Every byte of a TLS connection explained and reproduced -- `article`
-- [The Little Go Book](https://www.openmymind.net/The-Little-Go-Book/) - Free book, available in various formats - `book`
 - [The Manager's Path](https://github.com/keyvanakbary/learning-notes/blob/master/books/the-managers-path.md) - Concise notes from the book -- `notes`
-- [Tiny Python Notebook](https://github.com/mattharrison/Tiny-Python-3.8-Notebook) - One of the best syntax cheat sheets -- `article`
 - [Twelve-Factor App](https://12factor.net/) - Language-independent rules for codebase, dependencies, build/release/run, dev and prod, logs, etc for a cloud/web-centric app -- `collection`
-- [Two Factor Auth (2FA)](https://2fa.directory/) - Web sites that do and don't support 2FA, organized by category, submit PRs for changes -- `collection`
 - [Ultimate List of SANS Cheat Sheets](https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets/) - Need help cutting through the cybersecurity noise? -- `collection`
 - [Understanding OAuth2 and OpenID Connect](https://www.polarsparc.com/xhtml/OAuth2-OIDC.html) - THE BEST article -- `article`
-- [Unix Rosetta Stone](http://bhami.com/rosetta.html) - The one and only resource for a mixed Linux/Unix environment -- `translator`
-- [USE Method](http://www.brendangregg.com/USEmethod/use-rosetta.html) - Brendan Gregg's rosetta stone for performance analysis and tuning -- `article`
 - [Use the Index, Luke](https://use-the-index-luke.com/) - SQL indexing and tuning for developers -- `collection`
 - [USENIX Video Archive](https://www.youtube.com/playlist?list=UU4-GrpQBx6WCGwmwozP744Q) - 4000+ videos from LISA and related events -- `collection`
 - [Vim Adventures](https://vim-adventures.com/) - A game to learn vi / vim using your browser -- `in-browser` `tutorial`
 - [Web Security Academy](https://portswigger.net/web-security) - Free online training for the creators of Burp Suite, the free successor to the industry standard training material "Web Application Hacker's Handbook" -- `tutorial`
-- [What Happens When... Kubernetes Edition](https://github.com/jamiehannaford/what-happens-when-k8s) - Walks through what happens behind the scenes when you do a kubectl run -- `tutorial`
-- [wtfpython](https://github.com/satwikkansal/wtfpython) - A collection of surprising Python snippets and lesser-known features -- `collection`
-- [Zine about strace](https://jvns.ca/blog/2015/04/14/strace-zine/) - Printable. On paper. -- `tutorial`
 - [Zero Trust Reference Architecture](<https://dodcio.defense.gov/Portals/0/Documents/Library/(U)ZT_RA_v1.1(U)_Mar21.pdf>) - By the DISA and NSA, Mar 2021 -- `collection`
