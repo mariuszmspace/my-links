@@ -99,6 +99,7 @@
 - [SD Times](https://sdtimes.com/)
 - [Security News RSS Feeds](https://github.com/cudeso/OPML-Security-Feeds)
 - [TechCrunch](https://techcrunch.com/)
+- [Technology Radar](https://www.thoughtworks.com/radar)
 - [The New Stack](https://thenewstack.io/)
 - [The Next Web](https://thenextweb.com/)
 - [The Next Platform](https://www.nextplatform.com/)
@@ -167,11 +168,15 @@
 - [AWS SAM Local](https://github.com/awslabs/aws-sam-local) - CLI tool for local development and testing of Lambda applications -- `Golang`
 - [AWS Samples](https://github.com/aws-samples) - Over 2k code samples for all AWS services -- `collection`
 - [AWS Secrets Manager and Configuration Provider (ASCP)](https://docs.aws.amazon.com/secretsmanager/latest/userguide/integrating_csi_driver.html) - Plugin for the industry-standard Kubernetes Secrets Store Container Storage Interface (CSI) Driver used for providing secrets to applications operating on EKS -- `Golang`
+- [AWS Toolbox](https://github.com/dannysteenman/aws-toolbox) - AWS scripts, tools, and snippits -- `collection`
 - [AWS Toolkit for Visual Studio Code](https://aws.amazon.com/visualstudiocode/) - Give it a go -- `various lang`
 - [AWS Tools for PowerShell](https://aws.amazon.com/powershell/) - Use an automation language instead of a programming langue -- `various lang`
+- [Azucar](https://github.com/nccgroup/azucar) - Multi-threaded plugin-based tool to help you assess the security of your Azure Cloud environment -- `PowerShell`
 - [AzCopy](https://github.com/Azure/azure-storage-azcopy) - CLI to copy data to and from containers and file shares in Azure Storage accounts -- `Golang`
 - [Azure Arc](https://techcommunity.microsoft.com/t5/itops-talk-blog/azure-arc-for-cloud-solutions-architects/ba-p/2521928?WT.mc_id=modinfra-23500-thmaure) - Multi-cloud + on-prem control plane to centralize hybrid management, magical -- `cloud`
+- [Azure Cloud Guardrails](https://github.com/salesforce/cloud-guardrails) - Rapidly cherry-pick cloud security guardrails by generating Terraform files that create Azure Policy Initiatives, by Salesforce -- `Python pip`
 - [Azure Governance Visualizer](https://github.com/JulianHayward/Azure-MG-Sub-Governance-Reporting) - Granular insights on your technical Azure Governance implementation -- `PowerShell`
+- [Azure Kubernetes Service (AKS) Baseline Cluster](https://github.com/mspnp/aks-secure-baseline) - Reference implementation demonstrates the recommended starting (baseline) infrastructure architecture for a general purpose AKS cluster, by Microsoft -- `various lang`
 - [Azure Official Terraform Modules](https://github.com/orgs/Azure/repositories?q=terraform-azurerm) - By Microsoft -- `collection`
 - [Azure Policy Samples](https://github.com/Azure/azure-policy) - Samples of Azure Policies that can be used as reference for creating and assigning policies -- `collection`
 - [Azure Portal Desktop App](https://portal.azure.com/App/Download) - Faster than a browser, full Cloud Shell, fast search -- `various lang`
@@ -201,6 +206,7 @@
 - [CloudSploit Scans](https://github.com/cloudsploit/scans) - Scan AWS accounts for security risks -- `JavaScript`
 - [CloudTracker](https://github.com/duo-labs/cloudtracker) - Find over-privileged IAM users and roles by comparing CloudTrail logs with current IAM policies. -- `Python`
 - [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian) - Rules engine for managing public cloud accounts and resources via policies, by Capital One -- `various lang`
+- [Cloud Security Suite (cs-suite)](https://github.com/SecurityFTW/cs-suite) - One stop tool for auditing the security posture of AWS/GCP/Azure infrastructure -- `Python pip`
 - [ClusterCloner](https://github.com/doitintl/ClusterCloner) - Reads the Kubernetes clusters in one location (optionally filtering by labels) and clones them into another (or just outputs JSON as a dry run), to/from AWS, GCP, and Azure -- `Golang`
 - [Complete AWS IAM Reference](https://iam.cloudonaut.io/) - Unofficial but concise -- `collection`
 - [credstash](https://github.com/fugue/credstash) - Secrets management using AWS KMS -- `Python pip`
@@ -217,6 +223,7 @@
 - [Fargate](https://github.com/jpignata/fargate) - CLI for AWS Fargate, unofficial -- `Golang`
 - [Force MFA](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_users-self-manage-mfa-and-creds.html) - Allows users to manage their own passwords and MFA devices but nothing else unless they authenticate with MFA, also makes API calls require MFA -- `policy`
 - [Former2](https://github.com/iann0036/former2) - Generate CloudFormation / Terraform / Troposphere templates from your existing AWS resources via self-hosted web GUI -- `JavaScript`
+- [GCPinstances](https://gcpinstances.doit-intl.com/) - Easy Google Compute instance comparison -- `in-browser`
 - [gcpviz](https://github.com/GoogleCloudPlatform/professional-services/tree/master/tools/gcpviz) - Visualization tool that takes input from Cloud Asset Inventory -- `Golang`
 - [GKE Autopilot](https://cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview) - Think an opinionated version of GKE, somewhat similar to AWS Fargate -- `neat`
 - [Google Cloud Official Terraform Modules](https://github.com/GoogleCloudPlatform/cloud-foundation-toolkit/blob/master/docs/terraform.md) - Included as part of the Cloud Foundation Toolkit -- `various lang`
@@ -227,7 +234,9 @@
 - [IAM Policy Simulator](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_testing-policies.html) - Built-in tool where you can test and troubleshoot identity-based policies, IAM permissions boundaries, Organizations service control policies (SCPs), and resource-based policies -- `in-browser`
 - [kappa](https://github.com/garnaat/kappa) - CLI tool that makes it easier to deploy, update, and test Lambda functions -- `Python`
 - [kinesis-scaling-tools](https://github.com/awslabs/amazon-kinesis-scaling-utils) - Tools to make Kinesis shards scale like ASGs -- `Java`
+- [Lambda Powertools](https://awslabs.github.io/aws-lambda-powertools-python/latest/) - Suite of utilities for AWS Lambda functions to ease adopting best practices such as tracing, structured logging, custom metrics, and more, by Amazon -- `Python pip`
 - [localstack](https://github.com/localstack/localstack) - A fully functional local AWS cloud stack for offline dev and test -- `Python`
+- [MicroBurst](https://github.com/NetSPI/MicroBurst) - A PowerShell toolkit for attacking Azure -- `Powershell`
 - [Moto](https://github.com/spulec/moto) - Library that allows your Python tests to easily mock out the boto library -- `Python pip`
 - [My Arsenal of AWS Security Tools](https://github.com/toniblyx/my-arsenal-of-aws-security-tools) - List of open source tools for AWS security: defensive, offensive, auditing, DFIR, etc -- `collection`
 - [onelogin-python-aws-assume-role](https://github.com/onelogin/onelogin-python-aws-assume-role) - Assume an AWS Role and get temporary credentials using Onelogin -- `Python pip`
@@ -237,6 +246,7 @@
 - [s3cmd](https://s3tools.org/s3cmd) - Backup to AWS via the command line -- `Python`
 - [s4cmd](https://github.com/bloomreach/s4cmd) - s3cmd with additional features -- `Python`
 - [Scout Suite](https://github.com/nccgroup/ScoutSuite) - Multi-cloud security-auditing tool, which enables security posture assessment of cloud environments. Using the APIs exposed by cloud providers, Scout Suite gathers configuration data for manual inspection and highlights risk areas -- `various lang`
+- [Security Stack Mappings](https://github.com/center-for-threat-informed-defense/security-stack-mappings) - Maps Azure and AWS product security controls to MITRE ATT&CK -- `collection`
 - [Serverless (formerly JAWS)](https://github.com/jaws-stack/JAWS) - Javascript + AWS stack, the entire backend is Lambda functions, server-free -- `JavaScript`
 - [Serverless by Design](https://github.com/danilop/ServerlessByDesign) - In-browser or self-hosted GUI for making flow charts for serverless apps -- `various lang`
 - [Serverless Stack Toolkit (SST)](https://serverless-stack.com/) - extension of AWS CDK that includes a live Lambda dev environment and more -- `JavaScript`
@@ -336,6 +346,7 @@
 - [Haste / hastebin](https://github.com/seejohnrun/haste-server) - Open source pastebin alternative for sharing code, can be installed locally / on-site -- `JavaScript`
 - [Hubot](https://hubot.github.com/) - Chat bot that can do deploys, look up images, integrate with Google Maps, and tons of other stuff -- `CoffeeScript`
 - [Isso](https://posativ.org/isso/) - A commenting server similar to Disqus -- `JavaScript`
+- [JXplorer](http://jxplorer.org/) - Cross platform LDAP browser and editor -- `Java`
 - [Kanboard](https://kanboard.org/) - Simple Kanban board -- `PHP`
 - [Kolab](https://kolab.org/) - Unified communication and collaboration system -- `PHP`
 - [LDAP Account Manager (LAM)](https://www.ldap-account-manager.org/lamcms/) - Full featured LDAP management GUI, can manage almost anything -- `PHP`
@@ -729,6 +740,7 @@
 - [terraform-exec](https://github.com/hashicorp/terraform-exec) - Go module for constructing and running Terraform CLI commands -- `Golang`
 - [Terraformer](https://github.com/GoogleCloudPlatform/terraformer) - Generate Terraform files from existing infrastructure (reverse Terraform), supports AWS and GCP, by Google -- `Golang`
 - [Terraforming](https://terraforming.dtan4.net/) - Export all AWS resources into Terraform -- `Ruby gem`
+- [Terragoat](https://github.com/bridgecrewio/terragoat) - Learning and training project that demonstrates how common configuration errors can find their way into production Terraform cloud environments -- `various lang`
 - [Terragrunt](https://github.com/gruntwork-io/terragrunt) - Tools for keeping your Terraform configurations DRY, working with multiple Terraform modules, and managing remote state -- `Golang`
 - [Terragrunt Reference Architecture (AWS)](https://github.com/antonbabenko/terragrunt-reference-architecture) - Nice, looking forward to their GCP one -- `various lang`
 - [Terratest](https://github.com/gruntwork-io/terratest) - Makes it easier to write automated tests for your infrastructure code, provides a variety of helper functions and patterns for common infrastructure testing tasks -- `Golang`
@@ -1327,6 +1339,7 @@
 > Tools for interacting with and related to the major DBs and SQL
 
 - [Adminer](https://www.adminer.org/) - GUI for database management in a single PHP, formerally phpMyAdmin -- `PHP`
+- [Babelfish for PostgreSQL] - Layer that lets PostgreSQL understand queries from applications written for Microsoft SQL Server including T-SQL and TDS, by Amazon -- `various lang`
 - [CockroachDB](https://www.cockroachlabs.com/) - Open source version of Google's Spanner storage system -- `thefuture` `Golang`
 - [DBeaver](https://dbeaver.io/) - OSS multi-platform GUI that supports almost every DB, built from Eclipse -- `Eclipse`
 - [DB Browser for SQLite](http://sqlitebrowser.org/) - GUI database browser for SQLite instances -- `C++`
@@ -1358,6 +1371,7 @@
 - [SQLite](https://sqlite.org/) - Self-contained, serverless, zero-configuration, transactional SQL database engine, great for testing -- `C`
 - [sqlmap](http://sqlmap.org/) - Detect and exploit SQL injection flaws, pen testing tool -- `Python`
 - [SQL Fiddle](http://sqlfiddle.com/) - Write and test SQL -- `in-browser`
+- [Vitess](https://vitess.io) - Lets you horizontally scale a mysql database at the database level and not the application level -- `various lang`
 - [wal-e](https://github.com/wal-e/wal-e) - Simple continuous archiving for PostgreSQL -- `Python`
 - [wal-g](https://github.com/wal-g/wal-g) - Simple continuous archiving for PostgreSQL, successor to wal-e -- `Python`
 - [WWW SQL Designer](https://github.com/ondras/wwwsqldesigner/) - Designing RDBMS schemas features saving, exporting to XML, and SQL script creation, free SaaS version [here](http://ondras.zarovi.cz/sql/demo/) -- `JavaScript`
@@ -1461,15 +1475,17 @@
 - [authconv](https://github.com/authcov/authcov) - Web app authorization coverage scanning -- `JavaScript`
 - [Autopsy](https://sleuthkit.org/autopsy/) - Great for grabbing artifacts for DIFR -- `closed source`
 - [Awesome Honeypots](https://github.com/paralax/awesome-honeypots) - Curated collection of honepots and honeypot resources -- `collection`
+- [Azucar](https://github.com/nccgroup/azucar) - Multi-threaded plugin-based tool to help you assess the security of your Azure Cloud environment -- `PowerShell`
 - [bettercap](https://www.bettercap.org/) - Swiss Army knife for 802.11, BlueTooth, and Ethernet networks reconnaissance and attacks -- `Golang`
 - [Brida](https://github.com/federicodotta/Brida) - Bridge between Burp Suite & Frida, lets you use and manipulate applications own methods while tampering the traffic exchanged between the applications and their back-end services/servers -- `various lang`
 - [bro](https://github.com/bro/bro) - Framework for network analysis and security monitoring -- `C++`
 - [CALDERA](https://github.com/mitre/caldera) - Automated adversary emulation system that performs post-compromise adversarial behavior within Windows Enterprise networks -- `Python`
-- [Checkov](https://www.checkov.io/) - Scans cloud infrastructure provisioned using Terraform, Cloudformation or Kubernetes and detects security and compliance misconfigurations, similar to a sub-component of Twistlock -- `Golang`
+- [Checkov](https://www.checkov.io/) - Scans cloud infrastructure provisioned using Terraform, Cloudformation or Kubernetes and detects security and compliance misconfigurations, similar to a sub-component of Twistlock, Policy as Code -- `Golang`
 - [cherrytree](https://www.giuspen.com/cherrytree/) - Hierarchical note taking application, excellent for red team / pentest notes -- `Python`
 - [chkrootkit](http://www.chkrootkit.org/) - Rootkit checker, best used from a live CD -- `C`
 - [CIS Linux Benchmarks](https://learn.cisecurity.org/benchmarks?category=benchmarks.os.linux) - Linux OS hardening guides, superb! -- `collection`
 - [CloudSploit](https://github.com/aquasecurity/cloudsploit) - Scans for risks, multi-cloud -- `various lang`
+- [Cloud Security Suite (cs-suite)](https://github.com/SecurityFTW/cs-suite) - One stop tool for auditing the security posture of AWS/GCP/Azure infrastructure -- `Python pip`
 - [Common Vulnerability Scoring System Calculator](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator) - Version three -- `collection`
 - [ConfigServer Security and Firewall (CSF)](https://configserver.com/cp/csf.html) - Stateful Packet Inspection (SPI) firewall, Login/Intrusion Detection and Security application for Linux servers -- `various lang`
 - [Conftest](https://github.com/open-policy-agent/conftest) - Write tests against structured configuration data (Kuberetes, Terraform, Serverless, etc) -- `Golang`
@@ -1504,10 +1520,11 @@
 - [Joe's Sandbox (Cloud Basic)](https://www.joesandbox.com/) - Deep automated malware analysis -- `in-browser`
 - [Kali NetHunter Linux Root Toolkit (LRT)](https://github.com/offensive-security/nethunter-LRT) - Collection of bash scripts that setup and install Kali Linux NetHunter from a Linux/OSX environment onto a NetHunter supported device -- `shell`
 - [LinEnum](https://github.com/rebootuser/LinEnum) - Enumerate a local Linux environment -- `shell`
-- [Lynis](https://cisofy.com/lynis/) - Auditing and hardening tool, supports most Unix-like operating systems -- `shell`
+- [Lynis](https://github.com/CISOfy/lynis) - Auditing and hardening tool (CIS, PCI-DSS, etc), supports most Unix-like operating systems -- `shell`
 - [Malcom](https://github.com/idaholab/Malcolm) - Easily deployable network analysis tool suite for full packet capture artifacts (PCAP files) and Zeek logs -- `various lang`
 - [Massscan](https://github.com/robertdavidgraham/masscan) - Scans in parallel and async for the fastest scans around -- `C`
 - [Metasploit](https://www.metasploit.com/) - Classic exploit framework -- `various lang`
+- [MicroBurst](https://github.com/NetSPI/MicroBurst) - A PowerShell toolkit for attacking Azure -- `Powershell`
 - [MITRE ATT&CK](https://attack.mitre.org/) - Knowledge base of adversary tactics and techniques based on real-world observations, used for threat modeling -- `collection`
 - [MobSF (Mobile Security Framework)](https://github.com/MobSF/Mobile-Security-Framework-MobSF) - Automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis -- `various lang`
 - [National Checklist Program](https://nvd.nist.gov/ncp/repository) - U.S. government repository of publicly available security checklists (or benchmarks) that provide detailed low level guidance on setting the security configuration of operating systems and applications -- `collection`
@@ -1531,6 +1548,7 @@
 - [PALADIN](https://sumuri.com/software/paladin/) - Easy to use Linux-based live CD for forensic analysis -- `various lang`
 - [Penetration Testers Framework](https://github.com/trustedsec/ptf) - Script to pull down all the latest greatest tools -- `Python`
 - [pfsense](https://www.pfsense.org/) - The best firewall software, supports appliances and live CDs -- `C`
+- [PowerZure](https://github.com/hausec/PowerZure) - PowerShell framework to assess Azure security -- `PowerShell`
 - [preeny](https://github.com/zardus/preeny) - Some helpful preload libraries for pwning stuff -- `C`
 - [Prey](https://preyproject.com/) - Open source anti-theft software for almost all platforms -- `shell` `Java` `mobile`
 - [ProcDOT](http://www.procdot.com/) - All in one visual malware analysis and visualization, by CERN -- `closed source` `various lang`
@@ -1542,12 +1560,14 @@
 - [Rootkit Hunter](http://rkhunter.sourceforge.net/) - Compares hashes of important files with known good hashes that are stored in online databases -- `perl` `shell`
 - [SalSA (Salvaging Static Analysis)](https://github.com/deptofdefense/SalSA) - Windows PE file parsing in-browser, can be locally hosted, by the DoD -- `Python`
 - [Samhain](https://www.la-samhna.de/samhain/) - HIDS, file integrity checker, rootkit detection, log file monitoring, and more -- `C`
+- [SANS Tools](https://www.sans.org/tools/) - OSS tools and toolkits from SANS instructors -- `collection`
 - [Scout Suite](https://github.com/nccgroup/ScoutSuite) - Multi-cloud security-auditing tool, which enables security posture assessment of cloud environments. Using the APIs exposed by cloud providers, Scout Suite gathers configuration data for manual inspection and highlights risk areas -- `various lang`
 - [scrub](https://linux.die.net/man/1/scrub) - Supports many disk-wiping standards including military / government grade wipes -- `built-in`
 - [scrypt](https://en.wikipedia.org/wiki/Scrypt) - More secure against hardware brute-force attacks than alternatives such as PBKDF2 or bcrypt, key stretching -- `C`
 - [searchsploit](https://www.exploit-db.com/searchsploit) - CLI to search Exploit DB -- `shell`
 - [SecLists](https://github.com/danielmiessler/SecLists) - Collection of multiple types of lists used during security assessments collected in one place -- `collection`
 - [Security Onion](https://securityonion.net/) - Linux distro for IDS, NSM, and log management -- `various lang`
+- [Security Stack Mappings](https://github.com/center-for-threat-informed-defense/security-stack-mappings) - Maps Azure and AWS product security controls to MITRE ATT&CK -- `collection`
 - [Security Technical Implementation Guide (STIG)](https://public.cyber.mil/stigs/) - Guides to securing almost every application, by the US military -- `collection`
 - [SELKS](https://www.stamus-networks.com/open-source/) - Debian based based IDS/IPS with ELK stack, installable or live CD -- `various lang`
 - [Shodan](https://www.shodan.io/) - The security search engine -- `oh yeah`
@@ -1618,7 +1638,6 @@
 - [pigz](http://zlib.net/pigz/) - Parallel gzip for multi-processor/core systems -- `C`
 - [pv](https://linux.die.net/man/1/pv) - Shows the progress of data as it flows through a pipe -- `built-in`
 - [ShellCheck](https://www.shellcheck.net/) - Checks shell scripts for common mistakes, essentially a linter / static analysis -- `in-browser`
-- [Shell Style Guide](https://google.github.io/styleguide/shell.xml) - By Google -- `collection`
 - [tldr](https://github.com/tldr-pages/tldr) - Simplified and community-driven man pages, cuts out a lot of cruft -- `collection`
 - [Unix Toolbox](http://cb.vu/unixtoolbox.xhtml) - A collection of Unix/Linux/BSD commands and tasks for advanced users -- `collection`
 
@@ -2154,6 +2173,7 @@
 - [API design guide](https://cloud.google.com/apis/design) - By Google, maybe the best -- `article`
 - [API Security Maturity Model](https://curity.io/resources/learn/the-api-security-maturity-model/) - By Curity -- `article`
 - [arc42 Documentation](https://arc42.org/documentation/) - Pragmatic, open source way to construct, communicate and document your software architecture -- `tutorial`
+- [ArchiMate Cookbook](https://www.hosiaisluoma.fi/blog/archimate/) - Patterns and examples and a great blog by Eero Hosiaisluoma -- `collection`
 - [Architecture of Open Source Applications](http://www.aosabook.org/en/) - The authors of four dozen open source applications explain how their software is structured, and why -- `collection`
 - [Awesome System Design](https://github.com/madd86/awesome-system-design) - System Designing articles, videos and resources for distributed computing -- `collection`
 - [AWS Architecture Center](https://aws.amazon.com/architecture/) - Reference architecture diagrams, vetted architecture solutions, Well-Architected best practices, patterns, icons, and more -- `collection`
@@ -2181,6 +2201,7 @@
 - [AWS - SaaS Tenant Isolation Strategies](https://d1.awsstatic.com/whitepapers/saas-tenant-isolation-strategies.pdf) - By AWS -- `article`
 - [AWS - This is my Architecture](https://aws.amazon.com/architecture/this-is-my-architecture/) - Short videos where people quickly explain their architecture, so cool -- `collection`
 - [AWS - Weird Behaviors in S3 Bucket Policies](https://github.com/elfakyn/knowledge/blob/master/src/cloud/aws/services/s3_bucket_policy_weird_behaviors.md) - Documented weirdness of S3 buckets -- `collection`
+- [Azure Arc Jumpstart](https://azurearcjumpstart.io/) - Learn Azure Arc in no time -- `tutorial`
 - [Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/) - Guidance for architecting solutions on Azure using established patterns and practices -- `collection`
 - [Azure Cloud Adoption Framework](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/) - Collection of documentation, implementation guidance, best practices, and tools that are proven guidance from Microsoft designed to accelerate your cloud adoption journey -- `collection`
 - [Azure Cloud Adoption Framework - Enterprise-scale Architecture](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/architecture) - An excellent reference pattern -- `article`
@@ -2201,6 +2222,7 @@
 - [Beyond the 12 Factor App](https://tanzu.vmware.com/content/ebooks/beyond-the-12-factor-app) - Free ebook, by Pivotal -- `book`
 - [Bookshop.org](https://bookshop.org/) - Bookshop is an online bookstore with a mission to financially support local, independent bookstores - ditch Amazon! -- `check it`
 - [Borg, Omega, and Kubernetes - Lessons Learned from 3 Container Management Systems Over a Decade](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf) - Paper by Google -- `article`
+- [Browser Fingerprinting - What Is It and What Should You Do About It](https://pixelprivacy.com/resources/browser-fingerprinting/) - An in-depth article with actionable tutorials -- `article`
 - [Building Secure & Reliable Systems](https://static.googleusercontent.com/media/sre.google/en//static/pdf/building_secure_and_reliable_systems.pdf) - The third SRE book from Google, free -- `book`
 - [Business Technology Architecture Body of Knowledge (BTABoK)](https://itabok.iasaglobal.org/) - New v3 and renamed version of [Information Technology Architecture Body of Knowledge (ITABoK)](https://itabok.iasaglobal.org/itabok-1/), a free public archive of IT architecture best practices, skills, and knowledge developed from the experience of individual and corporate members of IASA -- `collection`
 - [C4 Model](https://c4model.com/) - A modern approach for visualising software architecture -- `article`
@@ -2208,6 +2230,7 @@
 - [Chaos Engineering](https://www.oreilly.com/webops-perf/free/chaos-engineering.csp) - Building confidence in system behavior through experiments, free book by Netflix -- `book`
 - [CISO Mindmap](https://rafeeqrehman.com/wp-content/uploads/2021/07/CISO_Job_MindMap_Rafeeq_Rehman_v_2021.pdf) - A collection of the categories and topics that CISOs need to be concerned about, updated annually -- `article`
 - [CIS Policy Template Guide](https://www.cisecurity.org/wp-content/uploads/2020/07/NIST-CSF-Policy-Template-Guide-2020-0720-1.pdf) - Security policy templates, by NIST -- `collection`
+- [Cloud Comparison - AWS and Azure services to Google Cloud](https://cloud.google.com/free/docs/aws-azure-gcp-service-comparison) - Cheatsheet for all three clouds -- `collection`
 - [Cloud Controls Matrix (CCM) v4](https://cloudsecurityalliance.org/artifacts/cloud-controls-matrix-v4/) - Cybersecurity control framework for cloud computing aligned to the CSA best practices, considered the de-facto standard for cloud security and privacy -- `article`
 - [Cloud Design Patterns](https://docs.microsoft.com/en-us/azure/architecture/patterns/) - Useful for building reliable, scalable, secure applications in the cloud, by Microsoft -- `collection`
 - [Cloud Native Landscape](https://github.com/cncf/landscape) - A map that attempts to categorize most of the projects and product offerings in the cloud native space -- `collection`
@@ -2237,6 +2260,7 @@
 - [Docker - Dog vs. Cat: Docker Swarm Stacks](https://github.com/BretFisher/dogvscat) - Examples for building full Swarm-based clusters including proxies, centralized logging, persistent storage, deployment pipelines, and more -- `tutorial`
 - [Docker - Play with Docker](https://labs.play-with-docker.com/) - Docker playground that allows users to run Docker commands in a matter of seconds (Alpine + Docker in Docker (DIN)) -- `learning`
 - [Docker - Play with Docker Classroom](https://training.play-with-docker.com/) - Interactive tutorials using Play with Docker (see above) -- `learning`
+- [Domain Driven Design - Summary](https://home.cs.colorado.edu/~kena/classes/5448/f12/presentation-materials/roads.pdf) - A concise summary of the book -- `article`
 - [Effective Engineer](https://gist.github.com/rondy/af1dee1d28c02e9a225ae55da2674a6f) - Notes from the book The Effective Engineer -- `book`
 - [Engineering Blogs](https://github.com/kilimchoi/engineering-blogs) - A collection -- `collection`
 - [Engineering Blogs Newsfeed](https://engineeringblogs.xyz/) - 500+ blogs, includes OPML feed, amazing collection, please contribute! -- `collection`
@@ -2246,6 +2270,7 @@
 - [Everything You Should Know About Certificates and PKI](https://smallstep.com/blog/everything-pki.html) - Easy to understand tutorial -- `tutorial`
 - [Free Cyber Resources](https://www.simplycyber.io/free-cyber-resources) - Biiiiig collection of learning resources -- `collection`
 - [Free Programming Books](https://ebookfoundation.github.io/free-programming-books/) - Thousands -- `collection`
+- [GKE Security Scenarios Demo](https://github.com/GoogleCloudPlatform/gke-security-scenarios-demo) - Demonstrates a series of best practices for improving the security of containerized applications deployed to Kubernetes Engine -- `various lang`
 - [GlossaryTech](https://glossarytech.com/) - Browser addon to learn tech terms with easy to understand defintions -- `JavaScript`
 - [Golang - Build Web Application with Golang](https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/) - Follow along -- `tutorial`
 - [Golang - go-perfbook](https://github.com/dgryski/go-perfbook) - Outlines best practices for writing high-performance Go code -- `article`
@@ -2261,6 +2286,8 @@
 - [Google Cloud Architecture Center](https://cloud.google.com/architecture) - Reference architectures, diagrams, design patterns, guidance, and best practices for building or migrating your workloads on Google Cloud -- `collection`
 - [Google Cloud Microservices Demo](https://github.com/GoogleCloudPlatform/microservices-demo) - Sample cloud-native application with 10 microservices showcasing Kubernetes / GKE, Istio, gRPC and OpenCensus -- `various lang`
 - [Google Cloud Security Best Practices Center](https://cloud.google.com/security/best-practices) - Specific, informed guidance on helping secure Google Cloud deployments and describe recommended configurations, architectures, suggested settings, and other operational advice -- `collection`
+- [Google Cloud Security Foundations Guide](https://cloud.google.com/blog/products/identity-security/google-cloud-security-foundations-guide) - An opinionated guide, by Google -- `article`
+- [Google Cloud Setup Checklist](https://cloud.google.com/docs/enterprise/setup-checklist) - Onboarding doc, by Google -- `collection`
 - [Google Cloud - A giant list of Google Cloud resources](https://cloud.google.com/blog/topics/developers-practitioners/giant-list-google-cloud-resources) - From Google -- `collection`
 - [Google Cloud - GKE Demo](https://github.com/ilya-lesikov/gke-demo) - Demonstration of complete, fully-featured CI/CD and cloud automation for microservices, done with GCP/GKE -- `various lang`
 - [Google Cloud - Preparing a Google Kubernetes Engine Environment for Production](https://cloud.google.com/solutions/prep-kubernetes-engine-for-prod) - The best GKE summary, covers everything -- `collection`
@@ -2347,10 +2374,12 @@
 - [OpenShift v4 Demo](https://www.openshift.com/try) - Give it a try -- `tutorial`
 - [OpenShift v4 Training](https://github.com/openshift/training) - Official, requires AWS -- `tutorial`
 - [OpenShift v4 Workshop](https://github.com/RedHatWorkshops/openshiftv4-workshop) - By Red Hat -- `tutorial`
+- [OpenTelemetry Bootcamp](https://www.aspecto.io/opentelemetry-bootcamp/) - Video series, check it out -- `collection`
 - [OpenVim](http://www.openvim.com/tutorial.html) - In-browser vim tutorial -- `tutorial` `in-browser`
 - [Open Security Architecture](https://www.opensecurityarchitecture.org/cms/library/patternlandscape) - A collection of security architecture patterns, invaluable -- `collection`
 - [OpenSecurityTraining2](https://opensecuritytraining.info/) - In the spirit of OpenCourseWare and the Khan Academy -- `tutorial`
 - [Open Source Intelligence Techniques](https://inteltechniques.com/book1.html) - By the folks who wrote Buscador Investigative Operating System -- `book`
+- [Open Source Security Testing Methodology Manual (OSSTMM)](https://www.isecom.org/research.html) - A complete methodology for the testing, analysis and measurement of operational security towards building the best possible security defenses -- `collection`
 - [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/%7Eremzi/OSTEP/) - Probably the best OS book out there, free -- `book`
 - [OSINT Framework](https://osintframework.com/) - Focuses on gathering information from free tools or resources. The intention is to help people find free OSINT resources -- `collection`
 - [Outages.org Mailing List](https://puck.nether.net/mailman/listinfo/outages) - Report and discuss major outages, network status updates, etc -- `mailing list`
@@ -2375,7 +2404,9 @@
 - [Python - PyVideo](https://pyvideo.org/) - Thousands of videos from hundreds of Python events and conferences, categorized by subject -- `collection`
 - [Python - Tiny Python Notebook](https://github.com/mattharrison/Tiny-Python-3.8-Notebook) - One of the best syntax cheat sheets -- `article`
 - [Python - wtfpython](https://github.com/satwikkansal/wtfpython) - A collection of surprising Python snippets and lesser-known features -- `collection`
+- [Reproducible Builds](https://reproducible-builds.org/) - A set of software development practices that create an independently-verifiable path from source to binary code -- `article`
 - [Safari Books Online](https://www.oreilly.com/) - Non-student ACM members get a full year of access for $99 [buy a membership here](https://www.acm.org/membership/membership-options) -- `collection`
+- [SANS Posters and Cheat Sheets](https://www.sans.org/posters/) - Official collection -- `collection`
 - [Scrum Guide](https://www.scrumguides.org/) - Explains Scrum in a concise and straightforward way in about 10 pages, by the creators -- `article`
 - [Security 101 for SaaS Startups](https://github.com/forter/security-101-for-saas-startups) - Excellent checklist and guide in easy to understand terms for non-infrastructure people -- `collection`
 - [Security Engineering 3rd Edition](https://www.cl.cam.ac.uk/~rja14/book.html) - Free concise ebook, updated 2020 -- `book`
@@ -2383,19 +2414,23 @@
 - [Security News RSS Feeds](https://github.com/cudeso/OPML-Security-Feeds) - A collection of security feeds in RSS (OPML) format, import into Feedly or Fever -- `collection`
 - [Security Policy Templates](https://www.sans.org/information-security-policy/) - From SANS so you know it's good -- `collection`
 - [Selecting and Hardening Remote Access VPN Solutions](https://media.defense.gov/2021/Sep/28/2002863184/-1/-1/0/CSI_SELECTING-HARDENING-REMOTE-ACCESS-VPNS-20210928.PDF) - By the NSA -- `article`
+- [Shell Style Guide](https://google.github.io/styleguide/shellguide.html) - By Google -- `collection`
 - [Site Reliability Engineering (SRE) by Google](https://sre.google/sre-book/table-of-contents/) - Full, free, online version of the O'Reilly book -- `the best`
 - [Site Reliability Workbook](https://sre.google/workbook/table-of-contents/) - Free, by Google -- `book`
 - [Sock Shop - A Microservice Demo Application](https://github.com/microservices-demo/microservices-demo) - User-facing part of an online shop that sells socks and using Spring Boot, Go kit and Node.js and is packaged in Docker containers -- `various lang`
 - [Software Architecture Monday by Mark Richards](https://www.youtube.com/channel/UC-Z7T0lAq_xECevIz8E5R5w/videos) - Each episode spends 10 minutes on a different topic, a quick and easy way to learn -- `tutorial`
+- [Software Architecture Patterns](https://www.oreilly.com/content/software-architecture-patterns/) - A deep dive into several common software architecture patterns -- `collection`
 - [Software Engineering at Google SEAGnotes](https://www.seagnotes.com) - Notes from the book, by me -- `notes`
 - [Software Engineering at Google Lessons Learned from Programming Over Time](https://abseil.io/resources/swe_at_google.2.pdf) - Free electronic copy of the book -- `book`
 - [Software Testing Guide](https://martinfowler.com/testing/) - A collection of articles by Martin Fowler and friends, the best source for learning how to test properly -- `collection`
+- [SQL Window Functions Cheat Sheet](https://learnsql.com/blog/sql-window-functions-cheat-sheet/) - Oh bby -- `collection`
 - [Step-by-Step Enterprise Architecture Tutorial with TOGAF](https://www.visual-paradigm.com/guide/enterprise-architecture/step-by-step-enterprise-architecture-tutorial-with-togaf-adm/) - An excellent summary -- `tutorial`
 - [System Design Primer](https://github.com/donnemartin/system-design-primer) - Learn how to design large-scale systems -- `article`
 - [Teach Yourself Computer Science](https://teachyourselfcs.com/) - 9 subjects, they choose the best free source to learn each subject and explain why that source is the best - they did the research for you -- `collection`
 - [Team Topologies](https://danlebrero.com/2021/01/20/team-topologies-summary/) - Notes from the book -- `notes`
 - [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/) - SWE / dev-centric -- `tutorial`
 - [Technical Writing by Google](https://developers.google.com/tech-writing/one) - Technical writing, training by Google -- `tutorial`
+- [Technology Radar](https://www.thoughtworks.com/radar) - Covers tools, techniques, platforms, and languages & frameworks, updated quarterly, by Thoughtworks -- `collection`
 - [Ten Strategies of a World-Class Cybersecurity Operations Center](https://www.mitre.org/sites/default/files/publications/pr-13-1028-mitre-10-strategies-cyber-ops-center.pdf) - Best practices by MITRE -- `article`
 - [The Early Security Engineer’s First 100 Days Checklist](https://www.docdroid.net/file/download/jx8ERKW/first-security-engineer-checklist-pdf.pdf) - Aims to help security engineers and CISOs in early stage companies to prioritize their efforts in the first months of their new job -- `list`
 - [The Illustrated TLS Connection](https://tls.ulfheim.net/) - Every byte of a TLS connection explained and reproduced -- `article`
