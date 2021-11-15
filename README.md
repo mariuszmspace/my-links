@@ -157,6 +157,7 @@
 - [AWS Amplify](https://github.com/aws-amplify) - Front end JS suite that provides a templated foundation for cloud-centric apps including authn, analytics, API, push notifications, Graph QL, and more -- `JavaScript`
 - [AWS Controllers for Kubernetes (ACK)](https://github.com/aws-controllers-k8s/community) - Lets you define and use AWS service resources directly from Kubernetes -- `Golang`
 - [AWS Config Rules Repository](https://github.com/awslabs/aws-config-rules) - Community driven -- `collection`
+- [AWS Connect Manager](https://github.com/JozefJarosciak/AWS-Connect-Manager) - Open-source Windows GUI tool to simplify connecting to Amazon AWS EC2 instances -- `various lang`
 - [AWS Copilot](https://aws.github.io/copilot-cli/) - OSS CLI to build, release, and operate apps for ECS and Fargate -- `Golang`
 - [AWS Encryption CLI](https://docs.aws.amazon.com/encryption-sdk/latest/developer-guide/crypto-cli.html) - CLI for KMS -- `Python`
 - [AWS Extend Switch Roles](https://github.com/tilfin/aws-extend-switch-roles) - Extend your AWS IAM switching roles by Chrome extension or Firefox add-on -- `JavaScript`
@@ -168,13 +169,16 @@
 - [AWS SAM Local](https://github.com/awslabs/aws-sam-local) - CLI tool for local development and testing of Lambda applications -- `Golang`
 - [AWS Samples](https://github.com/aws-samples) - Over 2k code samples for all AWS services -- `collection`
 - [AWS Secrets Manager and Configuration Provider (ASCP)](https://docs.aws.amazon.com/secretsmanager/latest/userguide/integrating_csi_driver.html) - Plugin for the industry-standard Kubernetes Secrets Store Container Storage Interface (CSI) Driver used for providing secrets to applications operating on EKS -- `Golang`
+- [AWS Secure Environment Accelerator](https://github.com/aws-samples/aws-secure-environment-accelerator) - Designed to help deploy and operate secure multi-account, multi-region AWS environments on an ongoing basis -- `various lang`
 - [AWS Toolbox](https://github.com/dannysteenman/aws-toolbox) - AWS scripts, tools, and snippits -- `collection`
 - [AWS Toolkit for Visual Studio Code](https://aws.amazon.com/visualstudiocode/) - Give it a go -- `various lang`
 - [AWS Tools for PowerShell](https://aws.amazon.com/powershell/) - Use an automation language instead of a programming langue -- `various lang`
 - [Azucar](https://github.com/nccgroup/azucar) - Multi-threaded plugin-based tool to help you assess the security of your Azure Cloud environment -- `PowerShell`
 - [AzCopy](https://github.com/Azure/azure-storage-azcopy) - CLI to copy data to and from containers and file shares in Azure Storage accounts -- `Golang`
+- [AzureHunter](https://github.com/darkquasar/AzureHunter) - Cloud forensics Powershell module to run threat hunting playbooks on data from Azure and O365 -- `PowerShell`
 - [Azure Arc](https://techcommunity.microsoft.com/t5/itops-talk-blog/azure-arc-for-cloud-solutions-architects/ba-p/2521928?WT.mc_id=modinfra-23500-thmaure) - Multi-cloud + on-prem control plane to centralize hybrid management, magical -- `cloud`
 - [Azure Cloud Guardrails](https://github.com/salesforce/cloud-guardrails) - Rapidly cherry-pick cloud security guardrails by generating Terraform files that create Azure Policy Initiatives, by Salesforce -- `Python pip`
+- [Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local) - Develop and test your functions on your local computer from the command prompt or terminal -- `various lang`
 - [Azure Governance Visualizer](https://github.com/JulianHayward/Azure-MG-Sub-Governance-Reporting) - Granular insights on your technical Azure Governance implementation -- `PowerShell`
 - [Azure Kubernetes Service (AKS) Baseline Cluster](https://github.com/mspnp/aks-secure-baseline) - Reference implementation demonstrates the recommended starting (baseline) infrastructure architecture for a general purpose AKS cluster, by Microsoft -- `various lang`
 - [Azure Official Terraform Modules](https://github.com/orgs/Azure/repositories?q=terraform-azurerm) - By Microsoft -- `collection`
@@ -184,14 +188,17 @@
 - [Azure Resource Manager (ARM) Tools for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=msazurermtools.azurerm-vscode-tools) - Language support, resource snippets, and resource auto-completion -- `various lang`
 - [Azure Resource Manager (ARM) Viewer for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=bencoleman.armview) - Graphical preview of ARM templates -- `various lang`
 - [Azure Sentinel ATT&CK](https://github.com/BlueTeamLabs/sentinel-attack) - Tools to rapidly deploy a threat hunting capability on Azure Sentinel that leverages Sysmon and MITRE ATT&CK --`various lang`
+- [Azure Sentinel KQL](https://github.com/basedfir/awesomekql/) - Examples, breakdowns, and code snippits -- `collection`
 - [Azure Service Operator](https://github.com/Azure/azure-service-operator) - Helps you provision Azure resources and connect your applications to them from within Kubernetes and kubectl -- `Golang`
 - [Azure StigRepo](https://github.com/microsoft/StigRepo) - Automate and customize configurations that are compliant with Security Technical Implementation Guides (STIGs) owned and released by the Defense Information Systems Agency (DISA) -- `PowerShell`
 - [Azure Tenant Security (AzTS)](https://github.com/azsk/AzTS-docs) - Used to obtain visibility to cloud subscriptions and resource configuration across multiple subscriptions in an enterprise environment, official tool by Microsoft -- `various lang`
 - [Azure VM Comparison](https://azureprice.net/) - Find and compare Azure Virtual Machines specs and pricing on one page across different tiers, payment types, and regions -- `in-browser`
+- [BloodHound](https://github.com/BloodHoundAD/BloodHound) - Easily identify highly complex attack paths that would otherwise be impossible to quickly identify. Defenders can use BloodHound to identify and eliminate those same attack paths -- `various lang`
 - [boto3](https://boto3.readthedocs.io/en/latest/) - The AWS SDK for Python 3 -- `Python`
 - [boto3_type_annotations](https://github.com/vemel/mypy_boto3_builder) - Adds code completion in IDEs such as PyCharm -- `Python`
 - [botostubs](https://github.com/jeshan/botostubs) - boto3 code assistance for any API in any IDE, always up to date -- `Python`
 - [Brainboard](https://www.brainboard.co/) - Visually build & manage cloud infrastructures, paid, worth it -- `SaaS`
+- [CDK-dia](https://github.com/pistazie/cdk-dia) - Automated diagrams for AWS CDK infrastructure -- `various lang`
 - [Chalice](https://github.com/aws/chalice) - Microframework for writing and testing serverless apps in Python -- `Python`
 - [Chamber](https://github.com/segmentio/chamber) - Parameter Store + IAM for secrets including at rest protection, audit trail, and access control policies, by Segment -- `Golang`
 - [Chrome AWS SAML Token Expiry Reminder (CASTER)](https://chrome.google.com/webstore/detail/chrome-aws-saml-token-exp/mbfkedefmlagincpblmgeeeehhamgpbn?hl=en-US) - Automatically re-logs into AWS via ADFS before credentials expire -- `Chrome`
@@ -220,6 +227,7 @@
 - [eksctl](https://eksctl.io/) - CLI tool for creating and managing clusters on AWS EKS -- `Golang`
 - [EKS Boilerplate](https://github.com/maddevsio/aws-eks-base) - IaC boilerplate in mostly Terraform -- `various lang`
 - [EKS Distro](https://distro.eks.amazonaws.com/) - Use me for multi-cloud EKS -- `various lang`
+- [Falco](https://falco.org/) - CNCF incubated, multi-cloud security rule language to monitor for suspicious activity -- `neat`
 - [Fargate](https://github.com/jpignata/fargate) - CLI for AWS Fargate, unofficial -- `Golang`
 - [Force MFA](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_users-self-manage-mfa-and-creds.html) - Allows users to manage their own passwords and MFA devices but nothing else unless they authenticate with MFA, also makes API calls require MFA -- `policy`
 - [Former2](https://github.com/iann0036/former2) - Generate CloudFormation / Terraform / Troposphere templates from your existing AWS resources via self-hosted web GUI -- `JavaScript`
@@ -237,6 +245,8 @@
 - [Lambda Powertools](https://awslabs.github.io/aws-lambda-powertools-python/latest/) - Suite of utilities for AWS Lambda functions to ease adopting best practices such as tracing, structured logging, custom metrics, and more, by Amazon -- `Python pip`
 - [localstack](https://github.com/localstack/localstack) - A fully functional local AWS cloud stack for offline dev and test -- `Python`
 - [MicroBurst](https://github.com/NetSPI/MicroBurst) - A PowerShell toolkit for attacking Azure -- `Powershell`
+- [Microsoft Security Tools by Zolderio](https://github.com/zolderio/microsoft) - Tools to secure O365 and Azure, by Zolder -- `various lang`
+- [Mitre ATT&CK Mappings for Amazon GuardDuty](https://github.com/amrandazz/attack-guardduty-navigator) - For AWS -- `various lang`
 - [Moto](https://github.com/spulec/moto) - Library that allows your Python tests to easily mock out the boto library -- `Python pip`
 - [My Arsenal of AWS Security Tools](https://github.com/toniblyx/my-arsenal-of-aws-security-tools) - List of open source tools for AWS security: defensive, offensive, auditing, DFIR, etc -- `collection`
 - [onelogin-python-aws-assume-role](https://github.com/onelogin/onelogin-python-aws-assume-role) - Assume an AWS Role and get temporary credentials using Onelogin -- `Python pip`
@@ -247,6 +257,7 @@
 - [s4cmd](https://github.com/bloomreach/s4cmd) - s3cmd with additional features -- `Python`
 - [Scout Suite](https://github.com/nccgroup/ScoutSuite) - Multi-cloud security-auditing tool, which enables security posture assessment of cloud environments. Using the APIs exposed by cloud providers, Scout Suite gathers configuration data for manual inspection and highlights risk areas -- `various lang`
 - [Security Stack Mappings](https://github.com/center-for-threat-informed-defense/security-stack-mappings) - Maps Azure and AWS product security controls to MITRE ATT&CK -- `collection`
+- [Sentinel ATT&CK](https://github.com/BlueTeamLabs/sentinel-attack) - Leverages Sysmon and MITRE ATT&CK on Azure Sentinel -- `various lang`
 - [Serverless (formerly JAWS)](https://github.com/jaws-stack/JAWS) - Javascript + AWS stack, the entire backend is Lambda functions, server-free -- `JavaScript`
 - [Serverless by Design](https://github.com/danilop/ServerlessByDesign) - In-browser or self-hosted GUI for making flow charts for serverless apps -- `various lang`
 - [Serverless Stack Toolkit (SST)](https://serverless-stack.com/) - extension of AWS CDK that includes a live Lambda dev environment and more -- `JavaScript`
@@ -996,7 +1007,7 @@
 - [Shinken](http://www.shinken-monitoring.org/) - Nagios-compatible monitoring, supports high availability -- `Python`
 - [SigNoz](https://github.com/SigNoz/signoz) - OSS alternative to New Relic and DataDog -- `Golang`
 - [Statping](https://github.com/statping/statping) - THE BEST simple all in one monitoring solution, with mobile app, great for home/small networks -- `OMG`
-- [Uptime Kuma](https://github.com/louislam/uptime-kuma) - Self-hosted monitoring tool like "Uptime Robot" -- `various lang`
+- [Uptime Kuma](https://github.com/louislam/uptime-kuma) - Self-hosted monitoring tool like Uptime Robot or Statuspage -- `various lang`
 - [Xymon](https://www.xymon.com/) - Fork of Big Brother -- `C`
 - [Zabbix](https://www.zabbix.com/) - Stores monitoring data in a DB, has agents for almost every OS, can be a virtual appliance -- `various lang`
 - [Zenoss Core](https://www.zenoss.com/get-started) - Supports Nagios plug-in format, based on the Zope application server -- `Python`
@@ -1339,7 +1350,7 @@
 > Tools for interacting with and related to the major DBs and SQL
 
 - [Adminer](https://www.adminer.org/) - GUI for database management in a single PHP, formerally phpMyAdmin -- `PHP`
-- [Babelfish for PostgreSQL] - Layer that lets PostgreSQL understand queries from applications written for Microsoft SQL Server including T-SQL and TDS, by Amazon -- `various lang`
+- [Babelfish for PostgreSQL](https://www.babelfishpg.org/) - Layer that lets PostgreSQL understand queries from applications written for Microsoft SQL Server including T-SQL and TDS, by Amazon -- `various lang`
 - [CockroachDB](https://www.cockroachlabs.com/) - Open source version of Google's Spanner storage system -- `thefuture` `Golang`
 - [DBeaver](https://dbeaver.io/) - OSS multi-platform GUI that supports almost every DB, built from Eclipse -- `Eclipse`
 - [DB Browser for SQLite](http://sqlitebrowser.org/) - GUI database browser for SQLite instances -- `C++`
@@ -1519,12 +1530,14 @@
 - [Jailkit](https://olivier.sessink.nl/jailkit/) - chroot toolkit -- `C`
 - [Joe's Sandbox (Cloud Basic)](https://www.joesandbox.com/) - Deep automated malware analysis -- `in-browser`
 - [Kali NetHunter Linux Root Toolkit (LRT)](https://github.com/offensive-security/nethunter-LRT) - Collection of bash scripts that setup and install Kali Linux NetHunter from a Linux/OSX environment onto a NetHunter supported device -- `shell`
+- [LDAP Password Hunter](https://github.com/oldboy21/LDAP-Password-Hunter) - Wraps features of getTGT.py (Impacket) and ldapsearch in order to look up for password stored in LDAP database -- `shell`
 - [LinEnum](https://github.com/rebootuser/LinEnum) - Enumerate a local Linux environment -- `shell`
 - [Lynis](https://github.com/CISOfy/lynis) - Auditing and hardening tool (CIS, PCI-DSS, etc), supports most Unix-like operating systems -- `shell`
 - [Malcom](https://github.com/idaholab/Malcolm) - Easily deployable network analysis tool suite for full packet capture artifacts (PCAP files) and Zeek logs -- `various lang`
 - [Massscan](https://github.com/robertdavidgraham/masscan) - Scans in parallel and async for the fastest scans around -- `C`
 - [Metasploit](https://www.metasploit.com/) - Classic exploit framework -- `various lang`
 - [MicroBurst](https://github.com/NetSPI/MicroBurst) - A PowerShell toolkit for attacking Azure -- `Powershell`
+- [Microsoft Security Tools by Zolderio](https://github.com/zolderio/microsoft) - Tools to secure O365 and Azure, by Zolder -- `various lang`
 - [MITRE ATT&CK](https://attack.mitre.org/) - Knowledge base of adversary tactics and techniques based on real-world observations, used for threat modeling -- `collection`
 - [MobSF (Mobile Security Framework)](https://github.com/MobSF/Mobile-Security-Framework-MobSF) - Automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis -- `various lang`
 - [National Checklist Program](https://nvd.nist.gov/ncp/repository) - U.S. government repository of publicly available security checklists (or benchmarks) that provide detailed low level guidance on setting the security configuration of operating systems and applications -- `collection`
@@ -2056,6 +2069,7 @@
 > Everything else
 
 - [Adblock Radio](https://github.com/adblockradio/adblockradio) - An adblocker for live radio streams and podcasts -- `various lang`
+- [Alma Linux](https://almalinux.org/) - A replacement for CentOS which was discontinued in Dec 2020 by IBM in favor of CentOS Stream -- `operating system`
 - [Animated Knots](https://www.animatedknots.com/) - For business or pleasure -- `collection`
 - [Anti-Ablock Killer](https://reek.github.io/anti-adblock-killer/) - Keep your ad-blocker active when pages take anti-blocking measures, requires Greasemonkey or similar -- `JavaScript`
 - [AppLock](https://play.google.com/store/apps/details?id=com.sp.protector.free) - Lock individual apps on Android -- `Java`
@@ -2102,6 +2116,7 @@
 - [IPTV](https://github.com/iptv-org/iptv) - Collection of 8000+ publicly available IPTV channels from all over the world -- screw off Bundesliga -- `collection`
 - [JustWatch](https://www.justwatch.com/) - Search for movies and TV across dozens of streaming services, it shows you which services it is available on, and you can click to watch, app and in-browser -- `collection`
 - [Kanopy](https://www.kanopystreaming.com/) - Streaming movies for USA public library members -- `explore yours today`
+- [Kodi](https://kodi.tv/) - Open source home theater, run me on a Pi, think open source Fire Stick / Roku / Apple TV / TV app store / etc -- `various lang`
 - [L3AF](https://l3af.io/) - Complete lifecycle management of eBPF programs in the kernel, by Wal-Mart -- `various lang`
 - [Libby](https://meet.libbyapp.com/) - App for ebooks and audio books for USA public library members, from OverDrive -- `explore yours today` `Android` `iOS` `Windows 10`
 - [Library Extension](https://www.libraryextension.com/) - Browser extension that shows you which Amazon books are available free at your local libraries, please donate -- `closed source`
@@ -2130,6 +2145,7 @@
 - [Privacy Badger](https://www.eff.org/privacybadger) - The best in-browser privacy and anti-tracking tool, by the EFF (donate) -- `Chrome` `Firefox`
 - [PrivacyTools.io](https://www.privacytools.io/) - All in one collection, web site source is on GitHub -- `collection`
 - [Puffer](https://puffer.stanford.edu/) - Re-transmits free over-the-air broadcast television signals received by an antenna located on the campus of Stanford University, USA geo-locked, by Stanford Platform Lab and many others -- `in-browser` `Android`
+- [Redfish](https://en.wikipedia.org/wiki/Redfish_(specification)) - An industry standard protocol providing a RESTful interface for the management of servers, storage, networking, and converged infrastructure -- `article`
 - [repl.it](https://repl.it/languages) - In-browser REPLs for a ton of languages -- `in-browser`
 - [RISC-V](https://riscv.org/) - The open source CPU that can run at >5Ghz while using 1/100th the power of a Xeon E7 -- `hardware`
 - [Rocky Linux](https://rockylinux.org/) - A replacement for CentOS which was discontinued in Dec 2020 by IBM in favor of CentOS Stream -- `operating system`
@@ -2150,6 +2166,7 @@
 - [uBlock Origin](https://github.com/gorhill/uBlock) - Ad blocker, only use Origin, do not use another uBlock -- `Firefox` `Chrome`
 - [unPaywall](https://unpaywall.org/) - When you view a paywalled scholarly article, Unpaywall automatically checks its open database of 28 million legal, open-access articles and tells you if you can get it elsewhere for free -- `JavaScript`
 - [WhosHere](https://github.com/curtbraz/whoshere) - Monitor an area for WiFi and Bluetooth probe requests to see when people (devices) come and go, with web UI and IFTTT webhook integraiton for Slack/SMS pushes -- `PHP`
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp) - A youtube-dl fork with additional features and fixes -- `various lang`
 
 ---
 
@@ -2175,6 +2192,7 @@
 - [arc42 Documentation](https://arc42.org/documentation/) - Pragmatic, open source way to construct, communicate and document your software architecture -- `tutorial`
 - [ArchiMate Cookbook](https://www.hosiaisluoma.fi/blog/archimate/) - Patterns and examples and a great blog by Eero Hosiaisluoma -- `collection`
 - [Architecture of Open Source Applications](http://www.aosabook.org/en/) - The authors of four dozen open source applications explain how their software is structured, and why -- `collection`
+- [Awesome AWS Security](https://github.com/jassics/awesome-aws-security) - Name -- `collection`
 - [Awesome System Design](https://github.com/madd86/awesome-system-design) - System Designing articles, videos and resources for distributed computing -- `collection`
 - [AWS Architecture Center](https://aws.amazon.com/architecture/) - Reference architecture diagrams, vetted architecture solutions, Well-Architected best practices, patterns, icons, and more -- `collection`
 - [AWS Breaking Changes](https://github.com/SummitRoute/aws_breaking_changes) - List of changes announced for AWS that may break existing code -- `collection`
@@ -2182,10 +2200,12 @@
 - [AWS Case Studies](https://aws.amazon.com/solutions/case-studies/) - Excellent for understanding motivations and designs -- `collection`
 - [AWS CDK Workshop](https://cdkworkshop.com/) - AWS CDK workshop, official -- `tutorial`
 - [AWS CLI Cheat Sheet](https://github.com/eon01/AWS-CheatSheet) - See name -- `tutorial`
+- [AWS Courses](https://www.amazon.com/courses) - 100+, created by AWS experts -- `collection`
 - [AWS EKS Best Practices](https://aws.github.io/aws-eks-best-practices/) - By Amazon, contributions welcome -- `collection`
 - [AWS Hands-On Tutorials](https://aws.amazon.com/getting-started/hands-on/?awsf.getting-started-content-type=content-type%23hands-on) - From Amazon -- `collection`
 - [AWS in Bullet Points](https://github.com/undergroundwires/AWS-in-bullet-points) - Certification-centric -- `collection`
 - [AWS SaaS Tenant Isolation Strategies](https://d1.awsstatic.com/whitepapers/saas-tenant-isolation-strategies.pdf) - By AWS -- `article`
+- [AWS Security Incident Response Guide](https://docs.aws.amazon.com/whitepapers/latest/aws-security-incident-response-guide/welcome.html) - Whitepaper by AWS -- `article`
 - [AWS Security Maturity Roadmap](https://summitroute.com/downloads/aws_security_maturity_roadmap-Summit_Route.pdf) - A series or actionable steps to improve the security of their AWS environments, updated annually -- `collection`
 - [AWS Security Reference Architecture](https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/architecture.html) - Updated mid-2021 -- `collection`
 - [AWS Solutions Library](https://aws.amazon.com/solutions/) - Includes reference architectures -- `collection`
@@ -2201,10 +2221,12 @@
 - [AWS - SaaS Tenant Isolation Strategies](https://d1.awsstatic.com/whitepapers/saas-tenant-isolation-strategies.pdf) - By AWS -- `article`
 - [AWS - This is my Architecture](https://aws.amazon.com/architecture/this-is-my-architecture/) - Short videos where people quickly explain their architecture, so cool -- `collection`
 - [AWS - Weird Behaviors in S3 Bucket Policies](https://github.com/elfakyn/knowledge/blob/master/src/cloud/aws/services/s3_bucket_policy_weird_behaviors.md) - Documented weirdness of S3 buckets -- `collection`
+- [Azure AD - Attack and Defense Playbook](https://github.com/Cloud-Architekt/AzureAD-Attack-Defense) - Collection of various common attack scenarios on Azure Active Directory and how they can be mitigated or detected -- `collection`
 - [Azure Arc Jumpstart](https://azurearcjumpstart.io/) - Learn Azure Arc in no time -- `tutorial`
 - [Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/) - Guidance for architecting solutions on Azure using established patterns and practices -- `collection`
 - [Azure Cloud Adoption Framework](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/) - Collection of documentation, implementation guidance, best practices, and tools that are proven guidance from Microsoft designed to accelerate your cloud adoption journey -- `collection`
 - [Azure Cloud Adoption Framework - Enterprise-scale Architecture](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/architecture) - An excellent reference pattern -- `article`
+- [Azure Data Security](https://docs.microsoft.com/en-us/azure/azure-monitor/logs/data-security) - More topics in the left sidebar -- `article`
 - [Azure DevOps Labs](https://azuredevopslabs.com/) - Self-paced -- `training`
 - [Azure DevOps Master Class](https://github.com/johnthebrit/DevOpsMC) - Videos and hands on, by John Savill -- `collection`
 - [Azure in Bullet Points](https://github.com/undergroundwires/Azure-in-bullet-points) - Super fast way to learn Azure and prep for certifications at the same time -- `collection`
@@ -2213,10 +2235,13 @@
 - [Azure Readiness Checklist](https://azurechecklist.com/) - Are you ready to go to prod on Azure? Use this checklist to find out -- `collection`
 - [Azure Security Benchmark](https://docs.microsoft.com/en-us/security/benchmark/azure/) - Azure security best practices by Microsoft -- `collection`
 - [Azure Security Best Practices Checklist](https://nuvento.com/blog/top-100-azure-security-best-practices-checklist/) - A list of 100 items -- `collection`
+- [Azure Security Technical Capabilities](https://docs.microsoft.com/en-us/azure/security/fundamentals/technical-capabilities) - An introduction to all important / core services -- `article`
 - [Azure Servces IO](https://azureservices.io/) - A visual representation of Azure services. Services interconnections, reference to availability by regions and other quick references -- `in-browser`
 - [Azure Service Authentication and Authorization Table](https://github.com/jsa2/aad-auth-n-z) - For reviewing service authentication and authorization security options in Azure – especially cross-service security -- `collection`
+- [Azure Storage Encryption for Data at Rest](https://docs.microsoft.com/en-us/azure/storage/common/storage-service-encryption) - Name -- `article`
 - [Azure Tips and Tricks](https://microsoft.github.io/AzureTipsAndTricks/) - 100s of tips from community and real world scenarios, please contribute -- `collection`
 - [Azure Well-Architected Framework](https://docs.microsoft.com/en-us/azure/architecture/framework/) - Guiding tenets that can be used to improve the quality of a cloud workload -- `article`
+- [Azure - Introduction to Azure Security](https://docs.microsoft.com/en-us/azure/security/fundamentals/overview) - Name -- `article`
 - [BBR NKOTB](https://blog.apnic.net/2017/05/09/bbr-new-kid-tcp-block/) - Excellent article that explains BBR and compares it to traditional TCP congestion and loss algorithms -- `article`
 - [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/) - Little how-to guide on network programming using Internet sockets -- `tutorial`
 - [Beyond the 12 Factor App](https://tanzu.vmware.com/content/ebooks/beyond-the-12-factor-app) - Free ebook, by Pivotal -- `book`
@@ -2249,6 +2274,7 @@
 - [Design Patterns for Humans](https://github.com/kamranahmedse/design-patterns-for-humans) - An ultra-simplified explanation of repeatable software design patterns -- `article`
 - [DevDocs](https://devdocs.io/) - Documentation browser for almost every API -- `collection`
 - [Devhints](https://devhints.io/) - Rico's dev & ops cheat sheets, nice little collection -- `collection`
+- [DevOps Exercises](https://github.com/bregman-arie/devops-exercises) - Large number of Qs and As for DevOps tools and techniques, wow! -- `collection`
 - [DevOps Maturity Framework](https://github.com/adidas/adidas-devops-maturity-framework/blob/master/framework/devops_maturity_framework.md) - Categorized by crawl/walk/run, also Google terms like "DevOps maturity model" for similar ideas, by Adidas -- `tutorial`
 - [DevSecOps Maturity Model](https://dsomm.timo-pagel.de/) - Provides opportunities to harden DevOps strategies and shows how these can be prioritized, by OWASP -- `tutorial`
 - [Digital Forensics and Incident Response Cheat Sheet](https://www.jaiminton.com/cheatsheet/DFIR/#) - Covers everything, it's like a billion pages and completely detailed -- `collection`
@@ -2270,7 +2296,6 @@
 - [Everything You Should Know About Certificates and PKI](https://smallstep.com/blog/everything-pki.html) - Easy to understand tutorial -- `tutorial`
 - [Free Cyber Resources](https://www.simplycyber.io/free-cyber-resources) - Biiiiig collection of learning resources -- `collection`
 - [Free Programming Books](https://ebookfoundation.github.io/free-programming-books/) - Thousands -- `collection`
-- [GKE Security Scenarios Demo](https://github.com/GoogleCloudPlatform/gke-security-scenarios-demo) - Demonstrates a series of best practices for improving the security of containerized applications deployed to Kubernetes Engine -- `various lang`
 - [GlossaryTech](https://glossarytech.com/) - Browser addon to learn tech terms with easy to understand defintions -- `JavaScript`
 - [Golang - Build Web Application with Golang](https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/) - Follow along -- `tutorial`
 - [Golang - go-perfbook](https://github.com/dgryski/go-perfbook) - Outlines best practices for writing high-performance Go code -- `article`
@@ -2290,6 +2315,7 @@
 - [Google Cloud Setup Checklist](https://cloud.google.com/docs/enterprise/setup-checklist) - Onboarding doc, by Google -- `collection`
 - [Google Cloud - A giant list of Google Cloud resources](https://cloud.google.com/blog/topics/developers-practitioners/giant-list-google-cloud-resources) - From Google -- `collection`
 - [Google Cloud - GKE Demo](https://github.com/ilya-lesikov/gke-demo) - Demonstration of complete, fully-featured CI/CD and cloud automation for microservices, done with GCP/GKE -- `various lang`
+- [Google Cloud - GKE Security Scenarios Demo](https://github.com/GoogleCloudPlatform/gke-security-scenarios-demo) - Demonstrates a series of best practices for improving the security of containerized applications deployed to Kubernetes Engine -- `various lang`
 - [Google Cloud - Preparing a Google Kubernetes Engine Environment for Production](https://cloud.google.com/solutions/prep-kubernetes-engine-for-prod) - The best GKE summary, covers everything -- `collection`
 - [Google's Technical Development Guide](https://techdevguide.withgoogle.com/) - Hands on, free, self-paced courses to help you develop your programming skills -- `collection`
 - [Gravitational Workshops](https://github.com/gravitational/workshop) - Docker, Kubernetes, and Gravity training -- `collection`
@@ -2360,6 +2386,7 @@
 - [Map of Cybersecurity Domains](https://derechodelared.com/wp-content/uploads/2021/04/Cybersecurity-Domains-Map-3.0.pdf) - Image that shows all areas of cybersecurity, version 3.0 -- `collection`
 - [Memory Management Reference](http://www.memorymanagement.org/index.html) - All in one reference for memory management and garbage collection -- `collection`
 - [Microservices Design Patterns](https://microservices.io/patterns/index.html) - A great foundation -- `collection`
+- [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) - Includes many Azure courses -- `collection`
 - [Microsoft REST API Guidelines](https://github.com/microsoft/api-guidelines/blob/vNext/Guidelines.md) - By Google.  haha -- `article`
 - [Missing Semester of Your CS Education](https://missing.csail.mit.edu/) - Git, vim, shell, metaprogramming, security, and more - by MIT -- `tutorial`
 - [MIT 6.006 Introduction to Algorithms, Fall 2011](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) - The most frequently recommended DS&A course -- `tutorial`
