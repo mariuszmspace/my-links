@@ -155,6 +155,7 @@
 - [awspec](https://github.com/k1LoW/awspec) - rspec for AWS resources -- `Ruby gem`
 - [AWSSupport-SetupIPMonitoringFromVPC](https://aws.amazon.com/blogs/networking-and-content-delivery/debugging-tool-for-network-connectivity-from-amazon-vpc/) - SSM Automation document that launches a Monitor Instance in the specified subnet. The Monitor Instance pushes subnet network telemetry data to CloudWatch Logs -- `article`
 - [AWS Amplify](https://github.com/aws-amplify) - Front end JS suite that provides a templated foundation for cloud-centric apps including authn, analytics, API, push notifications, Graph QL, and more -- `JavaScript`
+- [AWS CloudFormation Guard](https://github.com/aws-cloudformation/cloudformation-guard) - Provides developers with a simple-to-use, yet powerful and expressive domain-specific language (DSL) to define policies and enables developers to validate JSON or YAML formatted structured data with those policies -- `Rust`
 - [AWS Controllers for Kubernetes (ACK)](https://github.com/aws-controllers-k8s/community) - Lets you define and use AWS service resources directly from Kubernetes -- `Golang`
 - [AWS Config Rules Repository](https://github.com/awslabs/aws-config-rules) - Community driven -- `collection`
 - [AWS Connect Manager](https://github.com/JozefJarosciak/AWS-Connect-Manager) - Open-source Windows GUI tool to simplify connecting to Amazon AWS EC2 instances -- `various lang`
@@ -197,7 +198,7 @@
 - [boto3](https://boto3.readthedocs.io/en/latest/) - The AWS SDK for Python 3 -- `Python`
 - [boto3_type_annotations](https://github.com/vemel/mypy_boto3_builder) - Adds code completion in IDEs such as PyCharm -- `Python`
 - [botostubs](https://github.com/jeshan/botostubs) - boto3 code assistance for any API in any IDE, always up to date -- `Python`
-- [Brainboard](https://www.brainboard.co/) - Visually build & manage cloud infrastructures, paid, worth it -- `SaaS`
+- [Brainboard](https://www.brainboard.co/) - Visually build & manage cloud infrastructures, outputs Terraform code from the diagram, paid, worth it -- `SaaS`
 - [CDK-dia](https://github.com/pistazie/cdk-dia) - Automated diagrams for AWS CDK infrastructure -- `various lang`
 - [Chalice](https://github.com/aws/chalice) - Microframework for writing and testing serverless apps in Python -- `Python`
 - [Chamber](https://github.com/segmentio/chamber) - Parameter Store + IAM for secrets including at rest protection, audit trail, and access control policies, by Segment -- `Golang`
@@ -214,10 +215,12 @@
 - [CloudTracker](https://github.com/duo-labs/cloudtracker) - Find over-privileged IAM users and roles by comparing CloudTrail logs with current IAM policies. -- `Python`
 - [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian) - Rules engine for managing public cloud accounts and resources via policies, by Capital One -- `various lang`
 - [Cloud Security Suite (cs-suite)](https://github.com/SecurityFTW/cs-suite) - One stop tool for auditing the security posture of AWS/GCP/Azure infrastructure -- `Python pip`
+- [Cloud Spanner Emulator](https://cloud.google.com/spanner/docs/emulator) - For Google Cloud / GCP, official -- `various lang`
 - [ClusterCloner](https://github.com/doitintl/ClusterCloner) - Reads the Kubernetes clusters in one location (optionally filtering by labels) and clones them into another (or just outputs JSON as a dry run), to/from AWS, GCP, and Azure -- `Golang`
 - [Complete AWS IAM Reference](https://iam.cloudonaut.io/) - Unofficial but concise -- `collection`
 - [credstash](https://github.com/fugue/credstash) - Secrets management using AWS KMS -- `Python pip`
 - [CrowdStrike Reporting Tool for Azure (CRT)](https://github.com/CrowdStrike/CRT) - Quickly and easily review excessive permissions in their Azure AD environments to help determine configuration weaknesses and provide advice to mitigate this risk -- `PowerShell`
+- [Diagrams](https://diagrams.mingrammer.com/) - Diagrams lets you draw the cloud system architecture in Python code, it was born for prototyping a new system architecture without any design tools, diagram as code -- `Python`
 - [Disposible Cloud Environment (DCE)](https://dce.readthedocs.io/en/latest/home.html) - Temporary, limited Amazon Web Services (AWS) accounts. Accounts can be “leased” for a period of time or up to a pre-determined budget amount. When the period of time is reached or the maximum budgeted amount is exceeded, the lease is expired -- `Golang`
 - [eb_deploy](https://github.com/ThoughtWorksStudios/eb_deployer) - Elastic Beanstalk blue-green deployment automation -- `Ruby gem`
 - [EB CLI](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3.html) - CLI for Elastic Beanstalk -- `Python`
@@ -243,6 +246,7 @@
 - [kappa](https://github.com/garnaat/kappa) - CLI tool that makes it easier to deploy, update, and test Lambda functions -- `Python`
 - [kinesis-scaling-tools](https://github.com/awslabs/amazon-kinesis-scaling-utils) - Tools to make Kinesis shards scale like ASGs -- `Java`
 - [Lambda Powertools](https://awslabs.github.io/aws-lambda-powertools-python/latest/) - Suite of utilities for AWS Lambda functions to ease adopting best practices such as tracing, structured logging, custom metrics, and more, by Amazon -- `Python pip`
+- [Little Bigtable](https://github.com/bitly/little_bigtable) - Emulator for Google Bigtable w/ persistence in sqlite3 -- `Golang`
 - [localstack](https://github.com/localstack/localstack) - A fully functional local AWS cloud stack for offline dev and test -- `Python`
 - [MicroBurst](https://github.com/NetSPI/MicroBurst) - A PowerShell toolkit for attacking Azure -- `Powershell`
 - [Microsoft Security Tools by Zolderio](https://github.com/zolderio/microsoft) - Tools to secure O365 and Azure, by Zolder -- `various lang`
@@ -251,6 +255,7 @@
 - [My Arsenal of AWS Security Tools](https://github.com/toniblyx/my-arsenal-of-aws-security-tools) - List of open source tools for AWS security: defensive, offensive, auditing, DFIR, etc -- `collection`
 - [onelogin-python-aws-assume-role](https://github.com/onelogin/onelogin-python-aws-assume-role) - Assume an AWS Role and get temporary credentials using Onelogin -- `Python pip`
 - [ParallelCluster](https://aws.amazon.com/hpc/parallelcluster/) - AWS supported Open Source cluster management tool to deploy and manage HPC clusters in the AWS cloud -- `Python`
+- [PlantUML](https://plantuml.com/) - Formal diagramming software, supports C4, Mindmap, Archimate, and more -- `Java`
 - [Prowler](https://github.com/toniblyx/prowler) - For AWS account security assessment and hardening, based on aws-cli commands -- `shell`
 - [refunc](https://github.com/refunc/refunc) - Run AWS Lambda on Kubernetes, a Lambda-compatable API -- `Golang`
 - [s3cmd](https://s3tools.org/s3cmd) - Backup to AWS via the command line -- `Python`
@@ -275,6 +280,7 @@
 - [Steampipe Mod - GCP Compliance Mod](https://hub.steampipe.io/mods/turbot/gcp_compliance) - Run individual configuration, compliance and security controls or full compliance benchmarks for CIS, Forseti Security and CFT Scorecard for all your GCP projects -- `Golang`
 - [StormSpotter](https://github.com/Azure/Stormspotter) - Creates an “attack graph” of the resources in an Azure subscription. It enables red teams and pentesters to visualize the attack surface and pivot opportunities within a tenant -- `Python`
 - [Stout](https://github.com/cloudflare/Stout) - Easy way to reliably upload a static website to S3, capable of configuring CloudFront and Route 53 -- `Golang`
+- [Superwerker](https://aws.amazon.com/quickstart/architecture/superwerker/) - Open-source solution that lets you quickly set up an AWS Cloud environment following best practices for security and efficiency, built by AWS Advanced Partners -- `various lang`
 - [taskcat](https://github.com/aws-quickstart/taskcat) - Tool that tests AWS CloudFormation templates. It deploys your AWS CloudFormation template in multiple AWS Regions and generates a report with a pass/fail grade for each region, by AWS -- `Python`
 - [TerraCognita](https://github.com/cycloidio/terracognita) - Imports your current cloud infrastructure to Terraform configuration (HCL) or/and to a Terraform State -- `various lang`
 - [Terraformer](https://github.com/GoogleCloudPlatform/terraformer) - Generate Terraform files from existing infrastructure (reverse Terraform), supports AWS and GCP, by Google -- `Golang`
@@ -753,6 +759,7 @@
 - [Terraforming](https://terraforming.dtan4.net/) - Export all AWS resources into Terraform -- `Ruby gem`
 - [Terragoat](https://github.com/bridgecrewio/terragoat) - Learning and training project that demonstrates how common configuration errors can find their way into production Terraform cloud environments -- `various lang`
 - [Terragrunt](https://github.com/gruntwork-io/terragrunt) - Tools for keeping your Terraform configurations DRY, working with multiple Terraform modules, and managing remote state -- `Golang`
+- [Terragrunt Atlantis Config](https://github.com/transcend-io/terragrunt-atlantis-config) - Generate Atlantis Config for Terragrunt projects -- `Golang`
 - [Terragrunt Reference Architecture (AWS)](https://github.com/antonbabenko/terragrunt-reference-architecture) - Nice, looking forward to their GCP one -- `various lang`
 - [Terratest](https://github.com/gruntwork-io/terratest) - Makes it easier to write automated tests for your infrastructure code, provides a variety of helper functions and patterns for common infrastructure testing tasks -- `Golang`
 - [tflint](https://github.com/wata727/tflint) - Terraform linter for detecting errors that can not be detected by terraform plan -- `Golang`
@@ -1030,6 +1037,7 @@
 - [CERT NetSA Security Suite](https://tools.netsa.cert.org/) - Network flow analysis tools -- `various lang`
 - [Cyberduck](https://cyberduck.io/) - GUI FTP, SFTP, WebDAV, S3 & OpenStack Swift browser for Mac and Windows -- `itsaduck`
 - [Data Plane Development Kit (DPDK)](http://dpdk.org/) - Data plane libraries and framework for fast packet processing -- `C`
+- [dog](https://github.com/ogham/dog) - DNS CLI like dig but the new hotness -- `Rust`
 - [dsniff](https://www.monkey.org/~dugsong/dsniff/) - Great for level 2 analysis or service spoofing -- `C`
 - [ElastiFlow](https://github.com/robcowart/elastiflow) - Netflow collection and visualization using the ELK stack -- `various lang`
 - [ExaBGP](https://github.com/Exa-Networks/exabgp) - The BGP swiss army knife of networking -- `Python pip`
@@ -1480,6 +1488,7 @@
 - [Armitage](http://www.fastandeasyhacking.com/) - GUI for Metasploit -- `Java`
 - [asecurecloud](https://asecure.cloud/) - A free library of 400+ customizable AWS security configurations and best practices (CF, Terraform, and AWS CLI) -- `collection`
 - [ATA Secure Erase](https://ata.wiki.kernel.org/index.php/ATA_Secure_Erase) - Send a signal to an ATA drive to perform a hardware-based erase, the ONLY way to wipe a SSD properly -- `article`
+- [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) - Library of tests mapped to the MITRE ATT&CK® framework. Security teams can use Atomic Red Team to quickly, portably, and reproducibly test their environments -- `Ruby`
 - [Attack Surface Analyzer 2.0](https://github.com/microsoft/AttackSurfaceAnalyzer) - See exactly what changed post-OS install or post-software install, by Microsoft -- `Windows`
 - [Attack Surface Framework](https://github.com/vmware-labs/attack-surface-framework) - ASF will discover assets/subdomains, enumerate their ports and services, track deltas and serve as a continuous and flexible attacking and alerting framework -- `various lang`
 - [auditd-attack](https://github.com/bfuzzy1/auditd-attack) - A Linux Auditd rule set mapped to MITRE's Attack Framework -- `collection`
@@ -1543,6 +1552,7 @@
 - [National Checklist Program](https://nvd.nist.gov/ncp/repository) - U.S. government repository of publicly available security checklists (or benchmarks) that provide detailed low level guidance on setting the security configuration of operating systems and applications -- `collection`
 - [National Software Reference Library (NSRL)](https://www.nist.gov/software-quality-group/national-software-reference-library-nsrl) - Large collection of diskprints from various software and malware -- `collection`
 - [National Vulnerability Database](https://nvd.nist.gov/) - Gotta catch em all -- `collection`
+- [NetworkMiner](https://www.netresec.com/?page=NetworkMiner) - Network Forensic Analysis Tool (NFAT) for parsing PCAP files, paid version is worth it -- `open and closed source`
 - [Nikto2](https://cirt.net/Nikto2) - Web & app server vulnerability scanner -- `perl`
 - [nmap](https://nmap.org/) - Classic port scanner -- `various lang`
 - [nmap_vulners](https://github.com/vulnersCom/nmap-vulners) - Emumerate and list vulnerabilities during an nmap scan similar to Nessus -- `collection`
@@ -2080,6 +2090,7 @@
 - [AutoIT](https://www.autoitscript.com/site/) - Scriptable GUI input for Windows (think AutoHotKey) but with a BASIC-like syntax -- `closed source`
 - [Backstage](https://github.com/backstage/backstage) - Unifies all your infrastructure tooling, services, and documentation with a single, consistent UI so developers can easily provision and view their resources -- `various lang`
 - [Bypass Paywalls](https://github.com/iamadamdev) - Shhh -- `Firefox` `Chrome`
+- [c4builder](https://adrianvlupu.github.io/C4-Builder/#/?id=overview) - Lightweight nodejs cli tool for building, maintaining and sharing a software architecture project using only text, combines PlantUML C4Model, Markdown, and more -- `various lang`
 - [CheapCharts](https://www.cheapcharts.info/) - Historic price trends for digital movies and TV on iTunes, Vudu, Amazon Prime, and similar -- `collection`
 - [Clone Wars](https://github.com/GorvGoyl/Clone-Wars) - Open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Trello, Whatsapp, Youtube, etc -- `various lang`
 - [conserver](http://www.conserver.com/) - Virtual console server with many features (multi-user, console log history, etc) -- `C`
@@ -2156,6 +2167,7 @@
 - [Secure Messaging Apps](https://www.securemessagingapps.com/) - True comparison of the technical features and merits of various apps, which are TRULY secure? -- `collection`
 - [SessionBox](https://chrome.google.com/webstore/detail/sessionbox-multi-login-to/megbklhjamjbcafknkgmokldgolkdfig) - Use websites with multiple accounts at the same time made easy -- `Chrome`
 - [Spectacle](https://www.spectacleapp.com/) - Control desktop windows via keyboard shortcuts -- `Objective C`
+- [SponsorBlock](https://chrome.google.com/webstore/detail/sponsorblock-for-youtube/mnjggcdmjocbbbhaepdhchncahnbgone?hl=en) - Skip sponsorships, subscription begging and more on YouTube videos. Report sponsors on videos you watch to save others' time -- `Chrome`
 - [StackStorm](https://github.com/StackStorm/st2) - IFTTT for Ops, auto-remediation -- `Python`
 - [Stack on a Budget](https://github.com/255kb/stack-on-a-budget) - Collection of services with great free tiers for developers on a budget, excellent for learning -- `collection`
 - [Steps Recorder (aka Problem Steps Recorder)](https://support.microsoft.com/en-us/help/22878/windows-10-record-steps) - Windows 7+, user records themselves reproducing a problem, they send video to you, you playback -- `closed source`
@@ -2245,10 +2257,12 @@
 - [BBR NKOTB](https://blog.apnic.net/2017/05/09/bbr-new-kid-tcp-block/) - Excellent article that explains BBR and compares it to traditional TCP congestion and loss algorithms -- `article`
 - [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/) - Little how-to guide on network programming using Internet sockets -- `tutorial`
 - [Beyond the 12 Factor App](https://tanzu.vmware.com/content/ebooks/beyond-the-12-factor-app) - Free ebook, by Pivotal -- `book`
+- [Business Architecture Body of Knowledge (BIZBOK)](https://www.businessarchitectureguild.org/page/BIZBOK) - Is to business architects what ITIL is to IT leaders, represents a framework of best practices and disciplines for business architects, [overview blog entry](https://www.bmc.com/blogs/bizbok-introduction/), free membership required -- `article`
 - [Bookshop.org](https://bookshop.org/) - Bookshop is an online bookstore with a mission to financially support local, independent bookstores - ditch Amazon! -- `check it`
 - [Borg, Omega, and Kubernetes - Lessons Learned from 3 Container Management Systems Over a Decade](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf) - Paper by Google -- `article`
 - [Browser Fingerprinting - What Is It and What Should You Do About It](https://pixelprivacy.com/resources/browser-fingerprinting/) - An in-depth article with actionable tutorials -- `article`
 - [Building Secure & Reliable Systems](https://static.googleusercontent.com/media/sre.google/en//static/pdf/building_secure_and_reliable_systems.pdf) - The third SRE book from Google, free -- `book`
+- [Building Security In Maturity Model (BSIMM)](https://www.bsimm.com/) - A BSIMM assessment empowers you to analyze and benchmark your software security program against 100+ organizations across several industry verticals. It’s an objective, data-driven analysis from which to base decisions of resources, time, budget, and priorities as you seek to improve your security posture -- `article`
 - [Business Technology Architecture Body of Knowledge (BTABoK)](https://itabok.iasaglobal.org/) - New v3 and renamed version of [Information Technology Architecture Body of Knowledge (ITABoK)](https://itabok.iasaglobal.org/itabok-1/), a free public archive of IT architecture best practices, skills, and knowledge developed from the experience of individual and corporate members of IASA -- `collection`
 - [C4 Model](https://c4model.com/) - A modern approach for visualising software architecture -- `article`
 - [Center for Humane Technology](https://www.humanetech.com/) - Non-profit working to expose the effects of persuasive technology -- `join`
@@ -2270,6 +2284,8 @@
 - [Cyber Exercise Playbook](https://www.mitre.org/sites/default/files/publications/pr_14-3929-cyber-exercise-playbook.pdf) - Blue team exercises, by MITRE -- `collection`
 - [Cyber Security Book of Knowledge (CyBOK)](https://www.cybok.org/knowledgebase1_1/) - Aims to bring cyber security into line with the more established sciences by distilling knowledge from major internationally-recognised experts -- `collection`
 - [Databases by Daniel Soper](https://www.youtube.com/watch?v=4Z9KEBexzcM&list=PL1LIXLIF50uXWJ9alDSXClzNCMynac38g&index=1) - From the ground up, personally recommended -- `tutorial`
+- [Data Management at Scale: Best Practices for Enterprise Architecture](https://www.oreilly.com/library/view/data-management-at/9781492054771/) - By O'Reilly, 2020 -- `book`
+- [Data Management Body of Knowledge (DAMA-DMBOK2))](https://www.dama.org/cpages/body-of-knowledge) - v2 updated 2017, the data management bible -- `book`
 - [Design Patterns](https://sourcemaking.com/design_patterns) - Wonderful collection of software development design patterns with examples, includes anti-patterns and refactoring guidelines -- `collection`
 - [Design Patterns for Humans](https://github.com/kamranahmedse/design-patterns-for-humans) - An ultra-simplified explanation of repeatable software design patterns -- `article`
 - [DevDocs](https://devdocs.io/) - Documentation browser for almost every API -- `collection`
@@ -2291,6 +2307,7 @@
 - [Engineering Blogs](https://github.com/kilimchoi/engineering-blogs) - A collection -- `collection`
 - [Engineering Blogs Newsfeed](https://engineeringblogs.xyz/) - 500+ blogs, includes OPML feed, amazing collection, please contribute! -- `collection`
 - [Enterprise Architecture on a Page](http://eaonapage.com/) - One-page aggregated view of popular EA artifacts used in organizations with their most essential properties -- `tutorial`
+- [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com/) - Technology-independent vocabulary and a visual notation to design and document integration solutions -- `book`
 - [eShop on Dapr](https://github.com/dotnet-architecture/eShopOnDapr) - An example using .NET Core -- `various lang`
 - [Every Programmer Should Know...](https://github.com/mtdvio/every-programmer-should-know) - A collection of (mostly) technical things every software developer should know -- `collection`
 - [Everything You Should Know About Certificates and PKI](https://smallstep.com/blog/everything-pki.html) - Easy to understand tutorial -- `tutorial`
@@ -2322,6 +2339,7 @@
 - [Hashicorp Learn](https://learn.hashicorp.com/) - Official training for Vault, Consul, Terraform, Vagrant, Packer, and Nomad -- `training`
 - [HEAD](https://htmlhead.dev/) - A free guide to HTML5 <head> elements -- `collection`
 - [High Performance Browser Networking](https://hpbn.co/) - What every web developer needs to know about the various types of networks (WiFi, 3G/4G), transport protocols (UDP, TCP, and TLS), application protocols (HTTP/1.1, HTTP/2), and APIs available in the browser (XHR, WebSocket, WebRTC, and more) -- `book`
+- [HIPAA Security Rule Crosswalk to NIST Cybersecurity Framework](https://www.hhs.gov/guidance/document/hipaa-security-rule-crosswalk-nist-cybersecurity-framework) - Title -- `article`
 - [How Complex Systems Fail](https://how.complexsystems.fail/) - Paper by MIT, a great read for operations -- `article`
 - [How They SRE](https://github.com/upgundecha/howtheysre) - A curated collection of publicly available resources on how technology and tech-savvy organizations around the world practice Site Reliability Engineering (SRE) -- `collection`
 - [How to Ask Good Questions](https://jvns.ca/blog/good-questions/) - By Julia Evans -- `article`
@@ -2372,6 +2390,7 @@
 - [Linux - blktrace how-to](https://old.reddit.com/r/sysadmin/comments/1ib3rl/beyond_iostat_storage_performance_analysis_with/) -- `mount -t debugfs debugfs /sys/kernel/debug && blktrace -d /dev/md2 -o - | blkparse -i -` -- `article`
 - [Linux - Command Line Text Processing](https://github.com/learnbyexample/Command-line-text-processing) - awk grep sed etc - interactive tutorial for newbies -- `tutorial`
 - [Linux - Explain Shell](https://explainshell.com/) - Enter a command-line to see the help text that matches each argument -- `in-browser`
+- [Linux - How to Use Dig](https://jvns.ca/blog/2021/12/04/how-to-use-dig/) - Great little blog post -- `article`
 - [Linux - In Defense of Swap](https://chrisdown.name/2018/01/02/in-defence-of-swap.html) - Well informed article about why you need some swap -- `article`
 - [Linux - Introduction to Linux](https://www.edx.org/course/introduction-to-linux) - Endorsed by Linus himself, via edX -- `course`
 - [Linux - ltrace Tutorial](https://webcache.googleusercontent.com/search?q=cache:k388vTAv6tYJ:https://developers.redhat.com/blog/2014/07/10/ltrace-for-rhel-6-and-7/+&cd=1&hl=en&ct=clnk&gl=us&client=firefox-b-1-ab) - ltrace (library call tracer) tutorial by Red Hat -- `article`
@@ -2384,6 +2403,8 @@
 - [Linux - Unix Rosetta Stone](http://bhami.com/rosetta.html) - The one and only resource for a mixed Linux/Unix environment -- `translator`
 - [Linux - USE Method](http://www.brendangregg.com/USEmethod/use-rosetta.html) - Brendan Gregg's rosetta stone for performance analysis and tuning -- `article`
 - [Map of Cybersecurity Domains](https://derechodelared.com/wp-content/uploads/2021/04/Cybersecurity-Domains-Map-3.0.pdf) - Image that shows all areas of cybersecurity, version 3.0 -- `collection`
+- [Mapping PCI DSS to NIST Cybersecurity Framework 1.1](https://blog.pcisecuritystandards.org/nist-mapping) - Blog entry by PCI -- `article`
+- [Mappings Relevant to the SOC Suite of Services](https://us.aicpa.org/interestareas/frc/assuranceadvisoryservices/mappingsrelevanttothesocsuiteofservices) - 2017 TSC Mappings to ISO, NIST, COBIT, and GDPR -- `article`
 - [Memory Management Reference](http://www.memorymanagement.org/index.html) - All in one reference for memory management and garbage collection -- `collection`
 - [Microservices Design Patterns](https://microservices.io/patterns/index.html) - A great foundation -- `collection`
 - [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) - Includes many Azure courses -- `collection`
@@ -2404,7 +2425,9 @@
 - [OpenTelemetry Bootcamp](https://www.aspecto.io/opentelemetry-bootcamp/) - Video series, check it out -- `collection`
 - [OpenVim](http://www.openvim.com/tutorial.html) - In-browser vim tutorial -- `tutorial` `in-browser`
 - [Open Security Architecture](https://www.opensecurityarchitecture.org/cms/library/patternlandscape) - A collection of security architecture patterns, invaluable -- `collection`
+- [OpenSAMM (Software Assurance Maturity Model)](https://www.opensamm.org/) - Open framework to help organizations formulate and implement a strategy for software security that is tailored to the specific risks facing the organization, by OWASP -- `article`
 - [OpenSecurityTraining2](https://opensecuritytraining.info/) - In the spirit of OpenCourseWare and the Khan Academy -- `tutorial`
+- [Open FAIR](https://www.fairinstitute.org/blog/what-is-open-fair-and-who-is-the-open-group) - Blog article about Open FAIR, the cybersecurity risk management quantitative methodology -- `article`
 - [Open Source Intelligence Techniques](https://inteltechniques.com/book1.html) - By the folks who wrote Buscador Investigative Operating System -- `book`
 - [Open Source Security Testing Methodology Manual (OSSTMM)](https://www.isecom.org/research.html) - A complete methodology for the testing, analysis and measurement of operational security towards building the best possible security defenses -- `collection`
 - [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/%7Eremzi/OSTEP/) - Probably the best OS book out there, free -- `book`
@@ -2444,6 +2467,7 @@
 - [Shell Style Guide](https://google.github.io/styleguide/shellguide.html) - By Google -- `collection`
 - [Site Reliability Engineering (SRE) by Google](https://sre.google/sre-book/table-of-contents/) - Full, free, online version of the O'Reilly book -- `the best`
 - [Site Reliability Workbook](https://sre.google/workbook/table-of-contents/) - Free, by Google -- `book`
+- [SOC-CMM](https://soc-cmm.com/introduction/) - Model for measuring capability maturity in security operations centers -- `article`
 - [Sock Shop - A Microservice Demo Application](https://github.com/microservices-demo/microservices-demo) - User-facing part of an online shop that sells socks and using Spring Boot, Go kit and Node.js and is packaged in Docker containers -- `various lang`
 - [Software Architecture Monday by Mark Richards](https://www.youtube.com/channel/UC-Z7T0lAq_xECevIz8E5R5w/videos) - Each episode spends 10 minutes on a different topic, a quick and easy way to learn -- `tutorial`
 - [Software Architecture Patterns](https://www.oreilly.com/content/software-architecture-patterns/) - A deep dive into several common software architecture patterns -- `collection`
@@ -2462,6 +2486,7 @@
 - [The Early Security Engineer’s First 100 Days Checklist](https://www.docdroid.net/file/download/jx8ERKW/first-security-engineer-checklist-pdf.pdf) - Aims to help security engineers and CISOs in early stage companies to prioritize their efforts in the first months of their new job -- `list`
 - [The Illustrated TLS Connection](https://tls.ulfheim.net/) - Every byte of a TLS connection explained and reproduced -- `article`
 - [The Manager's Path](https://github.com/keyvanakbary/learning-notes/blob/master/books/the-managers-path.md) - Concise notes from the book -- `notes`
+- [The Profile by Cyber Risk Institute](https://cyberriskinstitute.org/the-profile/) - Consolidates 2,300+ regulations into 277 diagnostic statements and gives financial institutions one simple framework to rely on, based on ISO and NIST -- `article`
 - [Twelve-Factor App](https://12factor.net/) - Language-independent rules for codebase, dependencies, build/release/run, dev and prod, logs, etc for a cloud/web-centric app -- `collection`
 - [Udemy](https://www.udemy.com) - High quality training courses on any topic for under $15, what a time to be alive -- `collection`
 - [Ultimate List of SANS Cheat Sheets](https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets/) - Need help cutting through the cybersecurity noise? -- `collection`
