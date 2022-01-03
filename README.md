@@ -220,6 +220,7 @@
 - [Complete AWS IAM Reference](https://iam.cloudonaut.io/) - Unofficial but concise -- `collection`
 - [credstash](https://github.com/fugue/credstash) - Secrets management using AWS KMS -- `Python pip`
 - [CrowdStrike Reporting Tool for Azure (CRT)](https://github.com/CrowdStrike/CRT) - Quickly and easily review excessive permissions in their Azure AD environments to help determine configuration weaknesses and provide advice to mitigate this risk -- `PowerShell`
+- [curvy-auditd](https://github.com/zakibro/curvy-auditd) - Repository of Azure Sentinel detections/parser for Linux auditd -- `collection`
 - [Diagrams](https://diagrams.mingrammer.com/) - Diagrams lets you draw the cloud system architecture in Python code, it was born for prototyping a new system architecture without any design tools, diagram as code -- `Python`
 - [Disposible Cloud Environment (DCE)](https://dce.readthedocs.io/en/latest/home.html) - Temporary, limited Amazon Web Services (AWS) accounts. Accounts can be “leased” for a period of time or up to a pre-determined budget amount. When the period of time is reached or the maximum budgeted amount is exceeded, the lease is expired -- `Golang`
 - [eb_deploy](https://github.com/ThoughtWorksStudios/eb_deployer) - Elastic Beanstalk blue-green deployment automation -- `Ruby gem`
@@ -230,7 +231,7 @@
 - [eksctl](https://eksctl.io/) - CLI tool for creating and managing clusters on AWS EKS -- `Golang`
 - [EKS Boilerplate](https://github.com/maddevsio/aws-eks-base) - IaC boilerplate in mostly Terraform -- `various lang`
 - [EKS Distro](https://distro.eks.amazonaws.com/) - Use me for multi-cloud EKS -- `various lang`
-- [Falco](https://falco.org/) - CNCF incubated, multi-cloud security rule language to monitor for suspicious activity -- `neat`
+- [Falco](https://falco.org/) - CNCF incubated, multi-cloud security rule language to monitor for suspicious activity in clouds and k8s -- `neat`
 - [Fargate](https://github.com/jpignata/fargate) - CLI for AWS Fargate, unofficial -- `Golang`
 - [Force MFA](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_users-self-manage-mfa-and-creds.html) - Allows users to manage their own passwords and MFA devices but nothing else unless they authenticate with MFA, also makes API calls require MFA -- `policy`
 - [Former2](https://github.com/iann0036/former2) - Generate CloudFormation / Terraform / Troposphere templates from your existing AWS resources via self-hosted web GUI -- `JavaScript`
@@ -854,6 +855,7 @@
 - [Microk8s](https://microk8s.io/) - Alternative to minikube, by Canonical -- `shell`
 - [minikube](https://kubernetes.io/docs/getting-started-guides/minikube/) - Kubernetes environments on your laptop -- `Golang`
 - [missing-container-metrics](https://github.com/draganm/missing-container-metrics) - Exports container exit code, OOM kill status and number of restarts to Prometheus -- `Golang`
+- [mizu](https://github.com/up9inc/mizu) - API traffic viewer for Kubernetes enabling you to view all API communication between microservices. Think TCPDump and Wireshark re-invented for Kubernetes -- `Golang`
 - [MKIT (Managed Kubernetes Inspection Tool)](https://github.com/darkbitio/mkit) - A quick way to assess several common misconfigurations in their Kubernetes environment (AKS, EKS, GKE) -- `Dockerfile`
 - [Octant](https://octant.dev/) - Web based representation of a Kubernetes cluster, by VMware -- `various lang`
 - [Open Cluster Management](https://github.com/open-cluster-management) - The upstream for Red Hat Advanced Cluster Management, OpenShift-centric -- `various lang`
@@ -1491,7 +1493,7 @@
 - [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) - Library of tests mapped to the MITRE ATT&CK® framework. Security teams can use Atomic Red Team to quickly, portably, and reproducibly test their environments -- `Ruby`
 - [Attack Surface Analyzer 2.0](https://github.com/microsoft/AttackSurfaceAnalyzer) - See exactly what changed post-OS install or post-software install, by Microsoft -- `Windows`
 - [Attack Surface Framework](https://github.com/vmware-labs/attack-surface-framework) - ASF will discover assets/subdomains, enumerate their ports and services, track deltas and serve as a continuous and flexible attacking and alerting framework -- `various lang`
-- [auditd-attack](https://github.com/bfuzzy1/auditd-attack) - A Linux Auditd rule set mapped to MITRE's Attack Framework -- `collection`
+- [auditd-attack](https://github.com/bfuzzy1/auditd-attack) - A Linux auditd rule set mapped to MITRE's Attack Framework -- `collection`
 - [authconv](https://github.com/authcov/authcov) - Web app authorization coverage scanning -- `JavaScript`
 - [Autopsy](https://sleuthkit.org/autopsy/) - Great for grabbing artifacts for DIFR -- `closed source`
 - [Awesome Honeypots](https://github.com/paralax/awesome-honeypots) - Curated collection of honepots and honeypot resources -- `collection`
@@ -1532,6 +1534,7 @@
 - [Hybrid Analysis](https://www.hybrid-analysis.com/) - Dree malware analysis service that detects and analyzes unknown threats using a unique _Hybrid Analysis_ -- `in-browser`
 - [icebreaker](https://github.com/DanMcInerney/icebreaker) - Automates internal network attacks against Active Directory to deliver you plaintext credentials -- `various lang`
 - [Information Security Cheat Sheets and Checklists](https://zeltser.com/cheat-sheets/) - An assortment of IS checklists and cheat sheets, -- `collection`
+- [IPv6 Attack Toolkit](https://github.com/vanhauser-thc/thc-ipv6) - Title -- `collection`
 - [Jenkins Pentesting](https://github.com/gquere/pwn_jenkins) - Title, please contribute -- `various lang`
 - [Just the Basics (JTB) Investigator](https://github.com/Th3J0kr/jtb_investigator) - Simple menu & CLI to automate repetitive everyday tasks -- `Python`
 - [geoiplookup](https://linux.die.net/man/1/geoiplookup) - Uses the GeoIP DB and library to determine which physical country an IP or host originates in, includes PAM library -- `built-in`
@@ -1676,6 +1679,7 @@
 - [Bazel](https://bazel.build/) - Google's build system -- `Java`
 - [Binary Optimization and Layout Tool (BOLT)](https://github.com/facebookincubator/BOLT) - A linux command-line utility used for optimizing performance of binaries, by Facebook -- `various lang`
 - [Buildbot](https://buildbot.net/) - CI framework -- `Python`
+- [Conventional Commits](https://www.conventionalcommits.org/) - Specification that provides an easy set of rules for creating an explicit commit history; which makes it easier to write automated tools on top of -- `article`
 - [Create React App](https://github.com/facebook/create-react-app) - Create React apps with no build configuration, webpack and Babel are handled behind the scenes, by Facebook -- `various lang`
 - [cwrap](https://cwrap.org/) - Wrappers for creating test scenarios and faking behavior/ stubbing, mostly network focused, by the Samba guys -- `C`
 - [dev-setup](https://github.com/donnemartin/dev-setup) - Automated setup scripts for laptop tools like Sublime Text, AWS, Spark, Android dev, and more -- `collection`
@@ -2082,6 +2086,7 @@
 - [Alma Linux](https://almalinux.org/) - A replacement for CentOS which was discontinued in Dec 2020 by IBM in favor of CentOS Stream -- `operating system`
 - [Animated Knots](https://www.animatedknots.com/) - For business or pleasure -- `collection`
 - [Anti-Ablock Killer](https://reek.github.io/anti-adblock-killer/) - Keep your ad-blocker active when pages take anti-blocking measures, requires Greasemonkey or similar -- `JavaScript`
+- [Annie](https://github.com/iawia002/annie) - Fast and simple video download library and CLI tool written in Go -- `Golang`
 - [AppLock](https://play.google.com/store/apps/details?id=com.sp.protector.free) - Lock individual apps on Android -- `Java`
 - [Architecture Decision Record](https://github.com/joelparkerhenderson/architecture_decision_record) - Document that captures an important architectural decision made along with its context and consequences -- `template`
 - [Archive.org aka The Internet Archive aka The Wayback Machine](https://archive.org/) - Yo donate, this is beyond important -- `the biggest collection`
@@ -2102,6 +2107,7 @@
 - [Dashkiosk](https://github.com/vincentbernat/dashkiosk) - Manage dashboards on multiple screens, simple and effective -- `JavaScript`
 - [DevOps Conferences](http://www.gotodevops.org/) - Add and remove via PR, please contribute -- `collection`
 - [Discount for Student Dev](https://github.com/AchoArnold/discount-for-student-dev) - Programming and DevOps related discounts for .edu addresses, updated frequently, please contribute -- `collection`
+- [Downtify](https://github.com/eviabs/downtify-premium) - Open source Spotify downloader -- `various lang`
 - [Etcher](https://www.balena.io/etcher/) - SD card writing software, easy -- `various lang`
 - [Exploit Database](https://www.exploit-db.com/) - Collection of current and past exploits -- `collection`
 - [f.lux](https://justgetflux.com/) - Changes your screen from blue light to yellow light when the sun sets to tell your brain it's night time -- `closed source` `OS X` `Windows`
@@ -2125,6 +2131,7 @@
 - [ICANN Domain Lookup](https://lookup.icann.org/) - Use this when searching for a domain to buy because they cannot use your searches to jack up the price -- `in-browser`
 - [inxi](https://github.com/smxi/inxi) - "a full featured system information script" (hardware info, etc) -- `shell`
 - [IPTV](https://github.com/iptv-org/iptv) - Collection of 8000+ publicly available IPTV channels from all over the world -- screw off Bundesliga -- `collection`
+- [Jellyfin](https://jellyfin.org/) - OSS alternative to Plex -- `various lang`
 - [JustWatch](https://www.justwatch.com/) - Search for movies and TV across dozens of streaming services, it shows you which services it is available on, and you can click to watch, app and in-browser -- `collection`
 - [Kanopy](https://www.kanopystreaming.com/) - Streaming movies for USA public library members -- `explore yours today`
 - [Kodi](https://kodi.tv/) - Open source home theater, run me on a Pi, think open source Fire Stick / Roku / Apple TV / TV app store / etc -- `various lang`
@@ -2202,6 +2209,7 @@
 - [API design guide](https://cloud.google.com/apis/design) - By Google, maybe the best -- `article`
 - [API Security Maturity Model](https://curity.io/resources/learn/the-api-security-maturity-model/) - By Curity -- `article`
 - [arc42 Documentation](https://arc42.org/documentation/) - Pragmatic, open source way to construct, communicate and document your software architecture -- `tutorial`
+- [archi_cloudnative](https://github.com/alberttwong/archi_cloudnative) - Cloud native architectural models using Archi, Red Hat-centric -- `collection`
 - [ArchiMate Cookbook](https://www.hosiaisluoma.fi/blog/archimate/) - Patterns and examples and a great blog by Eero Hosiaisluoma -- `collection`
 - [Architecture of Open Source Applications](http://www.aosabook.org/en/) - The authors of four dozen open source applications explain how their software is structured, and why -- `collection`
 - [Awesome AWS Security](https://github.com/jassics/awesome-aws-security) - Name -- `collection`
@@ -2216,6 +2224,7 @@
 - [AWS EKS Best Practices](https://aws.github.io/aws-eks-best-practices/) - By Amazon, contributions welcome -- `collection`
 - [AWS Hands-On Tutorials](https://aws.amazon.com/getting-started/hands-on/?awsf.getting-started-content-type=content-type%23hands-on) - From Amazon -- `collection`
 - [AWS in Bullet Points](https://github.com/undergroundwires/AWS-in-bullet-points) - Certification-centric -- `collection`
+- [AWS re:Post](https://repost.aws/) - Official site for AWS questions and answers, like StackOverflow -- `neat`
 - [AWS SaaS Tenant Isolation Strategies](https://d1.awsstatic.com/whitepapers/saas-tenant-isolation-strategies.pdf) - By AWS -- `article`
 - [AWS Security Incident Response Guide](https://docs.aws.amazon.com/whitepapers/latest/aws-security-incident-response-guide/welcome.html) - Whitepaper by AWS -- `article`
 - [AWS Security Maturity Roadmap](https://summitroute.com/downloads/aws_security_maturity_roadmap-Summit_Route.pdf) - A series or actionable steps to improve the security of their AWS environments, updated annually -- `collection`
@@ -2295,6 +2304,7 @@
 - [DevSecOps Maturity Model](https://dsomm.timo-pagel.de/) - Provides opportunities to harden DevOps strategies and shows how these can be prioritized, by OWASP -- `tutorial`
 - [Digital Forensics and Incident Response Cheat Sheet](https://www.jaiminton.com/cheatsheet/DFIR/#) - Covers everything, it's like a billion pages and completely detailed -- `collection`
 - [Distributed Systems 3rd Edition](https://www.distributed-systems.net/index.php/books/ds3/) - By Tanenbaum et all -- `book`
+- [Dive Into Systems](https://diveintosystems.org/) - Free, online textbook that serves as a gentle introduction to computer systems, computer organization, and parallel computing - intended for an audience that has only a CS1 background -- `book`
 - [Docker Curriculum](https://docker-curriculum.com/) - One-stop shop for getting your hands dirty with Docker -- `tutorial`
 - [Docker Handbook](https://docker.farhan.info/) - Free book contributions welcome -- `book`
 - [Docker Security Cheatsheet](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html) - By OWASP -- `tutorial`
@@ -2306,6 +2316,7 @@
 - [Effective Engineer](https://gist.github.com/rondy/af1dee1d28c02e9a225ae55da2674a6f) - Notes from the book The Effective Engineer -- `book`
 - [Engineering Blogs](https://github.com/kilimchoi/engineering-blogs) - A collection -- `collection`
 - [Engineering Blogs Newsfeed](https://engineeringblogs.xyz/) - 500+ blogs, includes OPML feed, amazing collection, please contribute! -- `collection`
+- [Enterprise Architecture](https://github.com/justinamiller/EnterpriseArchitecture) - EA summarized in about 30 pages -- `tutorial`
 - [Enterprise Architecture on a Page](http://eaonapage.com/) - One-page aggregated view of popular EA artifacts used in organizations with their most essential properties -- `tutorial`
 - [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com/) - Technology-independent vocabulary and a visual notation to design and document integration solutions -- `book`
 - [eShop on Dapr](https://github.com/dotnet-architecture/eShopOnDapr) - An example using .NET Core -- `various lang`
@@ -2376,6 +2387,7 @@
 - [Kubernetes - Cloud Native DevOps with Kubernetes](https://www.amzn.com/1492040762) - Highly recommended -- `book`
 - [Kubernetes - Play with Kubernetes](https://labs.play-with-k8s.com/) - A simple, interactive and fun playground to learn Kubernetes in your browser, by Docker -- `in-browser`
 - [Kubernetes - What Happens When... Kubernetes Edition](https://github.com/jamiehannaford/what-happens-when-k8s) - Walks through what happens behind the scenes when you do a kubectl run -- `tutorial`
+- [Lambda the Terraform Way](https://github.com/nsriram/lambda-the-terraform-way) - A tutorial to understand AWS Lambda in-depth using Terraform -- `training`
 - [Latency: A Primer](https://igor.io/latency/) - Web-app centric, defines all the terms you need to know then puts the knowledge together -- `article`
 - [LearnXinYMinutes](https://learnxinyminutes.com/) - Super fast tutorials for almost every programming language -- `collection`
 - [Leetcode Patterns](https://github.com/seanprashad/leetcode-patterns) - Helps you to focus on repeatedly applying common patterns rather than randomly tackling questions -- `collection`
@@ -2474,9 +2486,11 @@
 - [Software Engineering at Google SEAGnotes](https://www.seagnotes.com) - Notes from the book, by me -- `notes`
 - [Software Engineering at Google Lessons Learned from Programming Over Time](https://abseil.io/resources/swe_at_google.2.pdf) - Free electronic copy of the book -- `book`
 - [Software Testing Guide](https://martinfowler.com/testing/) - A collection of articles by Martin Fowler and friends, the best source for learning how to test properly -- `collection`
+- [Solution Architecture Patterns](https://github.com/chanakaudaya/solution-architecture-patterns) - Reusable, vendor-neutral, industry-specific, vendor-specific solution architecture patterns for enterprise -- `collection`
 - [SQL Window Functions Cheat Sheet](https://learnsql.com/blog/sql-window-functions-cheat-sheet/) - Oh bby -- `collection`
 - [Step-by-Step Enterprise Architecture Tutorial with TOGAF](https://www.visual-paradigm.com/guide/enterprise-architecture/step-by-step-enterprise-architecture-tutorial-with-togaf-adm/) - An excellent summary -- `tutorial`
-- [System Design Primer](https://github.com/donnemartin/system-design-primer) - Learn how to design large-scale systems -- `article`
+- [System Design Primer](https://github.com/donnemartin/system-design-primer) - Learn how to design large-scale systems, interview-centric -- `article`
+- [Systems Engineering Body of Knowledge (SEBoK)](https://www.sebokwiki.org) - Provides a guide to the key knowledge sources and references of systems engineering -- `book`
 - [Teach Yourself Computer Science](https://teachyourselfcs.com/) - 9 subjects, they choose the best free source to learn each subject and explain why that source is the best - they did the research for you -- `collection`
 - [Team Topologies](https://danlebrero.com/2021/01/20/team-topologies-summary/) - Notes from the book -- `notes`
 - [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/) - SWE / dev-centric -- `tutorial`
@@ -2487,6 +2501,7 @@
 - [The Illustrated TLS Connection](https://tls.ulfheim.net/) - Every byte of a TLS connection explained and reproduced -- `article`
 - [The Manager's Path](https://github.com/keyvanakbary/learning-notes/blob/master/books/the-managers-path.md) - Concise notes from the book -- `notes`
 - [The Profile by Cyber Risk Institute](https://cyberriskinstitute.org/the-profile/) - Consolidates 2,300+ regulations into 277 diagnostic statements and gives financial institutions one simple framework to rely on, based on ISO and NIST -- `article`
+- [TOGAF Content Metamodel Ontology](https://github.com/cadmiumkitty/togaf-content-metamodel-ontology) - Title -- `collection`
 - [Twelve-Factor App](https://12factor.net/) - Language-independent rules for codebase, dependencies, build/release/run, dev and prod, logs, etc for a cloud/web-centric app -- `collection`
 - [Udemy](https://www.udemy.com) - High quality training courses on any topic for under $15, what a time to be alive -- `collection`
 - [Ultimate List of SANS Cheat Sheets](https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets/) - Need help cutting through the cybersecurity noise? -- `collection`
