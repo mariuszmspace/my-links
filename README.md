@@ -97,6 +97,7 @@
 - [Quastor Daily](https://quastor.org/)
 - [Re/Code](https://recode.net/)
 - [SD Times](https://sdtimes.com/)
+- [SecurityNews](https://github.com/BeanBagKing/SecurityNews)
 - [Security News RSS Feeds](https://github.com/cudeso/OPML-Security-Feeds)
 - [TechCrunch](https://techcrunch.com/)
 - [Technology Radar](https://www.thoughtworks.com/radar)
@@ -147,6 +148,7 @@
 - [aws-gate](https://github.com/xen0l/aws-gate) - Connect to instances by other means (e.g. DNS, IP, tag, instance name, autoscaling group) -- `Python pip`
 - [aws-shell (formerly Supercharged AWS CLI (SAWS))](https://github.com/awslabs/aws-shell) - The best CLI for interacting with AWS -- `Python pip`
 - [aws-ssm-tree](https://github.com/brunorubin/aws-ssm-tree) - Provides a tree visualization of the parameters hierarchy from AWS System Manager Parameter Store -- `Python pip`
+- [aws-sso-tool](https://github.com/benkehoe/aws-sso-util) - CLI to Smooth out the rough edges of AWS SSO -- `Python pip`
 - [aws-vault](https://github.com/99designs/aws-vault) - A vault for securely storing and accessing AWS credentials in development environments -- `Golang`
 - [apilogs](https://github.com/rpgreen/apilogs) - Easy logging and debugging for Amazon API Gateway and AWS Lambda Serverless APIs -- `Python pip`
 - [A giant list of Google Cloud resources](https://cloud.google.com/blog/topics/developers-practitioners/giant-list-google-cloud-resources) - From Google -- `collection`
@@ -207,7 +209,6 @@
 - [CloudCraft](https://cloudcraft.co/) - Create professional AWS architecture diagrams -- `in-browser`
 - [CloudFormation Checklist](https://github.com/jeshan/cloudformation-checklist) - A list of all elements you need to have / to test before launching your infra to production -- `collection`
 - [CloudFormation Designer](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/working-with-templates-cfn-designer.html) - GUI for creating CloudFormation templates, very slick -- `in-browser`
-- [CloudFormation Roadmap](https://github.com/aws-cloudformation/aws-cloudformation-coverage-roadmap) - Official roadmap -- `article`
 - [CloudMapper](https://github.com/duo-labs/cloudmapper) - Generates network diagrams of Amazon Web Services (AWS) environments and displays them via your browser, by Duo Security -- `Python`
 - [Cloudockit](https://www.cloudockit.com/) - Automatically generates diagrams and technical documentation, visualize and document your cloud and on-premises environments, in just a few clicks -- `not free but very good`
 - [CloudSploit](https://github.com/aquasecurity/cloudsploit) - Scans for risks, multi-cloud -- `various lang`
@@ -444,6 +445,7 @@
 - [Lazydocker](https://github.com/jesseduffield/lazydocker) - Terminal UI for both docker and docker-compose -- `Golang`
 - [LinuxKit](https://github.com/linuxkit/linuxkit) - Toolkit for building custom minimal, immutable Linux distributions -- `Golang`
 - [Logspout](https://github.com/gliderlabs/logspout) - Log router for Docker containers -- `Golang`
+- [MicroShift](https://next.redhat.com/2022/01/19/introducing-microshift/) - Repackages OpenShift core components into a single binary that weighs in at a relatively tiny 160MB executable, by Red Hat -- `neat`
 - [Minishift](https://www.openshift.org/minishift/) - OpenShift in a VM for testing / learning -- `Golang`
 - [ngnix-proxy](https://github.com/jwilder/nginx-proxy) - Nginx proxy for Docker containers using docker-gen, recommened -- `Python`
 - [Nomad](https://www.nomadproject.io/) - Highly scalable application, process, and container orchestraction, multi-cloud support -- `Golang`
@@ -810,6 +812,7 @@
 - [Jenkins Kubernetes Plugin](https://wiki.jenkins.io/display/JENKINS/Kubernetes+Plugin) - Use a Kubernetes cluster to dynamically provision a Jenkins agent (using Kubernetes scheduling mechanisms to optimize the loads), run a single build, then tear-down that agent -- `Java`
 - [Jenkins X](https://jenkins-x.io/) - Another Kubernetes deployer -- `various lang`
 - [k3s](https://k3s.io/) - Lighweight Kubernetes in a 40mb binary, built for the edge or laptop or Pi, by Rancher -- `Golang`
+- [k8s-at-home](https://github.com/k8s-at-home/charts) - Helm charts for applications you run at home, a good foundation for standarized charts -- `collection`
 - [k8spurger](https://github.com/yogeshkk/k8spurger) - Delete unused resources in your cluster, default mode is dry run -- `Python`
 - [kaniko](https://github.com/GoogleContainerTools/kaniko) - Build container images from a Dockerfile, inside a container or Kubernetes cluster -- `Golang`
 - [kaim](https://github.com/uswitch/kiam) - Integrate AWS IAM with Kubernetes, associate IAM roles with pods -- `Golang`
@@ -1754,7 +1757,6 @@
 - [cipherscan](https://github.com/jvehent/cipherscan) - Find out which SSL ciphersuites are supported by a target -- `Python`
 - [Dogtag Certificate System](http://pki.fedoraproject.org/wiki/PKI_Main_Page) - PKI component of FreeIPA, by Fedora -- `C`
 - [Fizz](https://github.com/facebookincubator/fizz) - C++14 implementation of the TLS-1.3 standard, by Facebook -- `C++`
-- [HSTS (HTTP Strict Transport Secuirity)](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) - Forces browsers to interact with a site by only using HTTPS -- `article`
 - [HSTS Preload Submission](https://hstspreload.org/) - Submit your site to be preloaded in major browsers -- `security`
 - [Let's Encrypt](https://letsencrypt.org/) - Free SSL certs from a real CA -- `in-browser`
 - [Mozilla Server Side TLS](https://wiki.mozilla.org/Security/Server_Side_TLS) - Mozilla's extensive server side TLS configuration guide -- `wiki`
@@ -1762,7 +1764,6 @@
 - [nogotofail](https://github.com/google/nogotofail) - Spot and fix weak TLS/SSL connections and sensitive cleartext traffic, by Google -- `Python`
 - [Qualys SSL Server Test](https://www.ssllabs.com/ssltest/) - Evaluates and provides recommendations for the SSL settings of any web site -- `in-browser`
 - [s2n](https://github.com/awslabs/s2n) - Amazon's implementation of the TLS/SSL protocols in C99 (simple, small, fast, secure) -- `C`
-- [Server Name Indication (SNI)](https://wiki.apache.org/httpd/NameBasedSSLVHostsWithSNI) - Think vhosts for SSL -- `article`
 - [sslconfig](https://github.com/cloudflare/sslconfig) - CloudFlare's Internet facing SSL cipher configuration, patches for Nginx and OpenSSL -- `C`
 - [ssldump](https://github.com/adulau/ssldump) - The de-facto repo -- `C`
 - [SSLsplit](https://www.roe.ch/SSLsplit) - Transparent and scalable SSL/TLS interception -- `C`
@@ -2121,6 +2122,7 @@
 - [googler](https://github.com/jarun/googler) - Google search, news, and site search from the terminal, slick -- `Python`
 - [Google Advanced Operators for Web Search](https://sites.google.com/site/gwebsearcheducation/advanced-operators) - Search modifiers for more accurate results, by Google -- `collection`
 - [GoodRX](https://www.goodrx.com) - Coupons for prescriptions, vaccines, and more, can be used pre-deductible, USA-centric -- `ez savings`
+- [Google Search Verbatim Mode](https://www.searchenginewatch.com/2011/11/18/google-introduces-verbatim-searching/) - Searches for exactly what you want, no "intelligence" added -- `article`
 - [gosu](https://github.com/tianon/gosu) - Simple Go-based setuid+setgid+setgroups+exec for stepping down privs, use me to avoid weird su and sudo TTY bugs -- `Golang`
 - [Highlight This](https://chrome.google.com/webstore/detail/highlight-this-finds-and/fgmbnmjmbjenlhbefngfibmjkpbcljaj) - Multi-highlight, regex, all data local, tons of features -- `Chrome`
 - [Homomorphic Encryption](https://en.wikipedia.org/wiki/Homomorphic_encryption) - Allows data to be encrypted and out-sourced to 3rd parties for processing, all while encrypted (or remove HIPAA barriers) -- `article`
@@ -2278,10 +2280,11 @@
 - [Chaos Engineering](https://www.oreilly.com/webops-perf/free/chaos-engineering.csp) - Building confidence in system behavior through experiments, free book by Netflix -- `book`
 - [CISO Mindmap](https://rafeeqrehman.com/wp-content/uploads/2021/07/CISO_Job_MindMap_Rafeeq_Rehman_v_2021.pdf) - A collection of the categories and topics that CISOs need to be concerned about, updated annually -- `article`
 - [CIS Policy Template Guide](https://www.cisecurity.org/wp-content/uploads/2020/07/NIST-CSF-Policy-Template-Guide-2020-0720-1.pdf) - Security policy templates, by NIST -- `collection`
+- [CloudFormation Roadmap](https://github.com/aws-cloudformation/aws-cloudformation-coverage-roadmap) - Official roadmap -- `article`
 - [Cloud Comparison - AWS and Azure services to Google Cloud](https://cloud.google.com/free/docs/aws-azure-gcp-service-comparison) - Cheatsheet for all three clouds -- `collection`
 - [Cloud Controls Matrix (CCM) v4](https://cloudsecurityalliance.org/artifacts/cloud-controls-matrix-v4/) - Cybersecurity control framework for cloud computing aligned to the CSA best practices, considered the de-facto standard for cloud security and privacy -- `article`
 - [Cloud Design Patterns](https://docs.microsoft.com/en-us/azure/architecture/patterns/) - Useful for building reliable, scalable, secure applications in the cloud, by Microsoft -- `collection`
-- [Cloud Native Landscape](https://github.com/cncf/landscape) - A map that attempts to categorize most of the projects and product offerings in the cloud native space -- `collection`
+- [Cloud Native Landscape](https://landscape.cncf.io/) - A map that attempts to categorize most of the projects and product offerings in the cloud native space -- `collection`
 - [Cloud Security Kanban](https://theartofservice.com/cloud-security-kanban) - Certify your strategy is involved in various relevant areas of compliance (GLBA, SOC II, information security models and risk assessments, IT audits, vendor management, data breach, and incident management) -- `collection`
 - [Cloud Security Orinteering](https://tldrsec.com/blog/cloud-security-orienteering/) - How to rapidly understand and secure a cloud environment -- `article`
 - [Cloud Threat Modeling](https://cloudsecurityalliance.org/artifacts/cloud-threat-modeling/) - By the CSA -- `article`
@@ -2322,8 +2325,10 @@
 - [eShop on Dapr](https://github.com/dotnet-architecture/eShopOnDapr) - An example using .NET Core -- `various lang`
 - [Every Programmer Should Know...](https://github.com/mtdvio/every-programmer-should-know) - A collection of (mostly) technical things every software developer should know -- `collection`
 - [Everything You Should Know About Certificates and PKI](https://smallstep.com/blog/everything-pki.html) - Easy to understand tutorial -- `tutorial`
+- [FFIEC CAT (Federal Financial Institutions Examination Council Cybersecurity Assessment Tool)](https://www.ffiec.gov/pdf/cybersecurity/FFIEC_CAT_CEO_Board_Overview_June_2015_PDF1.pdf) - Overview for Chief Executive Officers and Boards of Directors for cybersecurity posture assessment and maturity grading, an excellent summary -- `article`
 - [Free Cyber Resources](https://www.simplycyber.io/free-cyber-resources) - Biiiiig collection of learning resources -- `collection`
 - [Free Programming Books](https://ebookfoundation.github.io/free-programming-books/) - Thousands -- `collection`
+- [GitHub Actions by Example](https://www.actionsbyexample.com/) - An introduction to the service through annotated examples -- `tutorial`
 - [GlossaryTech](https://glossarytech.com/) - Browser addon to learn tech terms with easy to understand defintions -- `JavaScript`
 - [Golang - Build Web Application with Golang](https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/) - Follow along -- `tutorial`
 - [Golang - go-perfbook](https://github.com/dgryski/go-perfbook) - Outlines best practices for writing high-performance Go code -- `article`
@@ -2338,15 +2343,18 @@
 - [Google Cloud Best Practices for Enterprise Organizations](https://cloud.google.com/docs/enterprise/best-practices-for-enterprise-organizations) - From Google themselves -- `collection`
 - [Google Cloud Architecture Center](https://cloud.google.com/architecture) - Reference architectures, diagrams, design patterns, guidance, and best practices for building or migrating your workloads on Google Cloud -- `collection`
 - [Google Cloud Microservices Demo](https://github.com/GoogleCloudPlatform/microservices-demo) - Sample cloud-native application with 10 microservices showcasing Kubernetes / GKE, Istio, gRPC and OpenCensus -- `various lang`
+- [Google Cloud Migration Made Easy](https://cloud.google.com/blog/topics/developers-practitioners/google-cloud-migration-made-easy) - Blog entry by Google -- `article`
 - [Google Cloud Security Best Practices Center](https://cloud.google.com/security/best-practices) - Specific, informed guidance on helping secure Google Cloud deployments and describe recommended configurations, architectures, suggested settings, and other operational advice -- `collection`
 - [Google Cloud Security Foundations Guide](https://cloud.google.com/blog/products/identity-security/google-cloud-security-foundations-guide) - An opinionated guide, by Google -- `article`
 - [Google Cloud Setup Checklist](https://cloud.google.com/docs/enterprise/setup-checklist) - Onboarding doc, by Google -- `collection`
 - [Google Cloud - A giant list of Google Cloud resources](https://cloud.google.com/blog/topics/developers-practitioners/giant-list-google-cloud-resources) - From Google -- `collection`
 - [Google Cloud - GKE Demo](https://github.com/ilya-lesikov/gke-demo) - Demonstration of complete, fully-featured CI/CD and cloud automation for microservices, done with GCP/GKE -- `various lang`
 - [Google Cloud - GKE Security Scenarios Demo](https://github.com/GoogleCloudPlatform/gke-security-scenarios-demo) - Demonstrates a series of best practices for improving the security of containerized applications deployed to Kubernetes Engine -- `various lang`
+- [Google Cloud - Migration to Google Cloud - Getting started](https://cloud.google.com/architecture/migration-to-gcp-getting-started) - By Google -- `article`
 - [Google Cloud - Preparing a Google Kubernetes Engine Environment for Production](https://cloud.google.com/solutions/prep-kubernetes-engine-for-prod) - The best GKE summary, covers everything -- `collection`
 - [Google's Technical Development Guide](https://techdevguide.withgoogle.com/) - Hands on, free, self-paced courses to help you develop your programming skills -- `collection`
 - [Gravitational Workshops](https://github.com/gravitational/workshop) - Docker, Kubernetes, and Gravity training -- `collection`
+- [Grand Unified Theory of Documentation](https://documentation.divio.com/) - How to write the 4 types of documentation (tutorials, how-to guides, technical reference and explanation) -- `collection`
 - [Hashicorp Learn](https://learn.hashicorp.com/) - Official training for Vault, Consul, Terraform, Vagrant, Packer, and Nomad -- `training`
 - [HEAD](https://htmlhead.dev/) - A free guide to HTML5 <head> elements -- `collection`
 - [High Performance Browser Networking](https://hpbn.co/) - What every web developer needs to know about the various types of networks (WiFi, 3G/4G), transport protocols (UDP, TCP, and TLS), application protocols (HTTP/1.1, HTTP/2), and APIs available in the browser (XHR, WebSocket, WebRTC, and more) -- `book`
@@ -2355,10 +2363,12 @@
 - [How They SRE](https://github.com/upgundecha/howtheysre) - A curated collection of publicly available resources on how technology and tech-savvy organizations around the world practice Site Reliability Engineering (SRE) -- `collection`
 - [How to Ask Good Questions](https://jvns.ca/blog/good-questions/) - By Julia Evans -- `article`
 - [How to Ask Questions the Smart Way](http://www.catb.org/esr/faqs/smart-questions.html) - By the ESR -- `article`
+- [HSTS (HTTP Strict Transport Secuirity)](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) - Forces browsers to interact with a site by only using HTTPS -- `article`
 - [HTTP/3 Explained](https://daniel.haxx.se/http3-explained/) - QUIC = next generation TCP via UDP to bypass TCP's bad algos, used in HTTPv3 by haxx -- `book`
 - [HTTP API Design Guide](https://geemus.gitbooks.io/http-api-design/content/en/index.html) - A good, consistent, well-documented way to design APIs, not necessarily the only/ideal way -- `book`
 - [IF4IT SDLC Phases Catalog](http://nounz.if4it.com/Nouns/SDLC_Phases/Catalog.html) - A more detailed and concise SDLC -- `tutorial`
 - [Incident Response Cycle](https://www.sans.org/media/score/504-incident-response-cycle.pdf) - For cheat sheet for security incidents, by SANS -- `article`
+- [Information Security Manual (ISM)](https://www.cyber.gov.au/acsc/view-all-content/advice/using-information-security-manual) - By the Australian Cyber Security Center (ACSC) -- `collection`
 - [Interactive Coding Challenges](https://github.com/donnemartin/interactive-coding-challenges) - 120+ interactive Python coding interview challenges (algorithms and data structures), includes Anki flashcards -- `Python`
 - [Interlibrary Loan](https://en.wikipedia.org/wiki/Interlibrary_loan) - If your local library doesn't have a book or DVD in their collection they can use this service to order it from another library so you can borrow it out -- `i'm learnding`
 - [ITIL v4 Foundation Training](https://www.youtube.com/playlist?list=PLVzkjYR3xN1V9nlcECuygEZVlS4rj5qaf) - Updated with a new teacher, learn it all in about 10 hours -- `tutorial`
@@ -2428,8 +2438,12 @@
 - [MIT OpenCourseWare](https://ocw.mit.edu/about/) - MIT's real course materials from 2400+ courses -- `collection`
 - [MySQL Performance Tuning Checklist](http://www.jonathanlevin.co.uk/2018/02/my-mysql-linux-tuning-checklist.html) - No bullshit list in about 15 bullet points -- `collection`
 - [Networking Cheat Sheets](http://packetlife.net/library/cheat-sheets/) - Protocols, devices, ports, physical connectors, and more, by PacketLife -- `collection`
-- [Open Source Society University (OSSU)](https://github.com/ossu/computer-science) - A complete education in computer science using free online materials -- `collection`
+- [NIAP Approved Protection Profiles](https://www.niap-ccevs.org/Profile/PP.cfm) - Can be used to evaluate hardware or software you are considering purchasing -- `article`
+- [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework/framework) - Use me when creating a cyber program for common terms, shared vocabulary, functions, and more -- `article`
+- [OpenGitOps](https://opengitops.dev/) - Set of open-source standards, best practices, and community-focused education to help organizations adopt a structured, standardized approach to implementing GitOps -- `collection`
 - [OpenLibrary.org](https://openlibrary.org/) - From the good folks at Archive.org -- `collection`
+- [OpenSAMM (Software Assurance Maturity Model)](https://www.opensamm.org/) - Open framework to help organizations formulate and implement a strategy for software security that is tailored to the specific risks facing the organization, by OWASP -- `article`
+- [OpenSecurityTraining2](https://opensecuritytraining.info/) - In the spirit of OpenCourseWare and the Khan Academy -- `tutorial`
 - [OpenShift Interactive Learning Portal](https://learn.openshift.com/) - Learn OpenShift in your web browser, by Red Hat -- `tutorial`
 - [OpenShift v4 Demo](https://www.openshift.com/try) - Give it a try -- `tutorial`
 - [OpenShift v4 Training](https://github.com/openshift/training) - Official, requires AWS -- `tutorial`
@@ -2437,11 +2451,10 @@
 - [OpenTelemetry Bootcamp](https://www.aspecto.io/opentelemetry-bootcamp/) - Video series, check it out -- `collection`
 - [OpenVim](http://www.openvim.com/tutorial.html) - In-browser vim tutorial -- `tutorial` `in-browser`
 - [Open Security Architecture](https://www.opensecurityarchitecture.org/cms/library/patternlandscape) - A collection of security architecture patterns, invaluable -- `collection`
-- [OpenSAMM (Software Assurance Maturity Model)](https://www.opensamm.org/) - Open framework to help organizations formulate and implement a strategy for software security that is tailored to the specific risks facing the organization, by OWASP -- `article`
-- [OpenSecurityTraining2](https://opensecuritytraining.info/) - In the spirit of OpenCourseWare and the Khan Academy -- `tutorial`
 - [Open FAIR](https://www.fairinstitute.org/blog/what-is-open-fair-and-who-is-the-open-group) - Blog article about Open FAIR, the cybersecurity risk management quantitative methodology -- `article`
 - [Open Source Intelligence Techniques](https://inteltechniques.com/book1.html) - By the folks who wrote Buscador Investigative Operating System -- `book`
 - [Open Source Security Testing Methodology Manual (OSSTMM)](https://www.isecom.org/research.html) - A complete methodology for the testing, analysis and measurement of operational security towards building the best possible security defenses -- `collection`
+- [Open Source Society University (OSSU)](https://github.com/ossu/computer-science) - A complete education in computer science using free online materials -- `collection`
 - [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/%7Eremzi/OSTEP/) - Probably the best OS book out there, free -- `book`
 - [OSINT Framework](https://osintframework.com/) - Focuses on gathering information from free tools or resources. The intention is to help people find free OSINT resources -- `collection`
 - [Outages.org Mailing List](https://puck.nether.net/mailman/listinfo/outages) - Report and discuss major outages, network status updates, etc -- `mailing list`
@@ -2449,6 +2462,7 @@
 - [OverDrive](https://www.overdrive.com/) - Ebooks and audio books for USA public library members -- `explore yours today`
 - [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/) - Contribute on GitHub -- `collection`
 - [OWASP Secure Coding Practices - Quick Reference Guide](https://www.owasp.org/index.php/OWASP_Secure_Coding_Practices_-_Quick_Reference_Guide) -- Great cheat sheet, language-agnostic -- `collection`
+- [Patterns.dev](https://www.patterns.dev/) - Free book on design patterns and component patterns for building powerful web apps with vanilla JavaScript and React -- `book`
 - [PowerShell Koans](https://github.com/vexx32/PSKoans) - Learn the PowerShell language through Pester unit testing -- `PowerShell`
 - [Production Readiness Checklist](https://www.gruntwork.io/devops-checklist/) - Excellent checklist for pre-go-live, AWS-centric but great general advice -- `collection`
 - [Public Pentesting Reports](https://github.com/juliocesarfort/public-pentesting-reports) - Curated list of public penetration test reports released by several consulting firms and academic security groups -- `collection`
@@ -2476,6 +2490,7 @@
 - [Security News RSS Feeds](https://github.com/cudeso/OPML-Security-Feeds) - A collection of security feeds in RSS (OPML) format, import into Feedly or Fever -- `collection`
 - [Security Policy Templates](https://www.sans.org/information-security-policy/) - From SANS so you know it's good -- `collection`
 - [Selecting and Hardening Remote Access VPN Solutions](https://media.defense.gov/2021/Sep/28/2002863184/-1/-1/0/CSI_SELECTING-HARDENING-REMOTE-ACCESS-VPNS-20210928.PDF) - By the NSA -- `article`
+- [Server Name Indication (SNI)](https://wiki.apache.org/httpd/NameBasedSSLVHostsWithSNI) - Think vhosts for SSL (one cert for many sites), see also [ESNI](https://www.cloudflare.com/learning/ssl/what-is-encrypted-sni/) - `article`
 - [Shell Style Guide](https://google.github.io/styleguide/shellguide.html) - By Google -- `collection`
 - [Site Reliability Engineering (SRE) by Google](https://sre.google/sre-book/table-of-contents/) - Full, free, online version of the O'Reilly book -- `the best`
 - [Site Reliability Workbook](https://sre.google/workbook/table-of-contents/) - Free, by Google -- `book`
