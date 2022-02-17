@@ -741,6 +741,7 @@
 - [RANCID - (Really Awesome New Cisco confIg Differ)](https://www.shrubbery.net/rancid/) - Pulls and saves network device configs and saves them into a CVS, now supports git -- `C`
 - [Reclass](https://reclass.pantsfullofunix.net/index.html) - External node classifier for most CM systems, allows for a tagging system that's a layer above the CM tool -- `Python`
 - [Salt / Saltstack](https://www.saltstack.com/) - Orchestration, server provisioning, and configuration management -- `Python`
+- [Spacelift](https://spacelift.io/) - Flexible management platform for Infrastructure as Code
 - [Steampipe](https://github.com/turbot/steampipe) - Discover, inventory, and query cloud resources using a SQL syntax -- `Golang`
 - [Steampipe Mod - AWS Compliance](https://hub.steampipe.io/mods/turbot/aws_compliance) - Run individual configuration, compliance and security controls or full compliance benchmarks for AWS Foundational Security Best Practices, CIS, GDPR, HIPAA, NIST 800-53, NIST CSF, PCI DSS, RBI Cyber Security Framework across all your AWS accounts -- `Golang`
 - [Steampipe Mod - AWS Compliance](https://hub.steampipe.io/mods/turbot/aws_compliance) - Run individual configuration, compliance and security controls or full compliance benchmarks for AWS Foundational Security Best Practices, CIS, GDPR, HIPAA, NIST 800-53, NIST CSF, PCI DSS, RBI Cyber Security Framework across all your AWS accounts -- `Golang`
